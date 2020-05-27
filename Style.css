@@ -35,7 +35,7 @@ body{
                 color: white;
             }
     .Presentation{
-        margin-top: 50px;
+        margin-top: 100px;
         display: grid;
         grid-template-columns: 700px auto;
         justify-items: center;
@@ -44,6 +44,7 @@ body{
             box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
         }
         .MyText h2{
+            transition: all;
             font-size: 50px;
             font-weight: 400;
         }
@@ -51,5 +52,36 @@ body{
                 color: #3797A4;
             }
     .Project-container{
-        margin-top: 50px;
+        margin-top: 100px;
     }
+        .Project-container h3{
+            margin-left: 20px;
+            font-size: 30px;
+        }
+        .Project{
+            transition: 0.5s;
+            font-family: 'Open Sans', sans-serif;
+            display: grid;
+            grid-template-columns: 1fr 10px 1fr;
+            grid-template-rows: 300px;
+            margin: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+            background-color: white;
+        }
+        .Project:hover{
+            transition: 0.5s;
+            box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+        }
+            .Description{
+                margin: 10px;
+            }
+                .Description p a{
+                    text-decoration: none;
+                }
+            .Image{
+                margin: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
