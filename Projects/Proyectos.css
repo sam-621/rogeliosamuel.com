@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E2E2E2;
+    font-family: 'Inconsolata', monospace;
+}
+    nav{
+        background-color: #3797A4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+    }
+        .Logo{
+            display: flex;
+            align-items: center;
+            margin-left: 5px;
+        }
+            .Logo img{
+                border-radius: 10px;
+            }
+            .Logo h1{
+                margin: 0;
+                margin-left: 10px;
+                color: white;
+                font-weight: 500;
+            }
