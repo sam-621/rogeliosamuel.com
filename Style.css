@@ -9,7 +9,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 71px;
+        height: 70px;
     }
         .Logo{
             display: flex;
@@ -85,3 +85,34 @@ body{
                 align-items: center;
                 justify-content: center;
             }
+        .More{
+            transition: .5s;
+            height: 30px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            box-shadow: 0 0 1px 0 rgba(0,0,0,0.75);
+        }
+        .More:hover{
+            transition: .5s;
+            box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);            
+        }
+            .More a{
+                text-decoration: none;
+                color: #3797a4;
+            }
+    footer{
+        height: 70px;
+        background-color: #3797A4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .Icons a{
+            margin: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+        }
