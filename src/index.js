@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hola from './components/hol';
+import MainSection from './containers/MainSection'
 
-ReactDOM.render(<Hola/>, document.getElementById('app'))
+ReactDOM.render(<MainSection/>, document.getElementById('app'))

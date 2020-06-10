@@ -1,0 +1,30 @@
+nav{
+    background-color: #3797A4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+    .Logo{
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+    }
+        .Logo img{
+            border-radius: 10px;
+        }
+        .Logo h1{
+            margin: 0;
+            margin-left: 10px;
+            color: white;
+            font-weight: 500;
+        }
+    .Links{
+        display: flex;
+        margin-right: 20px;
+    }
+        .Links a{
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+        }
