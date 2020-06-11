@@ -1,0 +1,13 @@
+footer{
+    height: 70px;
+    background-color: #3797A4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .Icons a{
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
