@@ -13,15 +13,15 @@
     transition: 0.5s;
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
 }
-    .Description{
-        margin: 10px;
-    }
-        .Description p a{
-            text-decoration: none;
-        }
-    .Image{
-        margin: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.Description{
+    margin: 10px;
+}
+.Description p a{
+    text-decoration: none;
+}
+.Image{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

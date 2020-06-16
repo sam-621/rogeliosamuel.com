@@ -1,6 +1,7 @@
 import React from 'react';
 import Presentation from '../containers/Presentation';
 import Projects from '../containers/Projects';
+import Footer from '../containers/Footer';
 import '../assets/styles/app.css'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
         <>
             <Presentation/>
             <Projects/>
+            <Footer/>
         </>
     );
 }

@@ -12,22 +12,22 @@ const Footer = () => {
                 
                 <a 
                     href="https://github.com/rogeliosamuel621" target="_blank">
-                    <img src={GitHub} alt=""/>
+                    <img src={GitHub} alt="GitHub icon"/>
                 </a>
                 <a 
                     href="https://www.linkedin.com/in/rogelio-samuel-moreno-corrales/" 
                     target="_blank">
-                    <img src={Linkedin} alt=""/>
+                    <img src={Linkedin} alt="linkedi icon"/>
                 </a>
                 <a 
                     href="https://twitter.com/RogelioSamuel2" 
                     target="_blank">
-                    <img src={Twitter} alt=""/>
+                    <img src={Twitter} alt="twitter icon"/>
                 </a>
                 <a 
                     href="https://www.facebook.com/rogeliosamuel.morenocorrales" t
                     arget="_blank">
-                    <img src={FB} alt=""/>
+                    <img src={FB} alt="facebook icon"/>
                 </a>
             </div>
         </footer>
