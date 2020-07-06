@@ -5,7 +5,7 @@ import NavBar from './containers/Navbar';
 
 const App = () => {
     return(
-        <NavBar />
+        <NavBar location='inProject' />
     );
 }
 

@@ -1,15 +1,18 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import '../assets/styles/navBar.css'
 
-const NavBar = () => {
+import Hero from '../components/Hero';
+import Nav from '../components/Nav';
+
+const NavBar = ({ location }) => {
     return(
         <nav>
             <section>
                 <Hero />
             </section>
-            <div>
-                {/* < /> */}
-            </div>
+            <section>
+                <Nav inProject={location === 'inProject' ? true : false} />
+            </section>
         </nav>
     );
 }

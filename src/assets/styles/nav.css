@@ -1,0 +1,22 @@
+.Navigation{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.Local-links{
+    display: flex;
+}
+.Local-links p{
+    color: white;
+    margin: 0 20px;
+}
+.line{
+    height: 1px;
+}
+.line hr{
+    border: 1px solid white;
+    margin: 0;
+}
+.In{
+    padding-bottom: 7px;
+    border-bottom: 5px solid white;
+}
