@@ -1,8 +1,11 @@
 import React from 'react';
+import './assets/styles/app.css';
+
+import NavBar from './containers/Navbar';
 
 const App = () => {
     return(
-        <h1>Hello world</h1>
+        <NavBar />
     );
 }
 
