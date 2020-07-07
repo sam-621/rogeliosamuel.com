@@ -1,4 +1,6 @@
 .FeaturedProjectCard{
+    transition: 0.3s;
+    cursor: pointer;
     display: grid;
     grid-template-rows: 25px auto;
 }
@@ -13,4 +15,24 @@
     color: white;
     text-align: center;
     margin-left: 10px;
+}
+.Options{
+    background-color: #252B43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ViewProfile{
+    transition: 0.3s;
+    opacity: 0;
+    margin-right: 80px;
+}
+.FeaturedProjectCard:hover .ViewProfile{
+    transition: 0.3s;
+    transform: translateX(70px);
+    opacity: 1;
+}
+.FeaturedProjectCard:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 15px 0 #000000;
 }
