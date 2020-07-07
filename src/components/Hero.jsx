@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
                 <div className="MyName">
                     <h1>Rogelio Samuel Moreno Corrales</h1>
-                    <h2>Backend, Frontend, y eterno aprendiz</h2>
+                    <h2>Backend, Frontend, and Always learning</h2>
                 </div>
             </div>
             <div className="Links">

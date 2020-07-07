@@ -5,8 +5,8 @@ const Nav = ({ inProject, inAboutMe }) => {
     return(
         <div className="Navigation">
             <div className="Local-links">
-                <p className={inProject ? 'In' : ''}>Proyectos</p>
-                <p className={inAboutMe ? 'In' : ''}>Acerca de mí</p>
+                <p className={inProject ? 'In' : ''}>Projects</p>
+                <p className={inAboutMe ? 'In' : ''}>About me</p>
             </div>
             <div className="line">
                 <hr/>

@@ -1,0 +1,16 @@
+.FeaturedProjectCard{
+    display: grid;
+    grid-template-rows: 25px auto;
+}
+.Title{
+    display: flex;
+    align-self: center;
+    background-color: #252B43;
+}
+.Title h3{
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+.FeaturedProjects-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Article-container{
+    justify-self: center;
+    margin-bottom: 30px;
+}
