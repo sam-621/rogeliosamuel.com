@@ -11,7 +11,8 @@ const Projects = [
                 background: "161616",
                 color: "4cdafb"
             }
-        ]
+        ],
+        repo: "https://github.com/rogeliosamuel621/Jobs-Listing"
     },
     {
         id: 2,
@@ -30,7 +31,8 @@ const Projects = [
                 background: "e34c26",
                 color: "fff"
             }
-        ]
+        ],
+        repo: "https://github.com/rogeliosamuel621/Naves-Game"
     },
     {
         id: 3,
@@ -44,7 +46,8 @@ const Projects = [
                 background: "161616",
                 color: "4cdafb"
             }
-        ]
+        ],
+        repo: "https://github.com/rogeliosamuel621/Social-media-dashboard"
     },
     {
         id: 4,
@@ -62,7 +65,8 @@ const Projects = [
                 background: "e34c26",
                 color: "fff"
             }
-        ]
+        ],
+        repo: "https://github.com/rogeliosamuel621/Safe-Contacts"
     }
 ]
 

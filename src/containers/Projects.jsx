@@ -14,6 +14,7 @@ const Projects = ({ projects }) => {
                             title={project.name} 
                             littleDescription={project.littleDescription} 
                             Technologies={project.Technologies} 
+                            repo={project.repo}
                         />
                     );
                 })

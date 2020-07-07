@@ -1,10 +1,20 @@
 .ProjectCard-container{
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
     color: white;
     margin: 20px 0;
-    padding: 10px;
+    padding: 10px 0 10px 10px;
     display: grid;
     grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr auto;
     background-color: #252B43;
+}
+.ProjectCard-container:hover .Project-options{
+    transition: 0.3s;
+    margin-right: 0;
+    opacity: 1;
+    width: auto;
 }
 .Title h1{
     margin: 0;
@@ -21,4 +31,40 @@
 }
 .TechIcon p{
     margin: 0;
+}
+.Project-options{
+    transition: 0.3s;
+    align-self: center;
+    margin-right: -50px;
+    opacity: 0;
+}
+.git{
+    margin-bottom: 5px;
+    padding: 5px;
+    transition: 0.3s;
+    margin-right: -84px;
+    background-color: black;
+    border-radius: 5px;
+    right: 80px;
+    display: flex;
+    text-decoration: none;
+
+}
+.git img{
+    margin-right: 10px;
+}
+.git p{
+    margin: 0;
+    align-self: center;
+    color: white;
+}
+.demo{
+    background-color: #1f4068;
+}
+.Project-options:hover .git{
+    transition: 0.3s;
+    margin-right: 0;
+}
+.details{
+    background-color: #6a2c70;
 }
