@@ -1,6 +1,6 @@
 import React from 'react';
 import './assets/styles/app.css';
-import Projects from './assets/data';
+import Data from './assets/data';
 import {
     BrowserRouter,
     Route,
@@ -9,16 +9,19 @@ import {
 
 import NavBar from './containers/Navbar';
 import FeaturedProjects from './containers/FeaturedProjects';
+import Projects from './containers/Projects';
 
 const App = () => {
-    console.log(Projects)
     return(
         <BrowserRouter>
             <NavBar location='inProject' />
             <Switch>
                 <Route exact path="/">
-                    <FeaturedProjects projects={Projects} />
+                    <FeaturedProjects projects={Data} />
                 </Route>
+                <Route exact path="/projects">
+                    <Projects projects={Data} />
+                </Route>    
             </Switch>
         </BrowserRouter>
     );

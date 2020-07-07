@@ -2,34 +2,67 @@ const Projects = [
     {
         id: 1,
         name: "Jobs listing",
-        littleDescription: "some some little description",
+        littleDescription: "Project created in order to practice Reactjs. Challenge from frontendmentor",
         longDescription: "Long description",
         featured: true,
-        Technologies: ["Javascript", "CSS", "HTML"]
+        Technologies: [
+            {
+                tech: "React",
+                background: "161616",
+                color: "4cdafb"
+            }
+        ]
     },
     {
         id: 2,
         name: "Naves Game",
-        littleDescription: "some some little description",
+        littleDescription: "A simple videogame in order to practice and learn Javascript.",
         longDescription: "Long description",
         featured: true,
-        Technologies: ["Javascript", "CSS", "HTML"]
+        Technologies: [
+            {
+                tech: "Javascript",
+                background: "f7df1e",
+                color: "000"
+            },
+            {
+                tech: "HTML",
+                background: "e34c26",
+                color: "fff"
+            }
+        ]
     },
     {
         id: 3,
         name: "Social media dashbord",
-        littleDescription: "some some little description",
+        littleDescription: "Project created in order to practice Reactjs. Challenge from https://www.frontendmentor.io",
         longDescription: "Long description",
         featured: true,
-        Technologies: ["Javascript", "CSS", "HTML"]
+        Technologies: [
+            {
+                tech: "React",
+                background: "161616",
+                color: "4cdafb"
+            }
+        ]
     },
     {
         id: 4,
         name: "Safe contacts",
-        littleDescription: "some some little description",
+        littleDescription: "Project created in order to practice my back-end skills and simulating that I'm doing a professional project.",
         longDescription: "Long description",
         featured: true,
-        Technologies: ["Javascript", "CSS", "HTML"]
+        Technologies: [
+            {
+                tech: "Node.js",
+                background: "69a12a"
+            },
+            {
+                tech: "ejs",
+                background: "e34c26",
+                color: "fff"
+            }
+        ]
     }
 ]
 
