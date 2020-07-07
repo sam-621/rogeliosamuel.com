@@ -1,10 +1,12 @@
 import React from 'react';
 import '../assets/styles/featuredProjects.css'
+import { Link } from 'react-router-dom';
 
 import jobListing from '../assets/img/jobs-listing.jpg';
 import naves from '../assets/img/Naves.png';
 import safeContacts from '../assets/img/safe-contacts.png'
-import socialMediaDashboard from '../assets/img/social-media-dashboard.png'
+import socialMediaDashboard from '../assets/img/social-media-dashboard.png';
+
 import FeaturedProjectsCard from '../components/FeaturedProjectCard';
 
 class FeaturedProjects extends React.Component {
@@ -34,6 +36,11 @@ class FeaturedProjects extends React.Component {
                         );
                     })
                 }
+                <div className="All-project">
+                    <Link to="/projects">
+                        View all
+                    </Link>
+                </div>
             </main>
         );
     }

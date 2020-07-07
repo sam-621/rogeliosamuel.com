@@ -9,6 +9,9 @@
     color: white;
     margin: 0 20px;
 }
+.Local-links a{
+    text-decoration: none;
+}
 .line{
     height: 1px;
 }

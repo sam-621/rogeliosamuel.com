@@ -4,6 +4,9 @@
     justify-content: space-between;
     margin-top: 20px;
 }
+.Hero-container a{
+    text-decoration: none;
+}
 .MyLogo{
     display: flex;
     align-items: center;

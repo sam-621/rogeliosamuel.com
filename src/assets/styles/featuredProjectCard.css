@@ -7,7 +7,6 @@
 .Title{
     display: flex;
     align-self: center;
-    background-color: #252B43;
 }
 .Title h3{
     font-weight: 400;
@@ -17,22 +16,24 @@
     margin-left: 10px;
 }
 .Options{
+    transition: 0.3s;
     background-color: #252B43;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .ViewProfile{
+    display: flex;
     transition: 0.3s;
     opacity: 0;
     margin-right: 80px;
+}
+.ViewProfile img{
+    margin: 0 10px;
+    color: white;
 }
 .FeaturedProjectCard:hover .ViewProfile{
     transition: 0.3s;
     transform: translateX(70px);
     opacity: 1;
-}
-.FeaturedProjectCard:hover{
-    transition: 0.3s;
-    box-shadow: 0 0 15px 0 #000000;
 }
