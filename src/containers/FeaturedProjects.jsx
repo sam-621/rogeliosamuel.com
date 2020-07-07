@@ -2,7 +2,9 @@ import React from 'react';
 import '../assets/styles/featuredProjects.css'
 
 import jobListing from '../assets/img/jobs-listing.jpg';
-import naves from '../assets/img/Naves.png'
+import naves from '../assets/img/Naves.png';
+import safeContacts from '../assets/img/safe-contacts.png'
+import socialMediaDashboard from '../assets/img/social-media-dashboard.png'
 import FeaturedProjectsCard from '../components/FeaturedProjectCard';
 
 class FeaturedProjects extends React.Component {
@@ -10,7 +12,9 @@ class FeaturedProjects extends React.Component {
         super(props);
         this.images = [
             jobListing,
-            naves
+            naves,
+            socialMediaDashboard,
+            safeContacts
         ]
     }
     

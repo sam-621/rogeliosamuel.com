@@ -17,7 +17,7 @@ const Projects = [
     },
     {
         id: 3,
-        name: "Naves Game",
+        name: "Social media dashbord",
         littleDescription: "some some little description",
         longDescription: "Long description",
         featured: true,
@@ -25,7 +25,7 @@ const Projects = [
     },
     {
         id: 4,
-        name: "Naves Game",
+        name: "Safe contacts",
         littleDescription: "some some little description",
         longDescription: "Long description",
         featured: true,
