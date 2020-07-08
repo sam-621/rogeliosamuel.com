@@ -14,9 +14,10 @@ class FeaturedProjects extends React.Component {
         super(props);
         this.images = [
             jobListing,
-            naves,
             socialMediaDashboard,
-            safeContacts
+            safeContacts,
+            naves,
+            naves
         ]
     }
     
@@ -26,6 +27,7 @@ class FeaturedProjects extends React.Component {
                 {   
                     this.props.projects.map((project, index) => {
                         if(project.featured) {
+                            console.log(index)
                             return(
                                 <div className="Article-container" key={project.id}>
                                     <FeaturedProjectsCard 
@@ -36,7 +38,7 @@ class FeaturedProjects extends React.Component {
                                 </div>
                             );
                         }
-                        return 0;
+                        return null;
                         
                     })
                 }

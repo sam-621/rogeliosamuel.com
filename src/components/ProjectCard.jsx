@@ -12,7 +12,9 @@ const ProjectCard = ({ id, title, littleDescription, Technologies, repo, demo })
         <article className="ProjectCard-container">
             <div>
                 <div className="Title">
-                    <h1>{title}</h1>
+                    <Link to={`/projects/${id}`}>
+                        <h1>{title}</h1>
+                    </Link>
                 </div>
                 <div className="Little-description">
                     <p>{littleDescription}</p>

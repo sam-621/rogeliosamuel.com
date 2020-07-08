@@ -15,15 +15,17 @@ import AboutProject from './containers/AboutProject';
 const App = () => {
     return(
         <BrowserRouter>
-            <NavBar location='inProject' />
             <Switch>
                 <Route exact path="/">
+                    <NavBar location='inMain' />
                     <FeaturedProjects projects={Data} />
                 </Route>
                 <Route exact path="/projects">
+                    <NavBar location='inProject' />
                     <Projects projects={Data} />
                 </Route>
                 <Route exact path="/projects/:id">
+                    <NavBar location='inProject' />
                     <AboutProject projects={Data} />
                 </Route>    
             </Switch>
