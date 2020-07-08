@@ -103,4 +103,7 @@
     .Title h1{
         font-size: 20px;
     }
+    .NoMobile{
+        color: rgba(255, 255, 255, 0.500);
+    }
 }

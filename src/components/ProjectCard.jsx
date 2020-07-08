@@ -18,7 +18,7 @@ const ProjectCard = ({ id, title, littleDescription, Technologies, repo, demo })
                     </Link>
                 </div>
                 <div className="Little-description">
-                    <p>{littleDescription}</p>
+                    <p className="NoMobile">{littleDescription}</p>
                 </div>
                 <div className="Technologies">
                     {
