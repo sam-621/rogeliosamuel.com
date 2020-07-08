@@ -32,7 +32,7 @@ const ProjectCard = ({ id, title, littleDescription, Technologies, repo, demo })
                 </div>
             </div>
             <div className="Project-options">
-                <a href={repo} className="git" target="_blank">
+                <a href={repo} rel="noopener noreferrer" className="git" target="_blank">
                     <img 
                         src={gitHub} 
                         alt="GitHub icon"
@@ -41,7 +41,7 @@ const ProjectCard = ({ id, title, littleDescription, Technologies, repo, demo })
                     />
                     <p>View code</p>
                 </a>
-                <a href={demo} className="git demo" target="_blank">
+                <a href={demo} rel="noopener noreferrer" className="git demo" target="_blank">
                     <img 
                         src={demoIcon} 
                         alt="GitHub icon"

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/aboutProject.css'
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 //Projects images
 import gitHub from '../assets/img/github.svg';
@@ -12,7 +12,8 @@ import socialMediaDashboard from '../assets/img/social-media-dashboard.png';
 import pingPong from '../assets/img/ping-pong.png';
 import MyFirstWebsite from '../assets/img/my-first-website.png';
 import SimonSays from '../assets/img/Simon-says.png';
-import CRUDmysql from '../assets/img/CRUD-mysql.png'
+import CRUDmysql from '../assets/img/CRUD-mysql.png';
+import BackArrow from '../assets/img/flechas.svg'
 
 //Technologies icon
 import Node from '../assets/img/node-js.svg';
@@ -48,16 +49,23 @@ const AboutProject = ({ projects }) => {
         <main className="AboutProject-container">
             <div className="Hero-project">
 
-                <h1>{projects[id -1].name}</h1>
-                
-                <a target="_blank" href={projects[id-1].repo} className="github-code">
-                    <p>Project code </p>
-                    <img src={gitHub} alt="" width="30px" height="30px" />
-                </a>
-                <a target="_blank" href={projects[id -1].demo} className="Project-demo">
-                    <p>Project demo</p>
-                    <img src={demoIcon} alt="" width="30px" height="30px"/>
-                </a>
+                <Link to="/projects" className="Back">
+                    <img  src={BackArrow} alt="" width="30px" height="30px" />
+                </Link>
+                <div className="AboutProjects-options">
+                    <h1>{projects[id -1].name}</h1>
+                    
+                    {/*Project code*/}
+                    <a target="_blank" rel="noopener noreferrer" href={projects[id-1].repo} className="github-code">
+                        <p>Project code </p>
+                        <img src={gitHub} alt="" width="30px" height="30px" />
+                    </a>
+                    {/*Project demo*/}
+                    <a target="_blank" rel="noopener noreferrer" href={projects[id -1].demo} className="Project-demo">
+                        <p>Project demo</p>
+                        <img src={demoIcon} alt="" width="30px" height="30px"/>
+                    </a>
+                </div>
                 
             </div>
             <div className="Project-image">

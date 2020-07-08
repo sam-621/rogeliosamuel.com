@@ -20,17 +20,21 @@
     margin-right: 20px;
 }
 .Hero-project{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.AboutProjects-options{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
-.Hero-project h1{
+.AboutProjects-options h1{
     align-self: center;
     font-weight: 400;
     color: white;
     margin: 0;
 }
-.Hero-project a{
+.AboutProjects-options a{
     margin: 0 20px;
     border-radius: 10px;
     padding: 10px;
@@ -39,7 +43,7 @@
     display: flex;
     align-items: center;
 }
-.Hero-project a p{
+.AboutProjects-options a p{
     margin: 0;
     margin-right: 10px;
 }
@@ -58,4 +62,13 @@
 .github-code:hover{
     transition: 0.3s;
     box-shadow: 0 0 15px 0 #000;
+}
+.Back{
+    transition: 0.3s;
+    width: 3%;
+    margin-left: 30px;
+}
+.Back:hover{
+    transition: 0.3s;
+    transform: scale(1.3);
 }

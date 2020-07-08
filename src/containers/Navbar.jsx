@@ -11,7 +11,11 @@ const NavBar = ({ location }) => {
                 <Hero />
             </section>
             <section>
-                <Nav inProject={location === 'inProject' ? true : false} inMain={location === 'inMain' ? true : false} />
+                <Nav 
+                    inProject={location === 'inProject' ? true : false} 
+                    inMain={location === 'inMain' ? true : false} 
+                    inAboutMe={location === 'inAboutMe' ? true : false} 
+                />
             </section>
         </nav>
     );
