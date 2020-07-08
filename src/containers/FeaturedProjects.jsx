@@ -27,7 +27,6 @@ class FeaturedProjects extends React.Component {
                 {   
                     this.props.projects.map((project, index) => {
                         if(project.featured) {
-                            console.log(index)
                             return(
                                 <div className="Article-container" key={project.id}>
                                     <FeaturedProjectsCard 

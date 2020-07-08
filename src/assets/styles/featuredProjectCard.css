@@ -36,3 +36,23 @@
     transform: translateX(70px);
     opacity: 1;
 }
+@media screen and (max-width: 1012px){
+    .ViewProfile{
+        opacity: 1;
+        transform: translateX(70px);
+    }
+}
+@media screen and (max-width: 576px) {
+    .img img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 425px){
+    .img img{
+        width: 300px;
+        height: 150px;
+    }
+    .Title h3{
+        font-size: 15px;
+    }
+}

@@ -99,7 +99,7 @@ const Projects = [
     },
     {
         id: 4,
-        name: "CRUD con Node.js y MySQL",
+        name: "CRUD con MySQL",
         littleDescription: "Project created in order to practice my back-end skills and simulating that I'm doing a professional project.",
         longDescription: "This is not my first project to practice my backend skills but is the first where i apply good practice of security and code, also i learned to use Postman",
         featured: false,

@@ -43,7 +43,6 @@ const AboutProject = ({ projects }) => {
         CSS,
         MySQL
     ]
-    console.log(projects[4])
 
     return(
         <main className="AboutProject-container">
@@ -55,16 +54,18 @@ const AboutProject = ({ projects }) => {
                 <div className="AboutProjects-options">
                     <h1>{projects[id -1].name}</h1>
                     
-                    {/*Project code*/}
-                    <a target="_blank" rel="noopener noreferrer" href={projects[id-1].repo} className="github-code">
-                        <p>Project code </p>
-                        <img src={gitHub} alt="" width="30px" height="30px" />
-                    </a>
-                    {/*Project demo*/}
-                    <a target="_blank" rel="noopener noreferrer" href={projects[id -1].demo} className="Project-demo">
-                        <p>Project demo</p>
-                        <img src={demoIcon} alt="" width="30px" height="30px"/>
-                    </a>
+                    <div className="Project-options-links">
+                        {/*Project code*/}
+                        <a target="_blank" rel="noopener noreferrer" href={projects[id-1].repo} className="github-code">
+                            <p>Project code </p>
+                            <img src={gitHub} alt="" width="30px" height="30px" />
+                        </a>
+                        {/*Project demo*/}
+                        <a target="_blank" rel="noopener noreferrer" href={projects[id -1].demo} className="Project-demo">
+                            <p>Project demo</p>
+                            <img src={demoIcon} alt="" width="30px" height="30px"/>
+                        </a>
+                    </div>
                 </div>
                 
             </div>

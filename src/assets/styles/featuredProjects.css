@@ -27,3 +27,11 @@
     background-color: white;
     color: black;
 }
+@media screen and (max-width: 1012px){
+    .FeaturedProjects-container{
+        grid-template-columns: auto;
+    }
+    .Article-container{
+        grid-column: 1 / 3;
+    }
+}

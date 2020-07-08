@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <h1>Hola, soy Rogelio Samuel Moreno Corrales</h1>
                 <p className="Code-mode">Programador en eterno aprendizaje, backend con node.js, frontend con React.js.Estudiante de universidad</p>
                 <h2>Quién soy?</h2>
-                <p className="Code-mode">Una persona que le apasiona el siempre estar aprendiendo, con gustos mas orientados a la lógica y no tanto al diseño. <br/> Todos los días trato de mejorar, no solo como programador sino también como persona. <br/> Estoy abierto a trabajar en equipo con el fin de prácticar, contactame por twitter o mandame un Email :)</p>
+                <p className="Code-mode">Una persona que le apasiona el siempre estar aprendiendo, con gustos mas orientados a la lógica y no tanto al diseño. <br/> Todos los días trato de mejorar, no solo como programador sino también como persona. <br/> Estoy abierto a trabajar en equipo con el fin de prácticar, contáctame por twitter o mandame un Email :)</p>
             </div>
         </main>
     );

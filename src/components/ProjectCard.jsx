@@ -4,16 +4,17 @@ import '../assets/styles/projectCard.css';
 import gitHub from '../assets/img/github.svg';
 import demoIcon from '../assets/img/demo.svg';
 import details from '../assets/img/details.svg'
+import Arrow from '../assets/img/flecha.svg';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ id, title, littleDescription, Technologies, repo, demo }) => {
-    console.log(Technologies[0].color)
+
     return(
         <article className="ProjectCard-container">
             <div>
                 <div className="Title">
                     <Link to={`/projects/${id}`}>
-                        <h1>{title}</h1>
+                        <h1>{title} <strong><img src={Arrow} alt="" width="30px" height="30px" /></strong></h1>
                     </Link>
                 </div>
                 <div className="Little-description">

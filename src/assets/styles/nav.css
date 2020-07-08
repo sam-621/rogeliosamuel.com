@@ -23,3 +23,8 @@
     padding-bottom: 7px;
     border-bottom: 5px solid white;
 }
+@media screen and (max-width: 576px){
+    .Navigation{
+        justify-content: center;
+    }
+}
