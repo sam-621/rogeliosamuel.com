@@ -65,12 +65,12 @@
     color: white;
 }
 .demo{
-    background-color: #1f4068;
+    background-color: tomato;
 }
 .Project-options:hover .git{
     transition: 0.3s;
     margin-right: 0;
 }
 .details{
-    background-color: #6a2c70;
+    background-color: #581ef7;
 }

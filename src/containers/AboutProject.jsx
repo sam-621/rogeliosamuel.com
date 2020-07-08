@@ -3,6 +3,8 @@ import '../assets/styles/aboutProject.css'
 import { useParams } from 'react-router-dom';
 
 //Projects images
+import gitHub from '../assets/img/github.svg';
+import demoIcon from '../assets/img/demo.svg';
 import jobListing from '../assets/img/jobs-listing.jpg';
 import naves from '../assets/img/Naves.png';
 import safeContacts from '../assets/img/safe-contacts.png'
@@ -44,6 +46,20 @@ const AboutProject = ({ projects }) => {
 
     return(
         <main className="AboutProject-container">
+            <div className="Hero-project">
+
+                <h1>{projects[id -1].name}</h1>
+                
+                <a target="_blank" href={projects[id-1].repo} className="github-code">
+                    <p>Project code </p>
+                    <img src={gitHub} alt="" width="30px" height="30px" />
+                </a>
+                <a target="_blank" href={projects[id -1].demo} className="Project-demo">
+                    <p>Project demo</p>
+                    <img src={demoIcon} alt="" width="30px" height="30px"/>
+                </a>
+                
+            </div>
             <div className="Project-image">
                 <img src={Images[id - 1]} alt="" width="700px" height="360px" />
             </div>
