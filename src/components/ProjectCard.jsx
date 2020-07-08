@@ -2,11 +2,11 @@ import React from 'react';
 import '../assets/styles/projectCard.css';
 
 import gitHub from '../assets/img/github.svg';
-import demo from '../assets/img/demo.svg';
+import demoIcon from '../assets/img/demo.svg';
 import details from '../assets/img/details.svg'
 import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ title, littleDescription, Technologies, repo }) => {
+const ProjectCard = ({ id, title, littleDescription, Technologies, repo, demo }) => {
     console.log(Technologies[0].color)
     return(
         <article className="ProjectCard-container">
@@ -30,7 +30,7 @@ const ProjectCard = ({ title, littleDescription, Technologies, repo }) => {
                 </div>
             </div>
             <div className="Project-options">
-                <a href={repo} className="git">
+                <a href={repo} className="git" target="_blank">
                     <img 
                         src={gitHub} 
                         alt="GitHub icon"
@@ -39,16 +39,16 @@ const ProjectCard = ({ title, littleDescription, Technologies, repo }) => {
                     />
                     <p>View code</p>
                 </a>
-                <Link to="/" className="git demo">
+                <a href={demo} className="git demo" target="_blank">
                     <img 
-                        src={demo} 
+                        src={demoIcon} 
                         alt="GitHub icon"
                         width="25"
                         height="30"
                     />
                     <p>View demo</p>
-                </Link>
-                <Link to="/" className="git details">
+                </a>
+                <Link to={`/projects/${id}`} className="git details">
                     <img 
                         src={details} 
                         alt="GitHub icon"

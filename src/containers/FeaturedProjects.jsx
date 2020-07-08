@@ -25,15 +25,19 @@ class FeaturedProjects extends React.Component {
             <main className="FeaturedProjects-container">
                 {   
                     this.props.projects.map((project, index) => {
-                        return(
-                            <div className="Article-container" key={project.id}>
-                                <FeaturedProjectsCard 
-                                    index={project.id}
-                                    title={project.name}
-                                    image={this.images[index]}
-                                />
-                            </div>
-                        );
+                        if(project.featured) {
+                            return(
+                                <div className="Article-container" key={project.id}>
+                                    <FeaturedProjectsCard 
+                                        index={project.id}
+                                        title={project.name}
+                                        image={this.images[index]}
+                                    />
+                                </div>
+                            );
+                        }
+                        return 0;
+                        
                     })
                 }
                 <div className="All-project">

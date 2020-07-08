@@ -1,6 +1,5 @@
 .FeaturedProjectCard{
     transition: 0.3s;
-    cursor: pointer;
     display: grid;
     grid-template-rows: 25px auto;
 }

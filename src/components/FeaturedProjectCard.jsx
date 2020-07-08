@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/styles/featuredProjectCard.css';
 
 import Arrow from '../assets/img/flecha.svg';
+import { Link } from 'react-router-dom';
 
 const FeaturedProjectCard = ({ index, title, image }) => {
     return(
@@ -11,9 +12,9 @@ const FeaturedProjectCard = ({ index, title, image }) => {
                     <h3>{title}</h3>
                 </div>
                 <div className="ViewProfile">
-                    <a href="/">
+                    <Link to={`/projects/${index}`}>
                         <img src={Arrow} alt="" width="30px" height="30px" />
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="img">

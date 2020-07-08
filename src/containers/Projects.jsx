@@ -11,10 +11,12 @@ const Projects = ({ projects }) => {
                     return(
                         <ProjectCard
                             key={project.id}
+                            id={project.id}
                             title={project.name} 
                             littleDescription={project.littleDescription} 
                             Technologies={project.Technologies} 
                             repo={project.repo}
+                            demo={project.demo}
                         />
                     );
                 })

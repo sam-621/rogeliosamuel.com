@@ -10,6 +10,7 @@ import {
 import NavBar from './containers/Navbar';
 import FeaturedProjects from './containers/FeaturedProjects';
 import Projects from './containers/Projects';
+import AboutProject from './containers/AboutProject';
 
 const App = () => {
     return(
@@ -21,6 +22,9 @@ const App = () => {
                 </Route>
                 <Route exact path="/projects">
                     <Projects projects={Data} />
+                </Route>
+                <Route exact path="/projects/:id">
+                    <AboutProject projects={Data} />
                 </Route>    
             </Switch>
         </BrowserRouter>

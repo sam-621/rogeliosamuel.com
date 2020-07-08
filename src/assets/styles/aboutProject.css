@@ -1,0 +1,18 @@
+.AboutProject-container{
+    margin: 50px 0;
+}
+.Project-image{
+    display: flex;
+    justify-content: center;
+}
+.About-project{
+    margin: 10px 20px;
+}
+.About-project h2{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.About-project p, li{
+    color: #6f6f6f;
+}
