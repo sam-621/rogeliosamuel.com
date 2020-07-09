@@ -17,6 +17,7 @@ class FeaturedProjects extends React.Component {
             socialMediaDashboard,
             safeContacts,
             naves,
+            naves
         ]
     }
     
