@@ -17,7 +17,6 @@ class FeaturedProjects extends React.Component {
             socialMediaDashboard,
             safeContacts,
             naves,
-            naves
         ]
     }
     
@@ -32,7 +31,7 @@ class FeaturedProjects extends React.Component {
                                     <FeaturedProjectsCard 
                                         index={project.id}
                                         title={project.name}
-                                        image={this.images[index]}
+                                        image={this.images[index-1]}
                                     />
                                 </div>
                             );

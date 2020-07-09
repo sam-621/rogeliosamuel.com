@@ -10,10 +10,10 @@ const AboutMe = () => {
                 <img src={Me} alt="" width="300px" height="400px" />
             </div>
             <div className="My-description">
-                <h1>Hola, soy Rogelio Samuel Moreno Corrales</h1>
-                <p className="Code-mode">Programador en eterno aprendizaje, backend con node.js, frontend con React.js.Estudiante de universidad</p>
-                <h2>Quién soy?</h2>
-                <p className="Code-mode">Una persona que le apasiona el siempre estar aprendiendo, con gustos mas orientados a la lógica y no tanto al diseño. <br/> Todos los días trato de mejorar, no solo como programador sino también como persona. <br/> Estoy abierto a trabajar en equipo con el fin de prácticar, contáctame por twitter o mandame un Email :)</p>
+                <h1>Hi, I'm Rogelio Samuel Moreno Corrales</h1>
+                <p className="Code-mode">Programmer always learning, backend with node.js, frontend with React.js.Students of university</p>
+                <h2>Who am I?</h2>
+                <p className="Code-mode">I always like to be learning, more logical oriented tastes.<br/> Every day I try to improve, not only as a programmer but also as a person.<br/> I'm open to work with other people in order to practice and improve together, Send me a message if you'd like it :).</p>
             </div>
         </main>
     );

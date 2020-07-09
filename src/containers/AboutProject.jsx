@@ -13,7 +13,8 @@ import pingPong from '../assets/img/ping-pong.png';
 import MyFirstWebsite from '../assets/img/my-first-website.png';
 import SimonSays from '../assets/img/Simon-says.png';
 import CRUDmysql from '../assets/img/CRUD-mysql.png';
-import BackArrow from '../assets/img/flechas.svg'
+import BackArrow from '../assets/img/flechas.svg';
+import Portfolio from '../assets/img/portfolio.png';
 
 //Technologies icon
 import Node from '../assets/img/node-js.svg';
@@ -21,11 +22,13 @@ import react from '../assets/img/react-brands.svg';
 import js from '../assets/img/js.svg';
 import HTML from '../assets/img/HTML.svg';
 import CSS from '../assets/img/CSS.svg';
-import MySQL from '../assets/img/mysql.svg'
+import MySQL from '../assets/img/mysql.svg';
+import Json from '../assets/img/json.svg';
 
 const AboutProject = ({ projects }) => {
     const { id } = useParams();
     const Images = [
+        Portfolio,
         jobListing,
         socialMediaDashboard,
         safeContacts,
@@ -41,7 +44,8 @@ const AboutProject = ({ projects }) => {
         js,
         HTML,
         CSS,
-        MySQL
+        MySQL,
+        Json
     ]
 
     return(
