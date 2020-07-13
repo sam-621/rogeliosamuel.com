@@ -9,10 +9,7 @@
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr auto;
     background-color: #252B43;
-}
-.ProjectCard-container:hover{
-    transition: 0.3s;
-    box-shadow: 0 0 15px 0 #000000;
+    box-shadow: 0 0 5px 0 #000000;
 }
 .ProjectCard-container:hover .Project-options{
     transition: 0.3s;

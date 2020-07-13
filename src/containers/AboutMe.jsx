@@ -11,7 +11,7 @@ const AboutMe = () => {
             </div>
             <div className="My-description">
                 <h1>Hi, I'm Rogelio Samuel Moreno Corrales</h1>
-                <p className="Code-mode">Programmer who is always learning, backend with node.js, frontend with React.js.Students of university</p>
+                <p className="Code-mode">Programmer who is always learning, backend with node.js, frontend with React.js.Student of university</p>
                 <h2>Who am I?</h2>
                 <p className="Code-mode">I always like to be learning, more logical oriented tastes.<br/> Every day I try to improve, not only as a programmer but also as a person.<br/> I'm open to work with other people in order to practice and improve together, Send me a message if you'd like it :).</p>
             </div>

@@ -2,8 +2,8 @@ const Projects = [
     {
         id: 1,
         name: "My portfolio",
-        littleDescription: "My portfolio, a place where you can find m¿all my projects",
-        longDescription: "I created it because i think that is important to have a portfolio, but also, my oortfolio is a project",
+        littleDescription: "My portfolio, a place where you can find all my projects",
+        longDescription: "I created it because i think that is important to have a portfolio, but also, my portfolio is a project",
         featured: false,
         Technologies: [
             {
@@ -140,7 +140,7 @@ const Projects = [
     },
     {
         id: 5,
-        name: "CRUD con MySQL",
+        name: "CRUD with MySQL",
         littleDescription: "I created this project in order to practice backend",
         longDescription: "This is not my first project to practice my backend skills but is the first where i apply good practice of security and code, also i learned to use Postman",
         featured: false,
@@ -229,7 +229,7 @@ const Projects = [
     },
     {
         id: 8,
-        name: "Juego: Simón dice",
+        name: "Game: Simon says",
         littleDescription: "My first project with HTML and CSS in order to enter the world of web development.",
         longDescription: "This is my first time with Javascript. i saw this project at Platzi but i added this diffilculty modes. Rules: It has a sequence of colors, you have to wait  for the sequence and then click on them",
         featured: false,
