@@ -1,0 +1,25 @@
+footer{
+    border-top: 1px solid white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h2{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: white;
+}
+footer h2 img{
+    margin: 0 10px;
+}
+@media screen and (max-width: 425px) {
+    footer h2{
+        font-size: 15px;
+    }
+    footer h2 img{
+        width: 20px;
+        height: 20px;
+    }
+}
