@@ -6,14 +6,14 @@ import ProjectCard from '../components/ProjectCard';
 const Projects = ({ projects }) => {
     return(
         <main className="Projects-container">
-            <div className="SearchBar-container">
+            {/* <div className="SearchBar-container">
                 <div className="Search">
                     <input type="text" placeholder="Search by technology (Node.js)" />
                 </div>
                 <div className="clear-btn">
                     <button>Clear</button>
                 </div>
-            </div>
+            </div> */}
             {
                 projects.map((project) => {
                     return(
