@@ -1,0 +1,9 @@
+.Nav-brand-container {
+  display: flex;
+  align-content: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
