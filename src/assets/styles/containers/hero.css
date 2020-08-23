@@ -1,0 +1,15 @@
+.Hero-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  height: 90vh;
+}
+.Hero-description {
+  width: 50%;
+}
+.Hero-me {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}

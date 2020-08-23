@@ -5,8 +5,8 @@ import CodeText from "../atoms/text/CodeText";
 const HeroShortDescription = () => {
   return (
     <div>
-      <SecondaryText Content="I am a Backend developer" />
-      <CodeText Content="Programador en eterno aprendizaje, backend con node.js, frontend con React.js.Estudiante de universidad" />
+      <SecondaryText Content={`I am a Backend developer`} />
+      <CodeText Content="Programmer who is always learning, backend with node.js, frontend with React.js. Student university" />
     </div>
   );
 };
