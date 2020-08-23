@@ -1,0 +1,19 @@
+.SocialMediaIcon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75px;
+}
+.SocialMediaIcon-container a {
+  transition: 0.2s;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SocialMediaIcon-container a:hover {
+  transition: 0.2s;
+  background-color: black;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 0 black;
+}

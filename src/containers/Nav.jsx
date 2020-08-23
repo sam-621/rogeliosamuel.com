@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/styles/containers/nav.css";
 
 import Brand from "../components/molecules/Brand";
+import SocialMediaIcons from "../components/molecules/SocialMediaIcons";
 
 const Nav = () => {
   return (
@@ -10,7 +11,7 @@ const Nav = () => {
         <Brand />
       </div>
       <div>
-        <h1>Hols</h1>
+        <SocialMediaIcons />
       </div>
     </nav>
   );
