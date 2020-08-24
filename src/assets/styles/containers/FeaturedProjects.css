@@ -1,0 +1,34 @@
+.FeaturedProjects-container {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.FeaturedProjets-title h2 {
+  margin-left: 80px;
+}
+.FeaturedProjects {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 5px;
+}
+.FeaturedProject-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.Arrow-container {
+  display: flex;
+  align-items: center;
+}
+.Arrow-container button {
+  transition: 0.3s;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  height: 100%;
+}
+.Arrow-container button:hover {
+  transition: 0.3s;
+  background-color: black;
+  box-shadow: 0 0 15px black;
+}

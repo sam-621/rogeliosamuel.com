@@ -1,4 +1,5 @@
 import React from "react";
+import "../../assets/styles/components/molecules/feturedProjectDescription.css";
 
 import Subtitle from "../atoms/text/Subtitles";
 import Content from "../atoms/text/Content";
@@ -16,9 +17,11 @@ const FeaturedProjectDescription = ({
       </div>
       <div>
         <Subtitle Content="Technolgies" />
-        {technologies.map((technology, index) => {
-          return <p key={index}>{technology}</p>;
-        })}
+        <div className="FeaturedProjectDescription-Technologies">
+          {technologies.map((technology, index) => {
+            return <p key={index}>{technology}</p>;
+          })}
+        </div>
       </div>
     </div>
   );

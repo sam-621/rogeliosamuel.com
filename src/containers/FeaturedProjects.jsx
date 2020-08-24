@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/styles/containers/FeaturedProjects.css";
 
 import { FeaturedProjectsData } from "../assets/FeaturedProjects";
 import SecondaryText from "../components/atoms/text/SecondaryText";
@@ -7,17 +8,17 @@ import FeaturedProjectDescription from "../components/molecules/FeaturedProjectD
 
 const FeaturedProjects = () => {
   return (
-    <main>
-      <div>
+    <main className="FeaturedProjects-container">
+      <div className="FeaturedProjets-title">
         <SecondaryText Content="Featured projects" FontSize="30px" />
       </div>
-      <div>
-        <div>
+      <div className="FeaturedProjects">
+        <div className="Arrow-container">
           <button>
             <Arrow Direction="left" />
           </button>
         </div>
-        <div>
+        <div className="FeaturedProject-content">
           <div>
             {FeaturedProjectsData.map((project, index) => {
               return (
@@ -32,7 +33,7 @@ const FeaturedProjects = () => {
           </div>
           <div></div>
         </div>
-        <div>
+        <div className="Arrow-container">
           <button>
             <Arrow Direction="right" />
           </button>
