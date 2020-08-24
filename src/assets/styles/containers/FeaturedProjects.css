@@ -32,3 +32,11 @@
   background-color: black;
   box-shadow: 0 0 15px black;
 }
+.none {
+  display: none;
+}
+.FeaturedProject-img {
+  display: flex;
+  justify-content: flex-end;
+  height: 300px;
+}
