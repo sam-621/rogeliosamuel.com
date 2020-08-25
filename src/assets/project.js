@@ -1,13 +1,4 @@
-export const FeaturedProjectsData = [
-  {
-    ID: 1,
-    title: "SocialMedia-API",
-    littleDescription:
-      "An API Created in order to practice my backend skills creating a social media backend",
-    technologies: ["Node.js", "Typescript", "MySQL"],
-    Repo: "https://github.com/rogeliosamuel621/Social-Media-API",
-    demo: "https://github.com/rogeliosamuel621/Social-Media-API",
-  },
+export const projectData = [
   {
     ID: 2,
     title: "Safe-Contacts-API",

@@ -1,0 +1,31 @@
+.Project {
+  display: grid;
+  grid-gap: 20px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Project-title h1 {
+  margin: 0;
+  text-align: center;
+}
+.Project-techIcons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Project-button {
+  display: flex;
+  justify-content: center;
+}
+.Project-button button {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  padding: 5px 60px;
+}
+.Project-button button:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 10px white;
+}
