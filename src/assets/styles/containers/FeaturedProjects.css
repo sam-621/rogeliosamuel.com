@@ -7,6 +7,9 @@
   background-color: black;
   border-radius: 5px;
 }
+.FeaturedProject-container div div div h1 {
+  margin: 0;
+}
 .FeaturedProject-img img {
   border-radius: 5px;
 }
