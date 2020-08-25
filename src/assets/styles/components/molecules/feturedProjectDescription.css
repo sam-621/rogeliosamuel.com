@@ -3,3 +3,12 @@
   justify-content: space-between;
   width: 28%;
 }
+.FeaturedProjects-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.FeaturedProjects-btn button {
+  cursor: pointer;
+  margin: 0 10px;
+}

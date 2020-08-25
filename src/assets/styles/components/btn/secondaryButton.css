@@ -1,0 +1,12 @@
+.SecondaryButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 29px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.SecondaryButton p {
+  margin: 0;
+}

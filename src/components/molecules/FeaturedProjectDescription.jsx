@@ -6,6 +6,8 @@ import Content from "../atoms/text/Content";
 import Node from "../../assets/img/node-js.svg";
 import Typescript from "../../assets/img/typescript.svg";
 import MySQL from "../../assets/img/mysql.svg";
+import PrimaryButton from "../../components/atoms/btn/PrimaryButton";
+import SecondaryButton from "../../components/atoms/btn/SecondaryButton";
 
 const FeaturedProjectDescription = ({
   title,
@@ -33,6 +35,10 @@ const FeaturedProjectDescription = ({
             );
           })}
         </div>
+      </div>
+      <div className="FeaturedProjects-btn">
+        <PrimaryButton Content="Details" />
+        <SecondaryButton Content="Code" />
       </div>
     </div>
   );

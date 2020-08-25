@@ -8,6 +8,8 @@ import js from "../assets/img/js.svg";
 import MySQL from "../assets/img/mysql.svg";
 import Typescript from "../assets/img/typescript.svg";
 import Webpack from "../assets/img/webpack.svg";
+import PrimaryButton from "../components/atoms/btn/PrimaryButton";
+import SecondaryButton from "../components/atoms/btn/SecondaryButton";
 
 const Project = ({ Title, Technologies }) => {
   const techIcons = [Node, Typescript, MySQL, react, js, Webpack];
@@ -29,7 +31,8 @@ const Project = ({ Title, Technologies }) => {
         })}
       </div>
       <div className="Project-button">
-        <button>Details</button>
+        <PrimaryButton Content="Details" />
+        <SecondaryButton Content="Code" />
       </div>
     </div>
   );

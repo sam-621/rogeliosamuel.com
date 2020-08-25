@@ -19,13 +19,6 @@
   justify-content: center;
 }
 .Project-button button {
-  transition: 0.3s;
   cursor: pointer;
-  background-color: white;
-  border: none;
-  padding: 5px 60px;
-}
-.Project-button button:hover {
-  transition: 0.3s;
-  box-shadow: 0 0 10px white;
+  margin: 0 10px;
 }
