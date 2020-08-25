@@ -3,12 +3,16 @@ import "../../assets/styles/components/molecules/feturedProjectDescription.css";
 
 import Subtitle from "../atoms/text/Subtitles";
 import Content from "../atoms/text/Content";
+import Node from "../../assets/img/node-js.svg";
+import Typescript from "../../assets/img/typescript.svg";
+import MySQL from "../../assets/img/mysql.svg";
 
 const FeaturedProjectDescription = ({
   title,
   littleDescription,
   technologies,
 }) => {
+  const iconsTechnologies = [Node, Typescript, MySQL];
   return (
     <div>
       <div>
@@ -19,7 +23,14 @@ const FeaturedProjectDescription = ({
         <Subtitle Content="Technolgies" />
         <div className="FeaturedProjectDescription-Technologies">
           {technologies.map((technology, index) => {
-            return <p key={index}>{technology}</p>;
+            return (
+              <img
+                key={index}
+                src={iconsTechnologies[index]}
+                width="50px"
+                height="50px"
+              />
+            );
           })}
         </div>
       </div>

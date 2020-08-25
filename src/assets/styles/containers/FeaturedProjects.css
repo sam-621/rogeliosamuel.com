@@ -1,42 +1,12 @@
-.FeaturedProjects-container {
-  display: grid;
-  grid-template-rows: auto auto;
-}
-.FeaturedProjets-title h2 {
-  margin-left: 80px;
-}
-.FeaturedProjects {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  padding: 5px;
-}
-.FeaturedProject-content {
+.FeaturedProject-container {
+  margin: 0 20px;
+  padding: 10px;
+  grid-column: 1 / 4;
   display: grid;
   grid-template-columns: auto auto;
-  padding: 10px;
-}
-.Arrow-container {
-  display: flex;
-  align-items: center;
-}
-.Arrow-container button {
-  transition: 0.3s;
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 0;
-  height: 100%;
-}
-.Arrow-container button:hover {
-  transition: 0.3s;
   background-color: black;
-  box-shadow: 0 0 15px black;
+  border-radius: 5px;
 }
-.none {
-  display: none;
-}
-.FeaturedProject-img {
-  display: flex;
-  justify-content: flex-end;
-  height: 300px;
+.FeaturedProject-img img {
+  border-radius: 5px;
 }

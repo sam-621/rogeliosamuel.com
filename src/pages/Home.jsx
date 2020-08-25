@@ -1,14 +1,14 @@
 import React from "react";
 import Nav from "../containers/Nav";
 import Hero from "../containers/Hero";
-import FeaturedProjects from "../containers/FeaturedProjects";
+import Projects from "../containers/Projects";
 
 const Home = () => {
   return (
     <>
       <Nav />
       <Hero />
-      <FeaturedProjects />
+      <Projects />
     </>
   );
 };
