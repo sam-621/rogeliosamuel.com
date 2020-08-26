@@ -1,9 +1,11 @@
 .SecondaryButton {
+  font-family: "Inconsolata", monospace;
+  transition: 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 4px 29px;
-  background-color: black;
+  background: none;
   color: white;
   border: 1px solid white;
 }

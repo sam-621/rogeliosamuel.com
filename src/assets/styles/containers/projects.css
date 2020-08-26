@@ -20,9 +20,12 @@
   justify-content: center;
 }
 .Projects-viewAll-btn a {
-  text-decoration: none;
-  color: black;
-  background-color: white;
+  transition: 0.2s;
+  color: white;
   padding: 10px 30px;
-  border-radius: 5px;
+}
+.Projects-viewAll-btn a:hover {
+  transition: 0.2s;
+  background-color: black;
+  box-shadow: 0 0 10px black;
 }
