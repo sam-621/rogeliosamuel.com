@@ -2,4 +2,7 @@
   font-family: "Inconsolata", monospace;
   padding: 5px 30px;
   border: none;
+  background-color: #0779e4;
+  color: white;
+  border-radius: 5px;
 }

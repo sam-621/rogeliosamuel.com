@@ -21,7 +21,7 @@
 }
 .Projects-viewAll-btn a {
   transition: 0.2s;
-  color: white;
+  color: #0779e4;
   padding: 10px 30px;
 }
 .Projects-viewAll-btn a:hover {
