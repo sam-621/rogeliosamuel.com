@@ -13,6 +13,7 @@ const FeaturedProjectDescription = ({
   title,
   littleDescription,
   technologies,
+  Repo,
 }) => {
   const iconsTechnologies = [Node, Typescript, MySQL];
   return (
@@ -38,7 +39,7 @@ const FeaturedProjectDescription = ({
       </div>
       <div className="FeaturedProjects-btn">
         <PrimaryButton Content="Details" />
-        <SecondaryButton Content="Code" />
+        <SecondaryButton Content="Code" url={Repo} />
       </div>
     </div>
   );

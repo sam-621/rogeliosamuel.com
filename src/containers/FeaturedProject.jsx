@@ -3,10 +3,8 @@ import "../assets/styles/containers/FeaturedProjects.css";
 
 import FeaturedProjectDescription from "../components/molecules/FeaturedProjectDescription";
 import SocialMediaAPI from "../assets/img/SocialMedia-API.png";
-import PrimaryButton from "../components/atoms/btn/PrimaryButton";
-import SecondaryButton from "../components/atoms/btn/SecondaryButton";
 
-const FeaturedProject = ({ Title, ShortDescription, Technologies }) => {
+const FeaturedProject = ({ Title, ShortDescription, Technologies, Repo }) => {
   return (
     <div className="FeaturedProject-container">
       <div>
@@ -14,6 +12,7 @@ const FeaturedProject = ({ Title, ShortDescription, Technologies }) => {
           littleDescription={ShortDescription}
           technologies={Technologies}
           title={Title}
+          Repo={Repo}
         />
       </div>
       <div className="FeaturedProject-img">

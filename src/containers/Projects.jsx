@@ -23,6 +23,7 @@ const FeaturedProjects = () => {
           ShortDescription={FeaturedProjectsData[0].littleDescription}
           Title={FeaturedProjectsData[0].title}
           Technologies={FeaturedProjectsData[0].technologies}
+          Repo={FeaturedProjectsData[0].Repo}
         />
       </div>
       <div className="Projects-Projects-container">
@@ -31,12 +32,16 @@ const FeaturedProjects = () => {
             <Project
               Title={project.title}
               Technologies={project.technologies}
+              Repo={project.Repo}
             />
           );
         })}
       </div>
       <div className="Projects-viewAll-btn">
-        <a href="https://github.com/rogeliosamuel621" target="_blank">
+        <a
+          href="https://github.com/rogeliosamuel621?tab=repositories"
+          target="_blank"
+        >
           View all
         </a>
       </div>

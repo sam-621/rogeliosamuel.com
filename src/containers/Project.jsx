@@ -11,7 +11,7 @@ import Webpack from "../assets/img/webpack.svg";
 import PrimaryButton from "../components/atoms/btn/PrimaryButton";
 import SecondaryButton from "../components/atoms/btn/SecondaryButton";
 
-const Project = ({ Title, Technologies }) => {
+const Project = ({ Title, Technologies, Repo }) => {
   const techIcons = [Node, Typescript, MySQL, react, js, Webpack];
   return (
     <div className="Project">
@@ -32,7 +32,7 @@ const Project = ({ Title, Technologies }) => {
       </div>
       <div className="Project-button">
         <PrimaryButton Content="Details" />
-        <SecondaryButton Content="Code" />
+        <SecondaryButton Content="Code" url={Repo} />
       </div>
     </div>
   );
