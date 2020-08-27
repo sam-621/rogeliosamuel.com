@@ -4,7 +4,13 @@ import "../assets/styles/containers/FeaturedProjects.css";
 import FeaturedProjectDescription from "../components/molecules/FeaturedProjectDescription";
 import SocialMediaAPI from "../assets/img/SocialMedia-API.png";
 
-const FeaturedProject = ({ Title, ShortDescription, Technologies, Repo }) => {
+const FeaturedProject = ({
+  ID,
+  Title,
+  ShortDescription,
+  Technologies,
+  Repo,
+}) => {
   return (
     <div className="FeaturedProject-container">
       <div>
@@ -13,6 +19,7 @@ const FeaturedProject = ({ Title, ShortDescription, Technologies, Repo }) => {
           technologies={Technologies}
           title={Title}
           Repo={Repo}
+          ID={ID}
         />
       </div>
       <div className="FeaturedProject-img">

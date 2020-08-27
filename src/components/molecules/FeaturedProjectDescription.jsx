@@ -8,12 +8,14 @@ import Typescript from "../../assets/img/typescript.svg";
 import MySQL from "../../assets/img/mysql.svg";
 import PrimaryButton from "../../components/atoms/btn/PrimaryButton";
 import SecondaryButton from "../../components/atoms/btn/SecondaryButton";
+import { Link } from "react-router-dom";
 
 const FeaturedProjectDescription = ({
   title,
   littleDescription,
   technologies,
   Repo,
+  ID,
 }) => {
   const iconsTechnologies = [Node, Typescript, MySQL];
   return (
@@ -38,7 +40,9 @@ const FeaturedProjectDescription = ({
         </div>
       </div>
       <div className="FeaturedProjects-btn">
-        <PrimaryButton Content="Details" />
+        <Link to={`/project/${ID}`}>
+          <PrimaryButton Content="Details" />
+        </Link>
         <SecondaryButton Content="Code" url={Repo} />
       </div>
     </div>

@@ -20,6 +20,7 @@ const FeaturedProjects = () => {
       </div>
       <div className="Projects-featuredProject-container">
         <FeaturedProject
+          ID={FeaturedProjectsData[0].ID}
           ShortDescription={FeaturedProjectsData[0].littleDescription}
           Title={FeaturedProjectsData[0].title}
           Technologies={FeaturedProjectsData[0].technologies}
