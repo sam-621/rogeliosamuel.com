@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/styles/containers/aboutProject.css";
+import { Link } from "react-router-dom";
 
 import Node from "../assets/img/node-js.svg";
 import react from "../assets/img/react-brands.svg";
@@ -13,6 +14,7 @@ import SafeContactsAPI from "../assets/img/safecontact-api.png";
 import { FeaturedProjectsData } from "../assets/FeaturedProjects";
 import gitHub from "../assets/img/github.svg";
 import demoIcon from "../assets/img/demo.svg";
+import BackArrow from "../assets/img/back.svg";
 
 const ProjectDescription = ({ ID }) => {
   const techIcons = [Node, Typescript, MySQL, react, js];
@@ -21,30 +23,35 @@ const ProjectDescription = ({ ID }) => {
   return (
     <main className="AboutProject-container">
       <div className="Hero-project">
+        <Link to="/" className="Back">
+          <img src={BackArrow} alt="" width="30px" height="30px" />
+        </Link>
         <div className="AboutProjects-options">
           <h1>{FeaturedProjectsData[ID].title}</h1>
 
           <div className="Project-options-links">
             {/*Project code*/}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={FeaturedProjectsData[ID].Repo}
-              className="github-code"
-            >
-              <p>Project code </p>
-              <img src={gitHub} alt="" width="30px" height="30px" />
-            </a>
-            {/*Project demo*/}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={FeaturedProjectsData[ID].demo}
-              className="Project-demo"
-            >
-              <p>Project demo</p>
-              <img src={demoIcon} alt="" width="30px" height="30px" />
-            </a>
+            <div className="Project-options-help">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={FeaturedProjectsData[ID].Repo}
+                className="github-code"
+              >
+                <p>Project code </p>
+                <img src={gitHub} alt="" width="30px" height="30px" />
+              </a>
+              {/*Project demo*/}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={FeaturedProjectsData[ID].demo}
+                className="Project-demo"
+              >
+                <p>Project demo</p>
+                <img src={demoIcon} alt="" width="30px" height="30px" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -36,10 +36,10 @@ li {
   margin: 0;
 }
 .AboutProjects-options a {
-  margin: 0 20px;
-  border-radius: 10px;
+  margin: 0 10px;
+  /* border-radius: 10px; */
   padding: 10px;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
   display: flex;
   align-items: center;
@@ -49,23 +49,29 @@ li {
   margin-right: 10px;
 }
 .github-code {
-  transition: 0.3s;
-  background-color: black;
+  transition: 0.2s;
+  /* background-color: black; */
 }
 .Project-demo {
   transition: 0.3s;
-  background-color: tomato;
+  /* background-color: #0779e4; */
 }
 .Project-demo:hover {
   transition: 0.3s;
-  box-shadow: 0 0 15px 0 rgba(255, 99, 71, 0.4);
+  box-shadow: 0 0 15px 0 #000;
+  background-color: #000000;
 }
 .github-code:hover {
-  transition: 0.3s;
+  transition: 0.2s;
   box-shadow: 0 0 15px 0 #000;
+  background-color: #000;
 }
 .Project-options-links {
   display: flex;
+  margin-left: 30px;
+}
+.Project-options-help {
+  display: inherit;
 }
 .Back {
   transition: 0.3s;

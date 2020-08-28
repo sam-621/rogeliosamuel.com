@@ -11,4 +11,5 @@
 .FeaturedProjects-btn button {
   cursor: pointer;
   margin: 0 10px;
+  height: 100%;
 }
