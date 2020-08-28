@@ -10,8 +10,10 @@ import Typescript from "../assets/img/typescript.svg";
 import Webpack from "../assets/img/webpack.svg";
 import PrimaryButton from "../components/atoms/btn/PrimaryButton";
 import SecondaryButton from "../components/atoms/btn/SecondaryButton";
+import { Link } from "react-router-dom";
 
-const Project = ({ Title, Technologies, Repo }) => {
+const Project = ({ Title, Technologies, Repo, ID }) => {
+  console.log(ID);
   const techIcons = [Node, Typescript, MySQL, react, js, Webpack];
   return (
     <div className="Project">
@@ -33,7 +35,9 @@ const Project = ({ Title, Technologies, Repo }) => {
         })}
       </div>
       <div className="Project-button">
-        <PrimaryButton Content="Details" />
+        <Link to={`/${ID}`}>
+          <PrimaryButton Content="Details" />
+        </Link>
         <SecondaryButton Content="Code" url={Repo} />
       </div>
     </div>

@@ -17,7 +17,7 @@ import demoIcon from "../assets/img/demo.svg";
 import BackArrow from "../assets/img/back.svg";
 
 const ProjectDescription = ({ ID }) => {
-  const techIcons = [Node, Typescript, MySQL, react, js];
+  const techIcons = [Node, Typescript, MySQL, react, js, Webpack];
   const img = [SocialMediaAPI, SafeContactsAPI, JobsListing];
 
   return (

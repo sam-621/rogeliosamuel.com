@@ -35,6 +35,7 @@ const FeaturedProjects = () => {
               Title={project.title}
               Technologies={project.technologies}
               Repo={project.Repo}
+              ID={project.ID}
             />
           );
         })}

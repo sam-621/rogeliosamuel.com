@@ -1,5 +1,5 @@
 .SecondaryButton {
-  transition: 0.2s;
+  transition: 0.1s;
   font-family: "Inconsolata", monospace;
   transition: 0.3s;
   display: flex;
@@ -12,7 +12,8 @@
   margin: 0;
 }
 .SecondaryButton:hover {
-  transition: 0.2s;
+  transition: 0.1s;
   background-color: black;
   box-shadow: 0 0 10px 0 black;
+  transform: scale(1.1);
 }
