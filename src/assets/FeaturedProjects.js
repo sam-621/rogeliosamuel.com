@@ -4,7 +4,11 @@ export const FeaturedProjectsData = [
     title: "SocialMedia-API",
     littleDescription:
       "An API Created in order to practice my backend skills creating a social media backend",
-    technologies: [0, 1, 2],
+    technologies: [
+      { icon: 0, title: "Node.js" },
+      { icon: 1, title: "Typescript" },
+      { icon: 2, title: "MySQL" },
+    ],
     Repo: "https://github.com/rogeliosamuel621/Social-Media-API",
     demo: "https://github.com/rogeliosamuel621/Social-Media-API",
     features: ["Some", "some1"],

@@ -34,6 +34,7 @@ const FeaturedProjectDescription = ({
                 src={iconsTechnologies[index]}
                 width="50px"
                 height="50px"
+                title={technology.title}
               />
             );
           })}

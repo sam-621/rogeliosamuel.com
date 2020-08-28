@@ -19,13 +19,15 @@ const Project = ({ Title, Technologies, Repo }) => {
         <Subtitles Content={Title} />
       </div>
       <div className="Project-techIcons">
-        {Technologies.map((technologie) => {
+        {Technologies.map((technologie, index) => {
           return (
             <img
-              src={techIcons[technologie]}
+              key={index}
+              src={techIcons[technologie.icon]}
               alt="SocialMedia-API image"
               width="30px"
               height="30px"
+              title={technologie.title}
             />
           );
         })}

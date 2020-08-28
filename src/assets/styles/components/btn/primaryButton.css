@@ -1,8 +1,15 @@
 .PrimaryButton {
+  transition: 0.2s;
   font-family: "Inconsolata", monospace;
+  font-size: 16px;
   padding: 5px 30px;
   border: none;
-  background-color: #0779e4;
+  background: none;
+  text-decoration: underline;
   color: white;
-  border-radius: 5px;
+}
+.PrimaryButton:hover {
+  transition: 0.2s;
+  background-color: black;
+  box-shadow: 0 0 10px 0 black;
 }

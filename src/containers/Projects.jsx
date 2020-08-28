@@ -31,6 +31,7 @@ const FeaturedProjects = () => {
         {projectData.map((project) => {
           return (
             <Project
+              key={project.ID}
               Title={project.title}
               Technologies={project.technologies}
               Repo={project.Repo}

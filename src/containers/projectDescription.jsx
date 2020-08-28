@@ -78,11 +78,12 @@ const ProjectDescription = ({ ID }) => {
           {FeaturedProjectsData[ID].technologies.map((tech, index) => {
             return (
               <img
-                src={techIcons[tech]}
+                src={techIcons[tech.icon]}
                 alt=""
                 width="50px"
                 height="50px"
                 key={index}
+                title={tech.title}
               />
             );
           })}

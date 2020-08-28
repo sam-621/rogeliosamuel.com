@@ -1,15 +1,18 @@
 .SecondaryButton {
+  transition: 0.2s;
   font-family: "Inconsolata", monospace;
   transition: 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 4px 29px;
-  background-color: black;
   color: white;
-  border: 1px solid black;
-  border-radius: 5px;
 }
 .SecondaryButton p {
   margin: 0;
+}
+.SecondaryButton:hover {
+  transition: 0.2s;
+  background-color: black;
+  box-shadow: 0 0 10px 0 black;
 }
