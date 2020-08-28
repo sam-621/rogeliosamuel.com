@@ -4,7 +4,7 @@
   grid-gap: 40px;
 }
 .Projects-title h2 {
-  margin-left: 80px;
+  margin-left: 20px;
 }
 .Projects-featuredProject-container {
   display: grid;
@@ -20,12 +20,13 @@
   justify-content: center;
 }
 .Projects-viewAll-btn a {
-  transition: 0.2s;
+  transition: 0.1s;
   color: #0779e4;
   padding: 10px 30px;
 }
 .Projects-viewAll-btn a:hover {
-  transition: 0.2s;
+  transition: 0.1s;
   background-color: black;
   box-shadow: 0 0 10px black;
+  transform: scale(1.1);
 }

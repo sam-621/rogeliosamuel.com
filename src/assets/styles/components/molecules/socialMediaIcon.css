@@ -4,7 +4,7 @@
   width: 75px;
 }
 .SocialMediaIcon-container a {
-  transition: 0.2s;
+  transition: 0.1s;
   width: 35px;
   height: 35px;
   display: flex;
@@ -12,8 +12,9 @@
   align-items: center;
 }
 .SocialMediaIcon-container a:hover {
-  transition: 0.2s;
+  transition: 0.1s;
   background-color: black;
   border-radius: 50px;
   box-shadow: 0 0 10px 0 black;
+  transform: scale(1.1);
 }

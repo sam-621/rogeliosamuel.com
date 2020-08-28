@@ -60,11 +60,13 @@ li {
   transition: 0.3s;
   box-shadow: 0 0 15px 0 #000;
   background-color: #000000;
+  transform: scale(1.1);
 }
 .github-code:hover {
   transition: 0.2s;
   box-shadow: 0 0 15px 0 #000;
   background-color: #000;
+  transform: scale(1.1);
 }
 .Project-options-links {
   display: flex;
