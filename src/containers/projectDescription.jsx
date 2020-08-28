@@ -1,10 +1,12 @@
 import React from "react";
+import "../assets/styles/containers/aboutProject.css";
 
 import Node from "../assets/img/node-js.svg";
 import react from "../assets/img/react-brands.svg";
 import js from "../assets/img/js.svg";
 import Webpack from "../assets/img/webpack.svg";
 import MySQL from "../assets/img/mysql.svg";
+import Typescript from "../assets/img/typescript.svg";
 import JobsListing from "../assets/img/jobs-listing.jpg";
 import SocialMediaAPI from "../assets/img/SocialMedia-API.png";
 import SafeContactsAPI from "../assets/img/safecontact-api.png";
@@ -13,7 +15,7 @@ import gitHub from "../assets/img/github.svg";
 import demoIcon from "../assets/img/demo.svg";
 
 const ProjectDescription = ({ ID }) => {
-  const techIcons = [Node, react, js, MySQL];
+  const techIcons = [Node, Typescript, MySQL, react, js];
   const img = [SocialMediaAPI, SafeContactsAPI, JobsListing];
 
   return (

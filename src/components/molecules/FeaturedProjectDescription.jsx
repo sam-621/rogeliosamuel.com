@@ -40,7 +40,7 @@ const FeaturedProjectDescription = ({
         </div>
       </div>
       <div className="FeaturedProjects-btn">
-        <Link to={`/project/${ID}`}>
+        <Link to={`/${ID}`}>
           <PrimaryButton Content="Details" />
         </Link>
         <SecondaryButton Content="Code" url={Repo} />

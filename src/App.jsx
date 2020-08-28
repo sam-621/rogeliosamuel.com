@@ -9,9 +9,13 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-        <Route exact path="/project/:projectID" component={AboutProject} />
+        <Route exact path="/:projectID">
+          <AboutProject />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
