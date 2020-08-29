@@ -13,15 +13,13 @@ const FeaturedProject = ({
 }) => {
   return (
     <div className="FeaturedProject-container">
-      <div>
-        <FeaturedProjectDescription
-          littleDescription={ShortDescription}
-          technologies={Technologies}
-          title={Title}
-          Repo={Repo}
-          ID={ID}
-        />
-      </div>
+      <FeaturedProjectDescription
+        littleDescription={ShortDescription}
+        technologies={Technologies}
+        title={Title}
+        Repo={Repo}
+        ID={ID}
+      />
       <div className="FeaturedProject-img">
         <img
           src={SocialMediaAPI}

@@ -1,7 +1,6 @@
 .FeaturedProject-container {
   margin: 0 20px;
   padding: 20px;
-  grid-column: 1 / 4;
   display: grid;
   grid-template-columns: auto auto;
   background-color: #1f212b;
@@ -12,4 +11,22 @@
 }
 .FeaturedProject-img img {
   border-radius: 5px;
+}
+@media screen and (max-width: 1024px) {
+  .FeaturedProject-container div div div h1,
+  p {
+    text-align: center;
+  }
+  .FeaturedProject-container {
+    grid-template-columns: auto;
+  }
+  .FeaturedProject-img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .FeaturedProject-img img {
+    width: 450px;
+    height: 210px;
+  }
 }

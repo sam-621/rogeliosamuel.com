@@ -2,4 +2,10 @@
   color: #ffffff;
   font-weight: 200;
   margin: 0;
+  font-size: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .PrimaryText {
+    font-size: 20px;
+  }
 }

@@ -14,3 +14,15 @@
   margin: 0 10px;
   height: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .FeaturedProjectDescription-Technologies {
+    margin: auto;
+    margin-top: 20px;
+  }
+  /* .FeaturedProjectDescription-Technologies img{
+    margin: 0;
+  } */
+  .FeaturedProjects-btn {
+    justify-content: center;
+  }
+}

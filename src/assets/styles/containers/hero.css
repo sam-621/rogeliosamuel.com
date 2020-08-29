@@ -4,6 +4,7 @@
   align-items: center;
   grid-template-columns: auto 1fr;
   height: 90vh;
+  margin: 0 10px 0 0;
 }
 .Hero-description {
   width: 50%;
