@@ -1,4 +1,4 @@
-export const FeaturedProjectsData = [
+export const ProjectsData = [
   {
     ID: 0,
     title: "SocialMedia-API",

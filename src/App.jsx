@@ -2,19 +2,14 @@ import React from "react";
 import "./assets/styles/app.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import AboutProject from "./pages/AbourProject";
+import PrimaryLink from "./components/atoms/btn/PrimaryLink";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <Home />
-        </Route>
-
-        <Route exact path="/:projectID">
-          <AboutProject />
+          <PrimaryLink Url="#" Content="Details" />
         </Route>
       </Switch>
     </BrowserRouter>
