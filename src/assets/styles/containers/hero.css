@@ -1,0 +1,14 @@
+.CodeText {
+  background-color: #333333;
+  padding: 10px;
+}
+.CodeText p {
+  color: white;
+  font-size: 13px;
+  margin: 0;
+}
+.Hero-MyImg {
+  margin-top: 9px;
+  display: flex;
+  justify-content: center;
+}
