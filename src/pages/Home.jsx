@@ -5,6 +5,7 @@ import Hero from "../components/containers/Hero";
 import Projects from "../components/containers/Projects";
 import Skills from "../components/containers/Skills";
 import Contact from "../components/containers/Contact";
+import Footer from "../components/containers/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Projects />
       <Skills />
       <Contact />
+      <Footer />
     </>
   );
 };

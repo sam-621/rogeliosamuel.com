@@ -1,0 +1,40 @@
+footer {
+  background-color: #333333;
+  margin-top: 60px;
+}
+footer h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.Footer-info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Footer-contact h3 {
+  text-align: center;
+}
+.Footer-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.Footer-btn-container a {
+  background-color: #0779e4;
+  font-size: 12px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.Footer-Roles p {
+  color: #c4c4c4;
+  font-size: 12px;
+  text-align: center;
+}
+.Footer-text-me-container p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
