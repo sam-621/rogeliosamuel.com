@@ -4,6 +4,7 @@ export const ProjectsData = [
     title: "SocialMedia-API",
     littleDescription:
       "An API Created in order to practice my backend skills creating a social media backend",
+    description: "large",
     technologies: [
       { icon: 0, title: "Node.js" },
       { icon: 1, title: "Typescript" },
@@ -18,6 +19,7 @@ export const ProjectsData = [
     title: "Jobs-Listing",
     littleDescription:
       "Project created in order to practice Reactjs. Challenge from frontendmentor",
+    description: "large",
     technologies: [
       { icon: 3, title: "React.js" },
       { icon: 4, title: "Javascript" },
@@ -32,6 +34,7 @@ export const ProjectsData = [
     title: "Safe-Contacts-API",
     littleDescription:
       "An API for a web aplication that i create time ago. This API is to learn and practice Typescript",
+    description: "large",
     technologies: [
       { icon: 0, title: "Node.js" },
       { icon: 1, title: "Typescript" },

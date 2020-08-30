@@ -1,0 +1,7 @@
+.ProjectDescription-img {
+  display: flex;
+  justify-content: flex-start;
+}
+.ProjectDescription-img img {
+  margin: 0 10px;
+}
