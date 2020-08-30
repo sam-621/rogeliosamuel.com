@@ -1,0 +1,10 @@
+.Skills-container {
+  margin-top: 50px;
+}
+.Skills-Technologies-container {
+  margin-top: 16px;
+  background-color: #333333;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+}
