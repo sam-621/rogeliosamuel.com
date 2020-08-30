@@ -15,9 +15,10 @@
   font-weight: 400;
   font-size: 14px;
 }
-.project-description p {
-  font-size: 14px;
-  text-align: center;
+.project-description {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 .project-btn {
   display: flex;
