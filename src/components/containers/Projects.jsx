@@ -3,16 +3,13 @@ import "../../assets/styles/containers/projects.css";
 
 import FeaturedProject from "../molecules/FeaturedProject";
 import { ProjectsData } from "../../assets/Projects";
-import Title from "../atoms/text/Title";
+import TitleSection from "../molecules/SectionTitle";
 import Project from "../molecules/Project";
 
 const Projects = () => {
   return (
     <main className="Projects-container">
-      <div className="Projects-title">
-        <hr />
-        <Title Center={false} Content="Projects" />
-      </div>
+      <TitleSection title="Projects" />
       <FeaturedProject
         FeaturedProjectTitle={ProjectsData[0].title}
         ID={ProjectsData[0].ID}
