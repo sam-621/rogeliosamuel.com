@@ -11,8 +11,8 @@ const Nav = () => {
         <MyLogo />
       </div>
       <div className="SocialIcons-container">
-        <SocialIcons Icon="Git" />
-        <SocialIcons Icon="Twitter" />
+        <SocialIcons position={0} />
+        <SocialIcons position={1} />
       </div>
     </nav>
   );

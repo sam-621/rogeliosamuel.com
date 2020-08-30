@@ -3,20 +3,18 @@ import "../../../assets/styles/atoms/btn/socialIcons.css";
 
 import Github from "../../../assets/img/git.svg";
 import Twitter from "../../../assets/img/twitter.svg";
+import Mail from "../../../assets/img/mailto.svg";
 
-const SocialIcons = ({ Icon }) => {
+const SocialIcons = ({ position }) => {
+  const SocialIcon = [
+    { icon: Github, url: "https://github.com/rogeliosamuel621" },
+    { icon: Twitter, url: "https://twitter.com/rogeliosamuel21" },
+    { icon: Mail, url: "mailto:rogeliosamuel621@gmail.com" },
+  ];
   return (
-    <a
-      className="SocialIcons"
-      href={
-        Icon === "Twitter"
-          ? "https://twitter.com/rogeliosamuel21"
-          : "https://github.com/rogeliosamuel621"
-      }
-      target="_blank"
-    >
+    <a className="SocialIcons" href={SocialIcon[position].url} target="_blank">
       <img
-        src={Icon === "Twitter" ? Twitter : Github}
+        src={SocialIcon[position].icon}
         alt="Social Icon"
         width="15px"
         height="15px"

@@ -1,0 +1,8 @@
+.Contact-container {
+  margin-top: 50px;
+}
+.Contact-icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 25%;
+}
