@@ -19,7 +19,7 @@ const Hero = () => {
           src={Me}
           alt="Rogelio Samuel moreno Corrales"
           width="200px"
-          height="315px"
+          height="280px"
         />
       </div>
     </div>

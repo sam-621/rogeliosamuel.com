@@ -1,0 +1,11 @@
+.Projects-container {
+  margin-top: 60px;
+}
+.Projects-title {
+  display: flex;
+  justify-content: flex-start;
+}
+.Projects-title hr {
+  margin: 5px 5px 5px 0;
+  border: 1px solid black;
+}
