@@ -1,7 +1,23 @@
+.ProjectDescription-container {
+  margin: 35px 10px 0 10px;
+}
 .ProjectDescription-img {
   display: flex;
   justify-content: flex-start;
 }
 .ProjectDescription-img img {
   margin: 0 10px;
+}
+
+@media screen and (min-width: 425px) {
+  .ProjectDescription-container p {
+    font-size: 20px;
+  }
+  .Features-container li {
+    font-size: 20px;
+  }
+  .ProjectDescription-img img {
+    width: 40px;
+    height: 40px;
+  }
 }

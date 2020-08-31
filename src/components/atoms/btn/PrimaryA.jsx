@@ -3,7 +3,7 @@ import "../../../assets/styles/atoms/btn/primaryA.css";
 
 const PrimaryA = ({ Content, Url }) => {
   return (
-    <a className="PrimaryA" href={Url}>
+    <a target="_blank" className="PrimaryA" href={Url}>
       {Content}
     </a>
   );

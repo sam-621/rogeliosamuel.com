@@ -2,3 +2,8 @@
   font-size: 18px;
   color: black;
 }
+@media screen and (min-width: 425px) {
+  .Title-text {
+    font-size: 26px;
+  }
+}

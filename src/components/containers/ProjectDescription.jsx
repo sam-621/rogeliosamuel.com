@@ -11,14 +11,14 @@ import Webpack from "../../assets/img/webpack.svg";
 
 const ProjectDescription = ({ Description, Features, Technologies }) => {
   const techIcons = [Node, Typescript, MySQL, react, js, Webpack];
-  console.log(Technologies);
+
   return (
-    <section>
+    <section className="ProjectDescription-container">
       <div>
         <TitleSection title="Why did i do this project?" />
         <p>{Description}</p>
       </div>
-      <div>
+      <div className="Features-container">
         <TitleSection title="Features" />
         {Features.map((feature, index) => {
           return (
@@ -37,8 +37,8 @@ const ProjectDescription = ({ Description, Features, Technologies }) => {
                 key={index}
                 src={techIcons[tech.icon]}
                 alt=""
-                width="25"
-                height="30px"
+                width="35px"
+                height="35px"
               />
             );
           })}

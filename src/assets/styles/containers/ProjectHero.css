@@ -3,3 +3,9 @@
   justify-content: center;
   margin-top: 20px;
 }
+@media screen and (min-width: 425px) {
+  .ProjectHero-img img {
+    width: 330px;
+    height: 135.47px;
+  }
+}
