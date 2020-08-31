@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets//styles/molecules/FeaturedProject.css";
+import "../../assets/styles/molecules/featuredProject.css";
 
 import SocialMediaAPI from "../../assets/img/SocialMedia-API.png";
 import JobsListing from "../../assets/img/jobs-listing.jpg";
