@@ -9,3 +9,18 @@
     height: 25px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .SocialIcons {
+    transition: 0.2s;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+  .SocialIcons img {
+    width: 30px;
+    height: 30px;
+  }
+  .SocialIcons:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+}

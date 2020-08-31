@@ -9,3 +9,9 @@
     height: 135.47px;
   }
 }
+@media screen and (min-width: 425px) {
+  .ProjectHero-img img {
+    width: 700px;
+    height: 330.78px;
+  }
+}

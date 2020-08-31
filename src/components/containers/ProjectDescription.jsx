@@ -39,6 +39,7 @@ const ProjectDescription = ({ Description, Features, Technologies }) => {
                 alt=""
                 width="35px"
                 height="35px"
+                title={tech.title}
               />
             );
           })}

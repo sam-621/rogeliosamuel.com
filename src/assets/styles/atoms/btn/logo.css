@@ -8,3 +8,9 @@
     height: 50px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .MyLogo img {
+    width: 70px;
+    height: 70px;
+  }
+}

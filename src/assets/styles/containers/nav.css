@@ -4,8 +4,26 @@ nav {
   align-items: center;
   margin: 10px 10px 0 10px;
 }
+.Nav-logo-text-container-query {
+  display: flex;
+}
+.Nav-logo-text-container-query h1 {
+  display: none;
+  margin: 0;
+  margin-left: 10px;
+  font-size: 30px;
+  align-self: center;
+}
 .SocialIcons-container {
   display: flex;
   justify-content: space-between;
   width: 23%;
+}
+@media screen and (min-width: 1024px) {
+  .SocialIcons-container {
+    width: 9%;
+  }
+  .Nav-logo-text-container-query h1 {
+    display: block;
+  }
 }

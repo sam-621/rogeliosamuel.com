@@ -21,3 +21,12 @@
 .Project-viewAll-container a {
   color: #0779e4;
 }
+@media screen and (min-width: 1024px) {
+  .Project-viewAll-container {
+    margin-top: 50px;
+  }
+  .Project-viewAll-container a {
+    transition: 0.2s;
+    padding: 5px 10px;
+  }
+}

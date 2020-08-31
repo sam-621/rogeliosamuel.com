@@ -3,3 +3,8 @@
   justify-content: space-between;
   margin: 0 20%;
 }
+@media screen and (min-width: 1024px) {
+  .ProjectOptions-btn {
+    margin: 0 40%;
+  }
+}

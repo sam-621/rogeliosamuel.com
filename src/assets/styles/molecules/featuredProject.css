@@ -25,6 +25,9 @@
   display: flex;
   justify-content: center;
 }
+.Project-text-mediaquery {
+  display: none;
+}
 @media screen and (min-width: 425px) {
   .FeaturedProject-title h2 {
     font-size: 22px;
@@ -32,5 +35,33 @@
   .FeaturedProject-img img {
     width: 330px;
     height: 135.47px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .FeaturedProject-title h2 {
+    font-size: 26px;
+  }
+  .FeaturedProject-img img {
+    width: 601px;
+    height: 284px;
+  }
+  .Project-text-mediaquery {
+    display: flex;
+  }
+  .Project-text-mediaquery p {
+    align-self: center;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+    padding-right: 50px;
+  }
+  .Project-content-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 0 10px;
+  }
+  .FeaturedProject-btn {
+    margin-top: 50px;
   }
 }

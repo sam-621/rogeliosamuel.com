@@ -7,12 +7,14 @@ import Me from "../../assets/img/Yo.jpg";
 const Hero = () => {
   return (
     <div className="Hero-container">
-      <Title Content="Im a Backend developer" Center={true} />
-      <div className="CodeText">
-        <p>
-          Backend developer. Typescript, MySQL. Open to working with other
-          people
-        </p>
+      <div className="Hero-info">
+        <Title Content="Im a Backend developer" Center={true} />
+        <div className="CodeText">
+          <p>
+            Backend developer. Typescript, MySQL. Open to working with other
+            people
+          </p>
+        </div>
       </div>
       <div className="Hero-MyImg">
         <img

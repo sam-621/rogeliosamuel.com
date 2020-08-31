@@ -6,3 +6,8 @@
   justify-content: space-around;
   margin: 10px 25% 0 25%;
 }
+@media screen and (min-width: 1024px) {
+  .Contact-icons-container {
+    margin: 10px 30% 0 30%;
+  }
+}
