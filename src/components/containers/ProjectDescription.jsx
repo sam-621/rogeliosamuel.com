@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/styles/containers/ProjectDescription.css";
+import "../../assets/styles/containers/projectDescription.css";
 
 import TitleSection from "../molecules/SectionTitle";
 import Node from "../../assets/img/node-js.svg";

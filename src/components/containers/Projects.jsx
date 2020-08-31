@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/styles/containers/projects.css";
 
-import Project from "../molecules/Project";
+import Project from "../molecules/project";
 import { ProjectsData } from "../../assets/Projects";
 import TitleSection from "../molecules/SectionTitle";
 
