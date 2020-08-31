@@ -1,0 +1,14 @@
+.PrimaryLink {
+  background-color: #0779e4;
+  font-size: 16px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+@media screen and (min-width: 425px) {
+  .PrimaryLink {
+    font-size: 20px;
+  }
+}

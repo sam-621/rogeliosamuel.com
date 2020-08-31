@@ -1,0 +1,26 @@
+.Project-container {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.Project-title {
+  background-color: #333333;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.Project-title h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+.project-description {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.project-btn {
+  display: flex;
+  justify-content: center;
+}

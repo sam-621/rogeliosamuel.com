@@ -1,0 +1,32 @@
+.Projects-container {
+  margin: 60px 10px 0 10px;
+}
+.Projects-title {
+  display: flex;
+  justify-content: flex-start;
+}
+.Projects-title hr {
+  margin: 5px 5px 5px 0;
+  border: 1px solid black;
+}
+.Projects-boring {
+  display: grid;
+  grid-gap: 20px;
+}
+.Project-viewAll-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Project-viewAll-container a {
+  color: #0779e4;
+}
+@media screen and (min-width: 1024px) {
+  .Project-viewAll-container {
+    margin-top: 50px;
+  }
+  .Project-viewAll-container a {
+    transition: 0.2s;
+    padding: 5px 10px;
+  }
+}

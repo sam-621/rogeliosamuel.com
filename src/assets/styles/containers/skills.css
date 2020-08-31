@@ -1,0 +1,16 @@
+.Skills-container {
+  margin: 60px 10px 0 10px;
+}
+.Skills-Technologies-container {
+  margin-top: 16px;
+  background-color: #333333;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (min-width: 425px) {
+  .Skills-Technologies-container img {
+    width: 40px;
+    height: 40px;
+  }
+}
