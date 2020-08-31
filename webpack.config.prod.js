@@ -42,6 +42,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "public/index.html"),
+      favicon: "./src/assets/img/Logo.ico",
     }),
     new MiniCssExtractPlugin(),
   ],
