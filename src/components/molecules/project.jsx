@@ -7,7 +7,6 @@ import SafeContactsAPI from "../../assets/img/safecontact-api.png";
 import PrimaryLink from "../atoms/btn/PrimaryLink";
 
 const FeaturedProject = ({ FeaturedProjectTitle, description, ID }) => {
-  console.log(FeaturedProjectTitle);
   const projectsImages = [SocialMediaAPI, JobsListing, SafeContactsAPI];
 
   return (
