@@ -14,6 +14,7 @@ const Projects = () => {
           <Project
             key={project.ID}
             FeaturedProjectTitle={project.title}
+            description={project.description}
             ID={project.ID}
           />
         ))}

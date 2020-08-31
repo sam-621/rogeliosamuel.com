@@ -6,7 +6,7 @@ import JobsListing from "../../assets/img/jobs-listing.jpg";
 import SafeContactsAPI from "../../assets/img/safecontact-api.png";
 import PrimaryLink from "../atoms/btn/PrimaryLink";
 
-const FeaturedProject = ({ FeaturedProjectTitle, ID }) => {
+const FeaturedProject = ({ FeaturedProjectTitle, description, ID }) => {
   console.log(FeaturedProjectTitle);
   const projectsImages = [SocialMediaAPI, JobsListing, SafeContactsAPI];
 
@@ -17,11 +17,7 @@ const FeaturedProject = ({ FeaturedProjectTitle, ID }) => {
       </div>
       <div className="Project-content-container">
         <div className="Project-text-mediaquery">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
-          </p>
+          <p>{description}</p>
         </div>
         <div className="FeaturedProject-img">
           <img
