@@ -8,6 +8,12 @@
 .ProjectDescription-img img {
   margin: 0 10px;
 }
+.ProjectDescription-container p {
+  color: #616161;
+}
+.Features-container li {
+  color: #616161;
+}
 
 @media screen and (min-width: 425px) {
   .ProjectDescription-container p {

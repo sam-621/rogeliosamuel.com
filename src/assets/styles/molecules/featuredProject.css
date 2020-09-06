@@ -1,8 +1,9 @@
 .FeaturedProject-container {
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  background-color: #1e1e1e;
 }
 .FeaturedProject-title {
   background-color: #333333;
@@ -13,7 +14,7 @@
   font-size: 18px;
   color: white;
   text-align: center;
-  font-weight: 400;
+  font-weight: 200;
 }
 .FeaturedProject-img {
   display: flex;
@@ -27,6 +28,9 @@
 }
 .Project-text-mediaquery {
   display: none;
+}
+.Project-text-mediaquery p {
+  color: white; /*edit*/
 }
 @media screen and (min-width: 425px) {
   .FeaturedProject-title h2 {

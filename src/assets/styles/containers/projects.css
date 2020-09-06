@@ -7,7 +7,8 @@
 }
 .Projects-title hr {
   margin: 5px 5px 5px 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border: 1px solid white;
 }
 .Projects-boring {
   display: grid;
@@ -16,7 +17,7 @@
 .Project-viewAll-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .Project-viewAll-container a {
   color: #0779e4;

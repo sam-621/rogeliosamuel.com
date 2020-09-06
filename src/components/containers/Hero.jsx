@@ -2,7 +2,7 @@ import React from "react";
 import "../../assets/styles/containers/hero.css";
 
 import Title from "../atoms/text/Title";
-import Me from "../../assets/img/Yo.jpg";
+import Me from "../../assets/img/Yo_opt.jpg";
 
 const Hero = () => {
   return (

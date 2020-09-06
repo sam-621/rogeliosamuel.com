@@ -13,6 +13,7 @@ nav {
   margin-left: 10px;
   font-size: 30px;
   align-self: center;
+  color: white; /*edit */
 }
 .SocialIcons-container {
   display: flex;
