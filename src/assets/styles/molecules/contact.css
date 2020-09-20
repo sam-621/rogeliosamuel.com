@@ -1,5 +1,7 @@
-.Contact-container {
-  margin: 60px 10px 0 10px;
+.Contact-container h2 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
 }
 .Contact-icons-container {
   display: flex;

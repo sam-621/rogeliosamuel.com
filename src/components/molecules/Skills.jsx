@@ -1,7 +1,6 @@
 import React from "react";
-import "../../assets/styles/containers/skills.css";
+import "../../assets/styles/molecules/skills.css";
 
-import TitleSection from "../molecules/SectionTitle";
 import Node from "../../assets/img/node-js.svg";
 import react from "../../assets/img/react-brands.svg";
 import js from "../../assets/img/js.svg";
@@ -21,7 +20,7 @@ const Skills = () => {
 
   return (
     <section className="Skills-container">
-      <TitleSection title="Skills" />
+      <h2>Skills</h2>
       <div className="Skills-Technologies-container">
         {techIcons.map((icon, index) => {
           return (

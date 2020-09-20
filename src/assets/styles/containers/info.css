@@ -1,0 +1,6 @@
+.Info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #333333;
+  margin-top: 60px;
+}
