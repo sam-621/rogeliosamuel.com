@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/styles/containers/projects.css";
 
 import Project from "../molecules/project";
+import FeaturedProject from "../molecules/FeaturedProject";
 import { ProjectsData } from "../../assets/Projects";
 import TitleSection from "../molecules/SectionTitle";
 
@@ -10,14 +11,23 @@ const Projects = () => {
     <main className="Projects-container">
       <TitleSection title="Projects" />
       <div className="Projects-project-container">
-        {ProjectsData.map((project) => (
-          <Project
-            key={project.ID}
-            ProjectTitle={project.title}
-            description={project.description}
-            ID={project.ID}
-          />
-        ))}
+        <FeaturedProject
+          ID={0}
+          ProjectTitle={ProjectsData[0].title}
+          description={ProjectsData[0].description}
+        />
+        <div className="NormalProjects-container">
+          {ProjectsData.map((project, index) =>
+            index === 0 ? null : (
+              <Project
+                key={project.ID}
+                ProjectTitle={project.title}
+                description={project.description}
+                ID={project.ID}
+              />
+            )
+          )}
+        </div>
       </div>
       <div className="Project-viewAll-container">
         <a

@@ -1,13 +1,12 @@
 import React from "react";
 import "../../assets/styles/molecules/project.css";
 
-import SocialMediaAPI from "../../assets/img/SocialMedia-API.png";
 import JobsListing from "../../assets/img/jobs-listing.jpg";
 import SafeContactsAPI from "../../assets/img/safecontact-api.png";
 import PrimaryLink from "../atoms/btn/PrimaryLink";
 
 const Project = ({ ProjectTitle, description, ID }) => {
-  const projectsImages = [SocialMediaAPI, JobsListing, SafeContactsAPI];
+  const projectsImages = [null, JobsListing, SafeContactsAPI];
 
   return (
     <div className="Project-container">
