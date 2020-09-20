@@ -13,7 +13,7 @@ const Projects = () => {
         {ProjectsData.map((project) => (
           <Project
             key={project.ID}
-            FeaturedProjectTitle={project.title}
+            ProjectTitle={project.title}
             description={project.description}
             ID={project.ID}
           />
