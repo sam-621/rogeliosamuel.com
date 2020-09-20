@@ -30,4 +30,9 @@
     transition: 0.2s;
     padding: 5px 10px;
   }
+  .NormalProjects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
 }

@@ -4,7 +4,7 @@
   "description": "My portfolio",
   "main": "index.jsx",
   "scripts": {
-    "prod": "http-server ./dist/ --proxy http://localhost:8080? -o",
+    "start": "http-server ./dist/ --proxy http://localhost:8080? -o",
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --config webpack.config.dev.js --open "
   },

@@ -14,9 +14,6 @@ const Project = ({ ProjectTitle, description, ID }) => {
         <h2>{ProjectTitle}</h2>
       </div>
       <div className="Project-content-container">
-        <div className="Project-text-mediaquery">
-          <p>{description}</p>
-        </div>
         <div className="Project-img">
           <img
             src={projectsImages[ID]}
@@ -24,6 +21,9 @@ const Project = ({ ProjectTitle, description, ID }) => {
             width="250px"
             height="104.59px"
           />
+        </div>
+        <div className="Project-text-mediaquery">
+          <p>{description}</p>
         </div>
       </div>
       <div className="Project-btn">
