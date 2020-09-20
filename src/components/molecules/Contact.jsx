@@ -1,8 +1,6 @@
 import React from "react";
 import "../../assets/styles/molecules/contact.css";
 
-import TitleSection from "./SectionTitle";
-
 import SocialIcons from "../atoms/btn/SocialIcons";
 
 const Contact = () => {
