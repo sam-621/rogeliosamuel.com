@@ -24,6 +24,23 @@ export const ProjectsData = [
   },
   {
     ID: 1,
+    title: "Image uploader",
+    littleDescription:
+      "An application where you can storage your images in the cloud",
+    description:
+      "I built this project because of gndx comunity, there are some challenge and this is one of them. So I chose this one because never before I had worked with images in node.js and deployed an API in Heroku.",
+    technologies: [
+      { icon: 0, title: "Node.js" },
+      { icon: 1, title: "Typescript" },
+      { icon: 3, title: "Reactjs" },
+      { icon: 5, title: "webpack" },
+    ],
+    Repo: "https://github.com/rogeliosamuel621/Image-Uploader",
+    demo: "https://image-uploader-rs21.netlify.app/",
+    features: ["File manage with multer", "Cloud storage in Cloudinary"],
+  },
+  {
+    ID: 2,
     title: "Jobs-Listing",
     littleDescription:
       "Project created in order to practice Reactjs. Challenge from frontendmentor",
@@ -37,25 +54,5 @@ export const ProjectsData = [
     Repo: "https://github.com/rogeliosamuel621/Jobs-Listing",
     demo: "https://rogeliosamuel621.github.io/Jobs-Listing/",
     features: ["Algorithm to search jobs"],
-  },
-  {
-    ID: 2,
-    title: "Safe-Contacts-API",
-    littleDescription:
-      "An API for a web aplication that i create time ago. This API is to learn and practice Typescript",
-    description:
-      "An API for a web aplication that i create time ago. This API is to learn and practice Typescript.",
-    technologies: [
-      { icon: 0, title: "Node.js" },
-      { icon: 1, title: "Typescript" },
-      { icon: 2, title: "MySQL" },
-    ],
-    Repo: "https://github.com/rogeliosamuel621/Safe-contacts-API",
-    demo: "https://github.com/rogeliosamuel621/Safe-contacts-API",
-    features: [
-      "CRUD Actions",
-      "JWT Authentication",
-      "hash password with bcryptjs",
-    ],
   },
 ];

@@ -3,11 +3,12 @@ import "../../assets/styles/containers/ProjectHero.css";
 
 import ProjectOptions from "../../components/molecules/ProjectOptions";
 import SocialMediaAPI from "../../assets/img/SocialMedia-API.png";
+import imageUploader from "../../assets/img/image-uploader.jpg";
+
 import JobsListing from "../../assets/img/jobs-listing.jpg";
-import SafeContactsAPI from "../../assets/img/safecontact-api.png";
 
 const ProjectHero = ({ ID, Data }) => {
-  const projectsImages = [SocialMediaAPI, JobsListing, SafeContactsAPI];
+  const projectsImages = [SocialMediaAPI, imageUploader, JobsListing];
 
   return (
     <>

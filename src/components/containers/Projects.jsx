@@ -14,7 +14,7 @@ const Projects = () => {
         <FeaturedProject
           ID={0}
           ProjectTitle={ProjectsData[0].title}
-          description={ProjectsData[0].description}
+          description={ProjectsData[0].littleDescription}
         />
         <div className="NormalProjects-container">
           {ProjectsData.map((project, index) =>
@@ -22,7 +22,7 @@ const Projects = () => {
               <Project
                 key={project.ID}
                 ProjectTitle={project.title}
-                description={project.description}
+                description={project.littleDescription}
                 ID={project.ID}
               />
             )

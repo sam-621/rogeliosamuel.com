@@ -2,11 +2,11 @@ import React from "react";
 import "../../assets/styles/molecules/project.css";
 
 import JobsListing from "../../assets/img/jobs-listing.jpg";
-import SafeContactsAPI from "../../assets/img/safecontact-api.png";
+import imageUploader from "../../assets/img/image-uploader.jpg";
 import PrimaryLink from "../atoms/btn/PrimaryLink";
 
 const Project = ({ ProjectTitle, description, ID }) => {
-  const projectsImages = [null, JobsListing, SafeContactsAPI];
+  const projectsImages = [null, imageUploader, JobsListing];
 
   return (
     <div className="Project-container">
