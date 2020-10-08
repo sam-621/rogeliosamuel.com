@@ -1,25 +1,24 @@
 export const ProjectsData = [
   {
     ID: 0,
-    title: "SocialMedia-API",
-    littleDescription:
-      "An API Created in order to practice my backend skills creating a social media backend",
+    title: "AuthApp",
+    littleDescription: "A web application where you can authenticate and make CRUD actions, upload photos and change password",
     description:
-      "This project was created in order to practice my backend skill, and also learn typescript. This project has all my knowledge of backend development and I update this project each I learn something new. I made this API because i needed to have a project where i can implement ehat i'm learning, no need to start other one since 0 just to practice one thing.",
+      "I crated this project because i had never worked  before with mongoDB and upgraded to production with an application like this, this shows my backend skills and my frontend skills",
     technologies: [
       { icon: 0, title: "Node.js" },
-      { icon: 1, title: "Typescript" },
-      { icon: 2, title: "MySQL" },
+      { icon: 4, title: "Javascript" },
+      { icon: 3, title: "Reactjs" },
+      { icon: 5, title: "webpack" },
     ],
-    Repo: "https://github.com/rogeliosamuel621/Social-Media-API",
-    demo: "https://github.com/rogeliosamuel621/Social-Media-API",
+    Repo: "https://github.com/rogeliosamuel621/AuthApp",
+    demo: "https://authapp-rs.netlify.app/",
     features: [
       "Authentication with jwt",
       "hash passwords with bcryptjs",
       "validate data schema with express validator",
-      "development language: Typescript",
-      "development language: Typescript",
       "API key",
+      "Handle errors middlewares"
     ],
   },
   {

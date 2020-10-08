@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/styles/molecules/featuredProject.css";
 
-import SocialMediaAPI from "../../assets/img/SocialMedia-API.png";
+import AuthApp from "../../assets/img/authapp.png";
 import PrimaryLink from "../atoms/btn/PrimaryLink";
 
 const FeaturedProject = ({ ProjectTitle, description, ID }) => {
@@ -16,7 +16,7 @@ const FeaturedProject = ({ ProjectTitle, description, ID }) => {
         </div>
         <div className="FeaturedProject-img">
           <img
-            src={SocialMediaAPI}
+            src={AuthApp}
             alt="SocialMedia-API"
             width="250px"
             height="104.59px"

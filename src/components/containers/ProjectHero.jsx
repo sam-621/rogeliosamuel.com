@@ -2,13 +2,12 @@ import React from "react";
 import "../../assets/styles/containers/ProjectHero.css";
 
 import ProjectOptions from "../../components/molecules/ProjectOptions";
-import SocialMediaAPI from "../../assets/img/SocialMedia-API.png";
+import AuthApp from "../../assets/img/authapp.png";
 import imageUploader from "../../assets/img/image-uploader.jpg";
-
 import JobsListing from "../../assets/img/jobs-listing.jpg";
 
 const ProjectHero = ({ ID, Data }) => {
-  const projectsImages = [SocialMediaAPI, imageUploader, JobsListing];
+  const projectsImages = [AuthApp, imageUploader, JobsListing];
 
   return (
     <>
