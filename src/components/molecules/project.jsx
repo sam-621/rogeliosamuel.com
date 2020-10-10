@@ -17,7 +17,7 @@ const Project = ({ ProjectTitle, description, ID }) => {
         <div className="Project-img">
           <img
             src={projectsImages[ID]}
-            alt="SocialMedia-API"
+            alt="AuthApp project"
             width="250px"
             height="104.59px"
           />

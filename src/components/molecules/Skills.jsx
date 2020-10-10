@@ -27,7 +27,7 @@ const Skills = () => {
             <img
               key={index}
               src={icon.icon}
-              alt="TechIcon"
+              alt={`${icon.title} icon`}
               title={icon.title}
               width="25px"
               height="25px"

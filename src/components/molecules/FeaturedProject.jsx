@@ -17,7 +17,7 @@ const FeaturedProject = ({ ProjectTitle, description, ID }) => {
         <div className="FeaturedProject-img">
           <img
             src={AuthApp}
-            alt="SocialMedia-API"
+            alt="Auth App project"
             width="250px"
             height="104.59px"
           />

@@ -36,7 +36,7 @@ const ProjectDescription = ({ Description, Features, Technologies }) => {
               <img
                 key={index}
                 src={techIcons[tech.icon]}
-                alt=""
+                alt={`${tech.title} icon`}
                 width="35px"
                 height="35px"
                 title={tech.title}
