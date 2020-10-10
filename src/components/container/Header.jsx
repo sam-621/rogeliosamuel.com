@@ -10,7 +10,7 @@ const Header = () => {
       <HomeHeader />
       <div className="Header-Illustration">
         <img
-          src={HeaderIllustration}
+          src="http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602359244/lm1crlv6n3wvgvbhtrqq.svg"
           alt="Header illustration"
           width="228"
           height="170"
