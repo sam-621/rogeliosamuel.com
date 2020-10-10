@@ -32,6 +32,9 @@
 .Project-text-mediaquery p {
   color: white; /*edit*/
 }
+.Project-img img {
+  border-radius: 5px;
+}
 @media screen and (min-width: 425px) {
   .Project-title h2 {
     font-size: 22px;

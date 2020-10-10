@@ -12,7 +12,12 @@ const SocialIcons = ({ position }) => {
     { icon: Mail, url: "mailto:rogeliosamuel621@gmail.com" },
   ];
   return (
-    <a className="SocialIcons" href={SocialIcon[position].url} target="_blank">
+    <a
+      rel="noreferrer"
+      className="SocialIcons"
+      href={SocialIcon[position].url}
+      target="_blank"
+    >
       <img
         src={SocialIcon[position].icon}
         alt="Social Icon"

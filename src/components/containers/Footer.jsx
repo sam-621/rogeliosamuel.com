@@ -13,7 +13,11 @@ const Footer = () => {
         <div className="Footer-contact">
           <h3>Let's make something together</h3>
           <div className="Footer-btn-container">
-            <a href="http://twitter.com/rogeliosamuel21" target="_blank">
+            <a
+              rel="noreferrer"
+              href="http://twitter.com/rogeliosamuel21"
+              target="_blank"
+            >
               Contact
             </a>
           </div>

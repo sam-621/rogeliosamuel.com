@@ -31,6 +31,7 @@ const Projects = () => {
       </div>
       <div className="Project-viewAll-container">
         <a
+          rel="noreferrer"
           href="https://github.com/rogeliosamuel621?tab=repositories"
           target="_blank"
         >
