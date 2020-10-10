@@ -18,7 +18,7 @@ const Contact = () => {
         />
       </div>
       <ContactInfo />
-      <Nav />
+      <Nav contact={true} />
     </>
   );
 };

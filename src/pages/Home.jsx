@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Header />
       <Projects />
-      <Nav />
+      <Nav home={true} />
     </>
   );
 };
