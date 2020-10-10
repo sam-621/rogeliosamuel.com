@@ -1,0 +1,14 @@
+.About-Me-Container {
+  display: grid;
+}
+.About-Me-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.About-Me-img img {
+  border-radius: 5px;
+}
+.About-Me-Container p {
+  text-align: center;
+}
