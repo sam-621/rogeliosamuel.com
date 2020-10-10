@@ -1,0 +1,14 @@
+.Contact-illustration-container {
+  display: flex;
+  justify-content: center;
+}
+.Contact-Text-Container {
+  margin: 0 15px;
+}
+.Contact-Way {
+  color: #c4c4c4;
+}
+.Contact-Way a {
+  text-decoration: none;
+  color: #00c58e;
+}

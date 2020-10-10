@@ -16,6 +16,7 @@ const Projects = () => {
       <div className="Projects-project-container">
         {ProjectsData.map((project, index) => (
           <Project
+            key={project.ID}
             projectTitle={project.title}
             projectImage={project.image}
             projectDescription={project.littleDescription}

@@ -10,19 +10,19 @@ import { Description } from '../../components/atoms/';
 const Nav = () => {
   return (
     <nav className="NavBar">
-      <Link>
+      <Link to="/">
         <div className="Nav-Image-Container">
           <img src={HomeIcon} alt="" width="30" height="30" />
         </div>
         <Description content="Home" />
       </Link>
-      <Link>
+      <Link to="/about">
         <div className="Nav-Image-Container">
           <img src={UserIcon} alt="" width="30" height="30" />
         </div>
         <Description content="About" />
       </Link>
-      <Link>
+      <Link to="/contact">
         <div className="Nav-Image-Container">
           <img src={MailIcon} alt="" width="30" height="30" />
         </div>
