@@ -1,0 +1,19 @@
+.MyName {
+  color: #00c58e;
+  font-size: 20px;
+  font-weight: bold;
+}
+.GreenText {
+  color: #00c58e;
+  font-size: 16px;
+}
+.Title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Description {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: normal;
+}
