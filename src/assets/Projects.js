@@ -43,22 +43,22 @@ export const ProjectsData = [
     image:
       'http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602359356/fsgk76xafinsynlzibjb.jpg',
   },
-  {
-    ID: 2,
-    title: 'Jobs-Listing',
-    littleDescription:
-      'Project created in order to practice Reactjs. Challenge from frontendmentor',
-    description:
-      'Project created in order to practice Reactjs. Challenge from frontendmentor. ',
-    technologies: [
-      { icon: 3, title: 'React.js' },
-      { icon: 4, title: 'Javascript' },
-      { icon: 5, title: 'Weboack' },
-    ],
-    Repo: 'https://github.com/rogeliosamuel621/Jobs-Listing',
-    demo: 'https://rogeliosamuel621.github.io/Jobs-Listing/',
-    features: ['Algorithm to search jobs'],
-    image:
-      'http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602361125/pjrfgw0fvvsuxtsndb4c.jpg',
-  },
+  // {
+  //   ID: 2,
+  //   title: 'Jobs-Listing',
+  //   littleDescription:
+  //     'Project created in order to practice Reactjs. Challenge from frontendmentor',
+  //   description:
+  //     'Project created in order to practice Reactjs. Challenge from frontendmentor. ',
+  //   technologies: [
+  //     { icon: 3, title: 'React.js' },
+  //     { icon: 4, title: 'Javascript' },
+  //     { icon: 5, title: 'Weboack' },
+  //   ],
+  //   Repo: 'https://github.com/rogeliosamuel621/Jobs-Listing',
+  //   demo: 'https://rogeliosamuel621.github.io/Jobs-Listing/',
+  //   features: ['Algorithm to search jobs'],
+  //   image:
+  //     'http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602361125/pjrfgw0fvvsuxtsndb4c.jpg',
+  // },
 ];

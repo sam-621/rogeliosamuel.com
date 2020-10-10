@@ -1,9 +1,10 @@
 .Project {
   display: grid;
-  padding: 10px;
+  padding: 20px 10px;
   margin: 0 20px;
   border-radius: 5px;
   background-color: #252b43;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
 }
 .Project-Image-Container {
   display: flex;
@@ -17,7 +18,7 @@
 }
 .Project-Actions {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .Project-Actions a {
   min-width: 90px;

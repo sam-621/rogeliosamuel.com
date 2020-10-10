@@ -3,7 +3,7 @@ import '../../assets/styles/containers/projects.css';
 
 import { ProjectsData } from '../../assets/Projects.js';
 import { Project } from '../molecules';
-import { Title } from '../atoms';
+import { Title, GreenText } from '../atoms';
 import CodeIcon from '../../assets/img/code.svg';
 
 const Projects = () => {
@@ -23,6 +23,9 @@ const Projects = () => {
             projectDemo={project.demo}
           />
         ))}
+      </div>
+      <div className="Projects-ViewAll">
+        <GreenText content="View all" />
       </div>
     </main>
   );

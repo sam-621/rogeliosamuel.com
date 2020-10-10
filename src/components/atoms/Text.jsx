@@ -1,12 +1,20 @@
-import React from "react";
-import "../../assets/styles/atoms/text.css";
+import React from 'react';
+import '../../assets/styles/atoms/text.css';
 
 export const MyName = () => {
   return <h1 className="MyName">Rogelio Samuel</h1>;
 };
 
 export const GreenText = ({ content }) => {
-  return <p className="GreenText">{content}</p>;
+  return (
+    <a
+      target="_blank"
+      href="https://github.com/rogeliosamuel621"
+      className="GreenText"
+    >
+      {content}
+    </a>
+  );
 };
 
 export const Title = ({ content }) => {

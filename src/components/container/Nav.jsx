@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../assets/styles/containers/nav.css';
 
 import HomeIcon from '../../assets/img/home.svg';
@@ -9,24 +10,24 @@ import { Description } from '../../components/atoms/';
 const Nav = () => {
   return (
     <nav className="NavBar">
-      <div>
-        <div className="Nav-image-container">
+      <Link>
+        <div className="Nav-Image-Container">
           <img src={HomeIcon} alt="" width="30" height="30" />
         </div>
         <Description content="Home" />
-      </div>
-      <div>
-        <div className="Nav-image-container">
+      </Link>
+      <Link>
+        <div className="Nav-Image-Container">
           <img src={UserIcon} alt="" width="30" height="30" />
         </div>
         <Description content="About" />
-      </div>
-      <div>
-        <div className="Nav-image-container">
+      </Link>
+      <Link>
+        <div className="Nav-Image-Container">
           <img src={MailIcon} alt="" width="30" height="30" />
         </div>
         <Description content="Contact" />
-      </div>
+      </Link>
     </nav>
   );
 };
