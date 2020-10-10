@@ -1,0 +1,16 @@
+.NavBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: #252b43;
+  justify-content: space-around;
+}
+.NavBar div {
+  display: grid;
+  justify-content: center;
+}
+.NavBar div p {
+  margin: 0;
+  text-align: center;
+}

@@ -2,7 +2,6 @@ import React from 'react';
 import '../../assets/styles/molecules/homeHeader.css';
 
 import { Title, MyName } from '../atoms/';
-import MyLogo from '../../assets/img/Logo.jpg';
 
 const HomeHeader = () => {
   return (
