@@ -58,5 +58,7 @@ export const ProjectsData = [
     Repo: 'https://github.com/rogeliosamuel621/Jobs-Listing',
     demo: 'https://rogeliosamuel621.github.io/Jobs-Listing/',
     features: ['Algorithm to search jobs'],
+    image:
+      'http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602361125/pjrfgw0fvvsuxtsndb4c.jpg',
   },
 ];

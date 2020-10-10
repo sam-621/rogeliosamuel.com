@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { Header, Nav } from '../components/container/';
+import { Header, Nav, Projects } from '../components/container/';
 
 const Home = () => {
   return (
     <>
       <Header />
+      <Projects />
       <Nav />
     </>
   );

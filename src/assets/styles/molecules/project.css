@@ -1,0 +1,37 @@
+.Project {
+  display: grid;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #252b43;
+}
+.Project-Image-Container {
+  display: flex;
+  justify-content: center;
+}
+.Project-Image-Container img {
+  border-radius: 5px;
+}
+.Project-Description {
+  padding: 0 10px;
+}
+.Project-Actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Project-Actions a {
+  min-width: 90px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.Project-Code-btn {
+  background-color: #1e1e1e;
+  color: white;
+}
+.Project-Demo-btn {
+  background: none;
+  border: 1px solid #00c58e;
+  color: #00c58e;
+}
