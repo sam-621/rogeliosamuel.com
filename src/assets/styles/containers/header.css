@@ -1,0 +1,7 @@
+.Header {
+  margin-top: 20px;
+}
+.Header-Illustration {
+  display: flex;
+  justify-content: center;
+}

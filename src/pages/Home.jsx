@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+
+import { Header } from '../components/container/';
 
 const Home = () => {
   return (
     <>
-      <h1>Hello wordl</h1>
+      <Header />
     </>
   );
 };
