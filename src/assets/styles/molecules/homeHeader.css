@@ -1,7 +1,15 @@
 .HomeHeader {
   display: grid;
-  justify-content: center;
 }
 .HomeHeader-Text h2 {
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .HomeHeader-MyName-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+  }
 }
