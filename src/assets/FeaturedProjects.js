@@ -1,11 +1,9 @@
-export const ProjectsData = [
+export const FeaturedProjectsData = [
   {
     ID: 0,
     title: 'AuthApp',
-    littleDescription:
+    Description:
       'A web application where you can authenticate and make CRUD actions, upload photos and change password',
-    description:
-      'I crated this project because i had never worked  before with mongoDB and upgraded to production with an application like this, this shows my backend skills and my frontend skills',
     technologies: [
       { icon: 0, title: 'Node.js' },
       { icon: 4, title: 'Javascript' },
@@ -27,10 +25,8 @@ export const ProjectsData = [
   {
     ID: 1,
     title: 'Image uploader',
-    littleDescription:
+    Description:
       'An application where you can storage your images in the cloud',
-    description:
-      'I built this project because of gndx comunity, there are some challenge and this is one of them. So I chose this one because never before I had worked with images in node.js and deployed an API in Heroku.',
     technologies: [
       { icon: 0, title: 'Node.js' },
       { icon: 1, title: 'Typescript' },
@@ -43,22 +39,4 @@ export const ProjectsData = [
     image:
       'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602435882/ykunke9ks6cma2pteuo2.png',
   },
-  // {
-  //   ID: 2,
-  //   title: 'Jobs-Listing',
-  //   littleDescription:
-  //     'Project created in order to practice Reactjs. Challenge from frontendmentor',
-  //   description:
-  //     'Project created in order to practice Reactjs. Challenge from frontendmentor. ',
-  //   technologies: [
-  //     { icon: 3, title: 'React.js' },
-  //     { icon: 4, title: 'Javascript' },
-  //     { icon: 5, title: 'Weboack' },
-  //   ],
-  //   Repo: 'https://github.com/rogeliosamuel621/Jobs-Listing',
-  //   demo: 'https://rogeliosamuel621.github.io/Jobs-Listing/',
-  //   features: ['Algorithm to search jobs'],
-  //   image:
-  //     'http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602361125/pjrfgw0fvvsuxtsndb4c.jpg',
-  // },
 ];

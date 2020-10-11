@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../assets/styles/containers/projects.css';
 
-import { ProjectsData } from '../../assets/Projects.js';
-import { Project } from '../molecules';
+import { FeaturedProjectsData } from '../../assets/FeaturedProjects.js';
+import { FeaturedProject } from '../molecules';
 import { Title, GreenText } from '../atoms';
 import CodeIcon from '../../assets/img/code.svg';
 
@@ -14,12 +14,12 @@ const Projects = () => {
         <img src={CodeIcon} alt="Code icon" width="30px" height="30px" />
       </div>
       <div className="Projects-project-container">
-        {ProjectsData.map((project, index) => (
-          <Project
+        {FeaturedProjectsData.map((project) => (
+          <FeaturedProject
             key={project.ID}
             projectTitle={project.title}
             projectImage={project.image}
-            projectDescription={project.littleDescription}
+            projectDescription={project.Description}
             projectCode={project.Repo}
             projectDemo={project.demo}
           />

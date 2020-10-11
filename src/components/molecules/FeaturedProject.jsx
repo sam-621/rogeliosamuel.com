@@ -3,7 +3,7 @@ import '../../assets/styles/molecules/project.css';
 
 import { Title, Description } from '../atoms';
 
-const Project = ({
+const FeaturedProject = ({
   projectImage,
   projectTitle,
   projectDescription,
@@ -11,8 +11,8 @@ const Project = ({
   projectCode,
 }) => {
   return (
-    <article className="Project">
-      <div className="Project-Image-Container">
+    <article className="FeaturedProject">
+      <div className="FeaturedProject-Image-Container">
         <img
           src={projectImage}
           alt={projectTitle}
@@ -20,14 +20,14 @@ const Project = ({
           height="118.79px"
         />
       </div>
-      <div className="Project-Description">
+      <div className="FeaturedProject-Description">
         <Title content={projectTitle} />
         <Description content={projectDescription} />
-        <div className="Project-Actions">
+        <div className="FeaturedProject-Actions">
           <a
             rel="noreferrer"
             target="_blank"
-            className="Project-Code-btn"
+            className="FeaturedProject-Code-btn"
             href={projectCode}
           >
             Code
@@ -35,7 +35,7 @@ const Project = ({
           <a
             rel="noreferrer"
             target="_blank"
-            className="Project-Demo-btn"
+            className="FeaturedProject-Demo-btn"
             href={projectDemo}
           >
             View demo
@@ -46,4 +46,4 @@ const Project = ({
   );
 };
 
-export default Project;
+export default FeaturedProject;

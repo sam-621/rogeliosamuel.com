@@ -1,4 +1,4 @@
-.Project {
+.FeaturedProject {
   display: grid;
   padding: 20px 10px;
   margin: 0 20px;
@@ -6,65 +6,65 @@
   background-color: #252b43;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
 }
-.Project-Image-Container {
+.FeaturedProject-Image-Container {
   display: flex;
   justify-content: center;
 }
-.Project-Image-Container img {
+.FeaturedProject-Image-Container img {
   border-radius: 5px;
 }
-.Project-Description {
+.FeaturedProject-Description {
   padding: 0 10px;
 }
-.Project-Actions {
+.FeaturedProject-Actions {
   display: flex;
   justify-content: space-between;
 }
-.Project-Actions a {
+.FeaturedProject-Actions a {
   min-width: 90px;
   border-radius: 5px;
   padding: 10px;
   text-decoration: none;
   text-align: center;
 }
-.Project-Code-btn {
+.FeaturedProject-Code-btn {
   background-color: #1e1e1e;
   color: white;
   box-shadow: 0 0 10px 0 rgb(0 0 0);
 }
-.Project-Demo-btn {
+.FeaturedProject-Demo-btn {
   transition: 0.3s;
   background: none;
   border: 1px solid #00c58e;
   color: #00c58e;
 }
 @media screen and (min-width: 425px) {
-  .Project-Actions {
+  .FeaturedProject-Actions {
     justify-content: space-around;
   }
 }
 @media screen and (min-width: 768px) {
-  .Project {
+  .FeaturedProject {
     grid-gap: 20px;
     align-items: center;
     max-width: 944px;
   }
-  .Project-Demo-btn:hover {
+  .FeaturedProject-Demo-btn:hover {
     transition: 0.3s;
     background-color: #00c58e;
     color: white;
   }
 }
 @media screen and (min-width: 1024px) {
-  .Project {
+  .FeaturedProject {
     margin: 0 10%;
   }
-  .Project-Image-Container img {
+  .FeaturedProject-Image-Container img {
     width: 375px;
     height: 177.63px;
   }
-  .Project-Description H2,
-  .Project-Description p {
+  .FeaturedProject-Description H2,
+  .FeaturedProject-Description p {
     text-align: center;
   }
 }
