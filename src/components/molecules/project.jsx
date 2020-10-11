@@ -24,10 +24,20 @@ const Project = ({
         <Title content={projectTitle} />
         <Description content={projectDescription} />
         <div className="Project-Actions">
-          <a target="_blank" className="Project-Code-btn" href={projectCode}>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className="Project-Code-btn"
+            href={projectCode}
+          >
             Code
           </a>
-          <a target="_blank" className="Project-Demo-btn" href={projectDemo}>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className="Project-Demo-btn"
+            href={projectDemo}
+          >
             View demo
           </a>
         </div>

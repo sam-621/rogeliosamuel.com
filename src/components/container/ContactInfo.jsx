@@ -13,11 +13,19 @@ const ContactInfo = () => {
       />
       <p className="Contact-Way">
         The better way to contact me is{' '}
-        <a target="_blank" href="https://twitter.com/rogeliosamuel21">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://twitter.com/rogeliosamuel21"
+        >
           Twitter{' '}
         </a>
         And you can see my projects and how i work in{' '}
-        <a target="_blank" href="https://github.com/rogeliosamuel621">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://github.com/rogeliosamuel621"
+        >
           GitHub
         </a>
       </p>

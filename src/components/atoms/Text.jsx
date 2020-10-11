@@ -8,6 +8,7 @@ export const MyName = () => {
 export const GreenText = ({ content }) => {
   return (
     <a
+      rel="noreferrer"
       target="_blank"
       href="https://github.com/rogeliosamuel621"
       className="GreenText"
