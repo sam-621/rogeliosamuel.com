@@ -2,8 +2,6 @@ import React from 'react';
 import '../../assets/styles/molecules/project.css';
 
 import { Title, Description } from '../atoms';
-import AuthApp from '../../assets/img/authapp.png';
-import ImageUploader from '../../assets/img/image-uploader.jpg';
 
 const Project = ({
   projectImage,
@@ -12,7 +10,6 @@ const Project = ({
   projectDemo,
   projectCode,
 }) => {
-  const projectsImages = [AuthApp, ImageUploader];
   return (
     <article className="Project">
       <div className="Project-Image-Container">
