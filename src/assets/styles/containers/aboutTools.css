@@ -1,0 +1,11 @@
+.About-Tools {
+  margin: 0 20px;
+}
+.About-Tools-List div {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.About-Tools-List div img {
+  margin-right: 15px;
+}
