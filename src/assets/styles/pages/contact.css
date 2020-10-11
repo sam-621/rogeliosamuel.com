@@ -19,6 +19,9 @@
     grid-template-columns: 1fr 2fr;
     align-items: center;
   }
+  .Contact-Text-Container {
+    margin: 0 20px;
+  }
 }
 
 @media screen and (min-width: 1440px) {

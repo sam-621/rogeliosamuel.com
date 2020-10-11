@@ -2,9 +2,6 @@ import React from 'react';
 import '../../assets/styles/molecules/myNameHeder.css';
 import { Link } from 'react-router-dom';
 
-import { MyName } from '../atoms/';
-import { NavInDesk } from '../molecules/';
-
 const MyNameHeader = () => {
   return (
     <div className="MyNameHeader-Container">
@@ -15,9 +12,12 @@ const MyNameHeader = () => {
           width="40"
           height="40"
         />
-        <MyName />
+        <h1 className="MyName">Rogelio Samuel</h1>
       </Link>
-      <NavInDesk />
+      <div className="NavInDesk">
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </div>
     </div>
   );
 };

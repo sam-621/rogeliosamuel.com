@@ -1,22 +1,5 @@
 /* .Header {
 } */
-.Header-Illustration {
-  display: grid;
-  justify-content: center;
-}
-.Illustration-container {
-  display: flex;
-  justify-content: center;
-}
-.Header-Text {
-  color: #c4c4c4;
-  margin: 0 20px;
-  margin-top: 50px;
-  text-align: justify;
-}
-.Header-Text strong {
-  color: #00c58e;
-}
 .HR-Header {
   margin: 50px 20px 0 20px;
 }
