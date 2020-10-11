@@ -6,6 +6,7 @@ import { Nav, ContactInfo } from '../components/container/';
 import ContactIllustration from '../assets/img/Contact-header.svg';
 
 const Contact = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <MyNameHeder />
