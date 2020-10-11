@@ -30,6 +30,7 @@
 .Project-Code-btn {
   background-color: #1e1e1e;
   color: white;
+  box-shadow: 0 0 10px 0 rgb(0 0 0);
 }
 .Project-Demo-btn {
   transition: 0.3s;
