@@ -2,15 +2,11 @@ import React from 'react';
 import '../../assets/styles/containers/aboutSkills.css';
 
 import { Title } from '../atoms';
+import { FrontendSkills, BackendSkills } from '../molecules';
 import skills from '../../assets/img/skills.svg';
 import Tools from '../../assets/img/tools.svg';
-import JS from '../../assets/img/js.svg';
-import react from '../../assets/img/react-brands.svg';
-import Webpack from '../../assets/img/webpack.svg';
-import Node from '../../assets/img/node-js.svg';
-import Git from '../../assets/img/git.svg';
-import MySQL from '../../assets/img/mysql.svg';
 import commandLine from '../../assets/img/commanLine.svg';
+import Git from '../../assets/img/git.svg';
 import PostMan from '../../assets/img/postman.svg';
 
 const AboutSkills = () => {
@@ -22,42 +18,8 @@ const AboutSkills = () => {
           <img src={skills} alt="Skills icon" width="30px" height="30px" />
         </div>
         <div className="Skills-icons">
-          <img
-            width="40px"
-            height="40px"
-            src={JS}
-            alt="Javascript"
-            title="Javascript"
-          />
-          <img
-            width="40px"
-            height="40px"
-            src={react}
-            alt="React"
-            title="React"
-          />
-          <img
-            width="40px"
-            height="40px"
-            src={Webpack}
-            alt="Webpack"
-            title="Webpack"
-          />
-          <img
-            width="40px"
-            height="40px"
-            src={Node}
-            alt="Nodejs"
-            title="Nodejs"
-          />
-          <img width="40px" height="40px" src={Git} alt="Git" title="Git" />
-          <img
-            width="40px"
-            height="40px"
-            src={MySQL}
-            alt="MySQL"
-            title="MySQL"
-          />
+          <FrontendSkills />
+          <BackendSkills />
         </div>
       </div>
       <div className="About-Tools">
@@ -66,6 +28,10 @@ const AboutSkills = () => {
           <img src={Tools} alt="Tools icon" width="30px" height="30px" />
         </div>
         <div className="About-Tools-List">
+          <div>
+            <img src={Git} alt="GitHub" width="30px" height="30px" />
+            <p>Git & GitHub</p>
+          </div>
           <div>
             <img
               src={commandLine}

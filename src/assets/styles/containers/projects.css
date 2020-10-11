@@ -28,3 +28,8 @@
     margin-top: 80px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .Projects-project-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

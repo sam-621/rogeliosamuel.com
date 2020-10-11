@@ -44,7 +44,6 @@
 }
 @media screen and (min-width: 768px) {
   .Project {
-    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
     max-width: 944px;
@@ -60,7 +59,11 @@
     margin: 0 10%;
   }
   .Project-Image-Container img {
-    width: 477px;
-    height: 201px;
+    width: 375px;
+    height: 178.99px;
+  }
+  .Project-Description H2,
+  .Project-Description p {
+    text-align: center;
   }
 }

@@ -6,9 +6,10 @@ const ContactInfo = () => {
   return (
     <div className="Contact-Text-Container">
       <Title content="Let's make something together" />
+      <Description content="If you’d like to make a project, talk about technology or just ask for help, fell free to contact me." />
       <Description
         content="I’d like to create apps working togueter
-                   Apps about web devekopment,
+                   Apps about web development,
                    I’m a backend developer but also i like the frontend"
       />
       <p className="Contact-Way">
@@ -29,6 +30,7 @@ const ContactInfo = () => {
           GitHub
         </a>
       </p>
+      <Description content="I can speak english and spanish" />
     </div>
   );
 };

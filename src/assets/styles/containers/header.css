@@ -8,7 +8,18 @@
   display: flex;
   justify-content: center;
 }
-
+.Header-Text {
+  color: #c4c4c4;
+  margin: 0 20px;
+  margin-top: 50px;
+  text-align: justify;
+}
+.Header-Text strong {
+  color: #00c58e;
+}
+.HR-Header {
+  margin: 50px 20px 0 20px;
+}
 @media screen and (min-width: 768px) {
   .Header {
     height: 100vh;
@@ -21,4 +32,9 @@
     width: 579px;
     height: 359px;
   }
+  .Header-Text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
 }
