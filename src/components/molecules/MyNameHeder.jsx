@@ -10,7 +10,7 @@ const MyNameHeader = () => {
     <div className="MyNameHeader-Container">
       <Link to="/" className="MyNameHeader-Logo">
         <img
-          src="http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602359377/rwgi2xs3x8m1bjaq1z2d.jpg"
+          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602359377/rwgi2xs3x8m1bjaq1z2d.jpg"
           alt="My logo"
           width="40"
           height="40"

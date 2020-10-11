@@ -13,7 +13,7 @@ const About = () => {
       <div className="About-Me-Container">
         <div className="About-Me-img">
           <img
-            src="http://res.cloudinary.com/dnvp4s8pe/image/upload/v1602367243/uzppnmocgmpx2mkyl1u7.jpg"
+            src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602367243/uzppnmocgmpx2mkyl1u7.jpg"
             alt="Rogelio Samuel Moreno Corrales"
             width="200px"
             height="267px"
