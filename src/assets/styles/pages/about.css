@@ -1,0 +1,21 @@
+.About-Me-Container {
+  display: grid;
+}
+.About-Me-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.About-Me-img img {
+  border-radius: 5px;
+}
+.About-Me-Container p {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .About-Me-Container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 150px;
+  }
+}

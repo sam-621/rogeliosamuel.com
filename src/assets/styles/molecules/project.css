@@ -1,78 +1,73 @@
-.Project-container {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+.Project {
+  display: grid;
+  padding: 20px 10px;
+  margin: 0 20px;
   border-radius: 5px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  background-color: #1e1e1e;
+  background-color: #252b43;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
 }
-.Project-title {
-  background-color: #333333;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+.Project-Image-Container {
+  display: flex;
+  justify-content: center;
 }
-.Project-title h2 {
-  font-size: 18px;
-  color: white;
+.Project-Image-Container img {
+  border-radius: 5px;
+}
+.Project-Description {
+  padding: 0 10px;
+}
+.Project-Actions {
+  display: flex;
+  justify-content: space-between;
+}
+.Project-Actions a {
+  min-width: 90px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
   text-align: center;
-  font-weight: 200;
 }
-.Project-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Project-Code-btn {
+  background-color: #1e1e1e;
+  color: white;
 }
-.Project-btn {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
+.Project-Demo-btn {
+  transition: 0.3s;
+  background: none;
+  border: 1px solid #00c58e;
+  color: #00c58e;
 }
-.Project-text-mediaquery {
-  display: none;
-}
-.Project-text-mediaquery p {
-  color: white; /*edit*/
-}
+<<<<<<< HEAD
 .Project-img img {
   border-radius: 5px;
 }
+=======
+
+>>>>>>> dev
 @media screen and (min-width: 425px) {
-  .Project-title h2 {
-    font-size: 22px;
+  .Project-Actions {
+    justify-content: space-around;
   }
-  .Project-img img {
-    width: 330px;
-    height: 135.47px;
+}
+@media screen and (min-width: 768px) {
+  .Project {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    max-width: 944px;
+  }
+  .Project-Demo-btn:hover {
+    transition: 0.3s;
+    background-color: #00c58e;
+    color: white;
   }
 }
 @media screen and (min-width: 1024px) {
-  .Project-title h2 {
-    font-size: 26px;
-    margin: 0 0 20px 0;
+  .Project {
+    margin: 0 10%;
   }
-  .Project-img img {
-    width: 470px;
-    height: 240px;
-  }
-  .Project-img {
-    margin-bottom: 20px;
-  }
-  .Project-text-mediaquery {
-    display: flex;
-  }
-  .Project-text-mediaquery p {
-    align-self: center;
-    text-align: justify;
-    font-size: 20px;
-    margin: 0;
-    padding-right: 50px;
-  }
-  .Project-content-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
-    padding: 0 10px;
-  }
-  .Project-btn {
-    margin-top: 50px;
+  .Project-Image-Container img {
+    width: 477px;
+    height: 201px;
   }
 }

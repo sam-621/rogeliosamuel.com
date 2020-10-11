@@ -1,19 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import Nav from "../components/containers/Nav";
-import Hero from "../components/containers/Hero";
-import Projects from "../components/containers/Projects";
-import Footer from "../components/containers/Footer";
-import Info from "../components/containers/Info";
+import { Header, Nav, Projects } from '../components/container/';
 
 const Home = () => {
+  window.scrollTo(0, 0);
   return (
     <>
-      <Nav />
-      <Hero />
+      <Header />
       <Projects />
-      <Info />
-      <Footer />
+      <Nav home={true} />
     </>
   );
 };

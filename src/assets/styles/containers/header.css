@@ -1,0 +1,24 @@
+/* .Header {
+} */
+.Header-Illustration {
+  display: grid;
+  justify-content: center;
+}
+.Illustration-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    height: 100vh;
+  }
+  .Header-Illustration {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .Illustration-container img {
+    width: 579px;
+    height: 359px;
+  }
+}

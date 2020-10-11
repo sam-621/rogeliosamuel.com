@@ -1,0 +1,42 @@
+.AboutSkills {
+  display: grid;
+  grid-gap: 40px;
+  margin-bottom: 100px;
+  margin: 20px 20px 100px 20px;
+}
+.AboutSkills-Title {
+  display: flex;
+  align-items: center;
+}
+.Skills-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.About-Tools-List div {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.About-Tools-List div img {
+  margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .AboutSkills {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 170px;
+  }
+  .About-Skills {
+    display: grid;
+    justify-content: center;
+  }
+  .Skills-icons img {
+    margin: 0 10px;
+  }
+  .About-Tools {
+    display: grid;
+    justify-content: center;
+  }
+  .About-Tools-List div p {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,6 @@
+.HomeHeader {
+  display: grid;
+}
+.HomeHeader-Text h2 {
+  text-align: center;
+}
