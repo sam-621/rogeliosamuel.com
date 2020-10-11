@@ -12,3 +12,17 @@
   text-decoration: none;
   color: #00c58e;
 }
+@media screen and (min-width: 768px) {
+  .Contact-content {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .Contact-illustration-container img {
+    width: 450px;
+    height: 239px;
+  }
+}

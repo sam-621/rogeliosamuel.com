@@ -10,15 +10,17 @@ const Contact = () => {
   return (
     <>
       <MyNameHeder />
-      <div className="Contact-illustration-container">
-        <img
-          src={ContactIllustration}
-          alt="Contact illustration"
-          width="228px"
-          height="170px"
-        />
+      <div className="Contact-content">
+        <div className="Contact-illustration-container">
+          <img
+            src={ContactIllustration}
+            alt="Contact illustration"
+            width="228px"
+            height="170px"
+          />
+        </div>
+        <ContactInfo />
       </div>
-      <ContactInfo />
       <Nav contact={true} />
     </>
   );
