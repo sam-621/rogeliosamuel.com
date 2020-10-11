@@ -1,5 +1,5 @@
 import HomeHeader from './HomeHeader';
-import Project from './Project';
+import Project from './OneProject';
 import MyNameHeder from './MyNameHeder';
 import NavInDesk from './NavInDesk';
 
