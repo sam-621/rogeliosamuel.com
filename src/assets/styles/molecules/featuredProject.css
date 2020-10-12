@@ -28,6 +28,7 @@
   text-align: center;
 }
 .FeaturedProject-Code-btn {
+  transition: 0.3s;
   background-color: #1e1e1e;
   color: white;
   box-shadow: 0 0 10px 0 rgb(0 0 0);
@@ -53,6 +54,13 @@
     transition: 0.3s;
     background-color: #00c58e;
     color: white;
+  }
+  .FeaturedProject-Code-btn {
+    box-shadow: none;
+  }
+  .FeaturedProject-Code-btn:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 10px 0 rgb(0 0 0);
   }
 }
 @media screen and (min-width: 1024px) {
