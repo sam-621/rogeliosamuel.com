@@ -13,17 +13,17 @@
   border-radius: 5px;
   margin-right: 15px;
 }
-.NavInDesk {
-  display: none;
-}
 .MyNameHeader-Projects {
   border: 1px solid #00c58e !important;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 }
 .MyNameHeader-Projects:hover {
   color: white !important;
   background-color: #00c58e;
+}
+.NavInDesk {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -31,13 +31,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 310px;
+    width: 210px;
   }
   .NavInDesk a {
     transition: 0.3s;
     color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 16px;
   }
   .NavInDesk a:hover {
     transition: 0.3s;
