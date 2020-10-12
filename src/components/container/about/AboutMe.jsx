@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../assets/styles/containers/aboutMe.css';
+import '../../../assets/styles/containers/aboutMe.css';
 
-import { Description } from '../atoms';
+import { Description } from '../../atoms';
 
 const AboutMe = () => {
   return (

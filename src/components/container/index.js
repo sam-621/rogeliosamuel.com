@@ -1,17 +1,17 @@
 import Header from './Header';
 import Nav from './Nav';
-import FeaturedProjects from './FeaturedProjects';
+import ProjectHomeSection from './home/ProjectsHomeSection';
 import ContactInfo from './ContactInfo';
-import AboutSkills from './AboutSkills';
-import AboutTools from './AboutTools';
-import AboutMe from './AboutMe';
+import AboutSkills from './about/AboutSkills';
+import AboutTools from './about/AboutTools';
+import AboutMe from './about/AboutMe';
 import ProjectsContainer from './ProjectsContainer';
-import AboutHomeSection from './AboutHomeSection';
+import AboutHomeSection from './home/AboutHomeSection';
 
 export {
   Header,
   Nav,
-  FeaturedProjects,
+  ProjectHomeSection,
   ContactInfo,
   AboutTools,
   AboutSkills,

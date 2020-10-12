@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../assets/styles/containers/aboutTools.css';
+import '../../../assets/styles/containers/aboutTools.css';
 
-import { Title } from '../atoms';
-import Tools from '../../assets/img/tools.svg';
-import commandLine from '../../assets/img/commanLine.svg';
-import Git from '../../assets/img/git.svg';
-import PostMan from '../../assets/img/postman.svg';
+import { Title } from '../../atoms';
+import Tools from '../../../assets/img/tools.svg';
+import commandLine from '../../../assets/img/commanLine.svg';
+import Git from '../../../assets/img/git.svg';
+import PostMan from '../../../assets/img/postman.svg';
 
 const AboutTools = () => {
   return (

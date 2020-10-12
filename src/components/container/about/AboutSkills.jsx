@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../assets/styles/containers/aboutSkills.css';
+import '../../../assets/styles/containers/aboutSkills.css';
 
-import { Title } from '../atoms';
-import { FrontendSkills, BackendSkills } from '../molecules';
-import skills from '../../assets/img/skills.svg';
+import { Title } from '../../atoms';
+import { FrontendSkills, BackendSkills } from '../../molecules';
+import skills from '../../../assets/img/skills.svg';
 
 const AboutSkills = () => {
   return (

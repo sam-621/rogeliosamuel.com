@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/containers/aboutHomeSection.css';
+import '../../../assets/styles/containers/aboutHomeSection.css';
 import { Link } from 'react-router-dom';
 
 const AboutHomeSection = () => {

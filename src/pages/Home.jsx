@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Header,
   Nav,
-  FeaturedProjects,
+  ProjectHomeSection,
   AboutHomeSection,
 } from '../components/container/';
 
@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <Header />
       <AboutHomeSection />
-      <FeaturedProjects />
+      <ProjectHomeSection />
       <Nav home={true} />
     </>
   );

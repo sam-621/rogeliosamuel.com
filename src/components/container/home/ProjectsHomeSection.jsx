@@ -1,17 +1,16 @@
 import React from 'react';
-import '../../assets/styles/containers/featuredProjects.css';
+import '../../../assets/styles/containers/projectsHomeSection.css';
 
-import { FeaturedProjectsData } from '../../assets/FeaturedProjects.js';
-import { FeaturedProject } from '../molecules';
-import { Title, GreenText } from '../atoms';
-import CodeIcon from '../../assets/img/code.svg';
+import { FeaturedProjectsData } from '../../../assets/FeaturedProjects.js';
+import { FeaturedProject } from '../../molecules';
+import CodeIcon from '../../../assets/img/code.svg';
 import { Link } from 'react-router-dom';
 
-const Projects = () => {
+const ProjectsHomeSection = () => {
   return (
-    <main className="FeaturedProjects">
+    <main className="ProjectsHomeSection">
       <div>
-        <div className="FeaturedProjects-Title">
+        <div className="ProjectsHomeSection-Title">
           <h1>PROJECTS</h1>
           <img src={CodeIcon} alt="Code icon" width="40px" height="40px" />
         </div>
@@ -24,7 +23,7 @@ const Projects = () => {
           <Link to="/projects">Projects</Link>
         </div>
       </div>
-      <div className="FeaturedProjects-project-container">
+      <div className="ProjectsHomeSection-project-container">
         {FeaturedProjectsData.map((project) => (
           <FeaturedProject
             key={project.ID}
@@ -40,4 +39,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsHomeSection;
