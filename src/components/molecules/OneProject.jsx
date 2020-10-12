@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../assets/styles/molecules/featuredProject.css';
+import '../../assets/styles/molecules/oneProject.css';
 
 import { Title, Description } from '../atoms';
 
-const FeaturedProject = ({
+const OneProject = ({
   projectImage,
   projectTitle,
   projectDescription,
@@ -11,8 +11,8 @@ const FeaturedProject = ({
   projectCode,
 }) => {
   return (
-    <article className="FeaturedProject">
-      <div className="FeaturedProject-Image-Container">
+    <article className="OneProject">
+      <div className="OneProject-Image-Container">
         <img
           src={projectImage}
           alt={projectTitle}
@@ -20,14 +20,14 @@ const FeaturedProject = ({
           height="118.79px"
         />
       </div>
-      <div className="FeaturedProject-Description">
+      <div className="OneProject-Description">
         <Title content={projectTitle} />
         <Description content={projectDescription} />
-        <div className="FeaturedProject-Actions">
+        <div className="OneProject-Actions">
           <a
             rel="noreferrer"
             target="_blank"
-            className="FeaturedProject-Code-btn"
+            className="OneProject-Code-btn"
             href={projectCode}
           >
             Code
@@ -35,7 +35,7 @@ const FeaturedProject = ({
           <a
             rel="noreferrer"
             target="_blank"
-            className="FeaturedProject-Demo-btn"
+            className="OneProject-Demo-btn"
             href={projectDemo}
           >
             View demo
@@ -46,4 +46,4 @@ const FeaturedProject = ({
   );
 };
 
-export default FeaturedProject;
+export default OneProject;

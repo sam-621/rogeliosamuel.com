@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/containers/projects.css';
+import '../../assets/styles/containers/featuredProjects.css';
 
 import { FeaturedProjectsData } from '../../assets/FeaturedProjects.js';
 import { FeaturedProject } from '../molecules';
@@ -8,12 +8,12 @@ import CodeIcon from '../../assets/img/code.svg';
 
 const Projects = () => {
   return (
-    <main className="Projects">
-      <div className="Projects-Title">
-        <Title content="Projects" />
+    <main className="FeaturedProjects">
+      <div className="FeaturedProjects-Title">
+        <Title content="FeaturedProjects" />
         <img src={CodeIcon} alt="Code icon" width="30px" height="30px" />
       </div>
-      <div className="Projects-project-container">
+      <div className="FeaturedProjects-project-container">
         {FeaturedProjectsData.map((project) => (
           <FeaturedProject
             key={project.ID}
@@ -25,7 +25,7 @@ const Projects = () => {
           />
         ))}
       </div>
-      <div className="Projects-ViewAll">
+      <div className="FeaturedProjects-ViewAll">
         <GreenText content="View all" />
       </div>
     </main>

@@ -5,6 +5,7 @@ import ContactInfo from './ContactInfo';
 import AboutSkills from './AboutSkills';
 import AboutTools from './AboutTools';
 import AboutMe from './AboutMe';
+import ProjectsContainer from './ProjectsContainer';
 
 export {
   Header,
@@ -14,4 +15,5 @@ export {
   AboutTools,
   AboutSkills,
   AboutMe,
+  ProjectsContainer,
 };

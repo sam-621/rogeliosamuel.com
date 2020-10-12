@@ -1,35 +1,35 @@
-.Projects {
+.FeaturedProjects {
   margin: 50px 0 150px 0;
 }
-.Projects-Title {
+.FeaturedProjects-Title {
   display: flex;
   align-items: center;
   margin-left: 20px;
 }
-.Projects-Title h2 {
+.FeaturedProjects-Title h2 {
   margin: 0;
 }
-.Projects-project-container {
+.FeaturedProjects-project-container {
   display: grid;
   grid-gap: 20px;
   margin-top: 20px;
 }
-.Projects-ViewAll {
+.FeaturedProjects-ViewAll {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .Projects-Title {
+  .FeaturedProjects-Title {
     margin-bottom: 50px;
   }
-  .Projects-ViewAll {
+  .FeaturedProjects-ViewAll {
     margin-top: 80px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .Projects-project-container {
+  .FeaturedProjects-project-container {
     grid-template-columns: 1fr 1fr;
   }
 }
