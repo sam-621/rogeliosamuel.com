@@ -1,7 +1,7 @@
 .OneProject {
   display: grid;
   padding: 20px 10px;
-  margin: 0 20px;
+  /* margin: 0 20px; */
   border-radius: 5px;
   background-color: #252b43;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
@@ -45,7 +45,6 @@
 }
 @media screen and (min-width: 768px) {
   .OneProject {
-    grid-gap: 20px;
     align-items: center;
     max-width: 944px;
   }
@@ -57,7 +56,7 @@
 }
 @media screen and (min-width: 1024px) {
   .OneProject {
-    margin: 0 10%;
+    /* margin: 0 10%; */
   }
   .OneProject-Image-Container img {
     width: 375px;
