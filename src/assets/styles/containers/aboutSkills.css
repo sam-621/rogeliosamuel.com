@@ -21,12 +21,6 @@
   .Skills-icons img {
     margin: 0 10px;
   }
-  .About-Tools {
-    display: grid;
-  }
-  .About-Tools-List div p {
-    font-size: 20px;
-  }
 }
 
 @media screen and (min-width: 768px) {
