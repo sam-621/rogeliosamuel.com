@@ -7,6 +7,7 @@ import { MyNameHeder } from '../components/molecules';
 import CodeIcon from '../assets/img/code.svg';
 
 const Projects = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <MyNameHeder />
