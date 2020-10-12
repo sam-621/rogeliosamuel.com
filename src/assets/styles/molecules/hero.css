@@ -34,4 +34,7 @@
   .Hero-Description {
     font-size: 20px;
   }
+  .Hero-Text h2 {
+    font-size: 50px;
+  }
 }

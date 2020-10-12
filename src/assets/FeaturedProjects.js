@@ -22,21 +22,4 @@ export const FeaturedProjectsData = [
     image:
       'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602435851/lmteflez5m3hjacpvxvd.png',
   },
-  {
-    ID: 1,
-    title: 'Image uploader',
-    Description:
-      'An application where you can storage your images in the cloud',
-    technologies: [
-      { icon: 0, title: 'Node.js' },
-      { icon: 1, title: 'Typescript' },
-      { icon: 3, title: 'Reactjs' },
-      { icon: 5, title: 'webpack' },
-    ],
-    Repo: 'https://github.com/rogeliosamuel621/Image-Uploader',
-    demo: 'https://image-uploader-rs21.netlify.app/',
-    features: ['File manage with multer', 'Cloud storage in Cloudinary'],
-    image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602435882/ykunke9ks6cma2pteuo2.png',
-  },
 ];

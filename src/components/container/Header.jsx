@@ -8,7 +8,6 @@ const Header = () => {
     <header className="Header">
       <MyNameHeder />
       <Hero />
-      <hr className="HR-Header" />
     </header>
   );
 };

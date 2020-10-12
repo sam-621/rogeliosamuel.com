@@ -6,6 +6,7 @@ import AboutSkills from './AboutSkills';
 import AboutTools from './AboutTools';
 import AboutMe from './AboutMe';
 import ProjectsContainer from './ProjectsContainer';
+import AboutHomeSection from './AboutHomeSection';
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   AboutSkills,
   AboutMe,
   ProjectsContainer,
+  AboutHomeSection,
 };

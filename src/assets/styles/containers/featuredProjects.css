@@ -6,30 +6,51 @@
   align-items: center;
   margin-left: 20px;
 }
-.FeaturedProjects-Title h2 {
-  margin: 0;
+.FeaturedProjects-Title h1 {
+  color: white;
 }
 .FeaturedProjects-project-container {
   display: grid;
   grid-gap: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .FeaturedProjects-ViewAll {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+.ProjectsHomeSection-Description {
+  margin: 0 20px;
+}
+.ProjectsHomeSection-Description p {
+  color: #c4c4c4;
+  text-align: justify;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.ProjectsHomeSection-Description strong {
+  color: #00c58e;
+}
+.ProjectsHomeSection-Description a {
+  color: white;
+  text-decoration: none;
+  background-color: #0779e4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
 
 @media screen and (min-width: 768px) {
-  .FeaturedProjects-Title {
-    margin-bottom: 50px;
-  }
   .FeaturedProjects-ViewAll {
     margin-top: 80px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .FeaturedProjects-project-container {
+  .FeaturedProjects {
+    margin: 200px 100px;
+    align-items: center;
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
