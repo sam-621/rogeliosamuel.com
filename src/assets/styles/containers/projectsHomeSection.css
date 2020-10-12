@@ -1,6 +1,5 @@
-.ProjectsHomeSection {
-  margin: 50px 0 150px 0;
-}
+/* .ProjectsHomeSection {
+} */
 .ProjectsHomeSection-Title {
   display: flex;
   align-items: center;
@@ -41,9 +40,15 @@
   font-size: 20px;
 }
 
+.ProjectsHomeSection-HR {
+  margin: 50px 20px;
+}
 @media screen and (min-width: 768px) {
   .ProjectsHomeSection-ViewAll {
     margin-top: 80px;
+  }
+  .ProjectsHomeSection-HR {
+    display: none;
   }
 }
 @media screen and (min-width: 1024px) {

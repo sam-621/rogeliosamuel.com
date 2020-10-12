@@ -7,6 +7,7 @@ import AboutTools from './about/AboutTools';
 import AboutMe from './about/AboutMe';
 import ProjectsContainer from './ProjectsContainer';
 import AboutHomeSection from './home/AboutHomeSection';
+import ContactHomeSection from './home/ContactHomeSection';
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   AboutMe,
   ProjectsContainer,
   AboutHomeSection,
+  ContactHomeSection,
 };

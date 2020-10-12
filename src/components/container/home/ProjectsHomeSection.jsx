@@ -35,6 +35,7 @@ const ProjectsHomeSection = () => {
           />
         ))}
       </div>
+      <hr className="ProjectsHomeSection-HR" />
     </main>
   );
 };

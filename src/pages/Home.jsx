@@ -5,6 +5,7 @@ import {
   Nav,
   ProjectHomeSection,
   AboutHomeSection,
+  ContactHomeSection,
 } from '../components/container/';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Header />
       <AboutHomeSection />
       <ProjectHomeSection />
+      <ContactHomeSection />
       <Nav home={true} />
     </>
   );

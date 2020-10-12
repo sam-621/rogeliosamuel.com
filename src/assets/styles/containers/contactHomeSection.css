@@ -1,0 +1,61 @@
+.ContactHomeSection {
+  margin: 30px 20px 100px 20px;
+}
+.ContactHomeSection-Description h1 {
+  color: white;
+  font-size: 30px;
+}
+.ContactHomeSection-Description p {
+  font-size: 20px;
+  color: #c4c4c4;
+}
+.ContactHomeSection-Link {
+  color: white;
+  font-size: 20px;
+  background-color: #0779e4;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.ContactHomeSection-Icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.ContactHomeSection-Icons a {
+  transition: 0.3s;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #252b43;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+}
+.ContactHomeSection-Icons a:hover {
+  transition: 0.3s;
+  background-color: #252b43;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+}
+.ContactHomeSection-Illustration {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .ContactHomeSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 100px;
+    grid-gap: 40px;
+  }
+  .ContactHomeSection-Illustration {
+    display: block;
+  }
+  .ContactHomeSection-Icons {
+    width: 200px;
+  }
+  .ContactHomeSection-Icons a {
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+    box-shadow: none;
+  }
+}
