@@ -4,3 +4,9 @@
   grid-gap: 20px;
   margin-top: 20px;
 }
+@media screen and (min-width: 768px) {
+  .ProjectsContainer-project-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+  }
+}

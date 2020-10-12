@@ -17,6 +17,13 @@ const MyNameHeader = () => {
       <div className="NavInDesk">
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link
+          className="MyNameHeader-Projects"
+          style={{ color: '#00c58e' }}
+          to="/projects"
+        >
+          Projects
+        </Link>
       </div>
     </div>
   );

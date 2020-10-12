@@ -16,12 +16,22 @@
 .NavInDesk {
   display: none;
 }
+.MyNameHeader-Projects {
+  border: 1px solid #00c58e !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+.MyNameHeader-Projects:hover {
+  color: white !important;
+  background-color: #00c58e;
+}
 
 @media screen and (min-width: 768px) {
   .NavInDesk {
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    align-items: center;
+    width: 310px;
   }
   .NavInDesk a {
     transition: 0.3s;
