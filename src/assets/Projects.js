@@ -24,6 +24,23 @@ export const ProjectsData = [
   },
   {
     ID: 1,
+    title: 'ChatGroup',
+    Description:
+      'A web application where you can join a group and chat with people that is in there.',
+    technologies: [
+      { icon: 0, title: 'Node.js' },
+      { icon: 1, title: 'Typescript' },
+      { icon: 3, title: 'Reactjs' },
+      { icon: 5, title: 'webpack' },
+    ],
+    Repo: 'https://github.com/rogeliosamuel621/Chat-Group',
+    demo: 'https://chatgroup.netlify.app/',
+    features: ['File manage with multer', 'Cloud storage in Cloudinary'],
+    image:
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602912614/iwdraj0jpz8vd2hsjtz7.png',
+  },
+  {
+    ID: 2,
     title: 'Image uploader',
     Description:
       'An application where you can storage your images in the cloud',
