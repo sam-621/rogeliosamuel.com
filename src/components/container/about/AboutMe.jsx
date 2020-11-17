@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className="About-Me-Container">
       <div className="About-Me-img">
         <img
-          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602429111/rik6ccrnwwy0iuycuyhc.svg"
+          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650225/lwzhs8kdvhersxmxw3hd.svg"
           alt="Rogelio Samuel Moreno Corrales"
           width="200px"
           height="267px"

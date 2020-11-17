@@ -20,6 +20,6 @@ export const FeaturedProjectsData = [
       'Handle errors middlewares',
     ],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602435851/lmteflez5m3hjacpvxvd.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650901/fibfnrnt3gkadq1vglv1.png',
   },
 ];
