@@ -8,7 +8,7 @@ const AboutHomeSection = () => {
       <section className="AboutHomeSection">
         <div className="AboutHomeSection-Illustration">
           <img
-            src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650812/fvflzqcfkgzuhunlrdwj.svg"
+            src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650812/My%20Website/fvflzqcfkgzuhunlrdwj.svg"
             alt="About Me Illustration"
             width="579px"
             height="359px"

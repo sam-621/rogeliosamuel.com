@@ -20,7 +20,7 @@ export const ProjectsData = [
       'Handle errors middlewares',
     ],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650901/fibfnrnt3gkadq1vglv1.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650901/My%20Website/fibfnrnt3gkadq1vglv1.png',
   },
   {
     ID: 1,
@@ -37,7 +37,7 @@ export const ProjectsData = [
     demo: 'https://chatgroup.netlify.app/',
     features: ['File manage with multer', 'Cloud storage in Cloudinary'],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650921/law1ja7uilkayriotszl.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650921/My%20Website/law1ja7uilkayriotszl.png',
   },
   {
     ID: 2,
@@ -54,6 +54,6 @@ export const ProjectsData = [
     demo: 'https://image-uploader-rs21.netlify.app/',
     features: ['File manage with multer', 'Cloud storage in Cloudinary'],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650938/bcw4mkzpmeulachttb21.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650938/My%20Website/bcw4mkzpmeulachttb21.png',
   },
 ];

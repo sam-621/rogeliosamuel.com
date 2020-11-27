@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
         <div className="Illustration-container">
           <img
-            src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650686/wgfdtrsir8hgixfuio0m.svg"
+            src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650686/My%20Website/wgfdtrsir8hgixfuio0m.svg"
             alt="Hero illustration"
             width="228"
             height="170"
