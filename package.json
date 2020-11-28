@@ -5,8 +5,8 @@
   "main": "index.jsx",
   "scripts": {
     "start": "http-server ./dist/ --proxy http://localhost:8080? -o",
-    "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack-dev-server --config webpack.config.dev.js --open "
+    "build": "webpack --mode production",
+    "dev": "webpack serve  --open chrome"
   },
   "repository": {
     "type": "git",
