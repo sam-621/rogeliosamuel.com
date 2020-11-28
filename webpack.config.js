@@ -53,6 +53,6 @@ module.exports = {
     historyApiFallback: true,
     contentBase: path.resolve(__dirname, 'dist'),
     hot: true,
-    port: 8080,
+    port: 8000,
   },
 };
