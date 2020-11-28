@@ -1,0 +1,20 @@
+.MyName {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.MyName h1 {
+  margin: 0 0 0 5px;
+  font-size: 20px;
+}
+.MyName img {
+  border-radius: 5px;
+}
+.MyName-Text-White {
+  transition: all 0.25s linear;
+  color: #2f80ed;
+}
+.MyName-Text-Dark {
+  transition: all 0.25s linear;
+  color: #00c58e;
+}
