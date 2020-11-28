@@ -1,12 +1,10 @@
 .DarkMode {
   background-color: black;
   transition: all linear 0.25s;
-  height: 100vh;
 }
 .WhiteMode {
   background-color: white;
   transition: all linear 0.25s;
-  height: 100vh;
 }
 .Dark {
   color: white;

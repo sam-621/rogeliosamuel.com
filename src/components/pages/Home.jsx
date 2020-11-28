@@ -4,23 +4,15 @@ import ColorTheme from '../../context/ColorTheme';
 
 const Home = () => {
   const { theme, setTheme } = useContext(ColorTheme);
+  let themeColor = theme ? 'White' : 'Dark';
 
   function changeTheme() {
     setTheme(!theme);
   }
 
   return (
-    <main className={theme ? 'WhiteMode' : 'DarkMode'}>
-      <h1
-        className={theme ? 'White' : 'Dark'}
-        // style={
-        //   theme
-        //     ? { color: 'white', transition: 'all 0.25s linear' }
-        //     : { color: 'black', transition: 'all 0.25s linear' }
-        // }
-      >
-        Hello world from home
-      </h1>
+    <main className={`${themeColor}Mode`}>
+      <h1 className={`${themeColor}`}>Hello world from home</h1>
       <button onClick={changeTheme}>change theme</button>
     </main>
   );
