@@ -6,7 +6,7 @@
   "scripts": {
     "start": "http-server ./dist/ --proxy http://localhost:8080? -o",
     "build": "webpack --mode production",
-    "dev": "webpack serve  --open chrome"
+    "dev": "webpack serve --open chrome"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "core-js": "^3.8.0",
+    "cross-env": "^7.0.2",
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
