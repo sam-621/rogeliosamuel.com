@@ -45,27 +45,8 @@
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
   text-decoration: none;
   font-size: 24px;
-  animation-name: projectsButton;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
 }
-@keyframes projectsButton {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(5deg);
-  }
-  50% {
-    transform: rotate(-5deg);
-  }
-  75% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
+
 /* Dark and white mode */
 
 .Hero-hero-img-White {
