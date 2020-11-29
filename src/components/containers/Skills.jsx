@@ -9,9 +9,10 @@ const Skills = () => {
     <section className="Skills">
       <Title icon={0} title="Skills" />
       <div className="Skills-icons">
-        {skills.map((skill) => {
+        {skills.map((skill, index) => {
           return (
             <SkillCard
+              key={index}
               img={skill.icon}
               skillName={skill.name}
               title={skill.title}

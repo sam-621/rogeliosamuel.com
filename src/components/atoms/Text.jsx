@@ -21,6 +21,8 @@ const Title = ({ title, icon }) => {
         className={`Title-img-${color}`}
         src={img[icon].icon}
         alt={img[icon].title}
+        width="30px"
+        height="30px"
       />
     </div>
   );

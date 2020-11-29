@@ -1,11 +1,10 @@
 .Title {
   display: flex;
+  align-items: center;
 }
 .Title h2 {
   margin: 0;
 }
-/* .Title img {
-} */
 
 /* dark and white mode */
 
