@@ -1,0 +1,17 @@
+.Title {
+  display: flex;
+}
+.Title h2 {
+  margin: 0;
+}
+/* .Title img {
+} */
+
+/* dark and white mode */
+
+.Title-h2-White {
+  color: black;
+}
+.Title-h2-Dark {
+  color: white;
+}

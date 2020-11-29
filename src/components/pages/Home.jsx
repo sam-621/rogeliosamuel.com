@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../styles/pages/Home.css';
 
-import { Header } from '../containers/';
+import { Header, Skills } from '../containers/';
 
 const Home = () => {
   return (
     <>
       <Header />
+      <Skills />
     </>
   );
 };

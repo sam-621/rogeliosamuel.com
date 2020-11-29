@@ -1,3 +1,4 @@
 import Header from './Header';
+import Skills from './Skills';
 
-export { Header };
+export { Header, Skills };

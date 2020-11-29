@@ -6,7 +6,6 @@ import LightIcon from '../../assets/img/light.svg';
 
 const SwitcherTheme = () => {
   const { theme, setTheme } = useContext(ColorTheme);
-  const color = theme ? 'Dark' : 'White';
 
   function changeColorTheme() {
     setTheme(!theme);
@@ -14,7 +13,7 @@ const SwitcherTheme = () => {
 
   return (
     <img
-      style={{ transition: 'all 0.25s linear' }}
+      style={{ transition: 'all 0.25s linear', cursor: 'pointer' }}
       src={theme ? DarkIcon : LightIcon}
       alt="Switcher theme icon"
       onClick={changeColorTheme}
