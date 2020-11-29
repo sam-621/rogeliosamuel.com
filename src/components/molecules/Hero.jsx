@@ -1,13 +1,9 @@
 import React, { useContext } from 'react';
 import '../../styles/molecules/Hero.css';
 
+import { SocialIcons } from '../atoms/';
+
 import ColorTheme from '../../context/ColorTheme';
-import TwitterIcon from '../../assets/img/twitterBlue.svg';
-import MailToIcon from '../../assets/img/mailBlue.svg';
-import GitIcon from '../../assets/img/githubBlue.svg';
-import TwitterIconGreen from '../../assets/img/twitterGreen.svg';
-import MailToIconGreen from '../../assets/img/mailGreen.svg';
-import GitIconGreen from '../../assets/img/githubGreen.svg';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -30,20 +26,7 @@ const Hero = () => {
           Reactjs <strong className={`Hero-strong-${color}`}>||</strong> Node.js{' '}
           <strong className={`Hero-strong-${color}`}>||</strong> MongoDB
         </p>
-        <div className="Hero-content-links">
-          <a target="_blank" href="https://twitter.com/rogeliosamuel21">
-            <img
-              src={theme ? TwitterIcon : TwitterIconGreen}
-              alt="Twitter icon"
-            />
-          </a>
-          <a target="_blank" href="#">
-            <img src={theme ? MailToIcon : MailToIconGreen} alt="Email icon" />
-          </a>
-          <a target="_blank" href="https://github.com/rogeliosamuel621">
-            <img src={theme ? GitIcon : GitIconGreen} alt="Github icon" />
-          </a>
-        </div>
+        <SocialIcons />
       </div>
       <div className="Hero-button">
         <Link to="/projects">Projects</Link>

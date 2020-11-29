@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { TitleMobile } from '../molecules/';
+import { TitleMobile, Hero } from '../molecules/';
 
 const Header = () => {
   return (
     <header>
       <TitleMobile />
+      <Hero />
     </header>
   );
 };

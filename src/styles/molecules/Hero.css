@@ -26,11 +26,6 @@
   font-size: 24px;
   margin: 0;
 }
-.Hero-content-links {
-  margin-top: 25px;
-  display: flex;
-  justify-content: space-around;
-}
 .Hero-button {
   margin-top: 25px;
   display: flex;
