@@ -6,12 +6,12 @@ import { TitleMobile } from '../molecules/';
 
 const Home = () => {
   const { theme, setTheme } = useContext(ColorTheme);
-  const color = theme ? 'Dark' : 'White';
+  const color = theme ? 'White' : 'Dark';
 
   return (
-    <div className={`Home-${color}`}>
+    <>
       <TitleMobile />
-    </div>
+    </>
   );
 };
 

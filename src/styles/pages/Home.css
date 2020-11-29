@@ -1,16 +1,8 @@
-.DarkMode {
-  background-color: black;
-  transition: all linear 0.25s;
+/* .Home-White {
+  transition: all 0.25s linear;
+  background-color: #eeeeee;
 }
-.WhiteMode {
-  background-color: white;
-  transition: all linear 0.25s;
-}
-.Dark {
-  color: white;
-  transition: all linear 0.25s;
-}
-.White {
-  color: black;
-  transition: all linear 0.25s;
-}
+.Home-Dark {
+  transition: all 0.25s linear;
+  background-color: #121212;
+} */

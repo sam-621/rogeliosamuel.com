@@ -4,3 +4,11 @@ body {
   margin: 0;
   font-family: 'Inconsolata', monospace;
 }
+.WhiteMode {
+  transition: all 0.25s linear;
+  background-color: #eeeeee;
+}
+.DarkMode {
+  transition: all 0.25s linear;
+  background-color: #121212;
+}

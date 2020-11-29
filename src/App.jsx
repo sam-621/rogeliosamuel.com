@@ -7,6 +7,15 @@ import ColorTheme from './context/ColorTheme';
 
 const App = () => {
   const [theme, setTheme] = useState(true);
+
+  if (theme) {
+    document.body.classList.remove('DarkMode');
+    document.body.classList.add('WhiteMode');
+  } else {
+    document.body.classList.remove('WhiteMode');
+    document.body.classList.add('DarkMode');
+  }
+
   return (
     <ColorTheme.Provider value={{ theme, setTheme }}>
       <BrowserRouter>
