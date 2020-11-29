@@ -2,6 +2,7 @@ import React from 'react';
 import '../../styles/pages/Home.css';
 
 import { Header, Skills, Contact, NavBottom } from '../containers/';
+import { FooterText } from '../atoms/';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Skills />
       <Contact />
       <NavBottom />
+      <FooterText />
     </>
   );
 };

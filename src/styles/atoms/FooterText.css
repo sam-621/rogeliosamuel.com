@@ -1,0 +1,13 @@
+.Footer {
+  margin-bottom: 150px;
+}
+.Footer p {
+  text-align: center;
+  font-size: 18px;
+}
+.Footer-p-White {
+  color: #393e46;
+}
+.Footer-p-Dark {
+  color: #909fdb;
+}
