@@ -1,0 +1,31 @@
+.NavBottom {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #181818;
+  padding: 5px 0;
+}
+.Nav-Image-Container {
+  display: flex;
+  justify-content: center;
+}
+.NavBottom a {
+  display: grid;
+  justify-content: center;
+  text-decoration: none;
+}
+.NavBottom a p {
+  margin: 0;
+  text-align: center;
+}
+
+/* dark and white mode */
+/* .NavBottom-White {
+  background-color: white;
+}
+.NavBottom-Dark {
+  background-color: #181818;
+} */

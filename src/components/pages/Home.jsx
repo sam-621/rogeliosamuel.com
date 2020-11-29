@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/pages/Home.css';
 
-import { Header, Skills, Contact } from '../containers/';
+import { Header, Skills, Contact, NavBottom } from '../containers/';
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <Header />
       <Skills />
       <Contact />
+      <NavBottom />
     </>
   );
 };
