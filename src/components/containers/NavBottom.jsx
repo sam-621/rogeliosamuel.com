@@ -98,7 +98,7 @@ const Nav = () => {
       <Link to="/projects">
         <div className="Nav-Image-Container">
           <img
-            src={pathname === '/projects' ? LaptopGreen : Laptop}
+            src={pathname === '/projects' ? icons[correct] : Laptop}
             alt="Laptop icon"
             width="30"
             height="30"
