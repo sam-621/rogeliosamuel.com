@@ -5,7 +5,6 @@ import { Header, Skills, Contact, NavBottom } from '../containers/';
 import { FooterText } from '../atoms/';
 
 const Home = () => {
-  window.scrollTo(0, 0);
   return (
     <>
       <Header />

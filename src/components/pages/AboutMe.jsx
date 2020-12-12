@@ -7,7 +7,6 @@ import { NavBottom } from '../containers';
 import ColorTheme from '../../context/ColorTheme';
 
 const AboutMe = () => {
-  window.scrollTo(0, 0);
   const { theme, setTheme } = useContext(ColorTheme);
   const color = theme ? 'White' : 'Dark';
   return (

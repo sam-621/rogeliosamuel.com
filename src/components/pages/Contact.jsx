@@ -9,7 +9,6 @@ import ContactBlue from '../../assets/img/contactBlue.svg';
 import ContactGreen from '../../assets/img/contactGreen.svg';
 
 const Contact = () => {
-  window.scrollTo(0, 0);
   const { theme } = useContext(ColorTheme);
   const color = theme ? 'White' : 'Dark';
   return (
