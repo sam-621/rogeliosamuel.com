@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-left: 10px;
 }
 .MyName h1 {
   margin: 0 0 0 5px;

@@ -13,7 +13,11 @@ const SwitcherTheme = () => {
 
   return (
     <img
-      style={{ transition: 'all 0.25s linear', cursor: 'pointer' }}
+      style={{
+        transition: 'all 0.25s linear',
+        cursor: 'pointer',
+        marginRight: '10px',
+      }}
       src={theme ? DarkIcon : LightIcon}
       alt="Switcher theme icon"
       onClick={changeColorTheme}
