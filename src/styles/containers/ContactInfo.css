@@ -1,0 +1,28 @@
+.Contact-Text-Container {
+  margin: 0 15px;
+}
+.Contact-Text-Container p {
+  text-align: justify;
+}
+.Contact-Way a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*Dark and white mode */
+.Contact-Text-Container-White {
+  transition: all 0.25s linear;
+  color: black;
+}
+.Contact-Text-Container-Dark {
+  transition: all 0.25s linear;
+  color: white;
+}
+.Contact-Way-White a {
+  transition: all 0.25s linear;
+  color: #2f80ed;
+}
+.Contact-Way-Dark a {
+  transition: all 0.25s linear;
+  color: #00c58e;
+}

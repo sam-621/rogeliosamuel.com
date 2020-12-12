@@ -6,12 +6,6 @@ import { Title, SocialIcons } from '../atoms/';
 import ColorTheme from '../../context/ColorTheme';
 import ContactBlue from '../../assets/img/contactBlue.svg';
 import ContactGreen from '../../assets/img/contactGreen.svg';
-import GitHubBlue from '../../assets/img/githubBlue.svg';
-import TwitterBlue from '../../assets/img/twitterBlue.svg';
-import EmailBlue from '../../assets/img/mailBlue.svg';
-import GitHubGreen from '../../assets/img/githubGreen.svg';
-import TwitterGreen from '../../assets/img/twitterGreen.svg';
-import EmailGreen from '../../assets/img/mailGreen.svg';
 
 const Contact = () => {
   const { theme } = useContext(ColorTheme);

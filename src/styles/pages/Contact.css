@@ -1,0 +1,26 @@
+.Contact-content {
+  margin-bottom: 100px;
+}
+.Contact-illustration-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+/* @media screen and (min-width: 768px) {
+  .Contact-content {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+  .Contact-Text-Container {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .Contact-illustration-container img {
+    width: 450px;
+    height: 239px;
+  }
+} */

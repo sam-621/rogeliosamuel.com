@@ -136,7 +136,7 @@ const Nav = () => {
       <Link to="/contact">
         <div className="Nav-Image-Container">
           <img
-            src={pathname === '/contact' ? MailIconGreen : MailIcon}
+            src={pathname === '/contact' ? icons[correct] : MailIcon}
             alt="Mail icon"
             width="30"
             height="30"
@@ -145,8 +145,8 @@ const Nav = () => {
         <p
           style={
             pathname === '/contact'
-              ? { color: correctColor }
-              : { color: '#c4c4c4' }
+              ? { transition: 'all 0.25s linear', color: correctColor }
+              : { transition: 'all 0.25s linear', color: '#c4c4c4' }
           }
         >
           Contact
