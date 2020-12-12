@@ -7,6 +7,7 @@ import { NavBottom } from '../containers';
 import ColorTheme from '../../context/ColorTheme';
 
 const AboutMe = () => {
+  window.scrollTo(0, 0);
   const { theme, setTheme } = useContext(ColorTheme);
   const color = theme ? 'White' : 'Dark';
   return (
@@ -16,9 +17,9 @@ const AboutMe = () => {
         <MyProfilePic />
         <p className={`AboutMe-Text-${color} AboutMe-Text`}>
           Hello, I’m Rogelio Samuel Moreno Corrales, an university student 📘,
-          i’m 18 years old, learning programm 💻 by myself. I live in Culiacan,
-          Mexico, I like videogames, Teach and spend time with my family and
-          girlfirend.
+          i’m 18 years old, learning programm 💻 by myself. <br /> <br /> I live
+          in Culiacan, Mexico, I like videogames, Teach and spend time with my
+          family and girlfirend.
         </p>
       </main>
       <FooterText />

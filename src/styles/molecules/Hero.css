@@ -20,6 +20,7 @@
 }
 .Hero-content {
   display: grid;
+  grid-gap: 25px;
   justify-content: center;
 }
 .Hero-content p {

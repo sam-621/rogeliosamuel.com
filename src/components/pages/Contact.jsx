@@ -9,12 +9,13 @@ import ContactBlue from '../../assets/img/contactBlue.svg';
 import ContactGreen from '../../assets/img/contactGreen.svg';
 
 const Contact = () => {
+  window.scrollTo(0, 0);
   const { theme } = useContext(ColorTheme);
   const color = theme ? 'White' : 'Dark';
   return (
     <>
       <TitleMobile />
-      <main className="Contact-content">
+      <main className="Contact-content-page">
         <div className="Contact-illustration-container">
           <img
             src={theme ? ContactBlue : ContactGreen}

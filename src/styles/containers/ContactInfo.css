@@ -1,6 +1,10 @@
 .Contact-Text-Container {
   margin: 0 15px;
 }
+.Contact-Text-Container h1 {
+  font-size: 20px;
+  text-align: center;
+}
 .Contact-Text-Container p {
   text-align: justify;
 }
