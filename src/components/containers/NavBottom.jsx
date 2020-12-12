@@ -115,7 +115,7 @@ const Nav = () => {
       <Link to="/about">
         <div className="Nav-Image-Container">
           <img
-            src={pathname === '/about' ? UserIconGreen : UserIcon}
+            src={pathname === '/about' ? icons[correct] : UserIcon}
             alt="user icon"
             width="30"
             height="30"
