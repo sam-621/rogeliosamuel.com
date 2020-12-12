@@ -5,14 +5,17 @@
   top: 0;
   width: 100%;
   height: 60px;
+  z-index: 1;
 }
 
 /* Dark and white mode */
 .TitleMobile-White {
+  transition: all 0.25s linear;
   background-color: #eeeeee;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
 .TitleMobile-Dark {
+  transition: all 0.25s linear;
   background-color: #121212;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
 }

@@ -11,6 +11,7 @@
 .MyName img {
   border-radius: 5px;
 }
+/* Dark and white mode */
 .MyName-Text-White {
   transition: all 0.25s linear;
   color: #2f80ed;

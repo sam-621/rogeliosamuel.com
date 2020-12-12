@@ -87,7 +87,9 @@ const Nav = () => {
         </div>
         <p
           style={
-            pathname === '/' ? { color: correctColor } : { color: '#c4c4c4' }
+            pathname === '/'
+              ? { transition: 'all 0.25s linear', color: correctColor }
+              : { transition: 'all 0.25s linear', color: '#c4c4c4' }
           }
         >
           Home
@@ -105,8 +107,8 @@ const Nav = () => {
         <p
           style={
             pathname === '/projects'
-              ? { color: correctColor }
-              : { color: '#c4c4c4' }
+              ? { transition: 'all 0.25s linear', color: correctColor }
+              : { transition: 'all 0.25s linear', color: '#c4c4c4' }
           }
         >
           Projects
@@ -124,8 +126,8 @@ const Nav = () => {
         <p
           style={
             pathname === '/about'
-              ? { color: correctColor }
-              : { color: '#c4c4c4' }
+              ? { transition: 'all 0.25s linear', color: correctColor }
+              : { transition: 'all 0.25s linear', color: '#c4c4c4' }
           }
         >
           About
