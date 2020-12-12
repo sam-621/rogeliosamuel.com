@@ -1,35 +1,43 @@
 .Project {
   display: grid;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background-color: #252b43;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+}
+.Project-Image-Container {
+  display: flex;
   justify-content: center;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
-.Project-title {
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
-.Project-title h1 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: white;
-}
-.Project-image {
-  height: 119px;
+.Project-Image-Container img {
   border-radius: 5px;
 }
-.Project-image img {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+.Project-Description {
+  padding: 0 10px;
 }
-
-/* Dark and white mode */
-
-.Project-title-Dark {
-  transition: all 0.25s linear;
-  background-color: #252b43;
+.Project-Description h1,
+.Project-Description p {
+  color: white;
 }
-.Project-title-White {
-  transition: all 0.25s linear;
-  background-color: #181818;
+.Project-Actions {
+  display: flex;
+  justify-content: space-between;
+}
+.Project-Actions a {
+  min-width: 90px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.Project-Code-btn {
+  background-color: #1e1e1e;
+  color: white;
+  box-shadow: 0 0 10px 0 rgb(0 0 0);
+}
+.Project-Demo-btn {
+  transition: 0.3s;
+  background: none;
+  border: 1px solid #00c58e;
+  color: #00c58e;
 }
