@@ -1,18 +1,5 @@
 .TitleMobile {
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 60px;
-}
-
-/* Dark and white mode */
-.TitleMobile-White {
-  background-color: #eeeeee;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
-}
-.TitleMobile-Dark {
-  background-color: #121212;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+  margin: 10px 10px 0 10px;
 }
