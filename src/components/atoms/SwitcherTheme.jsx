@@ -17,7 +17,6 @@ const SwitcherTheme = () => {
         transition: 'all 0.25s linear',
         cursor: 'pointer',
         marginRight: '10px',
-        position: 'fixed',
         right: '0',
       }}
       src={theme ? DarkIcon : LightIcon}

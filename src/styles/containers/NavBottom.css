@@ -22,10 +22,8 @@
   text-align: center;
 }
 
-/* dark and white mode */
-/* .NavBottom-White {
-  background-color: white;
+@media screen and (min-width: 1024px) {
+  .NavBottom {
+    display: none;
+  }
 }
-.NavBottom-Dark {
-  background-color: #181818;
-} */

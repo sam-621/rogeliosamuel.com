@@ -3,6 +3,7 @@ import ColorTheme from '../../context/ColorTheme';
 import '../../styles/molecules/TitleMobile.css';
 
 import { MyName, SwitcherTheme } from '../atoms/';
+import { NavDesktop } from './';
 
 const TitleMobile = () => {
   const { theme, setTheme } = useContext(ColorTheme);
@@ -10,7 +11,7 @@ const TitleMobile = () => {
   return (
     <div className={`TitleMobile TitleMobile-${color}`}>
       <MyName />
-      <SwitcherTheme />
+      {window.screen.width < 1024 ? <SwitcherTheme /> : <NavDesktop />}
     </div>
   );
 };
