@@ -4,3 +4,9 @@
   grid-gap: 40px;
   margin: 100px 10px;
 }
+@media screen and (min-width: 768px) {
+  .Projects-main {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
