@@ -22,6 +22,8 @@ const SwitcherTheme = () => {
       src={theme ? DarkIcon : LightIcon}
       alt="Switcher theme icon"
       onClick={changeColorTheme}
+      width="40px"
+      height="40px"
     />
   );
 };

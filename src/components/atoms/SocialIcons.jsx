@@ -19,6 +19,8 @@ const SocialIcons = () => {
           src={theme ? TwitterIcon : TwitterIconGreen}
           alt="Twitter icon"
           title="Twitter"
+          width=""
+          height="40px"
         />
       </a>
       <a target="_blank" href="#">
@@ -26,6 +28,8 @@ const SocialIcons = () => {
           src={theme ? MailToIcon : MailToIconGreen}
           alt="Email icon"
           title="Mail"
+          width=""
+          height="40px"
         />
       </a>
       <a target="_blank" href="https://github.com/rogeliosamuel621">
@@ -33,6 +37,8 @@ const SocialIcons = () => {
           src={theme ? GitIcon : GitIconGreen}
           alt="Github icon"
           title="Github"
+          width=""
+          height="40px"
         />
       </a>
     </div>
