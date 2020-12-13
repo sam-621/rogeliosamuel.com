@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import '../../styles/pages/Contact.css';
 
 import { FooterText, SocialIcons } from '../atoms';
@@ -11,6 +11,7 @@ import ContactGreen from '../../assets/img/contactGreen.svg';
 const Contact = () => {
   const { theme } = useContext(ColorTheme);
   const color = theme ? 'White' : 'Dark';
+  useEffect(() => window.scroll({ behavior: 'smooth', top: 0 }), []);
   return (
     <>
       <TitleMobile />

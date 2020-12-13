@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import '../../styles/pages/Projects.css';
 
 import { FooterText, Title } from '../atoms';
@@ -10,6 +10,8 @@ import ColorTheme from '../../context/ColorTheme';
 const Projects = () => {
   const { theme } = useContext(ColorTheme);
   const color = theme ? 'White' : 'Dark';
+  useEffect(() => window.scroll({ behavior: 'smooth', top: 0 }), []);
+
   return (
     <>
       <TitleMobile />

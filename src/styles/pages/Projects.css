@@ -2,7 +2,7 @@
   display: grid;
   justify-content: center;
   grid-gap: 40px;
-  margin-bottom: 100px;
+  margin: 0 10px 100px 10px;
 }
 .Projects-title {
   margin: 100px 0 50px 0;
