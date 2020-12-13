@@ -38,8 +38,6 @@
 .Project-Demo-btn {
   transition: 0.3s;
   background: none;
-  border: 1px solid #00c58e;
-  color: #00c58e;
 }
 
 /* Dark and white mode */
@@ -51,6 +49,15 @@
   transition: all 0.25s linear;
   background-color: #252b43;
 }
+.Project-Demo-btn-White {
+  border: 1px solid #0779e4;
+  color: #0779e4;
+}
+.Project-Demo-btn-Dark {
+  border: 1px solid #00c58e;
+  color: #00c58e;
+}
+
 @media screen and (min-width: 425px) {
   .Project-Actions {
     justify-content: space-around;
@@ -61,16 +68,18 @@
     align-items: center;
     max-width: 944px;
   }
-  .Project-Demo-btn:hover {
+  .Project-Demo-btn-Dark:hover {
     transition: 0.3s;
     background-color: #00c58e;
     color: white;
   }
+  .Project-Demo-btn-White:hover {
+    transition: 0.3s;
+    background-color: #0779e4;
+    color: white;
+  }
 }
 @media screen and (min-width: 1024px) {
-  /* .Project {
-    margin: 0 10%;
-  } */
   .Project-Image-Container img {
     width: 375px;
     height: 177.63px;

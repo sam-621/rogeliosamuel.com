@@ -1,5 +1,5 @@
 .Contact {
-  margin: 50px 50px 100px 50px;
+  margin: 50px 10px 100px 10px;
 }
 .Contact-Description p {
   font-size: 20px;
@@ -30,11 +30,17 @@
   font-size: 24px;
 }
 
-/*dark and white mode */
+/*Dark and white mode */
 
 .Contact-Description-p-Dark {
   color: white;
 }
 .Contact-Description-p-White {
   color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  .Contact {
+    margin: 50px 50px 0 50px;
+  }
 }

@@ -1,21 +1,11 @@
 .Contact-content-page {
   display: grid;
   justify-content: center;
-}
-.Contact-content {
   margin-bottom: 100px;
+  margin: 70px 0 100px 0;
 }
+
 .Contact-illustration-container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
-/* @media screen and (min-width: 1024px) {
-}
-
-/* @media screen and (min-width: 1440px) {
-  .Contact-illustration-container img {
-    width: 450px;
-    height: 239px;
-  }
-} */

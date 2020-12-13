@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../../styles/pages/Projects.css';
 
-import { FooterText } from '../atoms';
+import { FooterText, Title } from '../atoms';
 import { TitleMobile } from '../molecules';
 import { NavBottom, Project } from '../containers';
 import { ProjectsData } from '../../assets/Projects';
+import ColorTheme from '../../context/ColorTheme';
 
 const Projects = () => {
+  const { theme } = useContext(ColorTheme);
+  const color = theme ? 'White' : 'Dark';
   return (
     <>
       <TitleMobile />
+      <h1 className={`Projects-title-${color} Projects-title`}>Projects</h1>
       <main className="Projects-main">
         {ProjectsData.map((project) => {
           return (

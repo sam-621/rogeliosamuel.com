@@ -36,7 +36,7 @@ const Project = ({
           <a
             rel="noreferrer"
             target="_blank"
-            className="Project-Demo-btn"
+            className={`Project-Demo-btn-${color} Project-Demo-btn`}
             href={projectDemo}
           >
             View demo

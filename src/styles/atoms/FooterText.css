@@ -11,3 +11,8 @@
 .Footer-p-Dark {
   color: #909fdb;
 }
+@media screen and (min-width: 1024px) {
+  .Footer {
+    margin-bottom: 50px;
+  }
+}

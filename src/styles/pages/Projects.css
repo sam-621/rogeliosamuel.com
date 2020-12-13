@@ -2,8 +2,25 @@
   display: grid;
   justify-content: center;
   grid-gap: 40px;
-  margin: 100px 10px;
+  margin-bottom: 100px;
 }
+.Projects-title {
+  margin: 100px 0 50px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Dark and white mode */
+
+.Projects-title-White {
+  transition: all 0.25s linear;
+  color: black;
+}
+.Projects-title-Dark {
+  transition: all 0.25s linear;
+  color: white;
+}
+
 @media screen and (min-width: 768px) {
   .Projects-main {
     grid-template-columns: 1fr 1fr;

@@ -1,9 +1,14 @@
 .Skills {
-  margin: 50px 50px 0 50px;
+  margin: 50px 10px 0 10px;
 }
 .Skills-icons {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
   margin-top: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .Skills {
+    margin: 50px 50px 0 50px;
+  }
 }
