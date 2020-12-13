@@ -41,6 +41,16 @@
   border: 1px solid #00c58e;
   color: #00c58e;
 }
+
+/* Dark and white mode */
+.Project-White {
+  transition: all 0.25s linear;
+  background-color: #181818;
+}
+.Project-Dark {
+  transition: all 0.25s linear;
+  background-color: #252b43;
+}
 @media screen and (min-width: 425px) {
   .Project-Actions {
     justify-content: space-around;

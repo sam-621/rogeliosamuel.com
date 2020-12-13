@@ -7,8 +7,10 @@
   padding: 15px 0;
 }
 .SkillCard-White {
+  transition: all 0.25s linear;
   border: 3px solid #2f80ed;
 }
 .SkillCard-Dark {
+  transition: all 0.25s linear;
   border: 3px solid #00c58e;
 }

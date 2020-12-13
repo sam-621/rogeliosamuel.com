@@ -12,7 +12,7 @@ const Project = ({
   const { theme } = useContext(ColorTheme);
   const color = theme ? 'White' : 'Dark';
   return (
-    <article className="Project">
+    <article className={`Project-${color} Project`}>
       <div className="Project-Image-Container">
         <img
           src={projectImage}
