@@ -15,6 +15,7 @@ const MyProfilePic = () => {
         alt="Rogelio Samuel photo"
         width="250px"
         height="256,73px"
+        title="Rogelio Samuel Moreno Corrales"
       />
     </div>
   );

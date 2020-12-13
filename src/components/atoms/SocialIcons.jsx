@@ -15,13 +15,25 @@ const SocialIcons = () => {
   return (
     <div className="Hero-content-links">
       <a target="_blank" href="https://twitter.com/rogeliosamuel21">
-        <img src={theme ? TwitterIcon : TwitterIconGreen} alt="Twitter icon" />
+        <img
+          src={theme ? TwitterIcon : TwitterIconGreen}
+          alt="Twitter icon"
+          title="Twitter"
+        />
       </a>
       <a target="_blank" href="#">
-        <img src={theme ? MailToIcon : MailToIconGreen} alt="Email icon" />
+        <img
+          src={theme ? MailToIcon : MailToIconGreen}
+          alt="Email icon"
+          title="Mail"
+        />
       </a>
       <a target="_blank" href="https://github.com/rogeliosamuel621">
-        <img src={theme ? GitIcon : GitIconGreen} alt="Github icon" />
+        <img
+          src={theme ? GitIcon : GitIconGreen}
+          alt="Github icon"
+          title="Github"
+        />
       </a>
     </div>
   );

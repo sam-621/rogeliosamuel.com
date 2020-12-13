@@ -19,6 +19,7 @@ const Project = ({
           alt={projectTitle}
           width="249px"
           height="118.79px"
+          title={projectTitle}
         />
       </div>
       <div className="Project-Description">
