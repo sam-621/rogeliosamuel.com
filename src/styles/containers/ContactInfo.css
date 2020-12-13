@@ -30,3 +30,9 @@
   transition: all 0.25s linear;
   color: #00c58e;
 }
+
+@media screen and (min-width: 1024px) {
+  .Contact-Text-Container p {
+    text-align: center;
+  }
+}
