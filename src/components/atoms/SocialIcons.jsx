@@ -19,7 +19,7 @@ const SocialIcons = () => {
           src={theme ? TwitterIcon : TwitterIconGreen}
           alt="Twitter icon"
           title="Twitter"
-          width=""
+          width="40px"
           height="40px"
         />
       </a>
@@ -28,7 +28,7 @@ const SocialIcons = () => {
           src={theme ? MailToIcon : MailToIconGreen}
           alt="Email icon"
           title="Mail"
-          width=""
+          width="40px"
           height="40px"
         />
       </a>
@@ -37,7 +37,7 @@ const SocialIcons = () => {
           src={theme ? GitIcon : GitIconGreen}
           alt="Github icon"
           title="Github"
-          width=""
+          width="40px"
           height="40px"
         />
       </a>
