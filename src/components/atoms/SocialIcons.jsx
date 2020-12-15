@@ -14,7 +14,11 @@ const SocialIcons = () => {
   const { theme, setTheme } = useContext(ColorTheme);
   return (
     <div className="Hero-content-links">
-      <a target="_blank" href="https://twitter.com/rogeliosamuel21">
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="https://twitter.com/rogeliosamuel21"
+      >
         <img
           src={theme ? TwitterIcon : TwitterIconGreen}
           alt="Twitter icon"
@@ -23,7 +27,7 @@ const SocialIcons = () => {
           height="40px"
         />
       </a>
-      <a target="_blank" href="#">
+      <a rel="noreferrer" target="_blank" href="#">
         <img
           src={theme ? MailToIcon : MailToIconGreen}
           alt="Email icon"
@@ -32,7 +36,11 @@ const SocialIcons = () => {
           height="40px"
         />
       </a>
-      <a target="_blank" href="https://github.com/rogeliosamuel621">
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="https://github.com/rogeliosamuel621"
+      >
         <img
           src={theme ? GitIcon : GitIconGreen}
           alt="Github icon"
