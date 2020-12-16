@@ -51,14 +51,12 @@
 }
 .NavDesktop-Project-White {
   transition: all 0.25s linear;
-  border: 1px solid #2f80ed;
   color: white !important;
   background-color: #2f80ed;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
 .NavDesktop-Project-Dark {
   transition: all 0.25s linear;
-  border: 1px solid #00c58e;
   color: white !important;
   background-color: #00c58e;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
