@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: space-between;
   width: 40%;
+  margin-right: 10px;
 }
 .NavDesktop a {
   text-decoration: none;
