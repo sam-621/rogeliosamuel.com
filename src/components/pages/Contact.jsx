@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import '../../styles/pages/Contact.css';
 
 import { FooterText, SocialIcons } from '../atoms';
-import { TitleMobile, ContactInfo } from '../molecules';
+import { TitleMobile, ContactInfo, NavDesktop } from '../molecules';
 import { NavBottom } from '../containers';
 import ColorTheme from '../../context/ColorTheme';
 import ContactBlue from '../../assets/img/contactBlue.svg';
@@ -18,7 +18,7 @@ const Contact = () => {
       <Helmet>
         <title>Rogelio Samuel | Contact</title>
       </Helmet>
-      <TitleMobile />
+      {window.screen.width < 1024 ? <TitleMobile /> : <NavDesktop />}
       <main className="Contact-content-page">
         <div className="Contact-illustration-container">
           <img

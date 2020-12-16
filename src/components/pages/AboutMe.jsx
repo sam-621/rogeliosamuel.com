@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../../styles/pages/AboutMe.css';
 
-import { TitleMobile } from '../molecules';
+import { TitleMobile, NavDesktop } from '../molecules';
 import { FooterText, MyProfilePic } from '../atoms';
 import { NavBottom } from '../containers';
 import ColorTheme from '../../context/ColorTheme';
@@ -17,7 +17,7 @@ const AboutMe = () => {
       <Helmet>
         <title>Rogelio Samuel | About</title>
       </Helmet>
-      <TitleMobile />
+      {window.screen.width < 1024 ? <TitleMobile /> : <NavDesktop />}
       <main className="AboutMe">
         <MyProfilePic />
         <p className={`AboutMe-Text-${color} AboutMe-Text`}>

@@ -2,7 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 33%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #eeeeee;
+  z-index: 1;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+  height: 60px;
+}
+.Nav-Desktop-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
 }
 .NavDesktop a {
   text-decoration: none;
@@ -12,6 +24,14 @@
   border-radius: 5px;
 }
 /* Dark and white mode */
+.NavDesktop-White {
+  transition: all 0.25s linear;
+  background-color: #eeeeee;
+}
+.NavDesktop-Dark {
+  transition: all 0.25s linear;
+  background-color: #121212;
+}
 .NavDesktop-White a {
   transition: all 0.25s linear;
   color: black;
@@ -33,10 +53,7 @@
   border: 1px solid #2f80ed;
   color: white !important;
   background-color: #2f80ed;
-}
-.NavDesktop-Project-White:hover {
-  color: #2f80ed !important;
-  background-color: #eeeeee;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
 .NavDesktop-Project-Dark {
   border: 1px solid #00c58e;
@@ -46,4 +63,10 @@
 .NavDesktop-Project-Dark:hover {
   color: #00c58e !important;
   background-color: #121212;
+}
+
+@media screen and (min-width: 1200px) {
+  .Nav-Desktop-right {
+    width: 30%;
+  }
 }

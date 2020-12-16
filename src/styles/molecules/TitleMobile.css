@@ -8,7 +8,12 @@
   height: 60px;
   z-index: 1;
 }
-
+.TitleMobile-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 26%;
+}
 /* Dark and white mode */
 .TitleMobile-White {
   transition: all 0.25s linear;
@@ -19,4 +24,15 @@
   transition: all 0.25s linear;
   background-color: #121212;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 425px) {
+  .TitleMobile-right {
+    width: 22%;
+  }
+}
+@media screen and (min-width: 580px) {
+  .TitleMobile-right {
+    width: 15%;
+  }
 }
