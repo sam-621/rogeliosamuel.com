@@ -1,7 +1,13 @@
 # My portfolio
 
-A web site whyere you can contact me and see my featured projects. 
+A web site where you can contact me and see my featured projects.
 
-## State
+Demo: [web site](https://rogeliosamuel621.netlify.app)
 
-- Development
+![Project screenshot](./Docs/Screenshot.png 'Project screenshot')
+
+## Built with
+
+- Reactjs
+- Javascript
+- Webpack

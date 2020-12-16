@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "My portfolio",
+  "description": "My website",
   "main": "index.jsx",
   "scripts": {
     "start": "http-server ./dist/ --proxy http://localhost:8080? -o",
