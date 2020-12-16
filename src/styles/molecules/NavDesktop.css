@@ -31,17 +31,19 @@
 .NavDesktop-Project-White {
   transition: all 0.25s linear;
   border: 1px solid #2f80ed;
-  color: #2f80ed !important;
-}
-.NavDesktop-Project-White:hover {
   color: white !important;
   background-color: #2f80ed;
 }
+.NavDesktop-Project-White:hover {
+  color: #2f80ed !important;
+  background-color: #eeeeee;
+}
 .NavDesktop-Project-Dark {
   border: 1px solid #00c58e;
-  color: #00c58e !important;
-}
-.NavDesktop-Project-Dark:hover {
   color: white !important;
   background-color: #00c58e;
+}
+.NavDesktop-Project-Dark:hover {
+  color: #00c58e !important;
+  background-color: #121212;
 }
