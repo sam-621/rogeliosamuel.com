@@ -26,7 +26,7 @@ const ContactInfo = () => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://github.com/rogeliosamuel21"
+          href="https://github.com/rogeliosamuel621"
         >
           GitHub
         </a>

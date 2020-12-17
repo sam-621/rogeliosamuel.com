@@ -10,7 +10,7 @@ const BlogLink = () => {
     <a
       rel="noreferrer"
       className={`TitleMobile-right-a-${color} TitleMobile-right-a`}
-      href="https://dev.to/rogeliosamuel21"
+      href="https://dev.to/rogeliosamuel621"
       target="_blank"
     >
       Blog

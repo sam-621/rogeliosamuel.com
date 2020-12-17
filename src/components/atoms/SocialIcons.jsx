@@ -39,7 +39,7 @@ const SocialIcons = () => {
       <a
         rel="noreferrer"
         target="_blank"
-        href="https://github.com/rogeliosamuel21"
+        href="https://github.com/rogeliosamuel621"
       >
         <img
           src={theme ? GitIcon : GitIconGreen}
