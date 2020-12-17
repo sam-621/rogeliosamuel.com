@@ -10,7 +10,7 @@ export const FeaturedProjectsData = [
       { icon: 3, title: 'Reactjs' },
       { icon: 5, title: 'webpack' },
     ],
-    Repo: 'https://github.com/rogeliosamuel621/AuthApp',
+    Repo: 'https://github.com/rogeliosamuel21/AuthApp',
     demo: 'https://authapp-rs.netlify.app/',
     features: [
       'Authentication with jwt',

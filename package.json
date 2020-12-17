@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rogeliosamuel621/Portfolio.git"
+    "url": "git+https://github.com/rogeliosamuel21/Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rogeliosamuel621/Portfolio/issues"
+    "url": "https://github.com/rogeliosamuel21/Portfolio/issues"
   },
-  "homepage": "https://github.com/rogeliosamuel621/Portfolio#readme",
+  "homepage": "https://github.com/rogeliosamuel21/Portfolio#readme",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
