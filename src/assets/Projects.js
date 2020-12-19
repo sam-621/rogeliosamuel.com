@@ -24,6 +24,20 @@ export const ProjectsData = [
   },
   {
     ID: 1,
+    title: 'PaymentApp',
+    Description: 'Web application where you can pay with paypal',
+    technologies: [
+      { icon: 3, title: 'Reactjs' },
+      { icon: 5, title: 'webpack' },
+    ],
+    Repo: 'https://github.com/rogeliosamuel621/PaymentApp',
+    demo: 'https://paymentapp-621.netlify.app/',
+    features: ['Online payments with PayPal'],
+    image:
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608358744/My%20Website/paymentApp_ay8kuq.png',
+  },
+  {
+    ID: 2,
     title: 'ChatGroup',
     Description:
       'A web application where you can join a group and chat with people that is in there.',
@@ -40,7 +54,7 @@ export const ProjectsData = [
       'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650921/My%20Website/law1ja7uilkayriotszl.png',
   },
   {
-    ID: 2,
+    ID: 3,
     title: 'Image uploader',
     Description:
       'An application where you can storage your images in the cloud',
