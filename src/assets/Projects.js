@@ -20,7 +20,7 @@ export const ProjectsData = [
       'Handle errors middlewares',
     ],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650901/My%20Website/fibfnrnt3gkadq1vglv1.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608400402/My%20Website/AuthApp_ivdwwq.png',
   },
   {
     ID: 1,
