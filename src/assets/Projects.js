@@ -10,7 +10,7 @@ export const ProjectsData = [
       { icon: 3, title: 'Reactjs' },
       { icon: 5, title: 'webpack' },
     ],
-    Repo: 'https://github.com/rogeliosamuel621/AuthApp',
+    Repo: 'https://github.com/rogeliosamuel621/AuthApp-API',
     demo: 'https://authapp-rs.netlify.app/',
     features: [
       'Authentication with jwt',
@@ -64,7 +64,7 @@ export const ProjectsData = [
       { icon: 3, title: 'Reactjs' },
       { icon: 5, title: 'webpack' },
     ],
-    Repo: 'https://github.com/rogeliosamuel621/Image-Uploader',
+    Repo: 'https://github.com/rogeliosamuel621/Image-Uploader-API',
     demo: 'https://image-uploader-rs21.netlify.app/',
     features: ['File manage with multer', 'Cloud storage in Cloudinary'],
     image:
