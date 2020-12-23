@@ -1,7 +1,13 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Header, Skills, Contact, NavBottom } from '../containers/';
+import {
+  Header,
+  Skills,
+  Contact,
+  NavBottom,
+  RecentBlogs,
+} from '../containers/';
 import { FooterText } from '../atoms/';
 
 const Home = () => {
@@ -12,6 +18,7 @@ const Home = () => {
         <title>Rogelio Samuel | Home</title>
       </Helmet>
       <Header />
+      <RecentBlogs />
       <Skills />
       <Contact />
       <NavBottom />
