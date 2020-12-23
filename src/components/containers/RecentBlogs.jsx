@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../../styles/containers/RecentBlogs.css';
 
 import { Title } from '../atoms';
