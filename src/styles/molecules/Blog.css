@@ -1,0 +1,15 @@
+.Blog {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.Blog-image {
+  margin-right: 10px;
+}
+.Blog-text h2 {
+  color: #44446e;
+  margin: 0;
+}
+.Blog-text p {
+  color: black;
+}
