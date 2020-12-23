@@ -3,7 +3,7 @@ import '../../styles/molecules/Blog.css';
 
 const Blog = ({ img, title, date, url }) => {
   return (
-    <article>
+    <article className="Blog-article">
       <a href={url} target="_blank" className="Blog">
         <div className="Blog-image">
           <img src={img} alt="blog icon" width="60px" height="60px" />

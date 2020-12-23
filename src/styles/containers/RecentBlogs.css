@@ -4,3 +4,8 @@
 .RecentBlogs-blogs {
   margin-top: 30px;
 }
+@media screen and (min-width: 1024px) {
+  .RecentBlogs {
+    margin: 50px 50px 0 50px;
+  }
+}
