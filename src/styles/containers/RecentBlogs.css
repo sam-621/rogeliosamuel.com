@@ -3,6 +3,8 @@
 }
 .RecentBlogs-blogs {
   margin-top: 30px;
+  display: grid;
+  grid-gap: 30px;
 }
 @media screen and (min-width: 1024px) {
   .RecentBlogs {

@@ -8,7 +8,7 @@ const Blog = ({ img, title, date, url }) => {
   const color = theme ? 'White' : 'Dark';
   return (
     <article className="Blog-article">
-      <a href={url} target="_blank" className="Blog">
+      <a href={url} target="_blank" className={`Blog Blog-${color}`}>
         <div className="Blog-image">
           <img src={img} alt="blog icon" width="60px" height="60px" />
         </div>

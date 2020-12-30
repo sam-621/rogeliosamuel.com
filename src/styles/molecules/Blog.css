@@ -1,7 +1,9 @@
 .Blog {
+  transition: all 0.15s linear;
   display: flex;
   align-items: center;
   text-decoration: none;
+  padding: 10px;
 }
 .Blog-image {
   margin-right: 10px;
@@ -14,6 +16,16 @@
 }
 
 /* White and Dark mode*/
+.Blog-White:hover {
+  transition: all 0.25s linear;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.Blog-Dark:hover {
+  transition: all 0.15s linear;
+  background-color: #181818;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
 .Blog-text-White h2 {
   transition: all 0.25s linear;
   color: #44446e;
