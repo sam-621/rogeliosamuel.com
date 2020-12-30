@@ -6,6 +6,8 @@ import EmailIconGreen from '../../assets/img/mailGreen.svg';
 import ColorTheme from '../../context/ColorTheme';
 import EmailIconBlue from '../../assets/img/mailBlue.svg';
 import SkillsBlue from '../../assets/img/skillsBlue.svg';
+import blogIconBlue from '../../assets/img/blogIconBlue.svg';
+import blogIconGreen from '../../assets/img/blogIconGreen.svg';
 
 const Title = ({ title, icon }) => {
   const { theme, setTheme } = useContext(ColorTheme);
@@ -13,6 +15,7 @@ const Title = ({ title, icon }) => {
   const img = [
     { icon: theme ? SkillsBlue : Skills, title: 'skill icon' },
     { icon: theme ? EmailIconBlue : EmailIconGreen, title: 'email icon' },
+    { icon: theme ? blogIconBlue : blogIconGreen, title: 'blog icon' },
   ];
   return (
     <div className="Title">

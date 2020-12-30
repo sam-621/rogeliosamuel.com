@@ -7,7 +7,7 @@ import { blogs } from '../../assets/blogs';
 const RecentBlogs = () => {
   return (
     <section className="RecentBlogs">
-      <Title title="Recent blogs" icon={0} />
+      <Title title="Recent blogs" icon={2} />
       <div className="RecentBlogs-blogs">
         {blogs.map((blog) => {
           return (
