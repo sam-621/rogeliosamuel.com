@@ -43,13 +43,13 @@ export const skills = [
   },
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606666048/My%20Website/git_hultrt.svg',
-    name: 'Github',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1609888049/My%20Website/git_fpahbx.svg',
+    name: 'Git & GitHub',
     title: 'Github icon',
   },
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606666048/My%20Website/terminal_w7k81h.svg',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1609887882/My%20Website/terminal_d0wlpr.svg',
     name: 'Terminal',
     title: 'Terminal icon',
   },
