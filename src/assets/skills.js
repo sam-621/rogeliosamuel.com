@@ -54,3 +54,12 @@ export const skills = [
     title: 'Terminal icon',
   },
 ];
+
+export const softSkills = [
+  {
+    name: 'Work in team',
+    rol: 'Collaborator',
+    url: 'https://github.com/rogeliosamuel621/Thrillo',
+    urlName: 'Thrillo',
+  },
+];

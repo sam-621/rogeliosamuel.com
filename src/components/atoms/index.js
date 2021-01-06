@@ -6,6 +6,7 @@ import SkillCard from './SkillCard';
 import FooterText from './FooterText';
 import MyProfilePic from './MyProfilePic';
 import BlogLink from './BlogLink';
+import SoftSkillCard from './SoftSkillCard';
 
 export {
   MyName,
@@ -16,4 +17,5 @@ export {
   FooterText,
   MyProfilePic,
   BlogLink,
+  SoftSkillCard,
 };
