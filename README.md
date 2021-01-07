@@ -11,3 +11,7 @@ Demo: [web site](https://rogeliosamuel621.netlify.app)
 - Reactjs
 - Javascript
 - Webpack
+
+## Stats
+
+![Project stats](./Docs/project-stats.svg 'Project stats')
