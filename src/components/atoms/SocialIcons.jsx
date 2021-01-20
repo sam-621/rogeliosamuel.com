@@ -9,6 +9,8 @@ import GitIcon from '../../assets/img/githubBlue.svg';
 import TwitterIconGreen from '../../assets/img/twitterGreen.svg';
 import MailToIconGreen from '../../assets/img/mailGreen.svg';
 import GitIconGreen from '../../assets/img/githubGreen.svg';
+import TelegramIconBlue from '../../assets/img/telegram-blue.svg';
+import TelegramIconGreen from '../../assets/img/telegram-green.svg';
 
 const SocialIcons = () => {
   const { theme, setTheme } = useContext(ColorTheme);
@@ -45,6 +47,15 @@ const SocialIcons = () => {
           src={theme ? GitIcon : GitIconGreen}
           alt="Github icon"
           title="Github"
+          width="40px"
+          height="40px"
+        />
+      </a>
+      <a rel="noreferrer" target="_blank" href="https://t.me/rogeliosamuel621">
+        <img
+          src={theme ? TelegramIconBlue : TelegramIconGreen}
+          alt="Telegram icon"
+          title="Telegram"
           width="40px"
           height="40px"
         />
