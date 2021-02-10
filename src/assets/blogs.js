@@ -1,15 +1,14 @@
 export const blogs = [
   {
-    title: 'A reusable dark mode with Reactjs and pure CSS',
-    date: '14 Diciembre 2020',
+    title: '5 git commands you should know',
+    date: '5 January 2021',
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665660/My%20Website/react-brands_xvyxwe.svg',
-    url:
-      'https://dev.to/rogeliosamuel621/a-reusable-dark-mode-with-reactjs-and-pure-css-11a0',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1612993336/My%20Website/github_amxozc.svg',
+    url: 'https://dev.to/rogeliosamuel621/5-git-commands-you-should-know-1o2g',
   },
   {
     title: 'React without create-react-app Webpack 5',
-    date: '30 Diciembre 2020',
+    date: '30 December 2020',
     icon:
       'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665660/My%20Website/webpack_xqbcwg.svg',
     url:

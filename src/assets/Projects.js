@@ -10,7 +10,7 @@ export const ProjectsData = [
       { icon: 3, title: 'Reactjs' },
       { icon: 5, title: 'webpack' },
     ],
-    Repo: 'https://github.com/rogeliosamuel621/AuthApp-API',
+    Repo: 'https://github.com/rogeliosamuel621/AuthApp',
     demo: 'https://authapp-rs.netlify.app/',
     features: [
       'Authentication with jwt',
@@ -37,37 +37,33 @@ export const ProjectsData = [
       'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608358744/My%20Website/paymentApp_ay8kuq.png',
   },
   {
-    ID: 2,
-    title: 'ChatGroup',
+    ID: 1,
+    title: 'E-commerce',
     Description:
-      'A web application where you can join a group and chat with people that is in there.',
+      'An E-commerce where you can do the main actions that you´d do in an E-commerce. ',
     technologies: [
-      { icon: 0, title: 'Node.js' },
-      { icon: 1, title: 'Typescript' },
       { icon: 3, title: 'Reactjs' },
       { icon: 5, title: 'webpack' },
     ],
-    Repo: 'https://github.com/rogeliosamuel621/Chat-Group',
-    demo: 'https://chatgroup.netlify.app/',
-    features: ['File manage with multer', 'Cloud storage in Cloudinary'],
+    Repo: 'https://github.com/rogeliosamuel621/E-commerce',
+    demo: 'https://ecommerce-621.netlify.app/home',
+    features: ['Online payments with PayPal'],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650921/My%20Website/law1ja7uilkayriotszl.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1612993677/My%20Website/2021-02-10_14h47_41_sgsr4w.png',
   },
   {
-    ID: 3,
-    title: 'Image uploader',
+    ID: 1,
+    title: 'Portfolio',
     Description:
-      'An application where you can storage your images in the cloud',
+      'My website created in Reactjs where you can find my projects, experience and something about me',
     technologies: [
-      { icon: 0, title: 'Node.js' },
-      { icon: 1, title: 'Typescript' },
       { icon: 3, title: 'Reactjs' },
       { icon: 5, title: 'webpack' },
     ],
-    Repo: 'https://github.com/rogeliosamuel621/Image-Uploader-API',
-    demo: 'https://image-uploader-rs21.netlify.app/',
-    features: ['File manage with multer', 'Cloud storage in Cloudinary'],
+    Repo: 'https://github.com/rogeliosamuel621/Portfolio',
+    demo: 'https://rogeliosamuel621.netlify.app/',
+    features: ['Online payments with PayPal'],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1605650938/My%20Website/bcw4mkzpmeulachttb21.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1612993833/My%20Website/2021-02-10_14h48_50_b4smlj.png',
   },
 ];

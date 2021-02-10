@@ -24,7 +24,7 @@ const AboutMe = () => {
           Hello, I’m Rogelio Samuel Moreno Corrales, an university student 📘,
           i’m 18 years old, learning programm 💻 by myself. <br /> <br /> I live
           in Culiacan, Mexico, I like videogames, Teach and spend time with my
-          family and girlfirend.
+          family.
         </p>
       </main>
       <FooterText />

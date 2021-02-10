@@ -25,9 +25,9 @@ export const skills = [
   },
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665660/My%20Website/mysql_w80hej.svg',
-    name: 'MySQL',
-    title: 'MySQL icon',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1612994191/My%20Website/typescript_2_dlslbh.svg',
+    name: 'Typescript',
+    title: 'Typescript icon',
   },
   {
     icon:
