@@ -5,3 +5,17 @@
   align-items: center;
   padding: 20px 80px;
 }
+.BlogSection-content-blog {
+  display: grid;
+  grid-gap: 20px;
+}
+.BlogSection-content-link {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.BlogSection-content-link a {
+  color: #2f80ed;
+  font-size: 2rem;
+  font-weight: bold;
+}

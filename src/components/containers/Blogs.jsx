@@ -2,8 +2,9 @@ import React from 'react';
 import '../../styles/containers/blogs.css';
 
 import { Title } from '../atoms';
+import { Blog } from '../molecules';
 
-const Blog = () => {
+const Blogs = () => {
   return (
     <section className="BlogsSection">
       <div>
@@ -12,11 +13,19 @@ const Blog = () => {
           alt="Blog illustration"
         />
       </div>
-      <div>
+      <div className="BlogSection-content">
         <Title title="Recent blogs" />
+        <div className="BlogSection-content-blog">
+          <Blog />
+          <Blog />
+        </div>
+
+        <div className="BlogSection-content-link">
+          <a href="">See all blogs on devto -{'>'}</a>
+        </div>
       </div>
     </section>
   );
 };
 
-export default Blog;
+export default Blogs;
