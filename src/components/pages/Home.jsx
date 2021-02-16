@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Nav } from '../containers/';
+import { Nav, Hero } from '../containers/';
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
         <title>Rogelio Samuel | Home</title>
       </Helmet>
       <Nav />
+      <Hero />
     </>
   );
 };
