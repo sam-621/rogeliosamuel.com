@@ -6,10 +6,12 @@ const Nav = () => {
   return (
     <nav className="Nav">
       <div className="Nav-left">
-        <img
-          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608145205/My%20Website/myLogo_hc28py.svg"
-          alt="Rogelio Samuel Logo"
-        />
+        <Link to="/">
+          <img
+            src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608145205/My%20Website/myLogo_hc28py.svg"
+            alt="Rogelio Samuel Logo"
+          />
+        </Link>
       </div>
       <div className="Nav-right">
         <a

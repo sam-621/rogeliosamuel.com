@@ -15,7 +15,8 @@
   align-items: center;
 }
 .Nav-right a {
-  margin: 0 40px;
+  font-size: 1.6rem;
+  margin: 0 4rem;
   color: white;
   font-weight: 700;
   text-decoration: none;
