@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/containers/nav.css';
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
