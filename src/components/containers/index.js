@@ -1,5 +1,5 @@
 import Nav from './Nav';
 import Hero from './Hero';
-import Blogs from './Blogs';
+import BlogSection from './BlogSection';
 
-export { Nav, Hero, Blogs };
+export { Nav, Hero, BlogSection };

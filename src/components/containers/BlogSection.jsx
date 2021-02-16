@@ -4,7 +4,7 @@ import '../../styles/containers/blogs.css';
 import { Title } from '../atoms';
 import { Blog } from '../molecules';
 
-const Blogs = () => {
+const BlogSection = () => {
   return (
     <section className="BlogsSection">
       <div>
@@ -28,4 +28,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default BlogSection;
