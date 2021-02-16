@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../styles/containers/blogs.css';
 
+import { Title } from '../atoms';
+
 const Blog = () => {
   return (
     <section className="BlogsSection">
@@ -10,7 +12,9 @@ const Blog = () => {
           alt="Blog illustration"
         />
       </div>
-      <div></div>
+      <div>
+        <Title title="Recent blogs" />
+      </div>
     </section>
   );
 };

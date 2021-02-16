@@ -1,0 +1,14 @@
+.Title {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  align-items: center;
+}
+.Title h2 {
+  color: white;
+  font-size: 3.6rem;
+}
+.Title hr {
+  height: 70px;
+  border: 1px solid #2f80ed;
+}
