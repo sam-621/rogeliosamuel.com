@@ -10,13 +10,14 @@
   height: 50px;
 }
 .Nav-right {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
   justify-content: space-between;
   align-items: center;
 }
 .Nav-right a {
   font-size: 1.6rem;
-  margin: 0 4rem;
   color: white;
   font-weight: 700;
   text-decoration: none;

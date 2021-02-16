@@ -19,7 +19,7 @@ const Hero = () => {
               Projects
             </Link>
             <Link to="/about" className="Hero-left-actions-btn-about">
-              About
+              About me
             </Link>
           </div>
           <div className="Hero-left-actions-links"></div>

@@ -1,29 +1,28 @@
 .Hero {
   display: flex;
   align-items: center;
-  margin: 0 8rem;
+  margin: 0 80px;
   height: 90vh;
 }
-.Hero-left-text h1,
-.Hero-left-text p {
-  color: white;
-}
 .Hero-left-text h1 {
+  color: white;
   margin: 0;
   font-size: 6.4rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 .Hero-left-text p {
-  font-size: 2.2rem;
-  font-weight: bold;
+  color: #b7b7b7;
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 .Hero-left-actions {
-  margin-top: 4rem;
+  margin-top: 40px;
 }
 .Hero-left-actions-btn a {
+  font-weight: 700;
   font-size: 2rem;
   text-decoration: none;
-  margin: 0 4rem;
+  margin: 0 40px;
 }
 .Hero-left-actions-btn-project {
   background-color: #2f80ed;
@@ -41,4 +40,8 @@
 .Hero-left-actions-btn-about:hover {
   transition: 0.25s;
   background-color: rgba(0, 0, 0, 0.2);
+}
+.Hero-right img {
+  width: 532px;
+  height: 377.14px;
 }

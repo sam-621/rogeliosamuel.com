@@ -11,13 +11,15 @@
 }
 .Blog-text h3,
 .Blog-text p {
-  color: white;
   margin: 0;
 }
 .Blog-text h3 {
+  color: white;
+  font-weight: 400;
   margin-bottom: 10px;
   font-size: 1.8rem;
 }
 .Blog-text p {
+  color: #b7b7b7;
   font-size: 1.4rem;
 }

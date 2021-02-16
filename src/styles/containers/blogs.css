@@ -15,7 +15,11 @@
   justify-content: flex-end;
 }
 .BlogSection-content-link a {
+  text-decoration: none;
   color: #2f80ed;
   font-size: 2rem;
   font-weight: bold;
+}
+.BlogSection-content-link a:hover {
+  text-decoration: underline;
 }
