@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Nav, Hero } from '../containers/';
+import { Nav, Hero, Blogs } from '../containers/';
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       </Helmet>
       <Nav />
       <Hero />
+      <Blogs />
     </>
   );
 };
