@@ -1,13 +1,14 @@
 import React from 'react';
+import '../../styles/containers/projectSection.css';
 import { Link } from 'react-router-dom';
 
-import { Title } from '../atoms';
+import { TitleLeft } from '../atoms';
 
 const ProjectSection = () => {
   return (
-    <section>
-      <div>
-        <Title title="Projects" />
+    <section className="ProjectSection">
+      <div className="ProjectSection-left">
+        <TitleLeft title="Projects" position="left" />
         <p>
           I love programming, i programming every day and a way to justify it is
           building projects

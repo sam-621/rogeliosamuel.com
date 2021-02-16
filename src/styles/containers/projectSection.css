@@ -1,0 +1,7 @@
+.ProjectSection {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.ProjectSection-left {
+  grid-column: 1 / 2;
+}

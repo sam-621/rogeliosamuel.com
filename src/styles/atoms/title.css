@@ -1,7 +1,15 @@
-.Title {
+.TitleRight {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: end;
+  grid-gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.TitleLeft {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
   grid-gap: 20px;
   align-items: center;
   margin-bottom: 20px;

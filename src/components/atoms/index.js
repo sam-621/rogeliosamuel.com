@@ -1,3 +1,3 @@
-import Title from './Title';
+import { TitleLeft, TitleRight } from './Title';
 
-export { Title };
+export { TitleLeft, TitleRight };

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/containers/blogs.css';
 
-import { Title } from '../atoms';
+import { TitleRight } from '../atoms';
 import { Blog } from '../molecules';
 
 const BlogSection = () => {
@@ -14,7 +14,7 @@ const BlogSection = () => {
         />
       </div>
       <div className="BlogSection-content">
-        <Title title="Recent blogs" />
+        <TitleRight title="Recent blogs" />
         <div className="BlogSection-content-blog">
           <Blog />
           <Blog />
