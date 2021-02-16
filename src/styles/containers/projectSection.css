@@ -1,7 +1,19 @@
 .ProjectSection {
   display: grid;
   grid-template-columns: auto auto;
+  margin: 0 80px;
 }
 .ProjectSection-left {
   grid-column: 1 / 2;
+}
+.ProjectSection-left p {
+  font-size: 2.4rem;
+  color: #b7b7b7;
+}
+.ProjectSection-left a {
+  color: #2f80ed;
+  font-size: 2rem;
+}
+.ProjectSection-left a:hover {
+  text-decoration: underline;
 }
