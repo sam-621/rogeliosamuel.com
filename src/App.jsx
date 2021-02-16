@@ -2,31 +2,15 @@ import React, { useState } from 'react';
 import './styles/app.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { Home, AboutMe, Contact, Projects } from './components/pages/';
-import ColorTheme from './context/ColorTheme';
+import { Home } from './components/pages/';
 
 const App = () => {
-  const [theme, setTheme] = useState(true);
-
-  if (theme) {
-    document.body.classList.remove('DarkMode');
-    document.body.classList.add('WhiteMode');
-  } else {
-    document.body.classList.remove('WhiteMode');
-    document.body.classList.add('DarkMode');
-  }
-
   return (
-    <ColorTheme.Provider value={{ theme, setTheme }}>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={AboutMe} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/projects" component={Projects} />
-        </Switch>
-      </BrowserRouter>
-    </ColorTheme.Provider>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </BrowserRouter>
   );
 };
 
