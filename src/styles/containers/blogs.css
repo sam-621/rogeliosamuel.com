@@ -5,6 +5,10 @@
   align-items: center;
   padding: 20px 80px;
 }
+.BlogsSection-img img {
+  width: 320px;
+  height: 300.98px;
+}
 .BlogSection-content-blog {
   display: grid;
   grid-gap: 20px;

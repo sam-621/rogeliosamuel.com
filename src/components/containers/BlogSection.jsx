@@ -7,7 +7,7 @@ import { Blog } from '../molecules';
 const BlogSection = () => {
   return (
     <section className="BlogsSection">
-      <div>
+      <div className="BlogsSection-img">
         <img
           src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1613486259/My%20Website/blog_ef2vor.svg"
           alt="Blog illustration"
