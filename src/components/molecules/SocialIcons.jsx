@@ -8,7 +8,7 @@ import TelegramIconBlue from '../../assets/img/telegram-blue.svg';
 
 const SocialIcons = () => {
   return (
-    <div className="Hero-content-links">
+    <div className="SocialIcons">
       <a
         rel="noreferrer"
         target="_blank"
@@ -22,7 +22,7 @@ const SocialIcons = () => {
           height="40px"
         />
       </a>
-      <a rel="noreferrer" target="_blank" href="#">
+      {/* <a rel="noreferrer" target="_blank" href="#">
         <img
           src={MailToIcon}
           alt="Email icon"
@@ -30,7 +30,7 @@ const SocialIcons = () => {
           width="40px"
           height="40px"
         />
-      </a>
+      </a> */}
       <a
         rel="noreferrer"
         target="_blank"

@@ -2,6 +2,8 @@ import React from 'react';
 import '../../styles/containers/hero.css';
 import { Link } from 'react-router-dom';
 
+import { SocialIcons } from '../molecules/';
+
 const Hero = () => {
   return (
     <header className="Hero">
@@ -22,7 +24,7 @@ const Hero = () => {
               About me
             </Link>
           </div>
-          <div className="Hero-left-actions-links"></div>
+          <SocialIcons />
         </div>
       </div>
       <div className="Hero-right">
