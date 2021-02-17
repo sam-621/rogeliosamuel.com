@@ -1,7 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Nav, Hero, BlogSection, ProjectSection } from '../containers/';
+import {
+  Nav,
+  Hero,
+  BlogSection,
+  ProjectSection,
+  ContactSection,
+} from '../containers/';
 
 const Home = () => {
   return (
@@ -13,6 +19,7 @@ const Home = () => {
       <Hero />
       <BlogSection />
       <ProjectSection />
+      <ContactSection />
     </>
   );
 };
