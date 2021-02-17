@@ -1,7 +1,8 @@
 .ProjectSection {
   display: grid;
   grid-template-columns: auto auto;
-  margin: 0 80px;
+  grid-gap: 100px;
+  margin: 50px 80px 0 80px;
 }
 .ProjectSection-left {
   grid-column: 1 / 2;

@@ -1,3 +1,4 @@
 import Blog from './Blog';
+import FeatureProject from './FeatureProject';
 
-export { Blog };
+export { Blog, FeatureProject };
