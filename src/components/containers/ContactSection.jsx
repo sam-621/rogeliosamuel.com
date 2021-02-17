@@ -2,6 +2,7 @@ import React from 'react';
 import '../../styles/containers/contactSection.css';
 
 import { TitleRight } from '../atoms';
+import { SocialIcons } from '../molecules';
 
 const ContactSection = () => {
   return (
@@ -19,6 +20,9 @@ const ContactSection = () => {
             I like building projects with other people, and teach, so if you´d
             like to get in touch with me, these are some options.
           </p>
+        </div>
+        <div className="ContactSection-right-social">
+          <SocialIcons />
         </div>
       </div>
     </section>
