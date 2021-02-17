@@ -26,10 +26,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="Hero-right">
-        {/* <img
+        <img
           src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1613453026/My%20Website/hero_xdxvbz.svg"
           alt="Hero illustration"
-        /> */}
+        />
       </div>
     </header>
   );
