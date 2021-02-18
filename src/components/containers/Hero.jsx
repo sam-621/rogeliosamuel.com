@@ -24,7 +24,9 @@ const Hero = () => {
               About me
             </Link>
           </div>
-          <SocialIcons />
+          <div className="Hero-left-actions-links">
+            <SocialIcons />
+          </div>
         </div>
       </div>
       <div className="Hero-right">

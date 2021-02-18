@@ -1,5 +1,5 @@
 .SocialIcons {
   display: flex;
   justify-content: space-between;
-  max-width: 220px;
+  min-width: 220px;
 }

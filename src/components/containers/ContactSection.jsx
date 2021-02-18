@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../styles/containers/contactSection.css';
 
 import { TitleRight } from '../atoms';
@@ -23,6 +24,9 @@ const ContactSection = () => {
         </div>
         <div className="ContactSection-right-social">
           <SocialIcons />
+          <Link to="/about" className="ContactSection-right-social-link">
+            About me
+          </Link>
         </div>
       </div>
     </section>
