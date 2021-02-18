@@ -3,6 +3,7 @@ import '../../styles/containers/hero.css';
 import { Link } from 'react-router-dom';
 
 import { SocialIcons } from '../molecules/';
+import { PrimaryButton } from '../atoms/';
 
 const Hero = () => {
   return (
@@ -17,9 +18,7 @@ const Hero = () => {
         </div>
         <div className="Hero-left-actions">
           <div className="Hero-left-actions-btn">
-            <Link to="/projects" className="Hero-left-actions-btn-project">
-              Projects
-            </Link>
+            <PrimaryButton text="Projects" url="projects" />
             <Link to="/about" className="Hero-left-actions-btn-about">
               About me
             </Link>

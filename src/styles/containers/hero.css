@@ -29,19 +29,13 @@
   font-size: 2rem;
   text-decoration: none;
 }
-.Hero-left-actions-btn-project {
-  background-color: #2f80ed;
-  color: white;
-  padding: 1rem 5rem;
-  border-radius: 5px;
-  margin-right: 40px;
-}
 .Hero-left-actions-btn-about {
   transition: 0.25s;
   color: #2f80ed;
   border: 1px solid #2f80ed;
   padding: 1rem 5rem;
   border-radius: 5px;
+  margin-left: 50px;
 }
 .Hero-left-actions-btn-about:hover {
   transition: 0.25s;
