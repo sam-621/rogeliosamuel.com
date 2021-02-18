@@ -3,7 +3,7 @@ import '../../styles/containers/projectSection.css';
 import { Link } from 'react-router-dom';
 
 import { TitleLeft } from '../atoms';
-import { FeatureProject } from '../molecules';
+import { Project } from '../molecules';
 
 const ProjectSection = () => {
   return (
@@ -16,7 +16,7 @@ const ProjectSection = () => {
         </p>
         <Link to="/projects">See all projects -{'>'}</Link>
       </div>
-      <FeatureProject />
+      <Project />
     </section>
   );
 };

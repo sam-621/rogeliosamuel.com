@@ -1,5 +1,5 @@
 import Blog from './Blog';
-import FeatureProject from './FeatureProject';
+import Project from './Project';
 import SocialIcons from './SocialIcons';
 
-export { Blog, FeatureProject, SocialIcons };
+export { Blog, Project, SocialIcons };
