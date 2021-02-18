@@ -2,6 +2,8 @@ import React from 'react';
 import '../../styles/containers/nav.css';
 import { Link } from 'react-router-dom';
 
+import { PrimaryButton } from '../atoms';
+
 const Nav = () => {
   return (
     <nav className="Nav">
@@ -22,9 +24,8 @@ const Nav = () => {
           Blog
         </a>
         <Link to="/about">About</Link>
-        <Link to="/projects" className="Nav-right-projects">
-          Projects
-        </Link>
+
+        <PrimaryButton url="projects" text="Projects" />
       </div>
     </nav>
   );
