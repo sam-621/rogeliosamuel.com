@@ -1,0 +1,37 @@
+.Menu {
+  height: 100vh;
+  background-color: red;
+  margin-left: 100%;
+  display: none;
+}
+.Menu h1 {
+  margin: 0;
+}
+.fadeIn {
+  display: block;
+  animation: fade_in 1s;
+  animation-fill-mode: forwards;
+}
+.fadeOut {
+  margin-left: 0;
+  animation: fade_out 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade_in {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes fade_out {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
