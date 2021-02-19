@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../../styles/containers/contactSection.css';
 
-import { TitleRight } from '../atoms';
+import { PrimaryButton, TitleRight } from '../atoms';
 import { SocialIcons } from '../molecules';
 
 const ContactSection = () => {
@@ -24,9 +23,7 @@ const ContactSection = () => {
         </div>
         <div className="ContactSection-right-social">
           <SocialIcons />
-          <Link to="/about" className="ContactSection-right-social-link">
-            About me
-          </Link>
+          <PrimaryButton text="About me" url="about" />
         </div>
       </div>
     </section>

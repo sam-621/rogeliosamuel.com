@@ -44,8 +44,10 @@
   background-color: #2f80ed;
 }
 .Project-content-actions-code {
+  width: 91px;
   background-color: #000000;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .Project-content-actions-code img {

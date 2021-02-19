@@ -6,7 +6,7 @@
   background-color: #2c2c2c;
 }
 .ContactSection-right-p {
-  margin-left: 416px;
+  margin-left: 400px;
 }
 .ContactSection-right-p p {
   text-align: justify;
@@ -14,7 +14,7 @@
   color: white;
 }
 .ContactSection-right-social {
-  margin-left: 416px;
+  margin-left: 400px;
   display: flex;
   justify-content: space-between;
 }

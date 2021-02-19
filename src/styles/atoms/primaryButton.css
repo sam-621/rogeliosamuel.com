@@ -1,8 +1,13 @@
 .PrimaryButton {
+  transition: 0.25s;
   font-size: 2rem;
   color: white;
   text-decoration: none;
   background-color: #2f80ed;
   border-radius: 5px;
   padding: 10px 50px;
+}
+.PrimaryButton:hover {
+  transition: 0.25s;
+  background-color: #1d6edb;
 }
