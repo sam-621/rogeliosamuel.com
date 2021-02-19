@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../styles/containers/projectSection.css';
-import { Link } from 'react-router-dom';
 
-import { TitleLeft } from '../atoms';
+import { TitleLeft, PrimaryButton } from '../atoms';
 import { Project } from '../molecules';
 
 const ProjectSection = () => {
@@ -14,7 +13,7 @@ const ProjectSection = () => {
           I love programming, i programming every day and a way to justify it is
           building projects
         </p>
-        <Link to="/projects">See all projects -{'>'}</Link>
+        <PrimaryButton text="Projects" url="projects" />
       </div>
       <Project />
     </section>

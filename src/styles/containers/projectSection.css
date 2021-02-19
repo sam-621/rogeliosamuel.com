@@ -8,13 +8,8 @@
   grid-column: 1 / 2;
 }
 .ProjectSection-left p {
+  margin: 0;
+  margin-bottom: 50px;
   font-size: 2.4rem;
   color: #b7b7b7;
-}
-.ProjectSection-left a {
-  color: #2f80ed;
-  font-size: 2rem;
-}
-.ProjectSection-left a:hover {
-  text-decoration: underline;
 }
