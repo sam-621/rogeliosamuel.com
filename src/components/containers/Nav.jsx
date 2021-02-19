@@ -2,9 +2,10 @@ import React from 'react';
 import '../../styles/containers/nav.css';
 import { Link } from 'react-router-dom';
 
-import { PrimaryButton } from '../atoms';
-
 const Nav = () => {
+  function toggle() {
+    document.getElementById('hamburger').classList.toggle('convert');
+  }
   return (
     <nav className="Nav">
       <div className="Nav-left">
@@ -15,17 +16,10 @@ const Nav = () => {
           />
         </Link>
       </div>
-      <div className="Nav-right">
-        <a
-          rel="noreferrer"
-          href="https://dev.to/rogeliosamuel621"
-          target="_blank"
-        >
-          Blog
-        </a>
-        <Link to="/about">About</Link>
-
-        <PrimaryButton url="projects" text="Projects" />
+      <div id="hamburger" className="Nav-hamburger" onClick={toggle}>
+        <div className="Nav-hamburger-1"></div>
+        <div className="Nav-hamburger-2"></div>
+        <div className="Nav-hamburger-3"></div>
       </div>
     </nav>
   );
