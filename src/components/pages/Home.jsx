@@ -15,7 +15,7 @@ const Home = () => {
       <Helmet>
         <title>Rogelio Samuel | Home</title>
       </Helmet>
-      {/* <Hero /> */}
+      <Hero />
       {/* <BlogSection /> */}
       {/* <ProjectSection /> */}
       {/* <ContactSection /> */}

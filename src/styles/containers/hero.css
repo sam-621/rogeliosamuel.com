@@ -1,50 +1,35 @@
 .Hero {
-  display: flex;
-  align-items: center;
-  margin: 0 80px;
-  height: 90vh;
-}
-.Hero-left-text h1 {
-  color: white;
-  margin: 0;
-  font-size: 6.4rem;
-  font-weight: 400;
-}
-.Hero-left-text p {
-  color: #b7b7b7;
-  font-size: 2.4rem;
-  font-weight: 400;
-}
-.Hero-left-actions {
-  margin-top: 20px;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
+  margin: 20px 10px 0 10px;
 }
-.Hero-left-actions-btn {
-  display: flex;
-  align-items: flex-start;
+.Hero h1,
+.Hero p {
+  color: white;
+  text-align: center;
+  margin: 0;
 }
-.Hero-left-actions-btn a {
-  font-weight: 700;
-  font-size: 2rem;
-  text-decoration: none;
+.Hero h1 {
+  font-size: 3.6rem;
 }
-.Hero-left-actions-btn-about {
-  transition: 0.25s;
+.Hero p {
+  font-size: 1.8rem;
+}
+.Hero-actions {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  grid-gap: 50px;
+}
+.Hero-actions-about {
+  font-size: 1.6rem;
   color: #2f80ed;
+  text-decoration: none;
+  padding: 5px 20px;
   border: 1px solid #2f80ed;
-  padding: 1rem 5rem;
   border-radius: 5px;
-  margin-left: 50px;
 }
-.Hero-left-actions-btn-about:hover {
-  transition: 0.25s;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.Hero-left-actions-links {
-  max-width: 220px;
-}
-.Hero-right img {
-  width: 532px;
-  height: 377.14px;
+.Hero-links {
+  display: flex;
+  justify-content: center;
 }

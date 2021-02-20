@@ -8,31 +8,19 @@ import { PrimaryButton } from '../atoms/';
 const Hero = () => {
   return (
     <header className="Hero">
-      <div className="Hero-left">
-        <div className="Hero-left-text">
-          <h1>Rogelio Samuel</h1>
-          <p>
-            A web developer who prefer build systems in the server side but also
-            likes frontend, UX, design and experiment with new technologies
-          </p>
-        </div>
-        <div className="Hero-left-actions">
-          <div className="Hero-left-actions-btn">
-            <PrimaryButton text="Projects" url="projects" />
-            <Link to="/about" className="Hero-left-actions-btn-about">
-              About me
-            </Link>
-          </div>
-          <div className="Hero-left-actions-links">
-            <SocialIcons />
-          </div>
-        </div>
+      <h1>Rogelio Samuel</h1>
+      <p>
+        Un backend developer que le encanta crear sistemas del lado del servidor
+        y experimentaqr con diferentes tecnologías
+      </p>
+      <div className="Hero-actions">
+        <PrimaryButton text="Projects" url="/portfolio" />
+        <Link to="/about" className="Hero-actions-about">
+          About me
+        </Link>
       </div>
-      <div className="Hero-right">
-        <img
-          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1613453026/My%20Website/hero_xdxvbz.svg"
-          alt="Hero illustration"
-        />
+      <div className="Hero-links">
+        <SocialIcons />
       </div>
     </header>
   );
