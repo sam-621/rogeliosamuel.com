@@ -16,7 +16,7 @@ const Home = () => {
         <title>Rogelio Samuel | Home</title>
       </Helmet>
       <Hero />
-      {/* <BlogSection /> */}
+      <BlogSection />
       {/* <ProjectSection /> */}
       {/* <ContactSection /> */}
       <Nav />

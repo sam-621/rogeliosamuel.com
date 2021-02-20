@@ -1,6 +1,15 @@
 import React from 'react';
 import '../../styles/atoms/title.css';
 
+const Title = ({ title }) => {
+  return (
+    <div className="Title">
+      <hr />
+      <h2>{title}</h2>
+    </div>
+  );
+};
+
 const TitleRight = ({ title }) => {
   return (
     <div className="TitleRight Title">
@@ -18,4 +27,4 @@ const TitleLeft = ({ title }) => {
     </div>
   );
 };
-export { TitleLeft, TitleRight };
+export { TitleLeft, TitleRight, Title };

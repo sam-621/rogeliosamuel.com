@@ -1,0 +1,28 @@
+.BlogsSection {
+  margin-bottom: 100px;
+  display: grid;
+  grid-gap: 30px;
+  background-color: #2c2c2c;
+  padding: 20px 10px;
+}
+.BlogSection-text {
+  display: grid;
+  grid-gap: 25px;
+}
+.BlogSection-text-blogs {
+  display: grid;
+  grid-gap: 10px;
+}
+.BlogSection-text-link a {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #2f80ed;
+}
+.BlogSection-illustration {
+  display: flex;
+  justify-content: center;
+}
+.BlogSection-illustration img {
+  width: 246px;
+  height: 231, 37px;
+}
