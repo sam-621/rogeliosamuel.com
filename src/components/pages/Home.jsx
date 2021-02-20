@@ -15,11 +15,11 @@ const Home = () => {
       <Helmet>
         <title>Rogelio Samuel | Home</title>
       </Helmet>
-      <Nav />
       {/* <Hero /> */}
       {/* <BlogSection /> */}
       {/* <ProjectSection /> */}
       {/* <ContactSection /> */}
+      <Nav />
     </>
   );
 };

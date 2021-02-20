@@ -1,32 +1,43 @@
 .Nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  padding: 5px 0;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+}
+.Nav a {
+  text-decoration: none;
+}
+.Nav p {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #b7b7b7;
+}
+.Nav-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Nav-left img {
+  width: 30px;
+  height: 30px;
+}
+.Nav-center img {
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 40px;
   height: 40px;
 }
-.Nav-hamburger {
-  display: inline-block;
+.Nav-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.Nav-hamburger div {
-  width: 35px;
-  height: 5px;
-  background-color: #2f80ed;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-.convert .Nav-hamburger-1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-.convert .Nav-hamburger-2 {
-  opacity: 0;
-}
-.convert .Nav-hamburger-3 {
-  -webkit-transform: rotate(45deg) translate(-9px, -6px);
-  transform: rotate(45deg) translate(-9px, -6px);
+.Nav-right img {
+  width: 30px;
+  height: 30px;
 }
