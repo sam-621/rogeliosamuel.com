@@ -17,7 +17,7 @@ const ProjectSection = () => {
           <PrimaryButton text="Projects" url="projects" />
         </div>
       </div>
-      {/* <Project /> */}
+      <Project />
     </section>
   );
 };
