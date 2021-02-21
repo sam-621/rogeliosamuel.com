@@ -1,12 +1,13 @@
 .Project {
+  width: 300px;
   background-color: #2c2c2c;
-  padding: 20px 30px;
+  padding: 10px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 .Project-img img {
-  width: 494px;
-  height: 237.6px;
+  width: 279px;
+  height: 134.19px;
 }
 .Project-content-text {
   margin-top: 25px;
