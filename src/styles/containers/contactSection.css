@@ -1,28 +1,31 @@
 .ContactSection {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-top: 50px;
-  padding: 20px 80px;
   background-color: #2c2c2c;
+  padding: 20px 10px 100px 10px;
 }
-.ContactSection-right-p {
-  margin-left: 400px;
+.ContactSection-text {
+  display: grid;
+  grid-gap: 20px;
 }
-.ContactSection-right-p p {
-  text-align: justify;
-  font-size: 2rem;
+.ContactSection-text p {
+  margin: 0;
   color: white;
+  font-size: 1.8rem;
+  text-align: center;
 }
-.ContactSection-right-social {
-  margin-left: 400px;
+.ContactSection-text-social {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-.ContactSection-right-social-link {
-  font-size: 2rem;
-  color: white;
-  text-decoration: none;
-  background-color: #2f80ed;
-  border-radius: 5px;
-  padding: 10px 40px;
+.ContactSection-text-primary {
+  display: flex;
+  justify-content: center;
+}
+.ContactSection-illustration {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.ContactSection-illustration img {
+  width: 241px;
+  height: 233, 36px;
 }

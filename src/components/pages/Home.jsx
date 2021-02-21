@@ -18,7 +18,7 @@ const Home = () => {
       <Hero />
       <BlogSection />
       <ProjectSection />
-      {/* <ContactSection /> */}
+      <ContactSection />
       <Nav />
     </>
   );

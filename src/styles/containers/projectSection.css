@@ -1,7 +1,7 @@
 .ProjectSection {
   display: grid;
   grid-gap: 20px;
-  margin: 0 10px 100px 10px;
+  margin: 0 10px 50px 10px;
 }
 .ProjectSection-text {
   display: flex;
