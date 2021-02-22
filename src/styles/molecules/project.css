@@ -47,6 +47,7 @@
 @media screen and (min-width: 425px) {
   .Project {
     max-width: 310px;
+    padding: 20px;
   }
   .Project-image img {
     width: 307px;

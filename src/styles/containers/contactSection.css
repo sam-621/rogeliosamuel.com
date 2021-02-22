@@ -29,3 +29,26 @@
   width: 241px;
   height: 233, 36px;
 }
+@media screen and (min-width: 768px) {
+  .ContactSection {
+    padding: 20px 50px 100px 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .ContactSection-text {
+    display: block;
+    grid-gap: 0;
+  }
+  .ContactSection-text p {
+    max-width: 380px;
+    margin: 20px 0 20px 0;
+    text-align: justify;
+  }
+  .ContactSection-text-social {
+    margin-bottom: 20px;
+    justify-content: flex-start;
+  }
+  .ContactSection-text-primary {
+    justify-content: flex-start;
+  }
+}

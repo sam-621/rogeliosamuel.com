@@ -15,3 +15,16 @@
   width: 50px;
   border: 1px solid #2f80ed;
 }
+@media screen and (min-width: 768px) {
+  .Title {
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Title hr {
+    height: 50px;
+    margin: 0;
+    margin-right: 20px;
+    width: 0;
+  }
+}

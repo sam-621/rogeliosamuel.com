@@ -26,5 +26,12 @@
   .ProjectSection {
     grid-template-columns: auto auto;
     align-items: flex-start;
+    margin: 0 50px 50px 50px;
+  }
+  .ProjectSect ion-text p {
+    text-align: justify;
+  }
+  .ProjectSection-text-primary {
+    justify-content: flex-start;
   }
 }
