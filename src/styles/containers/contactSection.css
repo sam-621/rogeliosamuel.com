@@ -36,6 +36,7 @@
     grid-template-columns: auto auto;
   }
   .ContactSection-text {
+    grid-column: 2 / 3;
     display: block;
     grid-gap: 0;
   }
@@ -50,5 +51,9 @@
   }
   .ContactSection-text-primary {
     justify-content: flex-start;
+  }
+  .ContactSection-illustration {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }
 }

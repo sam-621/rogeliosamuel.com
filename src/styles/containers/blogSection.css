@@ -31,4 +31,15 @@
     grid-template-columns: auto auto;
     padding: 20px 50px;
   }
+  .BlogSection-text {
+    grid-column: 2 / 3;
+  }
+  .BlogSection-illustration {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .BlogSection-text-link {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
