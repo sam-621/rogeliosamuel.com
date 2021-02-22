@@ -17,7 +17,9 @@ const ProjectSection = () => {
           <PrimaryButton text="Projects" url="projects" />
         </div>
       </div>
-      <Project />
+      <div className="ProjectSection-project">
+        <Project />
+      </div>
     </section>
   );
 };

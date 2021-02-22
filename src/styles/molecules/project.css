@@ -1,8 +1,14 @@
 .Project {
+  max-width: 280px;
   background-color: #2c2c2c;
   border-radius: 5px;
   display: grid;
   padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.Project-image {
+  display: flex;
+  justify-content: center;
 }
 .Project-image img {
   width: 279px;
@@ -37,4 +43,13 @@
 .Project-text-action :nth-child(2) {
   background-color: black;
   border-radius: 5px;
+}
+@media screen and (min-width: 425px) {
+  .Project {
+    max-width: 310px;
+  }
+  .Project-image img {
+    width: 307px;
+    height: 147.66px;
+  }
 }
