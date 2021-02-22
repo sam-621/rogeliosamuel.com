@@ -26,3 +26,8 @@
   width: 246px;
   height: 231, 37px;
 }
+@media screen and (min-width: 768px) {
+  .BlogsSection {
+    grid-template-columns: auto auto;
+  }
+}
