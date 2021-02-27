@@ -9,6 +9,7 @@
   justify-content: center;
 }
 .ProjectSection-text p {
+  max-width: 530px;
   margin: 15px 0 15px 0;
   color: white;
   font-size: 1.8rem;
@@ -28,7 +29,7 @@
     align-items: flex-start;
     margin: 0 50px 50px 50px;
   }
-  .ProjectSect ion-text p {
+  .ProjectSection-text p {
     text-align: justify;
   }
   .ProjectSection-text-primary {

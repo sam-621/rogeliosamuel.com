@@ -41,16 +41,15 @@
     grid-gap: 0;
   }
   .ContactSection-text p {
-    max-width: 380px;
-    margin: 20px 0 20px 0;
-    text-align: justify;
+    margin: 20px 0 20px 100px;
+    text-align: right;
   }
   .ContactSection-text-social {
     margin-bottom: 20px;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
   .ContactSection-text-primary {
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
   .ContactSection-illustration {
     grid-column: 1 / 2;
