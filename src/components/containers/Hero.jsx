@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { SocialIcons } from '../molecules/';
 import { PrimaryButton } from '../atoms/';
+import HeroIllustration from '../../assets/img/hero.svg';
 
 const Hero = () => {
   return (
@@ -24,7 +25,9 @@ const Hero = () => {
           <SocialIcons />
         </div>
       </div>
-      <div></div>
+      <div className="Hero-illustration">
+        <img src={HeroIllustration} alt="Hero illustration" />
+      </div>
     </header>
   );
 };
