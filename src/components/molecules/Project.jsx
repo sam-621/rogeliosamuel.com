@@ -4,24 +4,18 @@ import '../../styles/molecules/project.css';
 import GitHubIcon from '../../assets/img/code.svg';
 import { Link } from 'react-router-dom';
 
-const Project = () => {
+const Project = ({ img, title, description, repo, demo }) => {
   return (
     <article className="Project">
       <div className="Project-image">
-        <img
-          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608400402/My%20Website/AuthApp_ivdwwq.png"
-          alt="Project image"
-        />
+        <img src={img} alt={title} />
       </div>
       <div className="Project-text">
-        <h1>Auth app</h1>
-        <p>
-          An app where you can login, see your data, modify your data and manage
-          multiply user authentication
-        </p>
+        <h1>{title}</h1>
+        <p>{description}</p>
         <div className="Project-text-action">
-          <a href="">demo</a>
-          <a href="">Code</a>
+          <a href={demo}>demo</a>
+          <a href={repo}>Code</a>
         </div>
       </div>
     </article>

@@ -3,8 +3,10 @@ import '../../styles/containers/projectSection.css';
 
 import { TitleLeft, PrimaryButton } from '../atoms';
 import { Project } from '../molecules';
+import { ProjectsData } from '../../assets/Projects';
 
 const ProjectSection = () => {
+  const featuredProject = ProjectsData[0];
   return (
     <section className="ProjectSection">
       <div className="ProjectSection-text">
@@ -18,7 +20,13 @@ const ProjectSection = () => {
         </div>
       </div>
       <div className="ProjectSection-project">
-        <Project />
+        <Project
+          img={featuredProject.image}
+          description={featuredProject.Description}
+          title={featuredProject.title}
+          repo={featuredProject.Repo}
+          demo={featuredProject.demo}
+        />
       </div>
     </section>
   );
