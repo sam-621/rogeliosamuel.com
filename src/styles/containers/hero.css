@@ -45,9 +45,11 @@
     display: grid;
     grid-template-columns: auto auto;
     margin: 20px 80px 50px 80px;
+    height: 100vh;
+    align-items: center;
   }
   .Hero-content {
-    align-items: center;
+    align-items: flex-start;
   }
   .Hero-content h1,
   .Hero-content p {
@@ -71,10 +73,6 @@
   }
 }
 @media screen and (min-width: 1300px) {
-  .Hero-content {
-    grid-gap: 0;
-    padding: 50px 0;
-  }
   .Hero-illustration img {
     width: 532px;
     height: 377.14px;
