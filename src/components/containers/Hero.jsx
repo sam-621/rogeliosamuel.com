@@ -8,20 +8,23 @@ import { PrimaryButton } from '../atoms/';
 const Hero = () => {
   return (
     <header className="Hero">
-      <h1>Rogelio Samuel</h1>
-      <p>
-        Un backend developer que le encanta crear sistemas del lado del servidor
-        y experimentaqr con diferentes tecnologías
-      </p>
-      <div className="Hero-actions">
-        <PrimaryButton text="Projects" url="/portfolio" />
-        <Link to="/about" className="Hero-actions-about">
-          About me
-        </Link>
+      <div className="Hero-content">
+        <h1>Rogelio Samuel</h1>
+        <p>
+          Un backend developer que le encanta crear sistemas del lado del
+          servidor y experimentaqr con diferentes tecnologías
+        </p>
+        <div className="Hero-content-actions">
+          <PrimaryButton text="Projects" url="/portfolio" />
+          <Link to="/about" className="Hero-content-actions-about">
+            About me
+          </Link>
+        </div>
+        <div className="Hero-content-links">
+          <SocialIcons />
+        </div>
       </div>
-      <div className="Hero-links">
-        <SocialIcons />
-      </div>
+      <div></div>
     </header>
   );
 };

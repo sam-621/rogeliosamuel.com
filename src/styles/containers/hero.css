@@ -1,27 +1,27 @@
-.Hero {
+.Hero-content {
   display: grid;
   grid-gap: 20px;
   margin: 20px 10px 50px 10px;
 }
-.Hero h1,
-.Hero p {
+.Hero-content h1,
+.Hero-content p {
   color: white;
   text-align: center;
   margin: 0;
 }
-.Hero h1 {
+.Hero-content h1 {
   font-size: 3.6rem;
 }
-.Hero p {
+.Hero-content p {
   font-size: 1.8rem;
 }
-.Hero-actions {
+.Hero-content-actions {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   grid-gap: 50px;
 }
-.Hero-actions-about {
+.Hero-content-actions-about {
   font-size: 1.6rem;
   color: #2f80ed;
   text-decoration: none;
@@ -29,7 +29,7 @@
   border: 1px solid #2f80ed;
   border-radius: 5px;
 }
-.Hero-links {
+.Hero-content-links {
   display: flex;
   justify-content: center;
 }
