@@ -45,7 +45,7 @@
     display: grid;
     grid-template-columns: auto auto;
     margin: 20px 80px 50px 80px;
-    height: 100vh;
+    height: 79vh;
     align-items: center;
   }
   .Hero-content {

@@ -6,6 +6,7 @@ import UserIconBlue from '../../assets/img/userBlue.svg';
 import Laptop from '../../assets/img/laptop.svg';
 import LaptopBlue from '../../assets/img/LabtopBlue.svg';
 import { Link } from 'react-router-dom';
+import { PrimaryButton } from '../atoms';
 
 const Nav = ({ inPortfolio, inAboutMe }) => {
   return (
@@ -28,4 +29,25 @@ const Nav = ({ inPortfolio, inAboutMe }) => {
   );
 };
 
-export default Nav;
+const NavDesktop = () => {
+  return (
+    <nav className="NavDesktop">
+      <div className="NavDesktop-left">
+        <img
+          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608145205/My%20Website/myLogo_hc28py.svg"
+          alt="Rogelio Samuel icon"
+        />
+      </div>
+      <div className="NavDesktop-right">
+        <a href="" className="NavDesktop-right-blog">
+          Blog
+        </a>
+        <Link to="About" className="NavDesktop-right-about">
+          About
+        </Link>
+        <PrimaryButton text="Projects" url="projects" />
+      </div>
+    </nav>
+  );
+};
+export { Nav, NavDesktop };

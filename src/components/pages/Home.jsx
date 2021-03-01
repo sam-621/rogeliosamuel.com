@@ -8,6 +8,7 @@ import {
   ProjectSection,
   ContactSection,
 } from '../containers/';
+import { NavDesktop } from '../containers/Nav';
 
 const Home = () => {
   return (
@@ -15,11 +16,12 @@ const Home = () => {
       <Helmet>
         <title>Rogelio Samuel | Home</title>
       </Helmet>
+      {screen.width >= 1024 ? <NavDesktop /> : null}
       <Hero />
       <BlogSection />
       <ProjectSection />
       <ContactSection />
-      <Nav />
+      {screen.width < 1024 ? <Nav /> : null}
     </>
   );
 };
