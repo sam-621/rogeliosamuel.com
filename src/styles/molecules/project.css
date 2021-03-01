@@ -54,6 +54,11 @@
     height: 147.66px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .Project-text-action a {
+    font-size: 2rem;
+  }
+}
 @media screen and (min-width: 1440px) {
   .Project-image img {
     width: 494px;
