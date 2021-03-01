@@ -16,7 +16,7 @@ const Nav = ({ inPortfolio, inAboutMe }) => {
       </Link>
       <div className="Nav-center">
         <img
-          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1611592451/r0ij5hsqnafywkqopyqw.png"
+          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608145205/My%20Website/myLogo_hc28py.svg"
           alt="Rogelio Samuel icon"
         />
       </div>

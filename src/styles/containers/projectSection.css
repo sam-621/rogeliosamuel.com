@@ -1,6 +1,6 @@
 .ProjectSection {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
   margin: 0 10px 50px 10px;
 }
 .ProjectSection-text {
@@ -10,7 +10,7 @@
 }
 .ProjectSection-text p {
   max-width: 530px;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 30px 0;
   color: white;
   font-size: 1.8rem;
   text-align: center;
