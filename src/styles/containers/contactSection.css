@@ -40,6 +40,18 @@
     display: block;
     grid-gap: 0;
   }
+  .ContactSection-text div:first-child {
+    justify-content: flex-end;
+    display: grid;
+  }
+  .ContactSection-text div:first-child hr {
+    margin: 0 0 0 20px;
+    grid-column: 2;
+  }
+  .ContactSection-text div:first-child h2 {
+    grid-column: 1;
+    grid-row: 1;
+  }
   .ContactSection-text p {
     margin: 20px 0 20px 100px;
     text-align: right;
@@ -47,6 +59,11 @@
   .ContactSection-text-social {
     margin-bottom: 20px;
     justify-content: flex-end;
+  }
+  .ContactSection-text-social div {
+    /*remove changes in 43 - 54*/
+    display: flex !important ;
+    justify-content: space-between !important;
   }
   .ContactSection-text-primary {
     justify-content: flex-end;
