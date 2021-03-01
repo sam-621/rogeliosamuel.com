@@ -54,3 +54,13 @@
     height: 147.66px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .Project-image img {
+    width: 494px;
+    height: 237.6px;
+  }
+  .Project {
+    max-width: 490px;
+    padding: 30px;
+  }
+}

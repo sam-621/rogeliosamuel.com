@@ -11,3 +11,9 @@
   transition: 0.25s;
   background-color: #1d6edb;
 }
+@media screen and (min-width: 1024px) {
+  .PrimaryButton {
+    padding: 10px 30px;
+    font-size: 2rem;
+  }
+}
