@@ -9,15 +9,19 @@ const ContactSection = () => {
     <section className="ContactSection">
       <div className="ContactSection-text">
         <Title title="Contact" />
-        <p>
-          I like building projects with other people, and teach, so if you´d
-          like to get in touch with me, these are some options.
-        </p>
-        <div className="ContactSection-text-social">
-          <SocialIcons />
+        <div className="ContactSection-text-p">
+          <p>
+            I like building projects with other people, and teach, so if you´d
+            like to get in touch with me, these are some options.
+          </p>
         </div>
-        <div className="ContactSection-text-primary">
-          <PrimaryButton text="About me" url="about" />
+        <div className="ContactSection-text-helper-mobile">
+          <div className="ContactSection-text-social">
+            <SocialIcons />
+          </div>
+          <div className="ContactSection-text-primary">
+            <PrimaryButton text="About me" url="about" />
+          </div>
         </div>
       </div>
       <div className="ContactSection-illustration">
