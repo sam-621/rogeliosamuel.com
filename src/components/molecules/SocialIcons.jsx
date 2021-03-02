@@ -14,44 +14,17 @@ const SocialIcons = () => {
         target="_blank"
         href="https://twitter.com/rogeliosamuel21"
       >
-        <img
-          src={TwitterIcon}
-          alt="Twitter icon"
-          title="Twitter"
-          width="40px"
-          height="40px"
-        />
+        <img src={TwitterIcon} alt="Twitter icon" title="Twitter" />
       </a>
-      {/* <a rel="noreferrer" target="_blank" href="#">
-        <img
-          src={MailToIcon}
-          alt="Email icon"
-          title="Mail"
-          width="40px"
-          height="40px"
-        />
-      </a> */}
       <a
         rel="noreferrer"
         target="_blank"
         href="https://github.com/rogeliosamuel621"
       >
-        <img
-          src={GitIcon}
-          alt="Github icon"
-          title="Github"
-          width="40px"
-          height="40px"
-        />
+        <img src={GitIcon} alt="Github icon" title="Github" />
       </a>
       <a rel="noreferrer" target="_blank" href="https://t.me/rogeliosamuel621">
-        <img
-          src={TelegramIconBlue}
-          alt="Telegram icon"
-          title="Telegram"
-          width="40px"
-          height="40px"
-        />
+        <img src={TelegramIconBlue} alt="Telegram icon" title="Telegram" />
       </a>
     </div>
   );

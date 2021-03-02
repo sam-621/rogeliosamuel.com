@@ -4,35 +4,29 @@ import { Link } from 'react-router-dom';
 
 import { SocialIcons } from '../molecules/';
 import { PrimaryButton } from '../atoms/';
+import HeroIllustration from '../../assets/img/hero.svg';
 
 const Hero = () => {
   return (
     <header className="Hero">
-      <div className="Hero-left">
-        <div className="Hero-left-text">
-          <h1>Rogelio Samuel</h1>
-          <p>
-            A web developer who prefer build systems in the server side but also
-            likes frontend, UX, design and experiment with new technologies
-          </p>
+      <div className="Hero-content">
+        <h1>Rogelio Samuel</h1>
+        <p>
+          Un backend developer que le encanta crear sistemas del lado del
+          servidor y experimentaqr con diferentes tecnologías
+        </p>
+        <div className="Hero-content-actions">
+          <PrimaryButton text="Projects" url="/portfolio" />
+          <Link to="/about" className="Hero-content-actions-about">
+            About me
+          </Link>
         </div>
-        <div className="Hero-left-actions">
-          <div className="Hero-left-actions-btn">
-            <PrimaryButton text="Projects" url="projects" />
-            <Link to="/about" className="Hero-left-actions-btn-about">
-              About me
-            </Link>
-          </div>
-          <div className="Hero-left-actions-links">
-            <SocialIcons />
-          </div>
+        <div className="Hero-content-links">
+          <SocialIcons />
         </div>
       </div>
-      <div className="Hero-right">
-        <img
-          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1613453026/My%20Website/hero_xdxvbz.svg"
-          alt="Hero illustration"
-        />
+      <div className="Hero-illustration">
+        <img src={HeroIllustration} alt="Hero illustration" />
       </div>
     </header>
   );

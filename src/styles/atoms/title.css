@@ -1,25 +1,30 @@
-.TitleRight {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: end;
-  grid-gap: 20px;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.TitleLeft {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: start;
-  grid-gap: 20px;
-  align-items: center;
-  margin-bottom: 20px;
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .Title h2 {
-  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  margin-top: 5px;
+  font-weight: bold;
   color: white;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
 }
 .Title hr {
-  height: 70px;
+  width: 50px;
   border: 1px solid #2f80ed;
+}
+@media screen and (min-width: 768px) {
+  .Title {
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Title hr {
+    height: 50px;
+    margin: 0;
+    margin-right: 20px;
+    width: 0;
+  }
 }

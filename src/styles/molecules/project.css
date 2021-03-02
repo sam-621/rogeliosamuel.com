@@ -1,56 +1,71 @@
 .Project {
+  max-width: 280px;
   background-color: #2c2c2c;
-  padding: 20px 30px;
   border-radius: 5px;
+  display: grid;
+  padding: 10px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
-.Project-img img {
-  width: 494px;
-  height: 237.6px;
-}
-.Project-content-text {
-  margin-top: 25px;
-}
-.Project-content-text h4,
-.Project-content-text p {
-  margin: 0;
-}
-.Project-content-text h4 {
-  margin-bottom: 20px;
-  color: white;
-  font-size: 2.4rem;
-}
-.Project-content-text p {
-  max-width: 500px;
-  font-size: 2rem;
-  color: #b7b7b7;
-}
-.Project-content-actions {
-  margin-top: 25px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 50px;
+.Project-image {
+  display: flex;
   justify-content: center;
-  align-items: center;
 }
-.Project-content-actions a {
-  font-size: 2rem;
+.Project-image img {
+  width: 279px;
+  height: 134.19px;
+}
+.Project-text h1,
+.Project-text p {
+  color: white;
+}
+.Project-text h1 {
+  font-size: 1.8rem;
+  margin: 10px 0 10px 0;
+}
+.Project-text p {
+  font-size: 1.4rem;
+  margin: 0 0 20px 0;
+}
+.Project-text-action {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Project-text-action a {
+  font-size: 1.6rem;
   color: white;
   text-decoration: none;
-  padding: 10px 50px;
+  padding: 5px 30px;
+}
+.Project-text-action a:first-child {
+  background-color: #2f80ed;
   border-radius: 5px;
 }
-.Project-content-actions-demo {
-  background-color: #2f80ed;
+.Project-text-action :nth-child(2) {
+  background-color: black;
+  border-radius: 5px;
 }
-.Project-content-actions-code {
-  width: 91px;
-  background-color: #000000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (min-width: 425px) {
+  .Project {
+    max-width: 310px;
+    padding: 20px;
+  }
+  .Project-image img {
+    width: 307px;
+    height: 147.66px;
+  }
 }
-.Project-content-actions-code img {
-  width: 25px;
-  height: 25px;
+@media screen and (min-width: 1024px) {
+  .Project-text-action a {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .Project-image img {
+    width: 494px;
+    height: 237.6px;
+  }
+  .Project {
+    max-width: 490px;
+    padding: 30px;
+  }
 }
