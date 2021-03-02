@@ -39,8 +39,18 @@ const NavDesktop = () => {
         />
       </Link>
       <div className="NavDesktop-right">
-        <a href="" className="NavDesktop-right-blog">
-          Blog
+        <a
+          href="https://dev.to/rogeliosamuel621"
+          target="_blank"
+          rel="noreferrer"
+          className="NavDesktop-right-blog"
+        >
+          <img
+            src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+            alt="rogeliosamuel621's DEV Community Profile"
+            height="30"
+            width="30"
+          />
         </a>
         <Link to="About" className="NavDesktop-right-about">
           About
