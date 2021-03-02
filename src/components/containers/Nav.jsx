@@ -32,12 +32,12 @@ const Nav = ({ inPortfolio, inAboutMe }) => {
 const NavDesktop = () => {
   return (
     <nav className="NavDesktop">
-      <div className="NavDesktop-left">
+      <Link to="/" className="NavDesktop-left">
         <img
           src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608145205/My%20Website/myLogo_hc28py.svg"
           alt="Rogelio Samuel icon"
         />
-      </div>
+      </Link>
       <div className="NavDesktop-right">
         <a href="" className="NavDesktop-right-blog">
           Blog

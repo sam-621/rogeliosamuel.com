@@ -73,6 +73,13 @@
   }
 }
 @media screen and (min-width: 1300px) {
+  .Hero-content-actions-about {
+    transition: 0.25s;
+  }
+  .Hero-content-actions-about:hover {
+    transition: 0.25s;
+    background-color: black;
+  }
   .Hero-illustration img {
     width: 532px;
     height: 377.14px;
