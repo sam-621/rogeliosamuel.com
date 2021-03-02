@@ -24,7 +24,13 @@ const BlogSection = () => {
           })}
         </div>
         <div className="BlogSection-text-link">
-          <a href="">See all blogs on devto -{'>'}</a>
+          <a
+            href="https://dev.to/rogeliosamuel621"
+            rel="noreferrer"
+            target="_blank"
+          >
+            See all blogs on devto -{'>'}
+          </a>
         </div>
       </div>
       <div className="BlogSection-illustration">
