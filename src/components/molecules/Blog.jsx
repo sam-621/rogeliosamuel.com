@@ -1,19 +1,18 @@
 import React from 'react';
 import '../../styles/molecules/blog.css';
 
-const Blog = () => {
+const Blog = ({ url, icon, date, title }) => {
   return (
-    <article className="Blog">
-      <div className="Blog-icon">
-        <img
-          src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665660/My%20Website/webpack_xqbcwg.svg"
-          alt="Webpack icon"
-        />
-      </div>
-      <div className="Blog-text">
-        <h3>React without create-react-app and pure CSS</h3>
-        <p>14 December 2020</p>
-      </div>
+    <article>
+      <a target="_blank" rel="noreferrer" href={url} className="Blog">
+        <div className="Blog-icon">
+          <img src={icon} alt={title} />
+        </div>
+        <div className="Blog-text">
+          <h3>{title}</h3>
+          <p>{date}</p>
+        </div>
+      </a>
     </article>
   );
 };

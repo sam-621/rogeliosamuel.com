@@ -3,6 +3,7 @@ import '../../styles/containers/blogSection.css';
 
 import { Title } from '../atoms';
 import { Blog } from '../molecules';
+import { blogs } from '../../assets/blogs';
 
 const BlogSection = () => {
   return (
@@ -10,8 +11,17 @@ const BlogSection = () => {
       <div className="BlogSection-text">
         <Title title="Recent blogs" />
         <div className="BlogSection-text-blogs">
-          <Blog />
-          <Blog />
+          {blogs.map((blog, index) => {
+            return (
+              <Blog
+                url={blog.url}
+                date={blog.date}
+                title={blog.title}
+                icon={blog.icon}
+                key={index}
+              />
+            );
+          })}
         </div>
         <div className="BlogSection-text-link">
           <a href="">See all blogs on devto -{'>'}</a>
