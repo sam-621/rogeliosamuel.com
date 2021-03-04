@@ -10,14 +10,15 @@
 }
 .Hero-content h1,
 .Hero-content p {
-  color: white;
   text-align: center;
   margin: 0;
 }
 .Hero-content h1 {
+  color: white;
   font-size: 3.6rem;
 }
 .Hero-content p {
+  color: #B7B7B7;
   font-size: 1.8rem;
 }
 .Hero-content-actions {
@@ -53,7 +54,6 @@
   }
   .Hero-content h1,
   .Hero-content p {
-    color: white;
     text-align: start;
     margin: 0;
   }

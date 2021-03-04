@@ -14,15 +14,13 @@
   width: 279px;
   height: 134.19px;
 }
-.Project-text h1,
-.Project-text p {
-  color: white;
-}
 .Project-text h1 {
+  color: white;
   font-size: 1.8rem;
   margin: 10px 0 10px 0;
 }
 .Project-text p {
+  color: #B7B7B7;
   font-size: 1.4rem;
   margin: 0 0 20px 0;
 }
