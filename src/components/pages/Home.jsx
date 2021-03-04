@@ -7,8 +7,8 @@ import {
   BlogSection,
   ProjectSection,
   ContactSection,
+  NavDesktop,
 } from '../containers/';
-import { NavDesktop } from '../containers/Nav';
 
 const Home = () => {
   return (
