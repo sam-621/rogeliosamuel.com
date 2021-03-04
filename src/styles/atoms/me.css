@@ -1,0 +1,9 @@
+.Me {
+  display: flex;
+  justify-content: center;
+}
+.Me img {
+  width: 150px;
+  height: 15px;
+  border: 50%;
+}
