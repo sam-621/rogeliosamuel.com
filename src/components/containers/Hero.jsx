@@ -12,8 +12,7 @@ const Hero = () => {
       <div className="Hero-content">
         <h1>Rogelio Samuel</h1>
         <p>
-          Backend developer. MERN stack. Always learning and open to working
-          with other people.
+        Web developer, intern at EDteam, MERN stack. Always learning and open to working with other people.
         </p>
         <div className="Hero-content-actions">
           <PrimaryButton text="Projects" url="portfolio" />
