@@ -12,8 +12,8 @@ const Hero = () => {
       <div className="Hero-content">
         <h1>Rogelio Samuel</h1>
         <p>
-          Un backend developer que le encanta crear sistemas del lado del
-          servidor y experimentaqr con diferentes tecnologías
+          Backend developer. MERN stack. Always learning and open to working
+          with other people.
         </p>
         <div className="Hero-content-actions">
           <PrimaryButton text="Projects" url="portfolio" />

@@ -6,7 +6,12 @@
   grid-gap: 20px;
 }
 .Hero-illustration {
-  display: none;
+  display: flex;
+  justify-content: center;
+}
+.Hero-illustration img {
+  width: 292px;
+  height: 207px;
 }
 .Hero-content h1,
 .Hero-content p {
@@ -18,7 +23,7 @@
   font-size: 3.6rem;
 }
 .Hero-content p {
-  color: #B7B7B7;
+  color: #b7b7b7;
   font-size: 1.8rem;
 }
 .Hero-content-actions {
@@ -63,13 +68,9 @@
   .Hero-content-links {
     justify-content: start;
   }
-  .Hero-illustration {
-    display: flex;
-    justify-content: center;
-  }
   .Hero-illustration img {
     width: 430px;
-    height: 304, 83px;
+    height: 304.83px;
   }
 }
 @media screen and (min-width: 1300px) {
