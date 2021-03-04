@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/containers/contactSection.css';
 
-import { PrimaryButton, Title, TitleRight } from '../atoms';
+import { PrimaryButton, Title } from '../atoms';
 import { SocialIcons } from '../molecules';
 
 const ContactSection = () => {

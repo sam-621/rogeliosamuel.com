@@ -2,7 +2,6 @@ import React from 'react';
 import '../../styles/molecules/socialIcons.css';
 
 import TwitterIcon from '../../assets/img/twitterBlue.svg';
-import MailToIcon from '../../assets/img/mailBlue.svg';
 import GitIcon from '../../assets/img/githubBlue.svg';
 import TelegramIconBlue from '../../assets/img/telegram-blue.svg';
 
