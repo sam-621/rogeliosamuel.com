@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Nav, NavDesktop } from '../containers/';
+import { Nav, NavDesktop, Projects } from '../containers/';
 
 const Portfolio = () => {
   return (
@@ -10,6 +10,7 @@ const Portfolio = () => {
         <title>Rogelio Samuel | Home</title>
       </Helmet>
       {screen.width >= 1024 ? <NavDesktop /> : null}
+      <Projects />
       {screen.width < 1024 ? <Nav inPortfolio={true} /> : null}
     </>
   );
