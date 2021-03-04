@@ -4,6 +4,7 @@ import BlogSection from './BlogSection';
 import ProjectSection from './ProjectSection';
 import ContactSection from './ContactSection';
 import Projects from './Projects';
+import AboutContent from './AboutContent';
 
 export {
   Nav,
@@ -13,4 +14,5 @@ export {
   ContactSection,
   NavDesktop,
   Projects,
+  AboutContent,
 };

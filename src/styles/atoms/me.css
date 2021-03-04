@@ -4,6 +4,6 @@
 }
 .Me img {
   width: 150px;
-  height: 15px;
-  border: 50%;
+  height: 150px;
+  border-radius: 50%;
 }
