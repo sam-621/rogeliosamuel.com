@@ -52,10 +52,10 @@ const NavDesktop = () => {
             width="30"
           />
         </a> */}
-        <Link to="About" className="NavDesktop-right-about">
+        <Link to="/About" className="NavDesktop-right-about">
           About
         </Link>
-        <PrimaryButton text="Projects" url="projects" />
+        <PrimaryButton text="Projects" url="portfolio" />
       </div>
     </nav>
   );

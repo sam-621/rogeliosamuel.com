@@ -16,7 +16,7 @@ const Hero = () => {
           servidor y experimentaqr con diferentes tecnologías
         </p>
         <div className="Hero-content-actions">
-          <PrimaryButton text="Projects" url="/portfolio" />
+          <PrimaryButton text="Projects" url="portfolio" />
           <Link to="/about" className="Hero-content-actions-about">
             About me
           </Link>

@@ -16,7 +16,7 @@ const ProjectSection = () => {
           building projects
         </p>
         <div className="ProjectSection-text-primary">
-          <PrimaryButton text="Projects" url="projects" />
+          <PrimaryButton text="Projects" url="portfolio" />
         </div>
       </div>
       <div className="ProjectSection-project">
