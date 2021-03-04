@@ -61,12 +61,18 @@
   justify-content: flex-end;
   align-items: center;
 }
-.NavDesktop-right a:first-child{
+.NavDesktop-right a:first-child {
   margin-right: 50px;
 }
 .NavDesktop-right-blog,
 .NavDesktop-right-about {
+  transition: 0.25s;
   font-size: 2rem;
+  padding: 10px;
   color: white;
   text-decoration: none;
+}
+.NavDesktop-right-about:hover {
+  transition: 0.25s;
+  background-color: rgb(232 234 239 / 20%);
 }
