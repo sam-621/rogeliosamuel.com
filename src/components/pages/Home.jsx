@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import {
@@ -11,6 +11,7 @@ import {
 } from '../containers/';
 
 const Home = () => {
+  useEffect(() => window.scroll({ behavior: 'smooth', top: 0 }), []);
   return (
     <>
       <Helmet>

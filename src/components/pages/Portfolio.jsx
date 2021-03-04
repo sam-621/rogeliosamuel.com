@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import { Nav, NavDesktop, Projects } from '../containers/';
 
 const Portfolio = () => {
+  useEffect(() => window.scroll({ behavior: 'smooth', top: 0 }), []);
   return (
     <>
       <Helmet>
