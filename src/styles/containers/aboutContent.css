@@ -1,0 +1,16 @@
+.AboutContent {
+  margin: 20px 10px 100px 10px;
+}
+.AboutContent-first h1,
+.AboutContent-first p {
+  text-align: center;
+}
+.AboutContent-first h1 {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.AboutContent-first p {
+  color: #b7b7b7;
+  font-size: 1.8rem;
+}
