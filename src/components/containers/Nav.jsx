@@ -13,17 +13,21 @@ const Nav = ({ inPortfolio, inAboutMe }) => {
     <nav className="Nav">
       <Link to="/portfolio" className="Nav-left">
         <img src={inPortfolio ? LaptopBlue : Laptop} alt="Laptop icon" />
-        <p>Portfolio</p>
+        <p style={inPortfolio ? { color: '#2F80ED' } : { color: '#b7b7b7' }}>
+          Portfolio
+        </p>
       </Link>
-      <div className="Nav-center">
+      <Link to="/" className="Nav-center">
         <img
           src="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1608145205/My%20Website/myLogo_hc28py.svg"
           alt="Rogelio Samuel icon"
         />
-      </div>
+      </Link>
       <Link to="/about" className="Nav-right">
         <img src={inAboutMe ? UserIconBlue : UserIcon} alt="User icon" />
-        <p>About me</p>
+        <p style={inAboutMe ? { color: '#2F80ED' } : { color: '#b7b7b7' }}>
+          About me
+        </p>
       </Link>
     </nav>
   );
