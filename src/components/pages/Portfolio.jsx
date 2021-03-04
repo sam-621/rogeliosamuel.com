@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <>
       <Helmet>
-        <title>Rogelio Samuel | Home</title>
+        <title>Rogelio Samuel | Portfolio</title>
       </Helmet>
       {screen.width >= 1024 ? <NavDesktop /> : null}
       <Projects />
