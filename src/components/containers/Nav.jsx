@@ -39,7 +39,7 @@ const NavDesktop = () => {
         />
       </Link>
       <div className="NavDesktop-right">
-        <a
+        {/* <a
           href="https://dev.to/rogeliosamuel621"
           target="_blank"
           rel="noreferrer"
@@ -51,7 +51,7 @@ const NavDesktop = () => {
             height="30"
             width="30"
           />
-        </a>
+        </a> */}
         <Link to="About" className="NavDesktop-right-about">
           About
         </Link>

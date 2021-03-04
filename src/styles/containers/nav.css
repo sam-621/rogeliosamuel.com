@@ -58,8 +58,11 @@
 .NavDesktop-right {
   width: 390px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+}
+.NavDesktop-right a:first-child{
+  margin-right: 50px;
 }
 .NavDesktop-right-blog,
 .NavDesktop-right-about {
