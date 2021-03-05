@@ -26,3 +26,38 @@
   display: grid;
   grid-gap: 15px;
 }
+
+@media screen and (min-width: 768px) {
+  .AboutContent {
+    margin: 50px 80px 100px 80px;
+  }
+  .AboutContent h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .AboutContent p {
+    color: #b7b7b7;
+    font-size: 2rem;
+  }
+  .AboutContent-first h1 {
+    font-size: 3rem;
+  }
+  .AboutContent-first {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+  }
+  .AboutContent-first div h1,
+  .AboutContent-first div p {
+    text-align: justify;
+  }
+  .AboutContent-whoAmI {
+    margin-bottom: 50px;
+  }
+  .AboutContent-skills {
+    margin-bottom: 50px;
+  }
+}

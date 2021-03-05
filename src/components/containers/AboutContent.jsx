@@ -9,11 +9,13 @@ const AboutContent = () => {
     <main className="AboutContent">
       <div className="AboutContent-first">
         <Me />
-        <h1>Hello im Rogelio Samuel</h1>
-        <p>
-          Web developer, intern at @EDteam, MERN stack. Always learning and open
-          to working with other people.
-        </p>
+        <div>
+          <h1>Hello im Rogelio Samuel</h1>
+          <p>
+            Web developer, intern at @EDteam, MERN stack. Always learning and
+            open to working with other people.
+          </p>
+        </div>
       </div>
       <div className="AboutContent-whoAmI">
         <h2>Who am i?</h2>
