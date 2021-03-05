@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Skills = () => {
+const Skills = ({icon, name}) => {
   return (
-    <>
-      <h1>Skills</h1>
-    </>
+    <div>
+        <img src="" alt=""/>
+        <p></p>
+    </div>
   );
 };
 
