@@ -1,65 +1,27 @@
 export const skills = [
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665736/My%20Website/js_hskygg.svg',
-    name: 'Javascript',
-    title: 'Javascript icon',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1614955582/My%20Website/svelte-icon_hy9n5y.svg',
+    name: 'Svelte',
   },
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665660/My%20Website/react-brands_xvyxwe.svg',
-    name: 'React.js',
-    title: 'React.js icon',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1614955582/My%20Website/nest_ceoaw6.svg',
+    name: 'Nestjs',
   },
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665660/My%20Website/webpack_xqbcwg.svg',
-    name: 'Webpack',
-    title: 'Webpack icon',
-  },
-  {
-    icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606665660/My%20Website/node-js_t6rhbw.svg',
-    name: 'Node.js',
-    title: 'Node.js icon',
-  },
-  {
-    icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1612994191/My%20Website/typescript_2_dlslbh.svg',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1614955582/My%20Website/ts_wlgskn.svg',
     name: 'Typescript',
-    title: 'Typescript icon',
   },
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606666048/My%20Website/mongo_j6ming.svg',
-    name: 'MongoDB',
-    title: 'MongoDB icon',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1614955582/My%20Website/jest_y1jhvi.svg',
+    name: 'Test with jest',
   },
   {
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1606666048/My%20Website/jest_jn8tqm.svg',
-    name: 'Jest',
-    title: 'Jest icon',
-  },
-  {
-    icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1609888049/My%20Website/git_fpahbx.svg',
-    name: 'Git & GitHub',
-    title: 'Github icon',
-  },
-  {
-    icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1609887882/My%20Website/terminal_d0wlpr.svg',
-    name: 'Terminal',
-    title: 'Terminal icon',
-  },
-];
-
-export const softSkills = [
-  {
-    name: 'Work in team',
-    rol: 'Collaborator',
-    url: 'https://github.com/rogeliosamuel621/Thrillo',
-    urlName: 'Thrillo',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1614955582/My%20Website/github_obytjw.svg',
+    name: 'CI & CD with Github Actions',
   },
 ];

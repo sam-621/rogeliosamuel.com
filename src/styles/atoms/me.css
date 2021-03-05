@@ -1,0 +1,16 @@
+.Me {
+  display: flex;
+  justify-content: center;
+}
+.Me img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .Me img {
+    width: 250px;
+    height: 250px;
+  }
+}
