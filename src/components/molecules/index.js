@@ -1,6 +1,6 @@
 import Blog from './Blog';
 import Project from './Project';
 import SocialIcons from './SocialIcons';
-import Skills from './Skills';
+import Skill from './Skill';
 
-export { Blog, Project, SocialIcons, Skills };
+export { Blog, Project, SocialIcons, Skill };

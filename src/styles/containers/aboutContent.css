@@ -22,3 +22,7 @@
   font-size: 2.4rem;
   font-weight: 400;
 }
+.AboutContent-skills-skill {
+  display: grid;
+  grid-gap: 15px;
+}

@@ -1,7 +1,8 @@
 import React from 'react';
+import { skills } from '../../assets/skills';
 import '../../styles/containers/aboutContent.css';
 import { Me } from '../atoms';
-import { Skills } from '../molecules';
+import { Skill } from '../molecules';
 
 const AboutContent = () => {
   return (
@@ -32,10 +33,27 @@ const AboutContent = () => {
       <div className="AboutContent-skills">
         <h2>Tecnical skills</h2>
         <p>
-          I work with <a href="">MERN</a> stack but also i know other
-          tecnologies and other skills thant just coding
+          I work with{' '}
+          <a
+            href="https://platzi.com/blog/que-es-mern-stack-javascript/"
+            target="_blank"
+          >
+            MERN
+          </a>{' '}
+          stack but also i know other tecnologies and other skills thant just
+          coding
         </p>
-        <Skills />
+        <div className="AboutContent-skills-skill">
+          {skills.map((skill, index) => {
+            return <Skill key={index} icon={skill.icon} name={skill.name} />;
+          })}
+          <p>
+            You can verify this skills seeing my{' '}
+            <a href="https://github.com/rogeliosamuel621" target="_blank">
+              projects
+            </a>{' '}
+          </p>
+        </div>
       </div>
       <div className="AboutContent-interests">
         <h2>Interests</h2>
