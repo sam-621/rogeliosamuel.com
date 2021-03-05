@@ -64,6 +64,6 @@ export const ProjectsData = [
     demo: 'https://rogeliosamuel621.netlify.app/',
     features: ['Online payments with PayPal'],
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1612993833/My%20Website/2021-02-10_14h48_50_b4smlj.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1614958078/My%20Website/2021-03-05_08h27_21_mutjua.png',
   },
 ];
