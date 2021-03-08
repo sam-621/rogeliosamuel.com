@@ -49,7 +49,7 @@
 @media screen and (min-width: 400px) {
   .Hero {
     margin-top: 50px;
-    height: 85vh;
+    height: 79vh;
   }
   .Hero-content {
     grid-gap: 30px;
