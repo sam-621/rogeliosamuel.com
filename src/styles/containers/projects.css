@@ -11,14 +11,7 @@
   justify-content: center;
   grid-gap: 20px;
 }
-
-@media screen and (min-width: 1024px) {
-  .Projects {
-    margin: 50px 80px;
-  }
-  .Projects-title {
-    margin-bottom: 50px;
-  }
+@media screen and (min-width: 768px) {
   .Projects-content {
     grid-template-columns: auto auto;
     grid-gap: 40px;
@@ -33,5 +26,13 @@
     width: 50px;
     height: 0;
     margin-right: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Projects {
+    margin: 50px 80px;
+  }
+  .Projects-title {
+    margin-bottom: 50px;
   }
 }

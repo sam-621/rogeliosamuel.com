@@ -20,7 +20,7 @@
   margin: 10px 0 10px 0;
 }
 .Project-text p {
-  color: #B7B7B7;
+  color: #b7b7b7;
   font-size: 1.4rem;
   margin: 0 0 20px 0;
 }
@@ -42,7 +42,7 @@
   background-color: black;
   border-radius: 5px;
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 400px) {
   .Project {
     max-width: 310px;
     padding: 20px;
