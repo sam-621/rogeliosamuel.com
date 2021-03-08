@@ -8,6 +8,10 @@ const About = () => {
     <>
       <Helmet>
         <title>Rogelio Samuel | About</title>
+        <meta
+          name="description"
+          content="About rogelisoamuel621 here you can find my experience, what i'm doing and tastes"
+        />
       </Helmet>
       {screen.width >= 1024 ? <NavDesktop /> : null}
       <AboutContent />

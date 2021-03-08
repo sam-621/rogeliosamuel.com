@@ -16,6 +16,10 @@ const Home = () => {
     <>
       <Helmet>
         <title>Rogelio Samuel | Home</title>
+        <meta
+          name="description"
+          content="rogelisoamuel621's website created in Reactjs where you can find my projects, experience and something about me"
+        />
       </Helmet>
       {screen.width >= 1024 ? <NavDesktop /> : null}
       <Hero />
