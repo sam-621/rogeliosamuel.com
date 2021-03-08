@@ -46,6 +46,18 @@
   display: flex;
   justify-content: center;
 }
+@media screen and (min-width: 400px) {
+  .Hero {
+    margin-top: 50px;
+    height: 85vh;
+  }
+  .Hero-content {
+    grid-gap: 30px;
+  }
+  .Hero-illustration {
+    margin-top: 50px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .Hero {
     display: grid;
