@@ -3,7 +3,7 @@ export const blogs = [
     title: '5 git commands you should know',
     date: '5 January 2021',
     icon:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1609888049/My%20Website/git_fpahbx.svg',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1615214112/My%20Website/git_ma8nsp.svg',
     url: 'https://dev.to/rogeliosamuel621/5-git-commands-you-should-know-1o2g',
   },
   {

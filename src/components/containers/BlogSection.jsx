@@ -9,7 +9,7 @@ const BlogSection = () => {
   return (
     <section className="BlogsSection">
       <div className="BlogSection-text">
-        <Title title="Recent blogs" />
+        <Title title="Featured blogs" />
         <div className="BlogSection-text-blogs">
           {blogs.map((blog, index) => {
             return (
