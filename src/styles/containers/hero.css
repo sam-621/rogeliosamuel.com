@@ -46,6 +46,15 @@
   display: flex;
   justify-content: center;
 }
+@media screen and (max-height: 600px) {
+  .Hero {
+    margin-top: 0 !important;
+    height: 95vh !important;
+  }
+  .Hero-illustration {
+    margin-top: 0 !important;
+  }
+}
 @media screen and (min-width: 320px) {
   .Hero {
     margin-top: 50px;
