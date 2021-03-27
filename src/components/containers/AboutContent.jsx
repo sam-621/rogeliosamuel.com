@@ -20,9 +20,9 @@ const AboutContent = () => {
       <div className="AboutContent-whoAmI">
         <h2>Who am i?</h2>
         <p>
-          A developer from mexico who likes math and programming, im 18 years
-          old, currently im learning web development. <br /> <br /> I enjoy
-          teaching my knowledge and working with other people. i have a{' '}
+          A developer from Mexico who likes math and programming. I’m 18 years
+          old, and currently I’m learning web development. <br /> <br /> I enjoy
+          sharing my knowledge and working with other people. i have a{' '}
           <a href="https://dev.to/rogeliosamuel621" target="_blank">
             blog
           </a>{' '}
@@ -33,7 +33,7 @@ const AboutContent = () => {
         </p>
       </div>
       <div className="AboutContent-skills">
-        <h2>Tecnical skills</h2>
+        <h2>Technical skills</h2>
         <p>
           I work with{' '}
           <a
@@ -42,17 +42,17 @@ const AboutContent = () => {
           >
             MERN
           </a>{' '}
-          stack but also i know other tecnologies and other skills thant just
-          coding
+          stack but I also know other technologies and have additional skills
+          beyond just coding.
         </p>
         <div className="AboutContent-skills-skill">
           {skills.map((skill, index) => {
             return <Skill key={index} icon={skill.icon} name={skill.name} />;
           })}
           <p>
-            You can verify this skills seeing my{' '}
+            You can verify my skills by viewing my{' '}
             <a href="https://github.com/rogeliosamuel621" target="_blank">
-              projects
+              projects.
             </a>{' '}
           </p>
         </div>
@@ -60,9 +60,9 @@ const AboutContent = () => {
       <div className="AboutContent-interests">
         <h2>Interests</h2>
         <p>
-          out of coding, maths and learning, i like play videogames which has
-          history, i watch streams and i practice jiu-jitsu. I like chemistry
-          and psychology.
+          Other than coding, maths, and learning, I like to play videogames,
+          watch streams, and practice jiu-jitsu. I also like chemistry and
+          psychology.
         </p>
       </div>
     </main>

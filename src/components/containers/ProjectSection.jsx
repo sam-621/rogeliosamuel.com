@@ -12,8 +12,8 @@ const ProjectSection = () => {
       <div className="ProjectSection-text">
         <TitleLeft title="Projects" position="left" />
         <p>
-          I love programming, i programming every day and a way to justify it is
-          building projects
+          I love programming. I program every day, and a way to justify it is
+          through building projects
         </p>
         <div className="ProjectSection-text-primary">
           <PrimaryButton text="Projects" url="portfolio" />

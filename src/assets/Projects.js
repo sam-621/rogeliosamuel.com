@@ -3,7 +3,7 @@ export const ProjectsData = [
     ID: 0,
     title: 'E-commerce',
     Description:
-      'An E-commerce where you can do the main actions that you´d do in an E-commerce. ',
+      'An E-commerce platform where you can perform the main actions that you’d expect on any other popular E-commerce platform.',
     Repo: 'https://github.com/rogeliosamuel621/E-commerce',
     demo: 'https://ecommerce-621.netlify.app/home',
     image:
@@ -13,7 +13,7 @@ export const ProjectsData = [
     ID: 1,
     title: 'AuthApp',
     Description:
-      'A web application where you can authenticate and make CRUD actions, upload photos and change password',
+      'A web application where you can authenticate and make CRUD actions, upload photos, and change the password.',
     Repo: 'https://github.com/rogeliosamuel621/AuthApp',
     demo: 'https://authapp-rs.netlify.app/',
     image:

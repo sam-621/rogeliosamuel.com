@@ -11,7 +11,7 @@ const ContactSection = () => {
         <Title title="Contact" />
         <div className="ContactSection-text-p">
           <p>
-            I like building projects with other people, and teach, so if you´d
+            I like building projects with other people and teaching. If you’d
             like to get in touch with me, these are some options.
           </p>
         </div>
