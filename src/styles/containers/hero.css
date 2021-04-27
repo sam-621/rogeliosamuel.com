@@ -26,6 +26,10 @@
   color: #b7b7b7;
   font-size: 1.8rem;
 }
+.Hero-content p a{
+  font-weight: bold;
+  color: #b7b7b7;
+}
 .Hero-content-actions {
   display: grid;
   grid-template-columns: auto auto;

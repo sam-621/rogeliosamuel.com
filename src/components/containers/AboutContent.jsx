@@ -12,8 +12,8 @@ const AboutContent = () => {
         <div>
           <h1>Hello im Rogelio Samuel</h1>
           <p>
-            Web developer, intern at @EDteam, MERN stack. Always learning and
-            open to working with other people.
+            Frontend developer at <a href="https://ed.team">@EDteam</a>, MERN stack. Always learning and open
+            to working with other people.
           </p>
         </div>
       </div>
