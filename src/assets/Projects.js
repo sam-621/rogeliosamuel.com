@@ -7,7 +7,7 @@ export const ProjectsData = [
     Repo: 'https://github.com/rogeliosamuel621/E-commerce',
     demo: 'https://ecommerce-621.netlify.app/home',
     image:
-      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1612993677/My%20Website/2021-02-10_14h47_41_sgsr4w.png',
+      'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1625984334/My%20Website/2021-07-11_00h13_38_uz4bia.png',
   },
   {
     ID: 1,
