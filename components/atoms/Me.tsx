@@ -5,7 +5,7 @@ const Me = () => {
     <div className="flex justify-center">
       <Image
         className="object-cover rounded-full"
-        src="/Rogelio_Samuel_Moreno_Corrales.jpg"
+        src="/images/Rogelio_Samuel_Moreno_Corrales.jpg"
         width="150"
         height="150"
         layout="fixed"
