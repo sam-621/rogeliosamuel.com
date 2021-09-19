@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 const Title: FC<Props> = ({ title }) => {
   return (
-    <div className="flex flex-col mt-12">
+    <div className="flex flex-col mt-12 mb-7">
       <div className="flex justify-center w-full">
         <span className="bg-secondary w-9 h-px " />
       </div>

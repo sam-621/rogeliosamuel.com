@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Header from '../components/containers/Header'
+import ProjectSection from '../components/containers/ProjectsSection'
 import Title from '../components/molecules/Title'
 
 const Home: NextPage = () => {
@@ -7,6 +8,7 @@ const Home: NextPage = () => {
     <>
       <Header />
       <Title title="Projects" />
+      <ProjectSection />
     </>
   )
 }

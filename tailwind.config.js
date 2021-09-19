@@ -9,7 +9,9 @@ module.exports = {
       primary: '#222831',
       secondary: '#2F80ED',
       white: colors.white,
-      subtitle: '#BEC5CB'
+      black: colors.black,
+      subtitle: '#BEC5CB',
+      'card-background': '#292F38'
     }
   },
   variants: {
