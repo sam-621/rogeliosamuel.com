@@ -3,7 +3,7 @@ import ProjectCard from '../molecules/ProjectCard'
 
 const ProjectSection = () => {
   return (
-    <section className="grid gap-y-7 justify-center md:grid-cols-2 md:gap-x-5 md:mx-5 lg:mx-32">
+    <section className="grid gap-y-7 justify-center md:grid-cols-2 md:gap-x-10 md:mx-16 lg:mx-32">
       {projects.map((item) => (
         <ProjectCard key={item.id} project={item} />
       ))}
