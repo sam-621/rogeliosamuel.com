@@ -5,7 +5,6 @@ import { useMedia } from '../../hooks/useMedia'
 const Me = () => {
   const isTablet = useMedia(mediaFrom768)
   const isDesktop = useMedia(mediaFrom1440)
-  console.log(isTablet)
 
   if (isDesktop) {
     return (
