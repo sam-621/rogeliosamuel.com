@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { FC } from 'react'
+import projects from '../../data/projects'
 import { TProject } from '../../interfaces/project.interface'
 
 const ProjectCard: FC<Props> = ({ project }) => {
@@ -7,12 +8,14 @@ const ProjectCard: FC<Props> = ({ project }) => {
     <article className="shadow rounded-lg bg-card-background mx-2.5 sm:mx-16 md:mx-0 pb-2">
       <div className="">
         <Image
-          className="rounded-tr-lg rounded-tl-lg object-cover"
+          className="rounded-tr-lg rounded-tl-lg object-cover transition-all"
           src={project.image}
           alt={project.name}
           width="300"
           height="170"
           layout="responsive"
+          placeholder="blur"
+          blurDataURL={project.image}
         />
       </div>
       <div className="rounded-br-lg rounded-bl-lg p-2.5">
