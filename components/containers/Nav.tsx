@@ -9,7 +9,9 @@ const Nav = () => {
         <img src={`/icons/${isMobile ? 'logo.svg' : 'logo_60.svg'}`} alt="Rogelio Samuel logo" />
       </div>
       <div>
-        <button className="bg-secondary text-white p-2 rounded-md">Download CV</button>
+        <a href="/CV.pdf" target="_blank" className="bg-secondary text-white p-2 rounded-md">
+          Download CV
+        </a>
       </div>
     </nav>
   )
