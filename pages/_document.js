@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="es">
         <Head>
           <link rel="shortcut icon" href="/icons/logo.svg" />
           <meta name="author" content="Rogelio Samuel Moreno Corrales" />
