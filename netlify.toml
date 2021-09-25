@@ -1,6 +1,6 @@
 [build]
- command = "npm run build"
- publish = "dist"
+ command = "yarn build"
+ publish = ".next"
 [[redirects]]
  from = "/*"
  to = "/index.html"
