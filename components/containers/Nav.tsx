@@ -4,7 +4,7 @@ import { useMedia } from '../../hooks/useMedia'
 const Nav = () => {
   const isMobile = useMedia(mediaFrom768)
   return (
-    <nav className="flex justify-between mt-5 mx-5 md:mx-16 lg:mx-36">
+    <nav className="flex justify-between mt-5 mb-12 mx-5 md:mx-16 lg:mx-36">
       <div>
         <img src={`/icons/${isMobile ? 'logo.svg' : 'logo_60.svg'}`} alt="Rogelio Samuel logo" />
       </div>
