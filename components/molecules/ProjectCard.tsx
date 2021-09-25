@@ -4,7 +4,7 @@ import { TProject } from '../../interfaces/project.interface'
 
 const ProjectCard: FC<Props> = ({ project }) => {
   return (
-    <article className="shadow rounded-lg bg-card-background mx-2.5 sm:mx-16 md:mx-0">
+    <article className="shadow rounded-lg bg-card-background mx-2.5 sm:mx-16 md:mx-0 pb-2">
       <div className="">
         <Image
           className="rounded-tr-lg rounded-tl-lg object-cover"
