@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import BlogsSection from '../components/containers/BlogsSection'
 import Footer from '../components/containers/Footer'
 import Header from '../components/containers/Header'
 import ProjectSection from '../components/containers/ProjectsSection'
@@ -11,13 +12,15 @@ const Home: NextPage = () => {
       <Head>
         <title>Rogelio Samuel | Home</title>
         <meta
-          name="description"
-          content="Rogelio Samuel website. Here you can find my projects, experience level, and more details about me."
+          name='description'
+          content='Rogelio Samuel website. Here you can find my projects, experience level, and more details about me.'
         />
       </Head>
       <Header />
-      <Title title="Projects" />
+      <Title title='Projects' />
       <ProjectSection />
+      <Title title='Blogs' />
+      <BlogsSection />
       <Footer />
     </>
   )
