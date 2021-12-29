@@ -3,12 +3,12 @@ import { TProject } from '../interfaces/project.interface'
 const projects: TProject[] = [
   {
     id: 0,
-    name: 'E-commerce',
+    name: 'Chat Group',
     shortDescription:
-      'An E-commerce where you can do the main actions that you´d do in an E-commerce. Add to cart, buy, sessions and more',
-    image: '/images/ecommerce.png',
-    demo: 'https://ecommerce-rs.vercel.app/',
-    repo: 'https://github.com/rogeliosamuel621/e-commerce',
+      'A web application where you can send messages in a public chat in real time, login, register and see your profile',
+    image: '/images/chat-group.png',
+    demo: 'https://chat-group-rs.vercel.app/',
+    repo: 'https://github.com/rogeliosamuel621/Chat-Group',
   },
   {
     id: 1,
