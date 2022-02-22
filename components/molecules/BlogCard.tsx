@@ -21,7 +21,12 @@ const BlogCard: FC<Props> = ({ blog }) => {
         <h3 className='text-white text-lg'>{blog.title}</h3>
         <p className='text-subtitle text-sm'>{blog.shortDescription}</p>
         <div className='mt-5 flex justify-around'>
-          <a className='bg-secondary text-white p-2 px-5 rounded-md flex' href={blog.demo}>
+          <a
+            className='bg-secondary text-white p-2 px-5 rounded-md flex'
+            href={blog.demo}
+            target='_blank'
+            rel='noreferrer'
+          >
             Read
             <img className='ml-1' src='/icons/view_demo.svg' alt='view demo' />
           </a>
