@@ -13,7 +13,7 @@ const Header = () => {
             Rogelio Samuel Moreno Corrales
           </h1>
           <p className="text-center text-subtitle mt-1 text-sm lg:text-base">
-            Front-end developer at @EDteam | MERN stack
+            Front-end developer at DrEnvío | MERN stack
           </p>
           <SocialIcons />
         </div>
