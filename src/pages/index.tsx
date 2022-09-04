@@ -1,5 +1,11 @@
+import { Header } from '@sections/Header'
+
 export const Home = () => {
-  return <h1 className="text-red-600">Hello world</h1>
+  return (
+    <div className="mx-2 mt-5">
+      <Header />
+    </div>
+  )
 }
 
 export default Home

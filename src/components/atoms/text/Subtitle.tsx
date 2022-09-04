@@ -3,7 +3,7 @@ import { FC } from 'react'
 export const Subtitle: FC<Props> = ({ variant, text, className }) => {
   switch (variant) {
     case 'span':
-      return <span className={`text-subtitle text-base font-medium ${className}`}>{text}</span>
+      return <span className={`text-subtitle text-base font-semibold ${className}`}>{text}</span>
     case 'description':
       return <p className={`text-subtitle text-xs font-normal ${className}`}>{text}</p>
     default:
@@ -14,5 +14,5 @@ export const Subtitle: FC<Props> = ({ variant, text, className }) => {
 type Props = {
   variant: 'span' | 'description'
   text: string
-  className: string
+  className?: string
 }

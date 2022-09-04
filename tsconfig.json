@@ -20,21 +20,8 @@
     "jsx": "preserve",
     "baseUrl": "src",
     "paths": {
-      "@modules/*": ["modules/*"],
-      "@components/*": ["common/components/*"],
-      "@atoms/*": ["common/components/atoms/*"],
-      "@molecules/*": ["common/components/molecules/*"],
-      "@organisms/*": ["common/components/organisms/*"],
-      "@layouts/*": ["common/components/layouts/*"],
-      "@constants/*": ["common/constants/*"],
-      "@contexts/*": ["common/contexts/*"],
-      "@helpers/*": ["common/helpers/*"],
-      "@hooks/*": ["common/hooks/*"],
-      "@interfaces/*": ["common/interfaces/*"],
-      "@services/*": ["common/services/*"],
-      "@apis/*": ["common/apis/*"],
-      "@state/*": ["common/state/*"],
-      "@libs/*": ["common/libs/*"]
+      "@atoms/*": ["components/atoms/*"],
+      "@sections/*": ["components/sections/*"]
     }
 
   },
