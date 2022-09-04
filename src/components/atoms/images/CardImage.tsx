@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { FC } from 'react'
 
 export const CardImage: FC<Props> = ({ src, alt }) => {
-  return <Image src={`/img/${src}`} alt={alt} width={100} height={100} className="rounded-full" />
+  return <Image src={`/img/${src}`} alt={alt} width={300} height={166.25} className="rounded" />
 }
 
 type Props = {

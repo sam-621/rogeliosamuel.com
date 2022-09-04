@@ -6,23 +6,19 @@ import 'swiper/css/pagination'
 
 import { Pagination } from 'swiper'
 import { FC, PropsWithChildren } from 'react'
-import { CarouselItem } from './CarouselItem'
 
-const Carousel: FC<PropsWithChildren> = ({ children }) => {
+export const Carousel: FC<PropsWithChildren> = ({ children }) => {
   return (
     <Swiper
       pagination={{
-        dynamicBullets: true
+        dynamicBullets: true,
+        bulletClass: 'swiper-pagination-bullet bullet-i'
       }}
       modules={[Pagination]}
-      spaceBetween={50}
+      spaceBetween={0}
       slidesPerView={1}
     >
       {children}
     </Swiper>
   )
 }
-
-export default Object.assign(Carousel, {
-  Item: CarouselItem
-})

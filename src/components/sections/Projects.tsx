@@ -1,44 +1,28 @@
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Title } from '@atoms/text/Title'
+import { Carousel } from '@containers/Carousel'
+import { Project } from '@items/Project'
 
-import 'swiper/css'
-import 'swiper/css/pagination'
-
-import { Pagination } from 'swiper'
+import { SwiperSlide } from 'swiper/react'
 
 export const Projects = () => {
   return (
-    <Swiper
-      pagination={{
-        dynamicBullets: true
-      }}
-      modules={[Pagination]}
-      spaceBetween={50}
-      slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide>
-        <div className="px-5">
-          <h1 className="text-white">Hola</h1>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="px-5">
-          <h1 className="text-white">Hola</h1>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="px-5">
-          <h1 className="text-white">Hola</h1>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="px-5">
-          <h1 className="text-white">Hola</h1>
-        </div>
-      </SwiperSlide>
-      ...
-    </Swiper>
+    <section className="mt-12">
+      <div className="mb-6">
+        <Title variant="h2" text="Projects" className="text-center" />
+      </div>
+      <div>
+        <Carousel>
+          <SwiperSlide className="flex justify-center mb-10">
+            <Project />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center mb-10">
+            <Project />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center mb-10">
+            <Project />
+          </SwiperSlide>
+        </Carousel>
+      </div>
+    </section>
   )
 }

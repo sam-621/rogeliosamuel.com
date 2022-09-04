@@ -21,7 +21,9 @@
     "baseUrl": "src",
     "paths": {
       "@atoms/*": ["components/atoms/*"],
-      "@sections/*": ["components/sections/*"]
+      "@sections/*": ["components/sections/*"],
+      "@containers/*": ["components/containers/*"],
+      "@items/*": ["components/items/*"]
     }
 
   },
