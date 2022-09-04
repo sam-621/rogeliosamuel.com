@@ -8,20 +8,42 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": "src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@components/*": ["common/components/*"],
+      "@atoms/*": ["common/components/atoms/*"],
+      "@molecules/*": ["common/components/molecules/*"],
+      "@organisms/*": ["common/components/organisms/*"],
+      "@layouts/*": ["common/components/layouts/*"],
+      "@constants/*": ["common/constants/*"],
+      "@contexts/*": ["common/contexts/*"],
+      "@helpers/*": ["common/helpers/*"],
+      "@hooks/*": ["common/hooks/*"],
+      "@interfaces/*": ["common/interfaces/*"],
+      "@services/*": ["common/services/*"],
+      "@apis/*": ["common/apis/*"],
+      "@state/*": ["common/state/*"],
+      "@libs/*": ["common/libs/*"]
+    }
+
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx", 
+    "src/pages/_document.tsx",
+    "src/pages/_app.js"
   ],
   "exclude": [
     "node_modules"
