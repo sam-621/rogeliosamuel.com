@@ -2,7 +2,7 @@ import { CardImage } from '@atoms/images/CardImage'
 import { useState } from 'react'
 import { CardInfo } from './CardInfo'
 
-export const Project = () => {
+export const Card = () => {
   const [isActive, setIsActive] = useState(false)
   return (
     <div className="">
