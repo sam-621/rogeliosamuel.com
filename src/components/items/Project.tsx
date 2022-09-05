@@ -8,7 +8,7 @@ export const Project = () => {
     <div className="">
       {isActive && <ProjectInfo />}
       <div className="" onClick={() => setIsActive(true)}>
-        <CardImage src="projects/chat-group-ss.png" alt="Chat group" />
+        <CardImage src="projects/chat-group-ss.png" alt="Chat group" hasBlur={isActive} />
       </div>
     </div>
   )

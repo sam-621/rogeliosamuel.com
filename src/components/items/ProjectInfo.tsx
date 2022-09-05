@@ -6,7 +6,7 @@ import { Title } from '@atoms/text/Title'
 export const ProjectInfo = () => {
   return (
     <>
-      <div className="bg-cards h-full opacity-80 w-full fixed z-40"></div>
+      <div className="bg-cards h-full opacity-80 w-full fixed z-40 transition"></div>
       <div className=" h-full w-full fixed z-40 p-3">
         <Title variant="h3" text="Payment App" />
         <div className="flex flex-col h-full justify-between">
