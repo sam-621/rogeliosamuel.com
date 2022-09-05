@@ -8,12 +8,7 @@ export const projects: ICard[] = [
     description: 'Web application where you can pay with PayPal',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
-      <FilledLink
-        key={0}
-        variant="secondary"
-        text="Live Demo"
-        className="text-xs border border-cards"
-      />,
+      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs " />,
       <OutlinedLink key={1} variant="primary" text="Live Demo" className="text-xs" />
     ]
   },
@@ -22,12 +17,7 @@ export const projects: ICard[] = [
     description: 'Web application where you can pay with PayPal',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
-      <FilledLink
-        key={0}
-        variant="secondary"
-        text="Live Demo"
-        className="text-xs border border-cards"
-      />,
+      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs" />,
       <OutlinedLink key={1} variant="primary" text="Live Demo" className="text-xs" />
     ]
   },
@@ -36,12 +26,7 @@ export const projects: ICard[] = [
     description: 'Web application where you can pay with PayPal',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
-      <FilledLink
-        key={0}
-        variant="secondary"
-        text="Live Demo"
-        className="text-xs border border-cards"
-      />,
+      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs" />,
       <OutlinedLink key={1} variant="primary" text="Live Demo" className="text-xs" />
     ]
   }
