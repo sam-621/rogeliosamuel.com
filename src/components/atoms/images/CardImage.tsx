@@ -16,7 +16,7 @@ export const CardImage: FC<Props> = ({ src, alt }) => {
       alt={alt}
       width={300}
       height={166.25}
-      className="blur rounded"
+      className="transition rounded"
       priority
     />
   )
