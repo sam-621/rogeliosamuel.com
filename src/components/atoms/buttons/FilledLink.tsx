@@ -1,25 +1,25 @@
 import Link from 'next/link'
 import { FC } from 'react'
 
-export const FilledLink: FC<Props> = ({ variant, text }) => {
+export const FilledLink: FC<Props> = ({ variant, text, className }) => {
   switch (variant) {
     case 'primary':
       return (
         <Link href="/">
-          <a className="bg-primary text-white px-10 py-2 rounded">{text}</a>
+          <a className={`bg-primary text-white px-10 py-2 rounded ${className}`}>{text}</a>
         </Link>
       )
     case 'secondary':
       return (
-        <Link href="/" className="bg-cards text-white rounded p-2">
-          {text}
+        <Link href="/" className="">
+          <a className={`bg-cards text-white rounded px-5 py-2 ${className}`}>{text}</a>
         </Link>
       )
 
     default:
       return (
-        <Link href="/" className="bg-primary text-white px-5 py-2 rounded">
-          {text}
+        <Link href="/">
+          <a className={`bg-primary text-white px-10 py-2 rounded ${className}`}>{text}</a>
         </Link>
       )
   }
@@ -28,4 +28,5 @@ export const FilledLink: FC<Props> = ({ variant, text }) => {
 type Props = {
   variant: 'primary' | 'secondary'
   text: string
+  className?: string
 }

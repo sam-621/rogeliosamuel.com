@@ -12,7 +12,7 @@ export const Projects = () => {
       </div>
       <div className="mx-3">
         <Carousel>
-          <SwiperSlide className="mb-10">
+          <SwiperSlide className="mb-10 rounded">
             <Project />
           </SwiperSlide>
           <SwiperSlide className="mb-10">

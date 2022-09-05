@@ -17,6 +17,7 @@ export const Carousel: FC<PropsWithChildren> = ({ children }) => {
       modules={[Pagination]}
       spaceBetween={20}
       slidesPerView={1}
+      className="rounded"
     >
       {children}
     </Swiper>
