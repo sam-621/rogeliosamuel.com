@@ -23,7 +23,9 @@
       "@atoms/*": ["components/atoms/*"],
       "@sections/*": ["components/sections/*"],
       "@containers/*": ["components/containers/*"],
-      "@items/*": ["components/items/*"]
+      "@items/*": ["components/items/*"],
+      "@hooks/*": ["hooks/*"],
+      "@helpers/*": ["helpers/*"]
     }
 
   },

@@ -10,15 +10,15 @@ export const Projects = () => {
       <div className="mb-6">
         <Title variant="h2" text="Projects" className="text-center" />
       </div>
-      <div>
+      <div className="mx-3">
         <Carousel>
-          <SwiperSlide className="flex justify-center mb-10">
+          <SwiperSlide className="mb-10">
             <Project />
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center mb-10">
+          <SwiperSlide className="mb-10">
             <Project />
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center mb-10">
+          <SwiperSlide className="mb-10">
             <Project />
           </SwiperSlide>
         </Carousel>
