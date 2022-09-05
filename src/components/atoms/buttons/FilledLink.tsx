@@ -1,3 +1,4 @@
+import { TVariants } from 'interfaces/utils.interface'
 import Link from 'next/link'
 import { FC } from 'react'
 
@@ -26,7 +27,7 @@ export const FilledLink: FC<Props> = ({ variant, text, className }) => {
 }
 
 type Props = {
-  variant: 'primary' | 'secondary'
+  variant: TVariants
   text: string
   className?: string
 }

@@ -25,7 +25,9 @@
       "@containers/*": ["components/containers/*"],
       "@items/*": ["components/items/*"],
       "@hooks/*": ["hooks/*"],
-      "@helpers/*": ["helpers/*"]
+      "@helpers/*": ["helpers/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@data/*": ["data/*"]
     }
 
   },

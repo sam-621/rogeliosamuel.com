@@ -1,5 +1,6 @@
 import { Title } from '@atoms/text/Title'
 import { Carousel } from '@containers/Carousel'
+import { projects } from '@data/projects'
 import { Card } from '@items/Card'
 
 import { SwiperSlide } from 'swiper/react'
@@ -12,15 +13,11 @@ export const Projects = () => {
       </div>
       <div className="mx-3">
         <Carousel>
-          <SwiperSlide className="mb-10 rounded">
-            <Card />
-          </SwiperSlide>
-          <SwiperSlide className="mb-10">
-            <Card />
-          </SwiperSlide>
-          <SwiperSlide className="mb-10">
-            <Card />
-          </SwiperSlide>
+          {projects.map((item, i) => (
+            <SwiperSlide key={i} className="mb-10 rounded">
+              <Card {...item} />
+            </SwiperSlide>
+          ))}
         </Carousel>
       </div>
     </section>
