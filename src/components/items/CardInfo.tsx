@@ -3,7 +3,7 @@ import { OutlinedLink } from '@atoms/buttons/OutlinedLink'
 import { Subtitle } from '@atoms/text/Subtitle'
 import { Title } from '@atoms/text/Title'
 
-export const ProjectInfo = () => {
+export const CardInfo = () => {
   return (
     <>
       <div className="bg-cards h-full opacity-80 w-full fixed z-40 transition"></div>
