@@ -1,5 +1,6 @@
 import { Title } from '@atoms/text/Title'
 import { Carousel } from '@containers/Carousel'
+import { blogs } from '@data/blogs'
 import { Card } from '@items/Card'
 
 import { SwiperSlide } from 'swiper/react'
@@ -12,7 +13,12 @@ export const Blogs = () => {
       </div>
       <div className="mx-3">
         <Carousel>
-          <SwiperSlide className="mb-10 rounded">
+          {blogs.map((item, i) => (
+            <SwiperSlide key={i} className="mb-10 rounded">
+              <Card key={i} {...item} />
+            </SwiperSlide>
+          ))}
+          {/* <SwiperSlide className="mb-10 rounded">
             <Card />
           </SwiperSlide>
           <SwiperSlide className="mb-10">
@@ -20,7 +26,7 @@ export const Blogs = () => {
           </SwiperSlide>
           <SwiperSlide className="mb-10">
             <Card />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Carousel>
       </div>
     </section>
