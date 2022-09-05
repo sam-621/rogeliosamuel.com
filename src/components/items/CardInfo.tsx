@@ -6,7 +6,7 @@ import { FC } from 'react'
 export const CardInfo: FC<Props> = ({ title, description, buttons }) => {
   return (
     <div className="max-h-full overflow-hidden">
-      <div className="bg-cards h-full opacity-80 w-full fixed z-40 transition"></div>
+      <div className="bg-cards h-full opacity-80 w-full fixed z-40"></div>
       <div className=" h-full w-full fixed z-40 p-3">
         <div className="overflow-hidden">
           <Title
