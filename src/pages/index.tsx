@@ -1,4 +1,4 @@
-import { Blogs } from '@sections/Blog'
+import { Blogs } from '@sections/Blogs'
 import { Header } from '@sections/Header'
 import { Projects } from '@sections/Projects'
 
