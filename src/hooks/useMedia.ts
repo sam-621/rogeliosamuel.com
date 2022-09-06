@@ -1,19 +1,22 @@
 import { useState, useEffect } from 'react'
 
-export function useMedia(query: string) {
+export function useMedia(width: number) {
   const [matches, setMatches] = useState(false)
 
-  useEffect(() => {
-    const media = window.matchMedia(query)
-    if (media.matches !== matches) {
-      setMatches(media.matches)
-    }
-    const listener = () => {
-      setMatches(media.matches)
-    }
-    media.addListener(listener)
-    return () => media.removeListener(listener)
-  }, [matches, query])
+  const resizeFn = () => {
+    setMatches(window.innerWidth >= width)
+  }
 
-  return matches
+  useEffect(() => {
+    window.addEventListener('resize', resizeFn)
+
+    return () => {
+      window.removeEventListener('resize', resizeFn)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  return {
+    matches
+  }
 }
