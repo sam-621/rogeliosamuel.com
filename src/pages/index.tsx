@@ -1,4 +1,5 @@
 import { Blogs } from '@sections/Blogs'
+import { Footer } from '@sections/Footer'
 import { Header } from '@sections/Header'
 import { Projects } from '@sections/Projects'
 
@@ -8,6 +9,7 @@ export const Home = () => {
       <Header />
       <Projects />
       <Blogs />
+      <Footer />
     </div>
   )
 }
