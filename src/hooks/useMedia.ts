@@ -10,6 +10,8 @@ export function useMedia(width: number) {
   useEffect(() => {
     window.addEventListener('resize', resizeFn)
 
+    setMatches(window.innerWidth >= width)
+
     return () => {
       window.removeEventListener('resize', resizeFn)
     }
