@@ -7,7 +7,7 @@ export const SectionLayout: FC<Props> = ({ title, children }) => {
       <div className="mb-6">
         <Title variant="h2" text={title} className="text-center" />
       </div>
-      <div className="mx-3">{children}</div>
+      <div className="">{children}</div>
     </section>
   )
 }
