@@ -11,7 +11,7 @@ export const HeaderDesktop = () => {
           <Title variant="h1" text="Rogelio Samuel" className="whitespace-nowrap" />
           <Subtitle variant="span" text="Frontend developer" className="text-xl lg:text-3xl" />
         </div>
-        <FilledLink variant="primary" text="Download CV" className="w-fit" />
+        <FilledLink url="/CV.pdf" variant="primary" text="Download CV" className="w-fit" />
       </div>
       <div>
         <ProfileImage />
