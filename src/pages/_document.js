@@ -9,14 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="es">
-        <Head>
-          <meta
-            name="keywords"
-            content="rogeliosamuel621, rogeliosamuel21, Rogelio Samuel Moreno Corrales, website"
-          />
-          <meta name="robots" content="index, follow" />
-          <meta name="author" content="Rogelio Samuel Moreno Corrales" />
-        </Head>
+        <Head></Head>
         <body className="bg-viewport">
           <Main />
           <NextScript />
