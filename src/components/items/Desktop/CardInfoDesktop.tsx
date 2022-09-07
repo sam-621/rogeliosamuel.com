@@ -5,17 +5,17 @@ import { Title } from '@atoms/text/Title'
 import { ICard } from '@interfaces/card.interface'
 import { FC } from 'react'
 
-export const CardInfoDesktop: FC<Props> = ({ title, description, buttons }) => {
+export const CardInfoDesktop: FC<Props> = ({ title, description }) => {
   return (
-    <div>
-      <div>
-        <Title variant="h2" text={title} />
+    <div className="bg-cards md:h-72 lg:h-80 xl:h-96 p-10 flex flex-col justify-center">
+      <div className="w-full mb-4">
+        <Title variant="h2" text={title} className="" />
       </div>
-      <div>
+      <div className="w-full">
         <Subtitle variant="description" text={description} />
-        <div>
-          <FilledLink variant="secondary" text="Live Demo" />
-          <OutlinedLink variant="primary" text="Code" />
+        <div className="mt-8 flex gap-12">
+          <FilledLink variant="secondary-2" text="Live Demo" className="md:text-xs lg:text-base" />
+          <OutlinedLink variant="primary" text="Code" className="md:text-xs lg:text-base" />
         </div>
       </div>
     </div>

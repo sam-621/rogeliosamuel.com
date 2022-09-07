@@ -5,7 +5,8 @@ import { ICard } from '@interfaces/card.interface'
 export const projects: ICard[] = [
   {
     title: 'Payment App',
-    description: 'Web application where you can pay with PayPal',
+    description:
+      'Web application where you can pay with PayPal, paying the price depending of which plan you chose.',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
       <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs " />,
@@ -14,7 +15,8 @@ export const projects: ICard[] = [
   },
   {
     title: 'Payment App',
-    description: 'Web application where you can pay with PayPal',
+    description:
+      'Web application where you can pay with PayPal, paying the price depending of which plan you chose.',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
       <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs" />,
@@ -23,7 +25,8 @@ export const projects: ICard[] = [
   },
   {
     title: 'Payment App',
-    description: 'Web application where you can pay with PayPal',
+    description:
+      'Web application where you can pay with PayPal, paying the price depending of which plan you chose.',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
       <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs" />,

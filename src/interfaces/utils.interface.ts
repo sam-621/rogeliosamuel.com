@@ -1,1 +1,1 @@
-export type TVariants = 'primary' | 'secondary'
+export type TVariants = 'primary' | 'secondary' | 'secondary-2'
