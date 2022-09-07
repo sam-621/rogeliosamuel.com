@@ -14,7 +14,7 @@ export const DefaultSEO = () => {
         description: description,
         images: [
           {
-            url: '/img/og-cover.png'
+            url: 'https://res.cloudinary.com/dnvp4s8pe/image/upload/v1662571762/ijlizgmux2cqdmoijpih.png'
           }
         ],
         type: 'website'
