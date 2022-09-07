@@ -26,13 +26,14 @@ export const Home = () => {
           </div>
           <ProjectsDesktop refSection={projectsSectionRef} />
           <BlogsDesktop refSection={blogSectionRef} />
+          <Footer refSection={contactSectionRef} />
         </>
       ) : (
         <>
           <Header />
           <Projects />
           <Blogs />
-          <Footer />
+          <Footer refSection={contactSectionRef} />
         </>
       )}
     </div>
