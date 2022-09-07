@@ -8,7 +8,7 @@ import { SwiperSlide } from 'swiper/react'
 export const BlogsDesktop: FC<Props> = ({ refSection }) => {
   return (
     <>
-      <div ref={refSection}></div>
+      <div ref={refSection} className="mt-20"></div>
       <SectionLayout title="Blogs">
         <CarouselNavigation>
           {blogs.map((item, i) => (

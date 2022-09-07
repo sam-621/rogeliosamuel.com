@@ -1,5 +1,3 @@
-import { FilledLink } from '@atoms/buttons/FilledLink'
-import { OutlinedLink } from '@atoms/buttons/OutlinedLink'
 import { CardBg } from '@atoms/images/CardBg'
 import { Subtitle } from '@atoms/text/Subtitle'
 import { Title } from '@atoms/text/Title'
@@ -16,11 +14,7 @@ export const CardInfoDesktop: FC<Props> = ({ title, description, imageUrl, butto
         </div>
         <div className="w-full">
           <Subtitle variant="description" text={description} />
-          <div className="mt-8 flex gap-12">
-            {buttons.map((btn) => btn)}
-            {/* <FilledLink variant="secondary" text="Live Demo" className="md:text-xs lg:text-base" />
-            <OutlinedLink variant="primary" text="Code" className="md:text-xs lg:text-base" /> */}
-          </div>
+          <div className="mt-8 flex gap-12">{buttons.map((btn) => btn)}</div>
         </div>
       </div>
     </div>

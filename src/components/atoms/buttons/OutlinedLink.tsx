@@ -1,27 +1,24 @@
-import Link from 'next/link'
 import { FC } from 'react'
 
-export const OutlinedLink: FC<Props> = ({ variant, text, className }) => {
+export const OutlinedLink: FC<Props> = ({ variant, text, url, className }) => {
   switch (variant) {
     case 'primary':
       return (
-        <Link href="/">
-          <a
-            className={`bg-none text-white border border-white px-5 lg:px-10 py-2 rounded-sm ${className}`}
-          >
-            {text}
-          </a>
-        </Link>
+        <a
+          href={url}
+          className={`bg-none text-white border border-white px-5 lg:px-10 py-2 rounded-sm ${className}`}
+        >
+          {text}
+        </a>
       )
     default:
       return (
-        <Link href="/">
-          <a
-            className={`bg-none text-white border border-white px-5 lg:px-10 py-2 rounded-sm ${className}`}
-          >
-            {text}
-          </a>
-        </Link>
+        <a
+          href={url}
+          className={`bg-none text-white border border-white px-5 lg:px-10 py-2 rounded-sm ${className}`}
+        >
+          {text}
+        </a>
       )
   }
 }
@@ -29,5 +26,6 @@ export const OutlinedLink: FC<Props> = ({ variant, text, className }) => {
 type Props = {
   variant: 'primary'
   text: string
+  url: string
   className?: string
 }
