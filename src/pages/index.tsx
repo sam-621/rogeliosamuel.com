@@ -1,6 +1,7 @@
 import { desktop } from '@helpers/media-queries'
 import { useMedia } from '@hooks/useMedia'
 import { Blogs } from '@sections/Blogs'
+import { BlogsDesktop } from '@sections/desktop/BlogsDesktop'
 import { HeaderDesktop } from '@sections/desktop/HeaderDesktop'
 import { Nav } from '@sections/desktop/Nav'
 import { ProjectsDesktop } from '@sections/desktop/ProjectsDesktop'
@@ -20,6 +21,7 @@ export const Home = () => {
             <HeaderDesktop />
           </div>
           <ProjectsDesktop />
+          <BlogsDesktop />
         </>
       ) : (
         <>
