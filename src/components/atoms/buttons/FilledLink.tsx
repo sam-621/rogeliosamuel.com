@@ -19,17 +19,6 @@ export const FilledLink: FC<Props> = ({ variant, text, className }) => {
         </Link>
       )
 
-    case 'secondary-2':
-      return (
-        <Link href="/" className="">
-          <a
-            className={`bg-black text-white rounded md:px-5 py-2 border border-viewport ${className}`}
-          >
-            {text}
-          </a>
-        </Link>
-      )
-
     default:
       return (
         <Link href="/">

@@ -1,17 +1,14 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
 import { FC } from 'react'
 
 export const CardBg: FC<Props> = ({ src, alt, hasBlur }) => {
   return (
-    <div className="">
-      <Image
-        layout="responsive"
+    <div className="overflow-hidden">
+      <img
         src={`/img/${src}`}
         alt={alt}
-        width={300}
-        height={166.25}
-        className={`rounded ${hasBlur && 'blur'} `}
-        priority
+        width="100%"
+        className={`rounded ${hasBlur && 'blur'} object-cover h-96`}
       />
     </div>
   )

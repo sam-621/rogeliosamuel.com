@@ -18,11 +18,7 @@ export const CardInfoDesktop: FC<Props> = ({ title, description, imageUrl }) => 
         <div className="w-full">
           <Subtitle variant="description" text={description} />
           <div className="mt-8 flex gap-12">
-            <FilledLink
-              variant="secondary-2"
-              text="Live Demo"
-              className="md:text-xs lg:text-base"
-            />
+            <FilledLink variant="secondary" text="Live Demo" className="md:text-xs lg:text-base" />
             <OutlinedLink variant="primary" text="Code" className="md:text-xs lg:text-base" />
           </div>
         </div>
