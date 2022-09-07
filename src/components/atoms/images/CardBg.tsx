@@ -3,7 +3,7 @@ import { FC } from 'react'
 
 export const CardBg: FC<Props> = ({ src, alt, hasBlur }) => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden bg-cards h-full opacity-20 z-40">
       <img
         src={`/img/${src}`}
         alt={alt}

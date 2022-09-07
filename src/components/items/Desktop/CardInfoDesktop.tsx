@@ -10,7 +10,6 @@ export const CardInfoDesktop: FC<Props> = ({ title, description, imageUrl }) => 
   return (
     <div className="bg-cards md:h-72 lg:h-80 xl:h-96 flex flex-col justify-center">
       <CardBg src={imageUrl} alt={title} hasBlur />
-      <div className="bg-cards h-full opacity-80 w-full absolute z-40"></div>
       <div className="h-full fixed z-40 flex flex-col justify-center p-10">
         <div className="w-full mb-4">
           <Title variant="h2" text={title} className="" />
