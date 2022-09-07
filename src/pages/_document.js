@@ -16,6 +16,11 @@ class MyDocument extends Document {
           />
           <meta name="robots" content="index, follow" />
           <meta name="author" content="Rogelio Samuel Moreno Corrales" />
+
+          <meta
+            name="twitter:image"
+            content="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1662571762/ijlizgmux2cqdmoijpih.png"
+          ></meta>
         </Head>
         <body className="bg-viewport">
           <Main />
