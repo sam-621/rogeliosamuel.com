@@ -1,4 +1,3 @@
-// Import Swiper React components
 import { Swiper } from 'swiper/react'
 
 import 'swiper/css'
