@@ -6,6 +6,8 @@ export const OutlinedLink: FC<Props> = ({ variant, text, url, className }) => {
       return (
         <a
           href={url}
+          target="_blank"
+          rel="noreferrer"
           className={`bg-none text-white border border-white px-5 lg:px-10 py-2 rounded-sm ${className}`}
         >
           {text}
@@ -15,6 +17,8 @@ export const OutlinedLink: FC<Props> = ({ variant, text, url, className }) => {
       return (
         <a
           href={url}
+          target="_blank"
+          rel="noreferrer"
           className={`bg-none text-white border border-white px-5 lg:px-10 py-2 rounded-sm ${className}`}
         >
           {text}

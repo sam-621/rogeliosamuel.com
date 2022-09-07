@@ -5,7 +5,12 @@ export const FilledLink: FC<Props> = ({ variant, text, url, className }) => {
   switch (variant) {
     case 'primary':
       return (
-        <a href={url} className={`bg-primary text-white px-10 py-2 rounded ${className}`}>
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+          className={`bg-primary text-white px-10 py-2 rounded ${className}`}
+        >
           {text}
         </a>
       )
@@ -13,6 +18,8 @@ export const FilledLink: FC<Props> = ({ variant, text, url, className }) => {
       return (
         <a
           href={url}
+          target="_blank"
+          rel="noreferrer"
           className={`bg-cards text-white rounded px-5 py-2 border border-cards ${className}`}
         >
           {text}
@@ -21,7 +28,12 @@ export const FilledLink: FC<Props> = ({ variant, text, url, className }) => {
 
     default:
       return (
-        <a href={url} className={`bg-primary text-white px-10 py-2 rounded ${className}`}>
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+          className={`bg-primary text-white px-10 py-2 rounded ${className}`}
+        >
           {text}
         </a>
       )
