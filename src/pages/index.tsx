@@ -3,6 +3,7 @@ import { useMedia } from '@hooks/useMedia'
 import { Blogs } from '@sections/Blogs'
 import { HeaderDesktop } from '@sections/desktop/HeaderDesktop'
 import { Nav } from '@sections/desktop/Nav'
+import { ProjectsDesktop } from '@sections/desktop/ProjectsDesktop'
 import { Footer } from '@sections/Footer'
 import { Header } from '@sections/Header'
 import { Projects } from '@sections/Projects'
@@ -14,8 +15,11 @@ export const Home = () => {
     <div className="mx-5 mt-5 md:mx-10 lg:mx-20 xl:mx-52">
       {isDesktop ? (
         <>
-          <Nav />
-          <HeaderDesktop />
+          <div className="h-screen">
+            <Nav />
+            <HeaderDesktop />
+          </div>
+          <ProjectsDesktop />
         </>
       ) : (
         <>
