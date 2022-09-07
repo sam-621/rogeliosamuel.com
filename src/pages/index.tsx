@@ -8,6 +8,7 @@ import { ProjectsDesktop } from '@sections/desktop/ProjectsDesktop'
 import { Footer } from '@sections/Footer'
 import { Header } from '@sections/Header'
 import { Projects } from '@sections/Projects'
+import Head from 'next/head'
 import { useRef } from 'react'
 
 export const Home = () => {
@@ -17,26 +18,31 @@ export const Home = () => {
   const contactSectionRef = useRef(null)
 
   return (
-    <div className="mx-5 mt-5 md:mx-10 lg:mx-20 xl:mx-52">
-      {isDesktop ? (
-        <>
-          <div className="h-screen">
-            <Nav refSections={[projectsSectionRef, blogSectionRef, contactSectionRef]} />
-            <HeaderDesktop />
-          </div>
-          <ProjectsDesktop refSection={projectsSectionRef} />
-          <BlogsDesktop refSection={blogSectionRef} />
-          <Footer refSection={contactSectionRef} />
-        </>
-      ) : (
-        <>
-          <Header />
-          <Projects />
-          <Blogs />
-          <Footer refSection={contactSectionRef} />
-        </>
-      )}
-    </div>
+    <>
+      <Head>
+        <title>Rogelio Samuel</title>
+      </Head>
+      <div className="mx-5 mt-5 md:mx-10 lg:mx-20 xl:mx-52">
+        {isDesktop ? (
+          <>
+            <div className="h-screen">
+              <Nav refSections={[projectsSectionRef, blogSectionRef, contactSectionRef]} />
+              <HeaderDesktop />
+            </div>
+            <ProjectsDesktop refSection={projectsSectionRef} />
+            <BlogsDesktop refSection={blogSectionRef} />
+            <Footer refSection={contactSectionRef} />
+          </>
+        ) : (
+          <>
+            <Header />
+            <Projects />
+            <Blogs />
+            <Footer refSection={contactSectionRef} />
+          </>
+        )}
+      </div>
+    </>
   )
 }
 
