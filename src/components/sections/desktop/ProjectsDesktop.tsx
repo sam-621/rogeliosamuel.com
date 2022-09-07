@@ -1,6 +1,6 @@
 import { CarouselNavigation } from '@containers/CarouselNavigation'
 import { projects } from '@data/projects'
-import { Card } from '@items/Card'
+import { CardDesktop } from '@items/Desktop/CardDesktop'
 import { SectionLayout } from 'components/layouts/SectionLayout'
 
 import { SwiperSlide } from 'swiper/react'
@@ -11,7 +11,7 @@ export const ProjectsDesktop = () => {
       <CarouselNavigation>
         {projects.map((item, i) => (
           <SwiperSlide key={i} className="mb-10 rounded">
-            <Card {...item} />
+            <CardDesktop {...item} />
           </SwiperSlide>
         ))}
       </CarouselNavigation>
