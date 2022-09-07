@@ -6,7 +6,7 @@ import 'swiper/css/pagination'
 import { Pagination } from 'swiper'
 import { FC, PropsWithChildren } from 'react'
 
-export const Carousel: FC<PropsWithChildren> = ({ children }) => {
+export const CarouselPagination: FC<PropsWithChildren> = ({ children }) => {
   return (
     <Swiper
       pagination={{
