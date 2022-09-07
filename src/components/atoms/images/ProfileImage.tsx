@@ -9,6 +9,7 @@ export const ProfileImage: FC = () => {
   const imgH = matches ? 450 : 100
   return (
     <Image
+      blurDataURL="/img/Samuel.jpg"
       src="/img/Samuel.jpg"
       alt="Rogelio Samuel"
       width={imgW}

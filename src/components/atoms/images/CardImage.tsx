@@ -6,6 +6,7 @@ export const CardImage: FC<Props> = ({ src, alt, hasBlur }) => {
     <Image
       layout="responsive"
       src={`/img/${src}`}
+      blurDataURL={`/img/${src}`}
       alt={alt}
       width={300}
       height={166.25}

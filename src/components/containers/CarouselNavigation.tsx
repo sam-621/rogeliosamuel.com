@@ -9,6 +9,7 @@ import { FC, PropsWithChildren } from 'react'
 export const CarouselNavigation: FC<PropsWithChildren> = ({ children }) => {
   return (
     <Swiper
+      lazy
       modules={[Navigation]}
       navigation={true}
       spaceBetween={20}
