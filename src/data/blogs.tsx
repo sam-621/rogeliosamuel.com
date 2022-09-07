@@ -7,21 +7,26 @@ export const blogs: ICard[] = [
     description:
       'En una de las campañas de EDteam tuvimos problemas con el rendimiento de nuestra web e identificamos 2 problemas, de rendimiento y deuda técnica',
     imageUrl: 'blogs/fenix.jpeg',
-    buttons: [<FilledLink key={0} variant="secondary" text="Read" className="text-xs" />]
+    buttons: [
+      <FilledLink key={0} variant="secondary" text="Read" className="text-xs lg:text-base" />
+    ]
+  },
+  {
+    title: '5 git commands you should know',
+    description: `Here I'm going to list some git commands you should know, explain what they do, and use cases`,
+    imageUrl: 'blogs/git.jpeg',
+    buttons: [
+      <FilledLink key={0} variant="secondary" text="Read" className="text-xs lg:text-base" />
+    ]
   },
   {
     title: '¿Cómo crear una página web con ISR? y por qué lo usamos en EDteam',
     description:
       'En una de las campañas de EDteam tuvimos problemas con el rendimiento de nuestra web e identificamos 2 problemas. La página en ocasiones hacía peticiones innecesarias y había mucha duda técnica. ¿Cómo lo resolvimos? Te lo cuento en este post.',
     imageUrl: 'blogs/fenix.jpeg',
-    buttons: [<FilledLink key={0} variant="secondary" text="Read" className="text-xs" />]
-  },
-  {
-    title: '¿Cómo crear una página web con ISR? y por qué lo usamos en EDteam',
-    description:
-      'En una de las campañas de EDteam tuvimos problemas con el rendimiento de nuestra web e identificamos 2 problemas. La página en ocasiones hacía peticiones innecesarias y había mucha duda técnica. ¿Cómo lo resolvimos? Te lo cuento en este post.',
-    imageUrl: 'blogs/fenix.jpeg',
-    buttons: [<FilledLink key={0} variant="secondary" text="Read" className="text-xs" />]
+    buttons: [
+      <FilledLink key={0} variant="secondary" text="Read" className="text-xs lg:text-base" />
+    ]
   }
 ]
 

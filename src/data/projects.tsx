@@ -9,8 +9,8 @@ export const projects: ICard[] = [
       'Web application where you can pay with PayPal, paying the price depending of which plan you chose.',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
-      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs " />,
-      <OutlinedLink key={1} variant="primary" text="Live Demo" className="text-xs" />
+      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs lg:text-base" />,
+      <OutlinedLink key={1} variant="primary" text="Code" className="text-xs lg:text-base" />
     ]
   },
   {
@@ -19,8 +19,8 @@ export const projects: ICard[] = [
       'Web application where you can pay with PayPal, paying the price depending of which plan you chose.',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
-      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs" />,
-      <OutlinedLink key={1} variant="primary" text="Live Demo" className="text-xs" />
+      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs lg:text-base" />,
+      <OutlinedLink key={1} variant="primary" text="Code" className="text-xs lg:text-base" />
     ]
   },
   {
@@ -29,8 +29,8 @@ export const projects: ICard[] = [
       'Web application where you can pay with PayPal, paying the price depending of which plan you chose.',
     imageUrl: 'projects/chat-group-ss.png',
     buttons: [
-      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs" />,
-      <OutlinedLink key={1} variant="primary" text="Live Demo" className="text-xs" />
+      <FilledLink key={0} variant="secondary" text="Live Demo" className="text-xs lg:text-base" />,
+      <OutlinedLink key={1} variant="primary" text="Code" className="text-xs lg:text-base" />
     ]
   }
 ]

@@ -9,7 +9,7 @@ export const CardImage: FC<Props> = ({ src, alt, hasBlur }) => {
       alt={alt}
       width={300}
       height={166.25}
-      className={`rounded ${hasBlur && 'blur'}`}
+      className={`rounded ${hasBlur && 'blur'} object-cover`}
       priority
     />
   )
