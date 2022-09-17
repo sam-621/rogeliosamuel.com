@@ -18,7 +18,7 @@ export const projects: ICard[] = [
       />,
       <OutlinedLink
         key={1}
-        url="https://github.com/rogeliosamuel621/Chat-Group"
+        url="https://github.com/sam-621/Chat-Group"
         variant="primary"
         text="Code"
         className="text-xs lg:text-base"
@@ -40,7 +40,7 @@ export const projects: ICard[] = [
       />,
       <OutlinedLink
         key={1}
-        url="https://github.com/rogeliosamuel621/PaymentApp"
+        url="https://github.com/sam-621/PaymentApp"
         variant="primary"
         text="Code"
         className="text-xs lg:text-base"
