@@ -1,14 +1,10 @@
 import { AppProps } from 'next/app'
 
 import 'tailwindcss/tailwind.css'
-import '../styles/utils.css'
+import '../styles/main.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Component {...pageProps} />
-    </>
-  )
+  return <Component {...pageProps} />
 }
 
 export default MyApp

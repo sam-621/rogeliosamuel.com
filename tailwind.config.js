@@ -4,11 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        viewport: '#161616',
-        cards: '#212121',
-        primary: '#0066FF',
-        title: '#FFFFFF',
-        subtitle: '#B6B6B6'
+        viewport: 'var(--viewport-bg)',
+        primary: 'var(--primary-color)',
+        subtitle: 'var(--subtitle-color)',
+        'simple-title': 'var(--title-simple)'
       }
     }
   },
