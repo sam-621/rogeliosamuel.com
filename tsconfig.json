@@ -25,7 +25,6 @@
       "@molecules": ["src/components/molecules"],
       "@organisms": ["src/components/organisms"],
       "@layouts": ["src/components/layouts"],
-      "@pages": ["src/components/pages"],
       "@sections": ["src/components/sections"],
       "@interfaces": ["src/interfaces"],
       "@theme": ["src/theme"],
