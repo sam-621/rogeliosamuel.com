@@ -1,44 +1,38 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": "src",
+    "incremental": true,
+    "baseUrl": ".",
     "paths": {
-      "@atoms/*": ["components/atoms/*"],
-      "@sections/*": ["components/sections/*"],
-      "@containers/*": ["components/containers/*"],
-      "@items/*": ["components/items/*"],
-      "@hooks/*": ["hooks/*"],
-      "@helpers/*": ["helpers/*"],
-      "@interfaces/*": ["interfaces/*"],
-      "@data/*": ["data/*"]
+      "@contexts": ["src/contexts"],
+      "@utils": ["src/utils"],
+      "@services": ["src/services"],
+      "@hooks": ["src/hooks"],
+      "@icons": ["src/components/icons"],
+      "@atoms": ["src/components/atoms"],
+      "@molecules": ["src/components/molecules"],
+      "@organisms": ["src/components/organisms"],
+      "@layouts": ["src/components/layouts"],
+      "@pages": ["src/components/pages"],
+      "@sections": ["src/components/sections"],
+      "@interfaces": ["src/interfaces"],
+      "@theme": ["src/theme"],
+      "@constants": ["src/constants"],
+      "@data": ["src/data"]
     }
-
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx", 
-    "src/pages/_document.tsx",
-    "src/pages/_app.js"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
