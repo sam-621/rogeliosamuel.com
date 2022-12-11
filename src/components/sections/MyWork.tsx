@@ -1,3 +1,5 @@
+import { projects } from '@data'
+
 import { SectionHeader } from '../molecules/SectionHeader'
 import { ProjectCard } from '../organisms/ProjectCard'
 
@@ -9,7 +11,9 @@ export const MyWork = () => {
         subtitle="The most relevant projects in which I have participated"
       />
       <div>
-        <ProjectCard />
+        {projects.map(project => (
+          <ProjectCard project={project} />
+        ))}
       </div>
     </section>
   )
