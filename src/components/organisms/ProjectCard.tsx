@@ -23,12 +23,24 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className={`flex flex-col ${project.isPrivate ? 'gap-4' : 'gap-2'} `}>
           <h3 className="text-3xl text-simple-title font-semibold">{project.title}</h3>
-          {project.company && (
-            <div className="flex justify-start">
+          {project.isPrivate ? (
+            <div className="flex justify-start items-center gap-2">
               <Image src={`/icons/companies/${project.company}`} width={80} height={27} />
             </div>
+          ) : (
+            <a
+              href={project.link.repo}
+              target="_blank"
+              className="bg-project-card w-fit border border-transparent hover:pl-2 py-2 pr-2 rounded-lg hover:border-stroke-cards transition-all"
+              rel="noreferrer"
+            >
+              <div className="flex justify-start items-center gap-2">
+                <Image src={`/icons/companies/${project.company}`} width={27} height={27} />
+                <span className="text-white text-sm">sam-621/{project.title}</span>
+              </div>
+            </a>
           )}
           <p className="text-lg text-subtitle">{project.description}</p>
         </div>

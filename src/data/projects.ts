@@ -34,9 +34,11 @@ export const projects: Project[] = [
       'A fullstack web application for the task management where you can create, read, update and delete your tasks, developed with typescript, express, mongodb and React with vite, for the information management i used React Query',
     backgroundColor: '#dad3fb',
     picture: 'task-ui.png',
+    company: 'github.svg',
     isPrivate: false,
     link: {
-      live: 'https://github.com/sam-621/task-ui'
+      live: 'https://task-ui-prod.vercel.app/',
+      repo: 'https://github.com/sam-621/task-ui'
     }
   }
 ]
