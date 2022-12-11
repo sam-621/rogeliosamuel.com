@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import { MAIN_DESCRIPTION } from '@data'
+
 import { Button } from '../atoms/Button'
 import { Subtitle } from '../atoms/Subtitle'
 import { Title } from '../atoms/Title'
@@ -12,10 +14,7 @@ export const Hero = () => {
       <div className="flex items-center justify-center backdrop-blur-sm hero-height">
         <div className="flex flex-col gap-4">
           <Title className="md:text-center">Software developer</Title>
-          <Subtitle className="md:text-center max-w-3xl">
-            As a software developer i design, develop and deliver software products to improve the
-            world with technology
-          </Subtitle>
+          <Subtitle className="md:text-center max-w-3xl">{MAIN_DESCRIPTION}</Subtitle>
           <div className="flex gap-8 md:justify-center">
             <a href="https://github.com/sam_621_">
               <Image src="/icons/github.svg" width={32} height={32} />
