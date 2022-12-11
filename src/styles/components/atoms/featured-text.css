@@ -1,0 +1,4 @@
+.featured-text:hover hr {
+  opacity: 100;
+  border-color: var(--links-hover);
+}

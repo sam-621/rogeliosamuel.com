@@ -1,12 +1,21 @@
+import { FeaturedText } from '../atoms/FeaturedText'
 import { NavItem } from '../atoms/NavItem'
 
 export const Nav = () => {
   return (
-    <nav>
-      <NavItem href="#work">Work</NavItem>
-      <NavItem href="#about-me">About me</NavItem>
-      <NavItem href="#experience">Experience</NavItem>
-      <NavItem href="#lets-talk">let&apos;s talk</NavItem>
+    <nav className="flex gap-4">
+      <NavItem href="#work">
+        <FeaturedText>My Work</FeaturedText>
+      </NavItem>
+      <NavItem href="#about-me">
+        <FeaturedText>About me</FeaturedText>
+      </NavItem>
+      <NavItem href="#experience">
+        <FeaturedText>Experience</FeaturedText>
+      </NavItem>
+      <NavItem href="#lets-talk">
+        <FeaturedText>Let&apos;s talk</FeaturedText>
+      </NavItem>
     </nav>
   )
 }

@@ -4,11 +4,13 @@ import { Nav } from '../molecules/Nav'
 
 export const Header = () => {
   return (
-    <header>
+    <header className="flex justify-between items-center mt-4 mx-4">
       <Logo />
       <Nav />
-      <hr />
-      <Button href="/CV.pdf">Download CV</Button>
+      <hr className="hidden" />
+      <div className="hidden">
+        <Button href="/CV.pdf">Download CV</Button>
+      </div>
     </header>
   )
 }

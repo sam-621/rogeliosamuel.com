@@ -4,7 +4,9 @@ import Link from 'next/link'
 export const NavItem: FC<Props> = ({ children, href }) => {
   return (
     <Link href={href}>
-      <a href="">{children}</a>
+      <a href="" className="text-subtitle text-xs hover:text-links transition-all">
+        {children}
+      </a>
     </Link>
   )
 }

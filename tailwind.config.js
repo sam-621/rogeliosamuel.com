@@ -10,7 +10,8 @@ module.exports = {
         viewport: 'var(--viewport-bg)',
         primary: 'var(--primary-color)',
         subtitle: 'var(--subtitle-color)',
-        'simple-title': 'var(--title-simple)'
+        'simple-title': 'var(--title-simple)',
+        links: 'var(--links-hover)'
       }
     }
   },
