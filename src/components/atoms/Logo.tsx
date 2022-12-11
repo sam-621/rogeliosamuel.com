@@ -5,7 +5,9 @@ export const Logo = () => {
   return (
     <div className="w-[50px] h-[42px]">
       <Link href="/">
-        <Image layout="responsive" src="/img/favicon.svg" width={53} height={45} />
+        <a href="">
+          <Image layout="responsive" src="/img/favicon.svg" width={53} height={45} priority />
+        </a>
       </Link>
     </div>
   )
