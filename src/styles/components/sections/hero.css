@@ -1,12 +1,7 @@
 .hero-height {
-  height: auto
+  height: calc(100vh - var(--nav-height));
 }
 
-@media (min-width: 768px) {
-  .hero-height {
-    height: calc(100vh - var(--nav-height));
-  }
-}
 
 .opens {
   animation-name: opens;
