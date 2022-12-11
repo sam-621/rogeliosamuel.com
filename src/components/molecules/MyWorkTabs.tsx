@@ -6,7 +6,7 @@ export const MyWorkTabs: FC<Props> = ({ setIsPrivate, isPrivate }) => {
       <div>
         <button
           type="button"
-          className="text-subtitle text-2xl toggle-btn outline-none"
+          className="text-subtitle text-lg lg:text-2xl toggle-btn outline-none"
           onClick={() => setIsPrivate(true)}
         >
           Private
@@ -16,7 +16,7 @@ export const MyWorkTabs: FC<Props> = ({ setIsPrivate, isPrivate }) => {
       <div>
         <button
           type="button"
-          className="text-subtitle text-2xl toggle-btn outline-none"
+          className="text-subtitle text-lg lg:text-2xl toggle-btn outline-none"
           onClick={() => setIsPrivate(false)}
         >
           Public
