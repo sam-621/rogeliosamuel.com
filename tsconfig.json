@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+    "downlevelIteration": true,
     "paths": {
       "@contexts": ["src/contexts"],
       "@utils": ["src/utils"],
