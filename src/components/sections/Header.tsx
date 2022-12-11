@@ -4,7 +4,7 @@ import { Nav } from '../molecules/Nav'
 
 export const Header = () => {
   return (
-    <header className="flex justify-between items-center mt-4 mx-4 md:mx-16 lg:mx-28 lg:mt-10">
+    <header className="flex justify-between items-center pt-4 px-4 md:px-16 lg:px-28 lg:pt-10">
       <Logo />
       <div className="flex gap-10 items-center">
         <Nav />
