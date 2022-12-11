@@ -9,7 +9,7 @@ export const Button: FC<Props> = ({ children, href }) => {
           href=""
           target="_blank"
           rel="noreferrer"
-          className="text-simple-title bg-primary rounded-lg p-3 text-xs"
+          className="text-simple-title bg-primary rounded-lg py-3 px-6 text-base hover:bg-links transition-all"
         >
           {children}
         </a>

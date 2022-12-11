@@ -3,7 +3,7 @@ import { NavItem } from '../atoms/NavItem'
 
 export const Nav = () => {
   return (
-    <nav className="flex gap-4">
+    <nav className="flex gap-4 lg:gap-5">
       <NavItem href="#work">
         <FeaturedText>My Work</FeaturedText>
       </NavItem>
