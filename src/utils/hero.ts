@@ -23,7 +23,6 @@ export const DELAYS = ['-2s', '-1s', '-3s', '-4s']
 
 export const getRandomTechIcons = (): string[] => {
   if (typeof window === undefined) return []
-  console.log('random')
 
   const techsToShow = new Set<number>()
   Array.from({ length: TECHS.length }).forEach(_ => {
