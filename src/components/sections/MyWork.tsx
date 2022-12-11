@@ -5,12 +5,12 @@ import { ProjectCard } from '../organisms/ProjectCard'
 
 export const MyWork = () => {
   return (
-    <section>
+    <section className="flex flex-col gap-12 justify-center">
       <SectionHeader
         title="My Work"
         subtitle="The most relevant projects in which I have participated"
       />
-      <div>
+      <div className="flex flex-col gap-8 lg:grid xl:gap-16 grid-cols-2 max-w-7xl m-auto">
         {projects.map(project => (
           <ProjectCard project={project} />
         ))}

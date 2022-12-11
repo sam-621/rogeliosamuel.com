@@ -1,3 +1,14 @@
 .bg-project-card {
   background: linear-gradient(180deg, rgba(21, 27, 40, 0) 0%, rgba(21, 27, 40, 0.8) 100%);
 }
+
+@media (min-width: 1024px) {
+  .bg-project-card {
+    background: none;
+  }
+
+  .bg-project-card:hover {
+    background: linear-gradient(180deg, rgba(21, 27, 40, 0) 0%, rgba(21, 27, 40, 0.8) 100%);
+
+  }
+}
