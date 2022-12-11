@@ -1,0 +1,4 @@
+.toggle-btn:focus + hr {
+  background-color: var(--links-hover);
+  height: 2px;
+}
