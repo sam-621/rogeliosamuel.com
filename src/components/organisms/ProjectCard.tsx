@@ -25,9 +25,11 @@ export const ProjectCard: FC<Props> = ({ project }) => {
         </div>
         <div className="flex flex-col gap-4">
           <h3 className="text-3xl text-simple-title font-semibold">{project.title}</h3>
-          <div className="flex justify-start">
-            <Image src={`/icons/companies/${project.company}`} width={80} height={27} />
-          </div>
+          {project.company && (
+            <div className="flex justify-start">
+              <Image src={`/icons/companies/${project.company}`} width={80} height={27} />
+            </div>
+          )}
           <p className="text-lg text-subtitle">{project.description}</p>
         </div>
         <OutlinedButton

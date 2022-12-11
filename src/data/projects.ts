@@ -9,20 +9,34 @@ export const projects: Project[] = [
     backgroundColor: '#0D273B',
     picture: 'edteam.png',
     company: 'edteam.svg',
+    isPrivate: true,
     link: {
       live: 'https://ed.team'
     }
   },
   {
-    id: 0,
+    id: 1,
     title: 'Faktible landing page',
     description:
-      'A website to quote machines connected to satws for user data verification, authentication for user permisions, complex forms and emails supoort for password recovery and quote status.',
+      'A website to quote machines connected to satws for user data verification, authentication for user permissions, complex forms and emails support for password recovery and quote status.',
     backgroundColor: '#04212B',
     picture: 'faktible.png',
     company: 'faktible.svg',
+    isPrivate: true,
     link: {
       live: 'https://faktible.com'
+    }
+  },
+  {
+    id: 2,
+    title: 'Task-ui',
+    description:
+      'A fullstack web application for the task management where you can create, read, update and delete your tasks, developed with typescript, express, mongodb and React with vite, for the information management i used React Query',
+    backgroundColor: '#dad3fb',
+    picture: 'task-ui.png',
+    isPrivate: false,
+    link: {
+      live: 'https://github.com/sam-621/task-ui'
     }
   }
 ]

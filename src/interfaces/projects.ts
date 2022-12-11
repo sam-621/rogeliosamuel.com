@@ -5,6 +5,7 @@ export interface Project {
   title: string
   company?: string
   description: string
+  isPrivate: boolean
   link: {
     live: string
     repo?: string
