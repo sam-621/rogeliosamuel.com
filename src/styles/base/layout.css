@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --nav-height: 58px
+}
+
 @layer base {
   html {
     font-family: 'Inter', system-ui, sans-serif;

@@ -1,0 +1,9 @@
+.nav-height {
+  height: var(--nav-height); 
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --nav-height: 88px
+  }
+}

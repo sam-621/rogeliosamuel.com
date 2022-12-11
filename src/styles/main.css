@@ -3,7 +3,9 @@
 @import url('./base/colors.css');
 @import url('./base/layout.css');
 
-/* Layout */
+/* components */
 @import url('./components/atoms/featured-text.css');
 @import url('./components/atoms/title.css');
+@import url('./components/sections/hero.css');
+@import url('./components/sections/nav.css');
 
