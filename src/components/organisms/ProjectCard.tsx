@@ -19,6 +19,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             <Image
               src={`/img/projects/${project.picture}`}
               blurDataURL={`/img/projects/${project.picture}`}
+              placeholder="blur"
               layout="responsive"
               width={261}
               height={122}
