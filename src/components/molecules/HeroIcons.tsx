@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { DELAYS, getRandomTechIcons, POSITIONS } from '@utils'
 
 export const HeroIcons = () => {
-  const [techsToShow, setTechsToShow] = useState(getRandomTechIcons())
+  const [techsToShow, setTechsToShow] = useState<string[]>([])
 
   useEffect(() => {
     setTechsToShow(getRandomTechIcons())
