@@ -1,11 +1,13 @@
 import { FC } from 'react'
 import Image from 'next/image'
 
+import { WorksFilers } from '@hooks'
 import { Project } from '@interfaces'
 
 import { OutlinedButton } from '../atoms/OutlinedButton'
 
 export const ProjectCard: FC<Props> = ({ project }) => {
+  const isPublicProject = project.filter === WorksFilers.PUBLIC_PROJECTS
   return (
     <a
       href={project.link.live}
@@ -28,13 +30,9 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             />
           </div>
         </div>
-        <div className={`flex flex-col ${project.isPrivate ? 'gap-4' : 'gap-2'} `}>
+        <div className={`flex flex-col ${isPublicProject ? 'gap-2' : 'gap-4'} `}>
           <h3 className="text-3xl text-simple-title font-semibold">{project.title}</h3>
-          {project.isPrivate ? (
-            <div className="flex justify-start items-center gap-2">
-              <Image src={`/icons/companies/${project.company}`} width={80} height={27} />
-            </div>
-          ) : (
+          {isPublicProject ? (
             <a
               href={project.link.repo}
               target="_blank"
@@ -46,6 +44,10 @@ export const ProjectCard: FC<Props> = ({ project }) => {
                 <span className="text-white text-sm">sam-621/{project.title}</span>
               </div>
             </a>
+          ) : (
+            <div className="flex justify-start items-center gap-2">
+              <Image src={`/icons/companies/${project.company}`} width={80} height={27} />
+            </div>
           )}
           <p className="text-lg text-subtitle">{project.description}</p>
         </div>

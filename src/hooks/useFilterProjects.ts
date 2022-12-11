@@ -2,18 +2,27 @@ import { useEffect, useState } from 'react'
 
 import { projects as allProjects } from '@data'
 
-export const useFilterProjects = (initialState = true) => {
-  const [isPrivate, setIsPrivate] = useState(initialState)
-  const [projects, setProjects] = useState(allProjects.filter(p => p.isPrivate === isPrivate))
+export enum WorksFilers {
+  // eslint-disable-next-line no-unused-vars
+  PRIVATES_PROJECTS = 'PRIVATES_PROJECTS',
+  // eslint-disable-next-line no-unused-vars
+  PUBLIC_PROJECTS = 'PUBLIC_PROJECTS',
+  // eslint-disable-next-line no-unused-vars
+  BLOGS = 'BLOGS'
+}
+
+export const useFilterProjects = (initialState = WorksFilers.PRIVATES_PROJECTS) => {
+  const [filter, setFilter] = useState<WorksFilers>(initialState)
+  const [projects, setProjects] = useState(allProjects.filter(p => p.filter === filter))
 
   useEffect(() => {
-    const projectsToShow = allProjects.filter(project => project.isPrivate === isPrivate)
+    const projectsToShow = allProjects.filter(project => project.filter === filter)
     setProjects(projectsToShow)
-  }, [isPrivate])
+  }, [filter])
 
   return {
     projects: projects.length ? projects : allProjects,
-    isPrivate,
-    setIsPrivate
+    filter,
+    setFilter
   }
 }

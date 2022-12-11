@@ -1,3 +1,4 @@
+import { WorksFilers } from '@hooks'
 import { Project } from '@interfaces'
 
 export const projects: Project[] = [
@@ -9,7 +10,7 @@ export const projects: Project[] = [
     backgroundColor: '#0D273B',
     picture: 'edteam.png',
     company: 'edteam.svg',
-    isPrivate: true,
+    filter: WorksFilers.PRIVATES_PROJECTS,
     link: {
       live: 'https://ed.team'
     }
@@ -22,7 +23,7 @@ export const projects: Project[] = [
     backgroundColor: '#04212B',
     picture: 'faktible.png',
     company: 'faktible.svg',
-    isPrivate: true,
+    filter: WorksFilers.PRIVATES_PROJECTS,
     link: {
       live: 'https://faktible.com'
     }
@@ -35,7 +36,7 @@ export const projects: Project[] = [
     backgroundColor: '#dad3fb',
     picture: 'task-ui.png',
     company: 'github.svg',
-    isPrivate: false,
+    filter: WorksFilers.PUBLIC_PROJECTS,
     link: {
       live: 'https://task-ui-prod.vercel.app/',
       repo: 'https://github.com/sam-621/task-ui'

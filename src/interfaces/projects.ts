@@ -1,3 +1,5 @@
+import { WorksFilers } from '@hooks'
+
 export interface Project {
   id: string | number
   picture: string
@@ -5,7 +7,7 @@ export interface Project {
   title: string
   company?: string
   description: string
-  isPrivate: boolean
+  filter: WorksFilers
   link: {
     live: string
     repo?: string
