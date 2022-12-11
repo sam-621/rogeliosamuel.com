@@ -1,10 +1,10 @@
-import { TECHS } from 'src/data/techs'
+import { TECHS } from '@data'
 
 export const POSITIONS = [
-  'left-44 top-52',
-  'top-60 right-44',
-  'left-52 bottom-40',
-  'bottom-32 right-56'
+  'hidden md:block absolute left-44 top-52 floating w-fit',
+  'hidden md:block absolute top-60 right-44 floating w-fit',
+  'hidden md:block absolute left-52 bottom-40 floating w-fit',
+  'hidden md:block absolute bottom-32 right-56 floating w-fit'
 ]
 
 export const DELAYS = ['-2s', '-1s', '-3s', '-4s']
