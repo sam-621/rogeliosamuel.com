@@ -1,3 +1,9 @@
 .text-fill-transparent {
   -webkit-text-fill-color: transparent;
 }
+.text-bg {
+  background: linear-gradient(92.01deg, #F4F7FB 29.06%, rgba(244, 247, 251, 0.62) 48.28%, #F4F7FB 67.27%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
