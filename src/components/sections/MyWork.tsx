@@ -21,7 +21,7 @@ export const MyWork = () => {
       </div>
       <div className="flex flex-col gap-8 lg:grid xl:gap-16 grid-cols-2 max-w-7xl m-auto">
         {projects.map(project => (
-          <ProjectCard project={project} />
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </section>
