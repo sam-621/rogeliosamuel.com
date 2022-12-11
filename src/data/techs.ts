@@ -10,3 +10,5 @@ export const TECHS = [
   'tailwind.svg',
   'typescript.svg'
 ]
+
+export const HERO_TECHS = ['nest.svg', 'next.svg', 'tailwind.svg', 'typescript.svg']
