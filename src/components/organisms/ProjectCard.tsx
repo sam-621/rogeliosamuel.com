@@ -57,7 +57,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             window.location.href = project.link.live
           }}
         >
-          Project in live
+          {project.filter === WorksFilers.BLOGS ? 'Read online' : 'Project in live'}
         </OutlinedButton>
       </article>
     </a>

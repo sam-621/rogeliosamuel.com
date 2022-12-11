@@ -41,5 +41,18 @@ export const projects: Project[] = [
       live: 'https://task-ui-prod.vercel.app/',
       repo: 'https://github.com/sam-621/task-ui'
     }
+  },
+  {
+    id: 3,
+    title: '¿Cómo crear una página web con ISR? y por qué lo usamos en EDteam',
+    description:
+      'En una de las campañas de EDteam tuvimos problemas con el rendimiento de nuestra web e identificamos 2 problemas. La página en ocasiones hacía peticiones innecesarias y había mucha duda técnica. ¿Cómo lo resolvimos? Te lo cuento en este post.',
+    backgroundColor: '#5899fa',
+    picture: 'blogs/fenix.png',
+    company: 'edteam.svg',
+    filter: WorksFilers.BLOGS,
+    link: {
+      live: 'https://ed.team/blog/como-crear-una-pagina-web-con-isr-y-por-que-lo-usamos-en-edteam'
+    }
   }
 ]
