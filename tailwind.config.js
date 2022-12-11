@@ -11,7 +11,8 @@ module.exports = {
         primary: 'var(--primary-color)',
         subtitle: 'var(--subtitle-color)',
         'simple-title': 'var(--title-simple)',
-        links: 'var(--links-hover)'
+        links: 'var(--links-hover)',
+        'stroke-cards': 'rgba(201, 210, 227, 0.24);'
       }
     }
   },

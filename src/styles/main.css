@@ -8,4 +8,5 @@
 @import url('./components/atoms/title.css');
 @import url('./components/sections/hero.css');
 @import url('./components/sections/nav.css');
+@import url('./components/organisms/projectCard.css');
 
