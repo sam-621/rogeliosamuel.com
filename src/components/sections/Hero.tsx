@@ -17,11 +17,20 @@ export const Hero = () => {
             world with technology
           </Subtitle>
           <div className="flex gap-8 md:justify-center">
-            <Image src="/icons/github.svg" width={24} height={24} />
-            <Image src="/icons/linkedin.svg" width={24} height={24} />
+            <a href="https://github.com/sam_621_">
+              <Image src="/icons/github.svg" width={32} height={32} />
+            </a>
+            <a href="https://www.linkedin.com/in/rogelio-samuel-moreno-corrales/">
+              <Image src="/icons/linkedin.svg" width={32} height={32} />
+            </a>
           </div>
           <div className="mt-8 md:mx-auto">
-            <Button href="/CV.pdf">Download CV</Button>
+            <Button href="/CV.pdf" className="md:hidden">
+              Download CV
+            </Button>
+            <div className="hidden md:block animate-bounce">
+              <Image className="" src="/icons/down.svg" width={36} height={36} />
+            </div>
           </div>
         </div>
       </div>

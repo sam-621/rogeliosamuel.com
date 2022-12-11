@@ -4,7 +4,6 @@ import Image from 'next/image'
 import { Project } from '@interfaces'
 
 import { OutlinedButton } from '../atoms/OutlinedButton'
-import { Subtitle } from '../atoms/Subtitle'
 
 export const ProjectCard: FC<Props> = ({ project }) => {
   return (
@@ -29,7 +28,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
           <div className="flex justify-start">
             <Image src={`/icons/companies/${project.company}`} width={80} height={27} />
           </div>
-          <Subtitle>{project.description}</Subtitle>
+          <p className="text-lg text-subtitle">{project.description}</p>
         </div>
         <OutlinedButton
           className="lg:hidden pointer-events-auto"
