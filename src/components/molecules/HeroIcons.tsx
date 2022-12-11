@@ -1,10 +1,26 @@
-import { getRandomTechIcons } from '@utils'
+import { useEffect, useState } from 'react'
+
+import { DELAYS, getRandomTechIcons, POSITIONS } from '@utils'
 
 export const HeroIcons = () => {
-  const techsToShow = getRandomTechIcons()
+  const [techsToShow, setTechsToShow] = useState(getRandomTechIcons())
+
+  useEffect(() => {
+    setTechsToShow(getRandomTechIcons())
+  }, [])
+
   return (
     <div>
-      <div
+      {techsToShow.map((tech, i) => (
+        <div
+          key={tech}
+          className="hidden lg:block absolute  floating w-fit"
+          style={{ animationDelay: DELAYS[i], ...POSITIONS[i] }}
+        >
+          <img src={`/icons/techs/${tech}`} alt={tech.replace('.svg', '')} />
+        </div>
+      ))}
+      {/* <div
         className="hidden lg:block absolute left-44 top-52 floating w-fit"
         style={{ animationDelay: '-2s' }}
       >
@@ -27,7 +43,7 @@ export const HeroIcons = () => {
         style={{ animationDelay: '-4s' }}
       >
         <img src={`/icons/techs/${techsToShow[3]}`} alt={techsToShow[3].replace('.svg', '')} />
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -1,15 +1,29 @@
 import { TECHS } from '@data'
 
 export const POSITIONS = [
-  'hidden md:block absolute left-44 top-52 floating w-fit',
-  'hidden md:block absolute top-60 right-44 floating w-fit',
-  'hidden md:block absolute left-52 bottom-40 floating w-fit',
-  'hidden md:block absolute bottom-32 right-56 floating w-fit'
+  {
+    left: '11rem',
+    top: '13rem'
+  },
+  {
+    top: '15rem',
+    right: '11rem'
+  },
+  {
+    left: '13rem',
+    bottom: '10rem'
+  },
+  {
+    bottom: '8rem',
+    right: '14rem'
+  }
 ]
 
 export const DELAYS = ['-2s', '-1s', '-3s', '-4s']
 
 export const getRandomTechIcons = () => {
+  console.log('random')
+
   const techsToShow = new Set<number>()
   Array.from({ length: TECHS.length }).forEach(_ => {
     if (techsToShow.size >= 4) return
