@@ -17,14 +17,14 @@ export const Hero = () => {
           <Subtitle className="md:text-center max-w-3xl">{MAIN_DESCRIPTION}</Subtitle>
           <div className="flex gap-8 md:justify-center">
             <a href="https://github.com/sam-621" target="_blank" rel="noreferrer">
-              <Image src="/icons/github.svg" width={32} height={32} />
+              <Image src="/icons/github.svg" width={32} height={32} alt="github" />
             </a>
             <a
               href="https://www.linkedin.com/in/rogelio-samuel-moreno-corrales/"
               target="_blank"
               rel="noreferrer"
             >
-              <Image src="/icons/linkedin.svg" width={32} height={32} />
+              <Image src="/icons/linkedin.svg" width={32} height={32} alt="linkedin" />
             </a>
           </div>
           <div className="mt-8 md:mx-auto">
@@ -32,7 +32,7 @@ export const Hero = () => {
               Download CV
             </Button>
             <div className="hidden md:block animate-bounce">
-              <Image className="" src="/icons/down.svg" width={36} height={36} />
+              <Image className="" src="/icons/down.svg" width={36} height={36} alt="down" />
             </div>
           </div>
         </div>
