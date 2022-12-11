@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+import { OutlinedButton } from '../atoms/OutlinedButton'
 import { Subtitle } from '../atoms/Subtitle'
 
 export const ProjectCard = () => {
@@ -27,12 +28,7 @@ export const ProjectCard = () => {
           information management.
         </Subtitle>
       </div>
-      <a
-        href=""
-        className="border border-[rgba(244, 247, 251, 0.6)] rounded-lg py-3 text-center text-subtitle"
-      >
-        Project in live
-      </a>
+      <OutlinedButton href="s">Project in live</OutlinedButton>
     </article>
   )
 }
