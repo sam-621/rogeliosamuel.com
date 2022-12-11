@@ -9,7 +9,9 @@ export const ProjectCard: FC<Props> = ({ project }) => {
   return (
     <a
       href={project.link.live}
-      className="pointer-events-none lg:pointer-events-auto border border-stroke-cards lg:border-transparent hover:border-stroke-cards rounded-3xl p-4 bg-project-card transition-all z-0"
+      target="_blank"
+      className="project-card-container pointer-events-none lg:pointer-events-auto border border-stroke-cards lg:border-transparent hover:border-stroke-cards rounded-3xl p-4 bg-project-card transition-all"
+      rel="noreferrer"
     >
       <article className="flex flex-col gap-8">
         <div>
@@ -33,7 +35,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             <a
               href={project.link.repo}
               target="_blank"
-              className="bg-project-card w-fit border border-transparent hover:pl-2 py-2 pr-2 rounded-lg hover:border-stroke-cards transition-all"
+              className="pointer-events-auto bg-project-card w-fit border border-stroke-cards p-2 lg:border-transparent lg:pl-0 rounded-lg transition-all"
               rel="noreferrer"
             >
               <div className="flex justify-start items-center gap-2">
