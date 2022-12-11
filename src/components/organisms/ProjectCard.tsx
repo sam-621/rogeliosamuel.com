@@ -18,12 +18,13 @@ export const ProjectCard: FC<Props> = ({ project }) => {
           <div className="p-6 rounded-2xl" style={{ background: project.backgroundColor }}>
             <Image
               src={`/img/projects/${project.picture}`}
-              blurDataURL={`/img/projects/${project.picture}`}
               placeholder="blur"
+              blurDataURL={`/img/projects/${project.picture}`}
               layout="responsive"
               width={261}
               height={122}
               className="rounded-2xl object-cover"
+              alt={project.title}
             />
           </div>
         </div>
