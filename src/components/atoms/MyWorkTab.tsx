@@ -5,7 +5,7 @@ export const MyWorkTab: FC<Props> = ({ isActive, children, onClick }) => {
     <div className="flex flex-col gap-1">
       <button
         type="button"
-        className="text-subtitle text-lg lg:text-2xl toggle-btn outline-none"
+        className="text-subtitle text-lg lg:text-xl toggle-btn outline-none lg:hover:bg-[#333333] py-2 px-4 rounded-md transition-all"
         onClick={onClick}
       >
         {children}

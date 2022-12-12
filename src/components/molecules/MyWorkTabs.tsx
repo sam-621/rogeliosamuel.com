@@ -9,7 +9,7 @@ export const MyWorkTabs: FC<Props> = ({ filter, setFilter }) => {
   const isPublicProject = filter === WorksFilers.PUBLIC_PROJECTS
   const isBlog = filter === WorksFilers.BLOGS
   return (
-    <div className="flex justify-center gap-16">
+    <div className="flex justify-center gap-3 md:gap-6 lg:gap-12">
       <MyWorkTab
         isActive={isPrivateProject}
         onClick={() => setFilter(WorksFilers.PRIVATES_PROJECTS)}
