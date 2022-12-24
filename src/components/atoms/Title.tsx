@@ -3,7 +3,7 @@ import { FC, ReactNode } from 'react'
 export const Title: FC<Props> = ({ variant, className, children }) => {
   if (variant === 'h2') {
     return (
-      <h2 className={`text-5xl font-bold text-fill-transparent text-bg ${className}`}>
+      <h2 className={`text-5xl h-[52px] font-bold text-fill-transparent text-bg ${className}`}>
         {children}
       </h2>
     )

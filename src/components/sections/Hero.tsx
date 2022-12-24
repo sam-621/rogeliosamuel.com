@@ -9,7 +9,7 @@ import { HeroIcons } from '../molecules/HeroIcons'
 
 export const Hero = () => {
   return (
-    <section>
+    <section id="hero">
       <HeroIcons />
       <div className="flex items-center justify-center backdrop-blur-sm hero-height">
         <div className="flex flex-col gap-4">
