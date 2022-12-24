@@ -9,12 +9,12 @@ export const SectionHeader: FC<Props> = ({ title, subtitle }) => {
       <Title variant="h2" className="text-center">
         {title}
       </Title>
-      <Subtitle className="text-center">{subtitle}</Subtitle>
+      {Boolean(subtitle) && <Subtitle className="text-center">{subtitle}</Subtitle>}
     </div>
   )
 }
 
 type Props = {
   title: string
-  subtitle: string
+  subtitle?: string
 }
