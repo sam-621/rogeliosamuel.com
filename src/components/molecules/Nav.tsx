@@ -12,10 +12,10 @@ export const Nav = () => {
       </NavItem>
       {/* <NavItem href="/#experience">
         <FeaturedText>Experience</FeaturedText>
-      </NavItem>
+      </NavItem> */}
       <NavItem href="/#lets-talk">
         <FeaturedText>Let&apos;s talk</FeaturedText>
-      </NavItem> */}
+      </NavItem>
     </nav>
   )
 }

@@ -1,4 +1,4 @@
-import { AboutMe, Header, Hero, MyWork } from '@sections'
+import { AboutMe, Header, Hero, LetsTalk, MyWork } from '@sections'
 
 export const Home = () => {
   return (
@@ -8,6 +8,7 @@ export const Home = () => {
         <Hero />
         <MyWork />
         <AboutMe />
+        <LetsTalk />
       </main>
     </>
   )
