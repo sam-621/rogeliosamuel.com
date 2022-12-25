@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react'
 
 export const Subtitle: FC<Props> = ({ children, className }) => {
-  return <p className={`text-lg text-subtitle lg:text-2xl ${className}`}>{children}</p>
+  return <p className={`${className} text-lg text-subtitle lg:text-2xl`}>{children}</p>
 }
 
 type Props = {
