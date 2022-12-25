@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { MAIN_DESCRIPTION } from '@data'
 
@@ -32,7 +33,11 @@ export const Hero = () => {
               Download CV
             </Button>
             <div className="hidden md:block animate-bounce">
-              <Image className="" src="/icons/down.svg" width={36} height={36} alt="down" />
+              <Link href="/#my-work">
+                <a>
+                  <Image className="" src="/icons/down.svg" width={36} height={36} alt="down" />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
