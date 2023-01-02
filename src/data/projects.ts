@@ -33,7 +33,7 @@ export const projects: Project[] = [
     title: 'Task-ui',
     description:
       'A fullstack web application for the task management where you can create, read, update and delete your tasks, developed with typescript, express, mongodb and React with vite, for the information management i used React Query.',
-    backgroundColor: '#dad3fb',
+    backgroundColor: '#1f2530',
     picture: 'task-ui.png',
     company: 'github.svg',
     filter: WorksFilers.PUBLIC_PROJECTS,
