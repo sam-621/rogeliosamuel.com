@@ -8,6 +8,7 @@ import { OutlinedButton } from '../atoms/OutlinedButton'
 
 export const ProjectCard: FC<Props> = ({ project }) => {
   const isPublicProject = project.filter === WorksFilers.PUBLIC_PROJECTS
+
   return (
     <a
       href={project.link.live}
@@ -17,7 +18,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
     >
       <article className="flex flex-col gap-8">
         <div>
-          <div className="p-6 rounded-2xl" style={{ background: project.backgroundColor }}>
+          <div className="rounded-2xl" style={{ background: project.backgroundColor }}>
             <Image
               src={`/img/projects/${project.picture}`}
               placeholder="blur"
@@ -41,7 +42,9 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             >
               <div className="flex justify-start items-center gap-2">
                 <Image src={`/icons/companies/${project.company}`} width={27} height={27} />
-                <span className="text-white text-sm">sam-621/{project.title}</span>
+                <span className="text-white text-sm">
+                  sam-621/{project.title.replaceAll(' ', '-')}
+                </span>
               </div>
             </a>
           ) : (

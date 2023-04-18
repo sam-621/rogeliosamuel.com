@@ -44,6 +44,20 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    title: 'Tic-Tac-Toe Multiplayer',
+    description:
+      'A Simple tic-tac-toe online game developed with sockets, React, Node.js and Typescript',
+    backgroundColor: '#1f2530',
+    picture: 'tic-tac-toe.png',
+    company: 'github.svg',
+    filter: WorksFilers.PUBLIC_PROJECTS,
+    link: {
+      live: 'https://github.com/sam-621/tic-tac-toe-multiplayer',
+      repo: 'https://tictactoe-multi.vercel.app/'
+    }
+  },
+  {
+    id: 4,
     title: '¿Cómo crear una página web con ISR? y por qué lo usamos en EDteam',
     description:
       'En una de las campañas de EDteam tuvimos problemas con el rendimiento de nuestra web e identificamos 2 problemas. La página en ocasiones hacía peticiones innecesarias y había mucha duda técnica. ¿Cómo lo resolvimos? Te lo cuento en este post.',
