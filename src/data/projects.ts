@@ -4,15 +4,15 @@ import { Project } from '@interfaces'
 export const projects: Project[] = [
   {
     id: 0,
-    title: 'EDteam public website with ISR',
+    title: 'Emontes E-commerce',
     description:
-      'A website for the edteam education platform with ISR and Typescript, this website was 80% faster than the old one, with a better code structure and modern solutions for the information management.',
-    backgroundColor: '#0D273B',
-    picture: 'edteam.png',
-    company: 'edteam.svg',
+      'Emontes is an E-commerce that seeks to improve online sales. Developed in Next.js and Typescript, implementing all good SEO and optimization practices and connected to an administrator to handle the content.',
+    backgroundColor: '#04212B',
+    picture: 'emontes.png',
+    company: 'emontes.svg',
     filter: WorksFilers.PRIVATES_PROJECTS,
     link: {
-      live: 'https://ed.team'
+      live: 'https://emontes-ui.vercel.app/'
     }
   },
   {
@@ -30,6 +30,19 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: 'EDteam public website with ISR',
+    description:
+      'A website for the edteam education platform with ISR and Typescript, this website was 80% faster than the old one, with a better code structure and modern solutions for the information management.',
+    backgroundColor: '#0D273B',
+    picture: 'edteam.png',
+    company: 'edteam.svg',
+    filter: WorksFilers.PRIVATES_PROJECTS,
+    link: {
+      live: 'https://ed.team'
+    }
+  },
+  {
+    id: 3,
     title: 'Task-ui',
     description:
       'A fullstack web application for the task management where you can create, read, update and delete your tasks, developed with typescript, express, mongodb and React with vite, for the information management i used React Query.',
@@ -43,7 +56,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 3,
+    id: 4,
     title: 'Tic-Tac-Toe Multiplayer',
     description:
       'A Simple tic-tac-toe online game developed with sockets, React, Node.js and Typescript',
@@ -52,12 +65,12 @@ export const projects: Project[] = [
     company: 'github.svg',
     filter: WorksFilers.PUBLIC_PROJECTS,
     link: {
-      live: 'https://github.com/sam-621/tic-tac-toe-multiplayer',
-      repo: 'https://tictactoe-multi.vercel.app/'
+      live: 'https://tictactoe-multi.vercel.app/',
+      repo: 'https://github.com/sam-621/tic-tac-toe-multiplayer'
     }
   },
   {
-    id: 4,
+    id: 5,
     title: '¿Cómo crear una página web con ISR? y por qué lo usamos en EDteam',
     description:
       'En una de las campañas de EDteam tuvimos problemas con el rendimiento de nuestra web e identificamos 2 problemas. La página en ocasiones hacía peticiones innecesarias y había mucha duda técnica. ¿Cómo lo resolvimos? Te lo cuento en este post.',
