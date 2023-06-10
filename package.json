@@ -16,5 +16,6 @@
   },
   "gacp": {
     "push": false
-  }
+  },
+  "devDependencies": {}
 }

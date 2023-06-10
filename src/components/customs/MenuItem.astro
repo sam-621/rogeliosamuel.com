@@ -1,0 +1,15 @@
+---
+interface Props {
+  text: string
+  url: string
+}
+
+const { text, url } = Astro.props
+---
+
+<div>
+  <a class='text-label font-semibold text-neutral-1' href={url}>{text}</a>
+  <!-- <hr class='bg-primary border-none h-[2.5px] w-1/2 m-auto rounded-full' /> -->
+</div>
+
+<style></style>

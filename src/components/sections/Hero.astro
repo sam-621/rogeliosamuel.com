@@ -1,9 +1,15 @@
+---
+import MenuItem from '../customs/MenuItem.astro'
+---
+
 <section class='h-screen flex flex-col justify-between py-5'>
   <header class='flex justify-between items-center'>
     <img src='/favicon.svg' alt='Logo' />
     <nav class='flex gap-8'>
-      <span class='text-label font-semibold text-neutral-1'>Work</span>
-      <span class='text-label font-semibold text-neutral-1'>Blog</span>
+      <!-- <span class='text-label font-semibold text-neutral-1'>Work</span>
+      <span class='text-label font-semibold text-neutral-1'>Blog</span> -->
+      <MenuItem text='Work' url='#work' />
+      <MenuItem text='Blog' url='#blog' />
     </nav>
   </header>
   <div>
@@ -12,6 +18,6 @@
     </h1>
   </div>
   <div class='flex justify-center'>
-    <img class='w-10' src='/icons/chevron-down.svg' alt='down' />
+    <img class='animate-pulse w-10' src='/icons/chevron-down.svg' alt='down' />
   </div>
 </section>
