@@ -1,19 +1,17 @@
 ---
-export interface Props {
-	title: string
-}
-
-const { title } = Astro.props
 ---
 
 <!DOCTYPE html>
 <html lang='en'>
 	<head>
 		<meta charset='UTF-8' />
-		<meta name='description' content='Astro description' />
+		<meta
+			name='description'
+			content='As a software developer I design, develop and deliver software products to improve the world with technology'
+		/>
 		<meta name='viewport' content='width=device-width' />
 		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-		<title>{title}</title>
+		<title>Rogelio Samuel | I’m a software developer specialized in web technologies</title>
 
 		<link rel='preconnect' href='https://fonts.googleapis.com' />
 		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
@@ -30,5 +28,10 @@ const { title } = Astro.props
 	html {
 		font-family: 'Work Sans', system-ui, sans-serif;
 		background-color: #f6f6f6;
+		@apply bg-bg;
+	}
+
+	body {
+		margin: 0 20px;
 	}
 </style>
