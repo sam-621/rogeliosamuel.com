@@ -1,6 +1,0 @@
-export * from './AboutMe'
-export * from './Footer'
-export * from './Header'
-export * from './Hero'
-export * from './LetsTalk'
-export * from './MyWork'

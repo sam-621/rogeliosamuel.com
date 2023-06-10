@@ -1,38 +1,3 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "baseUrl": ".",
-    "downlevelIteration": true,
-    "paths": {
-      "@contexts": ["src/contexts"],
-      "@utils": ["src/utils"],
-      "@services": ["src/services"],
-      "@hooks": ["src/hooks"],
-      "@icons": ["src/components/icons"],
-      "@atoms": ["src/components/atoms"],
-      "@molecules": ["src/components/molecules"],
-      "@organisms": ["src/components/organisms"],
-      "@layouts": ["src/components/layouts"],
-      "@sections": ["src/components/sections"],
-      "@interfaces": ["src/interfaces"],
-      "@theme": ["src/theme"],
-      "@constants": ["src/constants"],
-      "@data": ["src/data"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "extends": "astro/tsconfigs/strict"
 }
