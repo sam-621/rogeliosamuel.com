@@ -22,6 +22,12 @@ module.exports = {
         button: 16,
         label: 14,
       },
+      letterSpacing: {
+        h1: '-0.02rem',
+        h4: '0.06rem',
+        h5: '0.04rem',
+        button: '0.04rem',
+      },
     },
   },
   plugins: [],
