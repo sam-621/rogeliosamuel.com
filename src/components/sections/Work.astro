@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content'
 import Project from '../card/Project.astro'
 
-const projects = await getCollection('projects')
+const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order)
 ---
 
 <section class='flex flex-col gap-8'>

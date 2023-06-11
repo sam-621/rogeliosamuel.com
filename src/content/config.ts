@@ -9,6 +9,7 @@ const projectsCollection = defineCollection({
     description: z.string(),
     type: z.string(),
     preview: z.string(),
+    order: z.number(),
   }),
 })
 // 3. Export a single `collections` object to register your collection(s)
