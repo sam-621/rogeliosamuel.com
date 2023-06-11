@@ -1,6 +1,8 @@
 ---
+import { getCollection } from 'astro:content'
 import Project from '../card/Project.astro'
-import Title from '../customs/Title.astro'
+
+const projects = await getCollection('projects')
 ---
 
 <section class='flex flex-col gap-8'>
@@ -8,8 +10,6 @@ import Title from '../customs/Title.astro'
     My <strong>Work<span class='text-primary'>.</span></strong>
   </h2>
   <div class='flex flex-col gap-10'>
-    <Project />
-    <Project />
-    <Project />
+    {projects.map((p) => <Project project={p} />)}
   </div>
 </section>

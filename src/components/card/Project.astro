@@ -1,28 +1,35 @@
 ---
+import {} from 'astro'
+import type { CollectionEntry } from 'astro:content'
 import ChevronRight from '../icons/ChevronRight.astro'
+
+interface Props {
+  project: CollectionEntry<'projects'>
+}
+
+const {
+  project: { data },
+} = Astro.props
 ---
 
 <article class='flex flex-col gap-8'>
   <div>
-    <img src='/faktible.png' alt='Project' class='rounded-2xl' />
+    <img src={`/projects/${data.image}`} alt={data.title} class='rounded-2xl' />
   </div>
   <div class='flex flex-col gap-8'>
     <div class='flex flex-col gap-6'>
       <div class='flex flex-col gap-4'>
-        <h3 class='text-h5 tracking-h5'><strong>Faktible Platform</strong></h3>
-        <p class='text-h4 tracking-h4'>
-          A website to <strong>drive financial growth</strong> for your <strong>business</strong> in
-          a faktible way
-        </p>
+        <h3 class='text-h5 tracking-h5'><strong>{data.title}</strong></h3>
+        <p class='text-h4 tracking-h4' set:html={data.description} />
       </div>
-      <span class='text-neutral-1 text-h5 tracking-h5'>Web Platform</span>
+      <span class='text-neutral-1 text-h5 tracking-h5'>{data.type}</span>
     </div>
-    <button
-      type='button'
+    <a
+      href={data.preview}
       class='text-neutral-1 text-button font-normal p-4 rounded-xl border-[1.5px] border-neutral-2 w-fit flex items-center gap-3'
     >
       View Project
       <ChevronRight className='text-neutral-1' />
-    </button>
+    </a>
   </div>
 </article>
