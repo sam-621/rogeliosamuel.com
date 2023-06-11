@@ -5,7 +5,7 @@ import Blog from '../card/Blog.astro'
 const blogs = (await getCollection('blogs')).sort((a, b) => a.data.order - b.data.order)
 ---
 
-<section class='flex flex-col gap-8 lg:gap-20'>
+<section class='flex flex-col gap-8 lg:gap-20' id='blog'>
   <h2 class='text-h4 tracking-h4 capitalize lg:text-h2'>
     Featured <strong>Blogs<span class='text-primary'>.</span></strong>
   </h2>

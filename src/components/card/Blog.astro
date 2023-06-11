@@ -25,10 +25,16 @@ const {
     </div>
     <a
       href={data.preview}
-      class='text-neutral-1 text-button font-normal p-4 rounded-xl border-[1.5px] border-neutral-2 w-fit flex items-center gap-3'
+      class='text-neutral-1 text-button font-normal p-4 rounded-xl border-[1.5px] border-neutral-2 w-fit flex items-center gap-3 hover:bg-neutral-1 hover:text-bg hover:border-neutral-1 transition-all'
     >
       Read Blog
       <ChevronRight className='text-neutral-1' />
     </a>
   </div>
 </article>
+
+<style>
+  a:hover svg {
+    color: black;
+  }
+</style>

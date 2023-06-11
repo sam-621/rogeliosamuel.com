@@ -2,6 +2,7 @@ html {
   font-family: 'Work Sans', system-ui, sans-serif;
   font-weight: 200;
   text-transform: uppercase;
+  scroll-behavior: smooth;
   @apply bg-bg text-neutral-2;
 }
 
