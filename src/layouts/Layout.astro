@@ -1,4 +1,7 @@
 ---
+// this way to take advantage of astro optimization
+import '../styles/typography.css'
+import '../styles/globals.css'
 ---
 
 <!DOCTYPE html>
@@ -12,36 +15,8 @@
 		<meta name='viewport' content='width=device-width' />
 		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 		<title>Rogelio Samuel | I’m a software developer specialized in web technologies</title>
-
-		<link rel='preconnect' href='https://fonts.googleapis.com' />
-		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
-		<link
-			href='https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
-			rel='stylesheet'
-		/>
 	</head>
 	<body>
 		<slot />
 	</body>
 </html>
-<style is:global>
-	html {
-		font-family: 'Work Sans', system-ui, sans-serif;
-		font-weight: 200;
-		text-transform: uppercase;
-		@apply bg-bg text-neutral-2;
-	}
-
-	body {
-		margin: 0 20px;
-	}
-
-	strong {
-		font-weight: 600;
-		@apply text-neutral-1;
-	}
-
-	button {
-		text-transform: uppercase;
-	}
-</style>
