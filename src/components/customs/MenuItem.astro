@@ -2,12 +2,13 @@
 interface Props {
   text: string
   url: string
+  className?: string
 }
 
-const { text, url } = Astro.props
+const { text, url, className } = Astro.props
 ---
 
-<div>
+<div class={className}>
   <a class='text-label font-semibold text-neutral-1' href={url}>{text}</a>
   <!-- <hr class='bg-primary border-none h-[2.5px] w-1/2 m-auto rounded-full' /> -->
 </div>

@@ -3,18 +3,21 @@ import MenuItem from '../customs/MenuItem.astro'
 import ChevronDown from '../icons/ChevronDown.astro'
 ---
 
-<section class='h-screen flex flex-col justify-between py-5'>
+<section class='h-screen flex flex-col justify-between py-5 lg:py-8'>
   <header class='flex justify-between items-center'>
     <img src='/favicon.svg' alt='Logo' />
     <nav class='flex gap-8'>
       <!-- <span class='text-label font-semibold text-neutral-1'>Work</span>
       <span class='text-label font-semibold text-neutral-1'>Blog</span> -->
       <MenuItem text='Work' url='#work' />
+      <MenuItem text='Me' url='#me' className='hidden lg:block' />
       <MenuItem text='Blog' url='#blog' />
+      <MenuItem text='Experience' url='#experience' className='hidden lg:block' />
+      <MenuItem text='Get in touch' url='#get-in-touch' className='hidden lg:block' />
     </nav>
   </header>
   <div>
-    <h1 class='normal-case text-center text-h3 text-neutral-2'>
+    <h1 class='normal-case text-center text-h3 text-neutral-2 lg:text-h1'>
       I’m a <strong>software developer</strong> specialized in <strong>web</strong> technologies
     </h1>
   </div>

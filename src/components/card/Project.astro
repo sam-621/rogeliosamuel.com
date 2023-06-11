@@ -2,21 +2,26 @@
 import {} from 'astro'
 import type { CollectionEntry } from 'astro:content'
 import ChevronRight from '../icons/ChevronRight.astro'
+import { twMerge } from 'tailwind-merge'
 
 interface Props {
   project: CollectionEntry<'projects'>
+  i: number
 }
 
 const {
   project: { data },
+  i,
 } = Astro.props
 ---
 
-<article class='flex flex-col gap-8'>
-  <div>
-    <img src={`/projects/${data.image}`} alt={data.title} class='rounded-2xl' />
+<article
+  class={twMerge('flex flex-col gap-8', i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse')}
+>
+  <div class='lg:w-1/2'>
+    <img src={`/projects/${data.image}`} alt={data.title} class='w-full rounded-2xl' />
   </div>
-  <div class='flex flex-col gap-8'>
+  <div class='lg:w-1/2 flex flex-col gap-8 lg:justify-end'>
     <div class='flex flex-col gap-6'>
       <div class='flex flex-col gap-4'>
         <h3 class='text-h5 tracking-h5'><strong>{data.title}</strong></h3>

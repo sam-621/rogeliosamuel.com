@@ -5,11 +5,11 @@ import Project from '../card/Project.astro'
 const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order)
 ---
 
-<section class='flex flex-col gap-8'>
-  <h2 class='text-h4 tracking-h4 capitalize'>
+<section class='flex flex-col gap-8 lg:gap-20'>
+  <h2 class='text-h4 tracking-h4 capitalize lg:text-h2'>
     My <strong>Work<span class='text-primary'>.</span></strong>
   </h2>
-  <div class='flex flex-col gap-10'>
-    {projects.map((p) => <Project project={p} />)}
+  <div class='flex flex-col gap-10 lg:gap-32'>
+    {projects.map((p, i) => <Project project={p} i={i} />)}
   </div>
 </section>

@@ -5,9 +5,6 @@ html {
   @apply bg-bg text-neutral-2;
 }
 
-body {
-  margin: 0 20px;
-}
 
 strong {
   font-weight: 600;
