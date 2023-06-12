@@ -13,10 +13,14 @@ const {
 ---
 
 <article class='flex flex-col gap-8 lg:flex-row'>
-  <div>
-    <img src={`/blogs/${data.image}`} alt={data.title} class='rounded-2xl' />
+  <div class='lg:w-1/2'>
+    <img
+      src={`/blogs/${data.image}`}
+      alt={data.title}
+      class='rounded-2xl object-cover aspect-video'
+    />
   </div>
-  <div class='flex flex-col gap-8 lg:justify-end'>
+  <div class='flex flex-col gap-8 lg:justify-end lg:w-1/2'>
     <div class='flex flex-col gap-6'>
       <div class='flex flex-col gap-4'>
         <h3 class='text-h4 tracking-h4' set:html={data.title} />
