@@ -1,15 +1,24 @@
 ---
 import { getCollection } from 'astro:content'
 import Blog from '../card/Blog.astro'
+import { Animation } from '../react/Animation'
 
 const blogs = (await getCollection('blogs')).sort((a, b) => a.data.order - b.data.order)
 ---
 
 <section class='flex flex-col gap-8 lg:gap-20' id='blog'>
-  <h2 class='text-h4 tracking-h4 capitalize lg:text-h2'>
-    Featured <strong>Blogs<span class='text-primary'>.</span></strong>
-  </h2>
+  <Animation client:load>
+    <h2 class='text-h4 tracking-h4 capitalize lg:text-h2'>
+      Featured <strong>Blogs<span class='text-primary'>.</span></strong>
+    </h2>
+  </Animation>
   <div class='flex flex-col gap-10'>
-    {blogs.map((b) => <Blog blog={b} />)}
+    {
+      blogs.map((b) => (
+        <Animation client:load y={[75, 0]}>
+          <Blog blog={b} />
+        </Animation>
+      ))
+    }
   </div>
 </section>
