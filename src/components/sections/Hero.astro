@@ -1,25 +1,33 @@
 ---
 import ChevronDown from '../icons/ChevronDown.astro'
+import { Animation } from '../react/Animation'
 ---
 
 <section class='h-screen flex flex-col justify-between py-5 lg:py-8'>
   <header class='flex justify-between items-center'>
-    <img src='/favicon.svg' alt='Logo' />
+    <Animation client:load>
+      <img src='/favicon.svg' alt='Logo' />
+    </Animation>
     <nav class='flex gap-8'>
-      <a
-        href='/CV.pdf'
-        target='_blank'
-        class='py-4 font-normal text-sm rounded-xl text-neutral-1 tracking-button hover:bg-neutral-1 hover:text-bg hover:px-6 transition-all lg:text-button lg:px-6'
-        >Download CV</a
-      >
+      <Animation client:load>
+        <a
+          href='/CV.pdf'
+          target='_blank'
+          class='py-4 font-normal text-sm rounded-xl text-neutral-1 tracking-button hover:bg-neutral-1 hover:text-bg hover:px-6 transition-all lg:text-button lg:px-6'
+        >
+          Download CV
+        </a>
+      </Animation>
     </nav>
   </header>
   <div>
-    <h1 class='normal-case text-center text-h3 text-neutral-2 lg:text-h1'>
-      I’m <strong>Rogelio Samuel</strong> a software developer specialized in <strong
-        >web technologies</strong
-      >
-    </h1>
+    <Animation client:load y={[-75, 0]}>
+      <h1 class='normal-case text-center text-h3 text-neutral-2 lg:text-h1'>
+        I’m <strong>Rogelio Samuel</strong> a software developer specialized in <strong
+          >web technologies</strong
+        >
+      </h1>
+    </Animation>
   </div>
   <div class='flex justify-center'>
     <a href='#work'>
