@@ -2,6 +2,8 @@
 // this way to take advantage of astro optimization
 import '../styles/typography.css'
 import '../styles/globals.css'
+
+import { Analytics } from '@vercel/analytics/react'
 ---
 
 <!DOCTYPE html>
@@ -35,5 +37,6 @@ import '../styles/globals.css'
 	</head>
 	<body class='mx-5 lg:mx-20'>
 		<slot />
+		<Analytics />
 	</body>
 </html>
