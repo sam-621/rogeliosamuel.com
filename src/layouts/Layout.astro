@@ -2,8 +2,6 @@
 // this way to take advantage of astro optimization
 import '../styles/typography.css'
 import '../styles/globals.css'
-
-import { Analytics } from '@vercel/analytics/react'
 ---
 
 <!DOCTYPE html>
@@ -34,9 +32,10 @@ import { Analytics } from '@vercel/analytics/react'
 		<!-- <meta property='og:type' content='website' /> -->
 		<meta property='og:image' content='/images/og-cover.webp' />
 		<!-- End OG tags -->
+
+		<script defer src='/_vercel/insights/script.js'></script>
 	</head>
 	<body class='mx-5 lg:mx-20'>
 		<slot />
-		<Analytics />
 	</body>
 </html>
