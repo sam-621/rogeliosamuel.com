@@ -18,12 +18,6 @@ const {
 const isEven = i % 2 === 0
 ---
 
-<script>
-  console.log({
-    window,
-  })
-</script>
-
 <Animation client:load y={[75, 0]} className=''>
   <article class={twMerge('flex flex-col gap-8 ', isEven ? 'lg:flex-row' : 'lg:flex-row-reverse')}>
     <div class='lg:w-1/2'>
