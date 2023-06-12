@@ -18,6 +18,7 @@ const {
       src={`/blogs/${data.image}`}
       alt={data.title}
       class='rounded-2xl object-cover aspect-video'
+      loading='lazy'
     />
   </div>
   <div class='flex flex-col gap-8 lg:justify-end lg:w-1/2'>
@@ -29,6 +30,7 @@ const {
     </div>
     <a
       href={data.preview}
+      target='_blank'
       class='text-neutral-1 text-button font-normal p-4 rounded-xl border-[1.5px] border-neutral-2 w-fit flex items-center gap-3 hover:bg-neutral-1 hover:text-bg hover:border-neutral-1 transition-all'
     >
       Read Blog
