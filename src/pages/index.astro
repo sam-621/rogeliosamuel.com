@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro'
+import Hero from '../components/Hero.astro'
 ---
 
 <html lang='en'>
@@ -12,11 +13,6 @@ import Header from '../components/Header.astro'
   </head>
   <body class='bg-view m-5'>
     <Header />
+    <Hero />
   </body>
 </html>
-
-<style is:global>
-  h1 h2 h3 h4 h5 h6 p span a {
-    @apply text-neutral-1;
-  }
-</style>

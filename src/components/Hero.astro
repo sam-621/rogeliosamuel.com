@@ -1,0 +1,33 @@
+---
+import GithubIcon from './icons/GithubIcon.astro'
+import LinkedinIcon from './icons/LinkedinIcon.astro'
+import ScrollArrowIcon from './icons/ScrollArrowIcon.astro'
+---
+
+<section class='h-[calc(100vh-50px-40px)] flex flex-col'>
+  <div class='flex flex-col justify-center gap-8 h-full'>
+    <div class='flex flex-col gap-[18px]'>
+      <p class='text-neutral-2 text-base font-medium'>Rogelio Samuel Moreno Corrales</p>
+      <h1 class='text-neutral-1 text-[64px] font-bold leading-[normal]'>
+        Web Developer<span class='text-primary'>.</span>
+      </h1>
+    </div>
+    <div class='flex flex-col gap-5'>
+      <hr class='w-12 border-neutral-2' />
+      <p class='text-neutral-1'>
+        I design, develop, and deliver innovative software products to improve the world with
+        technology.
+      </p>
+    </div>
+    <div class='flex gap-7'>
+      <GithubIcon />
+      <LinkedinIcon />
+    </div>
+  </div>
+  <div class='flex justify-end'>
+    <div class='flex flex-col items-center gap-4'>
+      <p class='text-neutral-1 w-fit -rotate-90'>Scroll</p>
+      <ScrollArrowIcon />
+    </div>
+  </div>
+</section>
