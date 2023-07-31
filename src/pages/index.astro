@@ -16,3 +16,25 @@ import Hero from '../components/Hero.astro'
     <Hero />
   </body>
 </html>
+
+<style is:global>
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    @apply text-neutral-1;
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      @apply text-8xl;
+    }
+    p {
+      @apply text-2xl !important;
+    }
+  }
+</style>
