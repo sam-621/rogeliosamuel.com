@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro'
 import Hero from '../components/Hero.astro'
+import Work from '../components/sections/Work.astro'
 ---
 
 <html lang='en'>
@@ -14,10 +15,15 @@ import Hero from '../components/Hero.astro'
   <body class='bg-view m-5 max-w-[1200px] lg:mx-auto'>
     <Header />
     <Hero />
+    <Work />
   </body>
 </html>
 
 <style is:global>
+  h2 {
+    @apply text-4xl tracking-widest !important;
+  }
+
   h1,
   h2,
   h3,
@@ -32,6 +38,9 @@ import Hero from '../components/Hero.astro'
   @media (min-width: 1024px) {
     h1 {
       @apply text-8xl !important;
+    }
+    h2 {
+      @apply text-[40px] !important;
     }
     p {
       @apply text-2xl !important;
