@@ -5,8 +5,8 @@ import ScrollArrowIcon from './icons/ScrollArrowIcon.astro'
 ---
 
 <section class='h-[calc(100vh-50px-40px)] flex flex-col'>
-  <div class='flex flex-col justify-center gap-8 h-full'>
-    <div class='flex flex-col gap-[18px]'>
+  <div class='flex flex-col justify-center gap-8 h-full lg:flex-row lg:items-center lg:gap-11'>
+    <div class='flex flex-col gap-[18px] lg:w-1/2'>
       <strong class='text-neutral-2 text-base font-medium lg:text-xl'
         >Rogelio Samuel Moreno Corrales</strong
       >
@@ -14,7 +14,7 @@ import ScrollArrowIcon from './icons/ScrollArrowIcon.astro'
         Web Developer<span class='text-primary'>.</span>
       </h1>
     </div>
-    <div class='flex flex-col gap-6'>
+    <div class='flex flex-col gap-6 lg:w-1/2'>
       <div class='flex flex-col gap-5'>
         <hr class='w-12 border-neutral-2' />
         <p class='text-xl'>
@@ -28,7 +28,7 @@ import ScrollArrowIcon from './icons/ScrollArrowIcon.astro'
       </div>
     </div>
   </div>
-  <div class='flex justify-end'>
+  <div class='flex justify-end lg:justify-start'>
     <div class='flex flex-col items-center gap-4'>
       <p class='w-fit -rotate-90 text-xl'>Scroll</p>
       <ScrollArrowIcon />
