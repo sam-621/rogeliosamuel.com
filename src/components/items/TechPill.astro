@@ -1,0 +1,15 @@
+---
+type Props = {
+  tech: string
+  color: string
+}
+
+const { tech, color } = Astro.props
+---
+
+<div
+  class={`flex justify-center rounded-full py-1 px-2 w-fit text-sm `}
+  style={`background: ${color}3D; `}
+>
+  <span style={`color: ${color};`}>{tech}</span>
+</div>
