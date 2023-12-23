@@ -16,9 +16,11 @@ import AboutMe from '../components/sections/AboutMe.astro'
     <meta name='generator' content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body class='bg-view p-5 max-w-[1200px] lg:mx-auto'>
-    <Header />
-    <Hero />
+  <body class='bg-view p-5 max-w-[1200px] lg:mx-auto flex flex-col gap-52'>
+    <div>
+      <Header />
+      <Hero />
+    </div>
     <Work />
     <AboutMe />
   </body>
