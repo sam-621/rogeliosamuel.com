@@ -13,7 +13,9 @@ const {
 } = Astro.props
 ---
 
-<article class='flex flex-col gap-8'>
+<article
+  class='flex flex-col gap-8 rounded-lg p-4 hover:bg-white hover:bg-opacity-10 transition-colors'
+>
   <a href={data.preview} target='_blank' class='flex flex-col gap-4'>
     <div class='w-full'>
       <Image
