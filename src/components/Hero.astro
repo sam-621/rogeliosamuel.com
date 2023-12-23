@@ -1,4 +1,5 @@
 ---
+import BgSphere from './common/BgSphere.astro'
 import GithubIcon from './icons/GithubIcon.astro'
 import LinkedinIcon from './icons/LinkedinIcon.astro'
 import ScrollArrowIcon from './icons/ScrollArrowIcon.astro'
@@ -15,8 +16,9 @@ import ScrollArrowIcon from './icons/ScrollArrowIcon.astro'
       </h1>
     </div>
     <div class='flex flex-col gap-6 lg:w-1/2'>
-      <div class='flex flex-col gap-5'>
+      <div class='flex flex-col gap-5 relative'>
         <hr class='w-12 border-neutral-2' />
+        <BgSphere />
         <p class='text-xl'>
           I design, develop, and deliver innovative software products to improve the world with
           technology.
