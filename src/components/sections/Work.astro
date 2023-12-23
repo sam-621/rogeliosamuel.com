@@ -5,7 +5,7 @@ import Project from '../cards/Project.astro'
 const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order)
 ---
 
-<section class='flex flex-col gap-8 lg:gap-20' id='work'>
+<section class='flex flex-col gap-8 lg:gap-20 mt-24' id='work'>
   <h2 class='text-center font-semibold capitalize'>
     My Work<span class='text-primary'>.</span>
   </h2>

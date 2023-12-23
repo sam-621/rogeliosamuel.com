@@ -1,4 +1,7 @@
 ---
+import '@fontsource-variable/inter'
+import '@fontsource/ibm-plex-sans'
+
 import Header from '../components/sections/Header.astro'
 import Hero from '../components/sections/Hero.astro'
 import Work from '../components/sections/Work.astro'
@@ -20,6 +23,9 @@ import Work from '../components/sections/Work.astro'
 </html>
 
 <style is:global>
+  body {
+    font-family: 'Inter Variable', sans-serif;
+  }
   h2 {
     @apply text-4xl tracking-widest !important;
   }
