@@ -1,8 +1,0 @@
-{
-  "image": "faktible.webp",
-  "title": "Faktible",
-  "description": "A website to drive financial growth for your business in a faktible way. Built with Next.js and Strapi",
-  "type": "Web platform",
-  "preview": "https://faktible.com",
-  "order": 1
-}

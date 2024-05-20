@@ -1,8 +1,8 @@
 {
   "image": "fitnesscorp.webp",
   "title": "Fitnesscorp",
-  "description": "A web application to manage customers and orders for fitnesscorp. built with Next.js and Nestjs",
+  "description": "A web application to manage customers and orders for fitnesscorp. Built with Next.js and Nestjs",
   "type": "Web Application",
   "preview": "https://sistema.fitnesscorp.com.mx/",
-  "order": 2
+  "order": 4
 }
