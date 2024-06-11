@@ -1,8 +1,8 @@
 {
   "image": "storefront.webp",
   "title": "Storefront",
-  "description": "Storefront powered by Vendyx. Built with Next.js and Tailwind CSS.",
+  "description": "Storefront powered by Ebloc. Built with Next.js and Tailwind CSS.",
   "type": "E-Commerce",
-  "preview": "https://vendyx-storefront.vercel.app/",
+  "preview": "https://ebloc-storefront.vercel.app/",
   "order": 2
 }
