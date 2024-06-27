@@ -4,5 +4,5 @@
   "description": "A multiplayer game to challenge your friends and have fun in those down times. Built with React, Socket.io and Express.",
   "type": "Web Application",
   "preview": "https://tictactoe-multi.vercel.app/",
-  "order": 3
+  "order": 4
 }
