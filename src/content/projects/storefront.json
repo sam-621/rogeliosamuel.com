@@ -1,0 +1,8 @@
+{
+  "image": "storefront.webp",
+  "title": "Storefront",
+  "description": "Next storefront powered by Ebloc.",
+  "type": "Web Application",
+  "preview": "https://ebloc-storefront.vercel.app/",
+  "order": 3
+}

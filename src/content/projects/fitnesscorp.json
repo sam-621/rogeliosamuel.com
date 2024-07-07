@@ -4,5 +4,5 @@
   "description": "A web application to manage customers and orders for fitnesscorp. Built with Next.js and Nestjs",
   "type": "Web Application",
   "preview": "https://sistema.fitnesscorp.com.mx/",
-  "order": 3
+  "order": 4
 }
