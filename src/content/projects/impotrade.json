@@ -1,0 +1,8 @@
+{
+  "image": "impotrade.webp",
+  "title": "Congresos Impotrade",
+  "description": "Internal administration tool to manage congresses for Impotrade, used by impotrade's team and its partners. Built with Next.js and Nestjs",
+  "type": "Web Application",
+  "preview": "https://congresos.impotrade.com.mx/admin/login",
+  "order": 1
+}
