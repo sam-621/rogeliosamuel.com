@@ -3,6 +3,6 @@
   "title": "Vendyx",
   "description": "A functional and scalable minimal e-commerce admin that can be adjusted to any user's requirement",
   "type": "Web Application",
-  "preview": "https://github.com/sam-621/vendyx",
+  "preview": "https://vendyx.vercel.app/",
   "order": 4
 }
