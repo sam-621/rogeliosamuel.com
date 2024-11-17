@@ -1,0 +1,8 @@
+{
+  "image": "storefront.webp",
+  "title": "Storefront",
+  "description": "A storefront powered by Vendyx. Built with nextjs",
+  "type": "E-commerce",
+  "preview": "https://next-store.up.railway.app/",
+  "order": 2
+}

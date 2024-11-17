@@ -4,5 +4,5 @@
   "description": "Crafting Bespoke Real Estate Journeys with Ease and Precision in Puerto Rico. Built with Next.js and Nestjs",
   "type": "Web Application",
   "preview": "https://www.aureorealty.com/view-properties?%3F%3F%3Fskip=0&minLat=18.418544475254883&maxLat=18.485632916994525&minLng=-66.11520767211915&maxLng=-66.03366851806642&forSale=true&order=1&skip=0&propertyStatus=Active&zoom=14",
-  "order": 2
+  "order": 4
 }
