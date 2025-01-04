@@ -1,0 +1,63 @@
+/* SLIDE IN KEYFRAMES */
+
+@keyframes slideInBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInBottomTiny {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInTopTiny {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* SLIDE IN CLASSES */
+
+.slide-in-bottom {
+  animation: slideInBottom 0.5s ease forwards;
+}
+.slide-in-bottom-tiny {
+  animation: slideInBottomTiny 0.5s ease forwards;
+}
+
+.slide-in-top {
+  animation: slideInTop 0.5s ease forwards;
+}
+
+.slide-in-top-tiny {
+  animation: slideInTopTiny 0.5s ease forwards;
+}

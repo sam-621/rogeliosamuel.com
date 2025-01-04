@@ -1,0 +1,29 @@
+---
+import Logo from "./logo.astro";
+import { ArrowUpRight } from "lucide-astro";
+---
+
+<header
+  class="flex justify-between items-center h-[var(--header-height)] px-4 md:p-8 md:justify-center slide-in-top"
+  style="animation-fill-mode: none;"
+>
+  <div class="md:absolute left-8">
+    <Logo />
+  </div>
+  <nav
+    class="hidden md:flex gap-6 text-foreground bg-card rounded-full px-6 py-3 border fixed backdrop-blur-lg z-50"
+  >
+    <a href="">Work</a>
+    <a href="">About</a>
+    <a href="">Services</a>
+    <a href="">Blog</a>
+  </nav>
+  <nav class="flex items-center gap-6 text-foreground md:absolute right-8">
+    <a href="" class="flex items-center gap-1"
+      >Resume <ArrowUpRight size="16" />
+    </a>
+    <a href="" class="flex items-center gap-1"
+      >Linkedin <ArrowUpRight size="16" />
+    </a>
+  </nav>
+</header>
