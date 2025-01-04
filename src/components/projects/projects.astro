@@ -3,29 +3,27 @@ import { Image } from "astro:assets";
 import ImpotradeImage from "../../assets/impotrade.png";
 import VendyxImage from "../../assets/vendyx.png";
 import WSQLImage from "../../assets/wsql.png";
+import ProjectCard from "./project-card.astro";
 ---
 
 <section
   id="projects-section"
   class="mt-8 gap-8 mb-52 mx-4 md:mx-8 2xl:mx-24 projects-section"
 >
-  <div class="left">
-    <Image
-      src={ImpotradeImage}
-      alt="Impotrade"
-      class="rounded-lg h-full object-cover"
-    />
-  </div>
-  <div class="center">
-    <Image
-      src={VendyxImage}
-      alt="Vendyx"
-      class="rounded-lg h-full object-cover"
-    />
-  </div>
-  <div class="right">
-    <Image src={WSQLImage} alt="WSQL" class="rounded-lg h-full object-cover" />
-  </div>
+  <ProjectCard
+    image={ImpotradeImage}
+    alt="Impotrade"
+    name="Impotrade"
+    class="left"
+  />
+  <ProjectCard
+    image={WSQLImage}
+    alt="WSQL"
+    name="WSQL"
+    class="center"
+    isDefaultOpen
+  />
+  <ProjectCard image={VendyxImage} alt="Vendyx" name="Vendyx" class="right" />
 </section>
 
 <style>
@@ -55,44 +53,58 @@ import WSQLImage from "../../assets/wsql.png";
 
 <script>
   // Set initial height of the section, this to avoid the section to resize when some project card expands and tries to respect its dimensions
-  const section = document.getElementById("projects-section");
-  const height = section?.offsetHeight;
+  const $section = document.getElementById("projects-section");
+  const sectionHeight = $section?.offsetHeight;
 
-  if (section) {
-    section.style.height = `${height}px`;
+  if ($section) {
+    $section.style.height = `${sectionHeight}px`;
   }
 
   // Re-set the section size when the window is resized
-  const leftSection = document.querySelector(".left");
+  const $leftSection = document.querySelector(".left");
   const observer = new ResizeObserver((entries) => {
     for (let entry of entries) {
       const height = entry.contentRect.height.toFixed();
 
-      if (section) {
-        section.style.height = `${height}px`;
+      if ($section) {
+        $section.style.height = `${height}px`;
       }
     }
   });
 
-  if (leftSection) {
-    observer.observe(leftSection);
+  if ($leftSection) {
+    observer.observe($leftSection);
   }
+
+  const $left = document.querySelector(".left");
+  const $center = document.querySelector(".center");
+  const $right = document.querySelector(".right");
 
   // Expand the section when the mouse enters the left, center or right section
-  export function expand(el: string) {
-    if (!section) return;
+  export function expand(elName: string, $el: Element) {
+    if (!$section) return;
 
-    section.classList.remove("expand-left");
-    section.classList.remove("expand-center");
-    section.classList.remove("expand-right");
-    section.classList.add(`expand-${el}`);
+    $section.classList.remove("expand-left");
+    $section.classList.remove("expand-center");
+    $section.classList.remove("expand-right");
+
+    $left?.classList.remove("expand");
+    $center?.classList.remove("expand");
+    $right?.classList.remove("expand");
+
+    $section.classList.add(`expand-${elName}`);
+    $el.classList.add("expand");
   }
 
-  const left = document.querySelector(".left");
-  const center = document.querySelector(".center");
-  const right = document.querySelector(".right");
+  if ($left) {
+    $left.addEventListener("mouseenter", () => expand("left", $left));
+  }
 
-  if (left) left.addEventListener("mouseenter", () => expand("left"));
-  if (center) center.addEventListener("mouseenter", () => expand("center"));
-  if (right) right.addEventListener("mouseenter", () => expand("right"));
+  if ($center) {
+    $center.addEventListener("mouseenter", () => expand("center", $center));
+  }
+
+  if ($right) {
+    $right.addEventListener("mouseenter", () => expand("right", $right));
+  }
 </script>
