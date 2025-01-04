@@ -1,8 +1,0 @@
-{
-  "image": "websql.webp",
-  "title": "Web SQL",
-  "description": "A web based SQL client, inspired by Azure Data Studio.",
-  "type": "Web App",
-  "preview": "https://websql.dev",
-  "order": 2
-}
