@@ -4,6 +4,9 @@ import Layout from "../../layouts/Layout.astro";
 import HeroImage from "../../assets/images/impotrade.png";
 import ProjectDetailsHero from "../../components/project-details-hero.astro";
 import Footer from "../../components/footer/footer.astro";
+import { Image } from "astro:assets";
+
+import ExpoImage1 from "../../assets/images/expos/impotrade-expo-1.png";
 ---
 
 <Layout>
@@ -22,6 +25,14 @@ import Footer from "../../components/footer/footer.astro";
         class="font-normal text-[#D33741]">Impotrade's team and partners</strong
       >. built for managing orders, promotions, products, providers, and more.
     </p>
+  </section>
+
+  <section class="mt-56 flex justify-center mx-4 md:mx-8">
+    <Image
+      src={ExpoImage1}
+      alt="Impotrade dashboard"
+      class="rounded-lg max-w-5xl w-full border"
+    />
   </section>
 
   <Footer />
