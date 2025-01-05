@@ -6,47 +6,17 @@ import { Image } from "astro:assets";
 
 import HeroImage from "../../assets/images/wsql.png";
 import Footer from "../../components/footer/footer.astro";
+import ProjectDetailsHero from "../../components/project-details-hero.astro";
 ---
 
 <Layout class:list="dark">
-  <section class="">
-    <div class="flex flex-col gap-16 mt-16 mx-4 md:mx-8 2xl:mx-24">
-      <div class="flex flex-col slide-in-bottom">
-        <h1
-          class="text-5xl font-medium text-center text-black md:text-8xl md:font-semibold"
-        >
-          WEB SQL
-        </h1>
-        <p class="text-lg font-light text-center md:text-2xl md:font-normal">
-          Web based SQL client
-        </p>
-      </div>
-      <div
-        class="opacity-0 flex items-center justify-between gap-3 slide-in-bottom"
-        style="animation-delay: .3s;"
-      >
-        <div class="flex items-center gap-3">
-          <Icon icon="next" />
-          <Icon icon="ts" />
-          <Icon icon="tailwind" />
-        </div>
-        <div class="flex items-center gap-3">
-          <Link />
-          <Icon icon="github" />
-        </div>
-      </div>
-    </div>
-    <div
-      class="mt-5 bg-white flex justify-center items-center h-[calc(100vh-236px-var(--header-height))] md:h-auto"
-      transition:name="image-WSQL"
-    >
-      <Image
-        src={HeroImage}
-        alt="Web SQL"
-        class="h-full object-cover md:h-auto"
-      />
-    </div>
-  </section>
+  <ProjectDetailsHero
+    techs={["next", "ts", "tailwind"]}
+    image={HeroImage}
+    livePreview="https://websql.dev"
+    github="https://github.com/sam-621/websql.dev"
+    transitionName="image-WSQL"
+  />
 
   <!-- <section class="mt-56 flex flex-col text-center text-black">
     <p class="md:text-2xl">Characteristics</p>
@@ -59,5 +29,5 @@ import Footer from "../../components/footer/footer.astro";
     </div>
   </section> -->
 
-  <Footer />
+  <!-- <Footer /> -->
 </Layout>
