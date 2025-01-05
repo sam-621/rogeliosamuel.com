@@ -10,12 +10,21 @@ interface Props {
     techs: ["next", "nest", "ts", "prisma", "postgresql"];
     href: "/impotrade";
   }[];
+  /**
+   * Used for transition api and persist only the first component instance,
+   * because featured are in home page and also in the first row in work page
+   */
+  persists?: boolean;
 }
 
-const { projects = FEATURED_PROJECTS } = Astro.props;
+const { projects = FEATURED_PROJECTS, persists = false } = Astro.props;
 ---
 
-<section id="work" class="mt-16 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8">
+<section
+  id="work"
+  class="mt-16 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8"
+  transition:persist={persists}
+>
   {
     projects.map((p, i) => (
       <FeaturedProjectCard
