@@ -8,13 +8,24 @@ interface Props {
   subtitle: string;
   techs: string[];
   image: ImageMetadata;
+  transitionName: string;
+  imageClass?: string;
   livePreview?: string;
   github?: string;
-  transitionName: string;
+  color?: string;
 }
 
-const { title, subtitle, image, techs, livePreview, github, transitionName } =
-  Astro.props;
+const {
+  title,
+  subtitle,
+  image,
+  techs,
+  livePreview,
+  github,
+  transitionName,
+  imageClass,
+  color,
+} = Astro.props;
 ---
 
 <section class="">
@@ -56,8 +67,14 @@ const { title, subtitle, image, techs, livePreview, github, transitionName } =
   </div>
   <div
     class="mt-5 bg-white flex justify-center items-center h-screen"
+    style={color ? `background-color: ${color}` : ""}
     transition:name={transitionName}
   >
-    <Image src={image} alt="Web SQL" class="h-full object-contain" />
+    <Image
+      quality="max"
+      src={image}
+      alt="Web SQL"
+      class:list={["h-full object-contain", imageClass]}
+    />
   </div>
 </section>

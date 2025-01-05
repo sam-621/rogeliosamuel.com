@@ -1,0 +1,32 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import HeroImage from "../../assets/images/vendyx.png";
+import ProjectDetailsHero from "../../components/project-details-hero.astro";
+import Footer from "../../components/footer/footer.astro";
+---
+
+<Layout>
+  <ProjectDetailsHero
+    title="E-Commerce"
+    subtitle="An E-Commerce powered by Vendyx"
+    techs={["next-28", "nest-28", "ts-28", "prisma-28", "postgresql-28"]}
+    image={HeroImage}
+    livePreview="https://congresos.impotrade.com.mx/admin"
+    transitionName="image-Vendyx"
+    color="#4F46E5"
+  />
+
+  <section class="mt-56 flex flex-col text-center text-black max-w-5xl mx-auto">
+    <p class="text-4xl leading-[1.4]">
+      A full featured storefront to showcase the capability of <strong
+        class="font-normal text-[#4F46E5]">Vendyx</strong
+      >, providing a real-world example of how our platform <strong
+        class="font-normal text-[#4F46E5]"
+        >streamlines operations, enhances user experience, and drives sales.</strong
+      >
+    </p>
+  </section>
+
+  <Footer />
+</Layout>
