@@ -1,37 +1,23 @@
 ---
-import ImpotradeImage from "../../assets/images/impotrade.png";
-import VendyxImage from "../../assets/images/vendyx.png";
-import WSQLImage from "../../assets/images/wsql.png";
+import { FEATURED_PROJECTS } from "../../utils/projects";
 import FeaturedProjectCard from "./featured-project-card.astro";
 
-const featuredProject = [
-  {
-    image: ImpotradeImage,
-    alt: "Impotrade",
-    name: "Impotrade",
-    techs: ["next", "nest", "ts", "prisma", "postgresql"],
-    href: "/impotrade",
-  },
-  {
-    image: WSQLImage,
-    alt: "WSQL",
-    name: "WSQL",
-    techs: ["next", "ts", "tailwind"],
-    href: "/websql",
-  },
-  {
-    image: VendyxImage,
-    alt: "Vendyx",
-    name: "Vendyx",
-    techs: ["next", "nest", "ts", "prisma", "postgresql"],
-    href: "/vendyx",
-  },
-];
+interface Props {
+  projects?: {
+    image: ImageMetadata;
+    alt: "Impotrade";
+    name: "Impotrade";
+    techs: ["next", "nest", "ts", "prisma", "postgresql"];
+    href: "/impotrade";
+  }[];
+}
+
+const { projects = FEATURED_PROJECTS } = Astro.props;
 ---
 
 <section id="work" class="mt-16 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8">
   {
-    featuredProject.map((p, i) => (
+    projects.map((p, i) => (
       <FeaturedProjectCard
         image={p.image}
         alt={p.alt}
@@ -80,6 +66,7 @@ const featuredProject = [
 </style>
 
 <script>
+  console.log("loaded");
   // Set initial height of the section, this to avoid the section to resize when some project card expands and tries to respect its dimensions
   const $section = document.getElementById("work");
   const $left = document.querySelector(".left");
@@ -116,6 +103,8 @@ const featuredProject = [
 
   // Expand the section when the mouse enters the left, center or right section
   export function expand(elName: string, $el: Element) {
+    console.log("expand", elName);
+
     if (!$section) return;
 
     $section.classList.remove("expand-left");

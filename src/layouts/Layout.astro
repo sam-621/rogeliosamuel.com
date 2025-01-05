@@ -50,6 +50,7 @@ const { class: className } = Astro.props;
     />
     <meta name="twitter:image" content="/og.png" />
 
+    <slot name="head" />
     <ClientRouter />
   </head>
   <body class:list={["bg-background", className]}>
