@@ -8,9 +8,11 @@ import ProjectDetailsHero from "../../components/project-details-hero.astro";
 
 import ExpoImage1 from "../../assets/images/expos/wsql-expo-1.png";
 import ExpoImage2 from "../../assets/images/expos/wsql-expo-2.png";
+import { ClientRouter } from "astro:transitions";
 ---
 
 <Layout class:list="dark">
+  <ClientRouter slot="head" />
   <ProjectDetailsHero
     title="Web SQL"
     subtitle="Web based SQL client"
