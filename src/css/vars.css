@@ -6,7 +6,7 @@
   :root {
     --header-height: 61px;
 
-    --background: #ebebeb;
+    --background: #fafafa;
     --foreground: #383a37;
     --black: #000000;
     --black-foreground: #c7c5c8;
@@ -18,7 +18,7 @@
   .dark {
     --background: #111111;
     --foreground: #c7c5c8;
-    --black: #FFF;
+    --black: #fff;
     --black-foreground: #c7c5c8;
     --white: #000;
     --border: #ffffff1a;
