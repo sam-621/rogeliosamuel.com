@@ -29,10 +29,7 @@ const featuredProject = [
 ];
 ---
 
-<section
-  id="projects-section"
-  class="mt-16 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8"
->
+<section id="work" class="mt-16 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8">
   {
     featuredProject.map((p, i) => (
       <FeaturedProjectCard
@@ -84,7 +81,7 @@ const featuredProject = [
 
 <script>
   // Set initial height of the section, this to avoid the section to resize when some project card expands and tries to respect its dimensions
-  const $section = document.getElementById("projects-section");
+  const $section = document.getElementById("work");
   const $left = document.querySelector(".left");
   const $center = document.querySelector(".center");
   const $right = document.querySelector(".right");
