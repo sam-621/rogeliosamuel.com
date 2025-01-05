@@ -53,7 +53,9 @@ const { class: className } = Astro.props;
     <ClientRouter />
   </head>
   <body class:list={["bg-background", className]}>
-    <Header />
-    <slot />
+    <div class="mx-auto max-w-[1440px]">
+      <Header />
+      <slot />
+    </div>
   </body>
 </html>
