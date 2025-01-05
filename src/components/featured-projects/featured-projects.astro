@@ -104,6 +104,11 @@ const featuredProject = [
 
       if ($section && isLg) {
         $section.style.height = `${height}px`;
+        return;
+      }
+
+      if (!isLg && $section) {
+        $section.style.height = "auto";
       }
     }
   });
@@ -128,15 +133,15 @@ const featuredProject = [
     $el.classList.add("expand");
   }
 
-  if ($left && isLg) {
+  if ($left) {
     $left.addEventListener("mouseenter", () => expand("left", $left));
   }
 
-  if ($center && isLg) {
+  if ($center) {
     $center.addEventListener("mouseenter", () => expand("center", $center));
   }
 
-  if ($right && isLg) {
+  if ($right) {
     $right.addEventListener("mouseenter", () => expand("right", $right));
   }
 </script>

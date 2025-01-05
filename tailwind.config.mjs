@@ -7,6 +7,7 @@ export default {
         background: '#EBEBEB',
         foreground: '#383A37',
         black: '#000000',
+        'black-foreground': '#C7C5C8',
         white: '#FFFFFF',
         border: '#0000001A',
         card: '#0000000D',

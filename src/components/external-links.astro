@@ -1,0 +1,26 @@
+---
+import { ArrowUpRight } from "lucide-astro";
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<nav
+  class:list={[
+    "flex items-center gap-6 text-foreground md:absolute right-8",
+    className,
+  ]}
+>
+  <a href="/CV.pdf" target="_blank" class="flex items-center gap-1"
+    >Resume <ArrowUpRight size="16" />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/rogelio-samuel-moreno-corrales/"
+    target="_blank"
+    class="flex items-center gap-1"
+    >Linkedin <ArrowUpRight size="16" />
+  </a>
+</nav>

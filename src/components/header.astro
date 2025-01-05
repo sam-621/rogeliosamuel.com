@@ -1,6 +1,6 @@
 ---
+import ExternalLinks from "./external-links.astro";
 import Logo from "./logo.astro";
-import { ArrowUpRight } from "lucide-astro";
 ---
 
 <header
@@ -18,15 +18,5 @@ import { ArrowUpRight } from "lucide-astro";
     <a href="">Services</a>
     <a href="">Blog</a>
   </nav>
-  <nav class="flex items-center gap-6 text-foreground md:absolute right-8">
-    <a href="/CV.pdf" target="_blank" class="flex items-center gap-1"
-      >Resume <ArrowUpRight size="16" />
-    </a>
-    <a
-      href="https://www.linkedin.com/in/rogelio-samuel-moreno-corrales/"
-      target="_blank"
-      class="flex items-center gap-1"
-      >Linkedin <ArrowUpRight size="16" />
-    </a>
-  </nav>
+  <ExternalLinks />
 </header>

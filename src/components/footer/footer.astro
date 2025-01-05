@@ -1,0 +1,23 @@
+---
+import ExternalLinks from "../external-links.astro";
+import Logo from "../logo.astro";
+---
+
+<footer
+  class="mt-72 flex justify-between items-end bg-black p-4 md:p-8 2xl:px-24 md:items-start"
+>
+  <div class="flex flex-col gap-10">
+    <nav
+      class="flex flex-col gap-8 text-black-foreground text-lg md:flex-row md:gap-12"
+    >
+      <a href="">Work</a>
+      <a href="">About</a>
+      <a href="">Service</a>
+      <a href="">Blog</a>
+    </nav>
+    <div>
+      <Logo fill="white" />
+    </div>
+  </div>
+  <ExternalLinks class="text-black-foreground" />
+</footer>
