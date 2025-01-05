@@ -1,5 +1,29 @@
-:root {
-  --header-height: 61px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-height: 61px;
+
+    --background: #ebebeb;
+    --foreground: #383a37;
+    --black: #000000;
+    --black-foreground: #c7c5c8;
+    --white: #ffffff;
+    --border: #0000001a;
+    --card: #0000000d;
+  }
+
+  .dark {
+    --background: #111111;
+    --foreground: #c7c5c8;
+    --black: #FFF;
+    --black-foreground: #c7c5c8;
+    --white: #000;
+    --border: #ffffff1a;
+    --card: #ffffff0d;
+  }
 }
 
 @media screen and (min-width: 768px) {

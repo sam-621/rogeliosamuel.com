@@ -30,8 +30,13 @@ const {
     className,
   ]}
 >
-  <a href={href} target="_blank" class="h-full">
-    <Image src={image} alt={alt} class="rounded-lg h-full object-cover" />
+  <a href={href} class="h-full">
+    <Image
+      src={image}
+      alt={alt}
+      class="rounded-lg h-full object-cover"
+      transition:name={`image-${name}`}
+    />
   </a>
   <div
     class="flex items-center justify-between lg:absolute lg:h-8 lg:-mb-16 bottom-0 lg:w-full lg:overflow-x-hidden lg:opacity-0"

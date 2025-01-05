@@ -3,7 +3,7 @@ interface Props {
   fill?: "black" | "white";
 }
 
-const { fill = "black" } = Astro.props;
+const { fill = "var(--black)" } = Astro.props;
 ---
 
 <svg

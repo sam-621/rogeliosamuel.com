@@ -5,6 +5,13 @@ import "@fontsource-variable/outfit";
 import "../css/index.css";
 
 import Header from "../components/header.astro";
+import { ClientRouter } from "astro:transitions";
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
 ---
 
 <!doctype html>
@@ -42,8 +49,10 @@ import Header from "../components/header.astro";
       content="Best-in-class software development, leading software solutions while collaborating with teams"
     />
     <meta name="twitter:image" content="/og.png" />
+
+    <ClientRouter />
   </head>
-  <body>
+  <body class:list={["bg-background", className]}>
     <Header />
     <slot />
   </body>

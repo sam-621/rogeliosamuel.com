@@ -1,6 +1,6 @@
 body {
   font-family: "Outfit Variable", sans-serif;
-  @apply bg-background text-foreground;
+  @apply text-foreground;
 }
 
 * {
