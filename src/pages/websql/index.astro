@@ -11,14 +11,16 @@ import ProjectDetailsHero from "../../components/project-details-hero.astro";
 
 <Layout class:list="dark">
   <ProjectDetailsHero
-    techs={["next", "ts", "tailwind"]}
+    title="Web SQL"
+    subtitle="Web based SQL client"
+    techs={["next-28", "ts-28", "tailwind-28"]}
     image={HeroImage}
     livePreview="https://websql.dev"
     github="https://github.com/sam-621/websql.dev"
     transitionName="image-WSQL"
   />
 
-  <!-- <section class="mt-56 flex flex-col text-center text-black">
+  <section class="mt-56 flex flex-col text-center text-black">
     <p class="md:text-2xl">Characteristics</p>
     <div
       class="text-4xl font-normal flex flex-col gap-4 md:text-6xl md:font-medium"
@@ -27,7 +29,7 @@ import ProjectDetailsHero from "../../components/project-details-hero.astro";
       <h3>Table viewer</h3>
       <h3>Multi-provider</h3>
     </div>
-  </section> -->
+  </section>
 
-  <!-- <Footer /> -->
+  <Footer />
 </Layout>

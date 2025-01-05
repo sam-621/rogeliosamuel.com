@@ -1,0 +1,28 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import HeroImage from "../../assets/images/impotrade.png";
+import ProjectDetailsHero from "../../components/project-details-hero.astro";
+import Footer from "../../components/footer/footer.astro";
+---
+
+<Layout>
+  <ProjectDetailsHero
+    title="Congresos Impotrade"
+    subtitle="An internal enterprise-grade tool tailored for managing congresses"
+    techs={["next-28", "nest-28", "ts-28", "prisma-28", "postgresql-28"]}
+    image={HeroImage}
+    livePreview="https://congresos.impotrade.com.mx/admin"
+    transitionName="image-Impotrade"
+  />
+
+  <section class="mt-56 flex flex-col text-center text-black">
+    <p class="text-4xl leading-[1.4]">
+      An internal tool designed specifically for <strong
+        class="font-normal text-[#D33741]">Impotrade's team and partners</strong
+      >. built for managing orders, promotions, products, providers, and more.
+    </p>
+  </section>
+
+  <Footer />
+</Layout>

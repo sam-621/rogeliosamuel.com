@@ -4,14 +4,17 @@ import { Link } from "lucide-astro";
 import Icon from "./icon.astro";
 
 interface Props {
+  title: string;
+  subtitle: string;
   techs: string[];
   image: ImageMetadata;
-  livePreview: string;
-  github: string;
+  livePreview?: string;
+  github?: string;
   transitionName: string;
 }
 
-const { image, techs, livePreview, github, transitionName } = Astro.props;
+const { title, subtitle, image, techs, livePreview, github, transitionName } =
+  Astro.props;
 ---
 
 <section class="">
@@ -20,10 +23,10 @@ const { image, techs, livePreview, github, transitionName } = Astro.props;
       <h1
         class="text-5xl font-medium text-center text-black md:text-8xl md:font-semibold"
       >
-        WEB SQL
+        {title}
       </h1>
       <p class="text-lg font-light text-center md:text-2xl md:font-normal">
-        Web based SQL client
+        {subtitle}
       </p>
     </div>
     <div
@@ -34,19 +37,27 @@ const { image, techs, livePreview, github, transitionName } = Astro.props;
         {techs.map((tech) => <Icon icon={tech} />)}
       </div>
       <div class="flex items-center gap-3">
-        <a href={livePreview} target="_blank" rel="noopener noreferrer">
-          <Link />
-        </a>
-        <a href={github} target="_blank" rel="noopener noreferrer">
-          <Icon icon="github" />
-        </a>
+        {
+          livePreview && (
+            <a href={livePreview} target="_blank" rel="noopener noreferrer">
+              <Link />
+            </a>
+          )
+        }
+        {
+          github && (
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              <Icon icon="github" />
+            </a>
+          )
+        }
       </div>
     </div>
   </div>
   <div
-    class="mt-5 bg-white flex justify-center items-center h-[calc(100vh-236px-20px-var(--header-height))] md:h-auto"
+    class="mt-5 bg-white flex justify-center items-center h-screen"
     transition:name={transitionName}
   >
-    <Image src={image} alt="Web SQL" class="h-full object-cover md:h-auto" />
+    <Image src={image} alt="Web SQL" class="h-full object-contain" />
   </div>
 </section>
