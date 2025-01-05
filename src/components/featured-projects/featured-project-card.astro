@@ -1,0 +1,51 @@
+---
+import { Image } from "astro:assets";
+import Icon from "../icon.astro";
+
+interface Props {
+  image: ImageMetadata;
+  alt: string;
+  name: string;
+  techs: string[];
+  href: string;
+  isDefaultOpen?: boolean;
+  class?: string;
+}
+
+const {
+  image,
+  alt,
+  name,
+  techs,
+  href,
+  isDefaultOpen,
+  class: className,
+} = Astro.props;
+---
+
+<a
+  href={href}
+  target="_blank"
+  class:list={[
+    "flex flex-col gap-8 relative over",
+    { expand: isDefaultOpen },
+    className,
+  ]}
+>
+  <Image src={image} alt={alt} class="rounded-lg h-full object-cover" />
+  <div
+    class="opacity-0 flex items-center justify-between absolute h-8 bottom-0 w-full -mb-16 overflow-x-hidden"
+  >
+    <p class="text-black font-normal text-2xl">{name}</p>
+    <div class="flex items-center gap-3">
+      {techs.map((t) => <Icon icon={t} />)}
+    </div>
+  </div>
+</a>
+
+<style>
+  /* Shows project details */
+  .expand div {
+    opacity: 1;
+  }
+</style>
