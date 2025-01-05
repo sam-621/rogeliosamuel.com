@@ -1,20 +1,12 @@
 ---
-import { ArrowRight, Copy } from "lucide-astro";
 import CopyEmail from "../copy-email.astro";
+import ContactMe from "../contact-me.astro";
 ---
 
 <div
   class="flex items-center gap-10 opacity-0 slide-in-bottom"
   style="animation-delay: .6s;"
 >
-  <a
-    href=""
-    class="flex items-center gap-3 text-foreground bg-card p-1 pl-6 rounded-full w-fit border"
-  >
-    Contact me
-    <div class="p-3 bg-black rounded-full">
-      <ArrowRight size="16" class="text-white" />
-    </div>
-  </a>
+  <ContactMe />
   <CopyEmail />
 </div>
