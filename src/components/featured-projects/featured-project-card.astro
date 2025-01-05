@@ -23,29 +23,29 @@ const {
 } = Astro.props;
 ---
 
-<a
-  href={href}
-  target="_blank"
+<div
   class:list={[
-    "flex flex-col gap-8 relative over",
+    "flex flex-col relative gap-4",
     { expand: isDefaultOpen },
     className,
   ]}
 >
-  <Image src={image} alt={alt} class="rounded-lg h-full object-cover" />
+  <a href={href} target="_blank" class="h-full">
+    <Image src={image} alt={alt} class="rounded-lg h-full object-cover" />
+  </a>
   <div
-    class="opacity-0 flex items-center justify-between absolute h-8 bottom-0 w-full -mb-16 overflow-x-hidden"
+    class="flex items-center justify-between lg:absolute lg:h-8 lg:-mb-16 bottom-0 lg:w-full lg:overflow-x-hidden lg:opacity-0"
   >
     <p class="text-black font-normal text-2xl">{name}</p>
     <div class="flex items-center gap-3">
       {techs.map((t) => <Icon icon={t} />)}
     </div>
   </div>
-</a>
+</div>
 
 <style>
-  /* Shows project details */
   .expand div {
     opacity: 1;
   }
+  /* Shows project details */
 </style>

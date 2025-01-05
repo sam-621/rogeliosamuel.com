@@ -31,7 +31,7 @@ const featuredProject = [
 
 <section
   id="projects-section"
-  class="mt-8 gap-8 mb-52 mx-4 md:mx-8 2xl:mx-24 projects-section"
+  class="mt-8 mb-52 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8"
 >
   {
     featuredProject.map((p, i) => (
@@ -41,6 +41,7 @@ const featuredProject = [
         name={p.name}
         techs={p.techs}
         href={p.href}
+        isDefaultOpen={i === 1}
         class={i === 0 ? "left" : i === 1 ? "center" : "right"}
       />
     ))
@@ -49,10 +50,19 @@ const featuredProject = [
 
 <style>
   .projects-section {
-    display: grid;
-    transition: 0.2s;
-    animation: ease;
-    grid-template-columns: 0.2fr 1fr 0.2fr;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .projects-section {
+      display: grid;
+      gap: 32px;
+      transition: 0.2s;
+      animation: ease;
+      grid-template-columns: 0.2fr 1fr 0.2fr;
+    }
   }
 
   :where(.left, .center, .right) {
@@ -75,31 +85,32 @@ const featuredProject = [
 <script>
   // Set initial height of the section, this to avoid the section to resize when some project card expands and tries to respect its dimensions
   const $section = document.getElementById("projects-section");
-  const sectionHeight = $section?.offsetHeight;
+  const $left = document.querySelector(".left");
+  const $center = document.querySelector(".center");
+  const $right = document.querySelector(".right");
 
-  if ($section) {
+  const sectionHeight = $section?.offsetHeight;
+  const isLg = window.matchMedia("(min-width: 1024px)").matches;
+
+  if ($section && isLg) {
     $section.style.height = `${sectionHeight}px`;
   }
 
   // Re-set the section size when the window is resized
-  const $leftSection = document.querySelector(".left");
   const observer = new ResizeObserver((entries) => {
     for (let entry of entries) {
       const height = entry.contentRect.height.toFixed();
+      const isLg = window.matchMedia("(min-width: 1024px)").matches;
 
-      if ($section) {
+      if ($section && isLg) {
         $section.style.height = `${height}px`;
       }
     }
   });
 
-  if ($leftSection) {
-    observer.observe($leftSection);
+  if ($left) {
+    observer.observe($left);
   }
-
-  const $left = document.querySelector(".left");
-  const $center = document.querySelector(".center");
-  const $right = document.querySelector(".right");
 
   // Expand the section when the mouse enters the left, center or right section
   export function expand(elName: string, $el: Element) {
@@ -117,15 +128,15 @@ const featuredProject = [
     $el.classList.add("expand");
   }
 
-  if ($left) {
+  if ($left && isLg) {
     $left.addEventListener("mouseenter", () => expand("left", $left));
   }
 
-  if ($center) {
+  if ($center && isLg) {
     $center.addEventListener("mouseenter", () => expand("center", $center));
   }
 
-  if ($right) {
+  if ($right && isLg) {
     $right.addEventListener("mouseenter", () => expand("right", $right));
   }
 </script>
