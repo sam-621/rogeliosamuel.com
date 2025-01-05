@@ -1,5 +1,6 @@
 ---
 import { ArrowRight, Copy } from "lucide-astro";
+import CopyEmail from "../copy-email.astro";
 ---
 
 <div
@@ -15,8 +16,5 @@ import { ArrowRight, Copy } from "lucide-astro";
       <ArrowRight size="16" class="text-white" />
     </div>
   </a>
-  <button class="font-medium flex gap-2 items-center">
-    <Copy size="16" />
-    Copy email
-  </button>
+  <CopyEmail />
 </div>

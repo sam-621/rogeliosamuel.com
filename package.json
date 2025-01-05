@@ -13,6 +13,7 @@
     "@fontsource-variable/outfit": "^5.1.1",
     "@fontsource/ibm-plex-serif": "^5.1.1",
     "astro": "^5.1.2",
+    "lucide": "^0.469.0",
     "lucide-astro": "^0.469.0",
     "tailwindcss": "^3.4.17"
   },

@@ -1,0 +1,34 @@
+---
+import { Copy } from "lucide-astro";
+---
+
+<button id="copy-email" class="font-medium flex gap-2 items-center">
+  <Copy size="16" />
+  Copy email
+</button>
+
+<script>
+  import { wait } from "../utils/utils";
+  import { createElement, ClipboardCheck, Copy } from "lucide";
+
+  const $button = document.getElementById("copy-email");
+
+  $button?.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText("samuel.corrales621@gmail.com");
+
+      const clipboardCheckIcon = createElement(ClipboardCheck);
+      clipboardCheckIcon.setAttribute("width", "16");
+      clipboardCheckIcon.setAttribute("height", "16");
+
+      $button.innerHTML = `${clipboardCheckIcon.outerHTML} Copy email`;
+
+      await wait(2000);
+
+      const copyIcon = createElement(Copy);
+      copyIcon.setAttribute("width", "16");
+      copyIcon.setAttribute("height", "16");
+      $button.innerHTML = `${copyIcon.outerHTML} Copy email`;
+    } catch (error) {}
+  });
+</script>

@@ -1765,6 +1765,11 @@ lucide-astro@^0.469.0:
   resolved "https://registry.yarnpkg.com/lucide-astro/-/lucide-astro-0.469.0.tgz#1fc8bd02820cdd614250f40c12870494326c1b4b"
   integrity sha512-JHj98KsiJ3VZE4jWUNlV1gVcTBDp8zzDt9FCrWoUUQUqM8ak/hqWRGkweqsa07HtrjjNiM6SVvBvxh1fna5fRg==
 
+lucide@^0.469.0:
+  version "0.469.0"
+  resolved "https://registry.yarnpkg.com/lucide/-/lucide-0.469.0.tgz#24eca8d6d0a98882e2c39dd7d98217833167619b"
+  integrity sha512-ZmMtOekJ6g1UFqTvV9aWbkk+u/QxpfDpgUrbNj8jJEK+CtBdHVQ4akCA0TcTyeOvnL8RWo271UzFTimBRT0gKw==
+
 magic-string@^0.30.14:
   version "0.30.17"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.17.tgz#450a449673d2460e5bbcfba9a61916a1714c7453"
