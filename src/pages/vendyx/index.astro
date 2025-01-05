@@ -4,6 +4,10 @@ import Layout from "../../layouts/Layout.astro";
 import HeroImage from "../../assets/images/vendyx.png";
 import ProjectDetailsHero from "../../components/project-details-hero.astro";
 import Footer from "../../components/footer/footer.astro";
+
+import ExpoImage1 from "../../assets/images/expos/vendyx-expo-1.png";
+import ExpoImage2 from "../../assets/images/expos/vendyx-expo-2.png";
+import { Image } from "astro:assets";
 ---
 
 <Layout>
@@ -27,6 +31,20 @@ import Footer from "../../components/footer/footer.astro";
         >streamlines operations, enhances user experience, and drives sales.</strong
       >
     </p>
+  </section>
+
+  <section class="mt-56 flex flex-col gap-24 items-center mx-4 md:mx-8">
+    <Image
+      src={ExpoImage1}
+      alt="Vendyx checkout page"
+      class="rounded-lg max-w-5xl w-full border"
+    />
+
+    <Image
+      src={ExpoImage2}
+      alt="Vendyx sign in page"
+      class="rounded-lg max-w-5xl w-full border"
+    />
   </section>
 
   <Footer />
