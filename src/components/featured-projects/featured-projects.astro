@@ -84,7 +84,6 @@ const {
 <script>
   class ProjectSection extends HTMLElement {
     connectedCallback() {
-      console.log("loaded");
       // Set initial height of the section, this to avoid the section to resize when some project card expands and tries to respect its dimensions
       const id = this.dataset.id ?? "";
 
@@ -123,8 +122,6 @@ const {
 
       // Expand the section when the mouse enters the left, center or right section
       function expand(elName: string, $el: Element) {
-        console.log("expand", elName);
-
         if (!$section) return;
 
         $section.classList.remove("expand-left");

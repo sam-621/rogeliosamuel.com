@@ -1,0 +1,32 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import HeroImage from "../../assets/images/fitnesscorp.png";
+import ProjectDetailsHero from "../../components/project-details-hero.astro";
+import Footer from "../../components/footer/footer.astro";
+import { Image } from "astro:assets";
+
+import ExpoImage1 from "../../assets/images/expos/fitnesscorp-expo-1.png";
+---
+
+<Layout>
+  <ProjectDetailsHero
+    title="Fitnesscorp"
+    subtitle="An internal enterprise-grade system tailored for managing customers"
+    techs={["next-28", "nest-28", "ts-28", "prisma-28", "postgresql-28"]}
+    image={HeroImage}
+    livePreview="https://sistema.fitnesscorp.com.mx/"
+    transitionName="image-Fitnesscorp"
+    color="#1C1C1A"
+  />
+
+  <section class="mt-56 flex justify-center mx-4 md:mx-8">
+    <Image
+      src={ExpoImage1}
+      alt="Fitnesscorp dashboard"
+      class="rounded-lg max-w-5xl w-full border"
+    />
+  </section>
+
+  <Footer />
+</Layout>
