@@ -16,19 +16,24 @@ interface Props {
    */
   persists?: boolean;
   id?: string;
+  class?: string;
 }
 
 const {
   projects = FEATURED_PROJECTS,
   persists = false,
   id = "work",
+  class: className,
 } = Astro.props;
 ---
 
 <project-section data-id={id}>
   <section
     id={id}
-    class="mt-16 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8"
+    class:list={[
+      "mt-16 mx-4 md:mx-8 2xl:mx-24 projects-section gap-8",
+      className,
+    ]}
     transition:persist={persists}
   >
     {

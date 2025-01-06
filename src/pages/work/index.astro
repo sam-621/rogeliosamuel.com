@@ -6,9 +6,13 @@ import { SECONDARY_PROJECTS } from "../../utils/projects";
 ---
 
 <Layout>
-  <div class="flex flex-col gap-16">
-    <FeaturedProjects id="featured" persists />
-    <FeaturedProjects id="secondary" projects={SECONDARY_PROJECTS} />
+  <div class="gap-8 flex flex-col">
+    <FeaturedProjects id=" featured" persists />
+    <FeaturedProjects
+      id="secondary"
+      projects={SECONDARY_PROJECTS}
+      class:list="!mt-0 md:!mt-16"
+    />
   </div>
   <Footer />
 </Layout>
