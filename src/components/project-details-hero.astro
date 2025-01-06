@@ -50,7 +50,12 @@ const {
       <div class="flex items-center gap-3">
         {
           livePreview && (
-            <a href={livePreview} target="_blank" rel="noopener noreferrer">
+            <a
+              href={livePreview}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Live Preview"
+            >
               <Link />
             </a>
           )
