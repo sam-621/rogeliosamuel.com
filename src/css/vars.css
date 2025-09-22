@@ -6,13 +6,13 @@
   :root {
     --header-height: 61px;
 
-    --background: #fafafa;
-    --foreground: #383a37;
-    --black: #000000;
-    --black-foreground: #c7c5c8;
-    --white: #ffffff;
-    --border: #0000001a;
-    --card: #0000000d;
+    --body: #0A0A0B;
+    --background: #18181B;
+    --foreground: #FAFAFA;
+    --subtitle: #A1A1AA;
+    --subtitle-secondary: #3F3F47;
+    --distinct: #146EF5;
+    --border: #18181B;
   }
 
   .dark {

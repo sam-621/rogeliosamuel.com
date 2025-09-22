@@ -1,22 +1,29 @@
 ---
-import ExternalLinks from "./external-links.astro";
-import Logo from "./logo.astro";
+import Icon from './icon.astro';
+import Section from './sections/section.astro';
 ---
 
-<header
-  class="flex justify-between items-center h-[var(--header-height)] px-4 md:p-8 md:justify-center slide-in-top"
-  style="animation-fill-mode: none;"
->
-  <a href="/" class="md:absolute left-8 2xl:left-24">
-    <Logo />
-  </a>
-  <nav
-    class="hidden md:flex gap-6 text-foreground bg-card rounded-full px-6 py-3 border fixed backdrop-blur-lg z-50"
-  >
-    <a href="/work">Work</a>
-    <a href="/#about">About</a>
-    <a href="#">Services</a>
-    <a href="#">Blog</a>
-  </nav>
-  <ExternalLinks />
-</header>
+<Section class="px-4 border-y">
+  <div class="flex items-center justify-between border-x px-4 py-2">
+    <div>
+      <p class="text-xl font-medium">Sam<span class="text-distinct">.</span></p>
+    </div>
+    <div class="flex items-center gap-2">
+      <a
+        href="https://github.com/sam-621"
+        target="_blank"
+        class="w-8 h-8 border rounded-full flex items-center justify-center"
+      >
+        <Icon icon="github" />
+      </a>
+
+      <a
+        href="/CV.pdf"
+        target="_blank"
+        class="border rounded-full flex items-center justify-center py-2 px-3 text-sm jb-font gap-3"
+      >
+        DOWNLOAD CV <Icon icon="download" />
+      </a>
+    </div>
+  </div>
+</Section>

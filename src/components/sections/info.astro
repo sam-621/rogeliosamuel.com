@@ -1,0 +1,34 @@
+---
+import Icon from '../icon.astro';
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<div class:list={['py-4 flex flex-col gap-2 jb-font text-sm w-fit', className]}>
+  <div class="flex items-center gap-4">
+    <Icon icon="work" />
+    <p class="text-nowrap">
+      Software Engineer at <a
+        target="_blank"
+        href="https://kredfeed.com"
+        class="text-distinct font-normal">KredFeed</a
+      >
+    </p>
+  </div>
+
+  <div class="flex items-center gap-4">
+    <Icon icon="pin" />
+    <p class="text-nowrap">Sinaloa, Mexico</p>
+  </div>
+
+  <div class="flex items-center gap-4">
+    <Icon icon="mail" />
+    <a href="mailto:samuel.corrales621@gmail.com" class="text-nowrap">
+      samuel.corrales621@gmail.com
+    </a>
+  </div>
+</div>

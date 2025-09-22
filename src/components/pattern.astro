@@ -1,0 +1,38 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<svg
+  width="720"
+  height="29"
+  viewBox="0 0 720 29"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  class={className}
+>
+  <rect width="720" height="29" fill="url(#pattern0_617_540)"></rect>
+  <rect width="720" height="29" fill="black" fill-opacity="0.2"></rect>
+  <defs>
+    <pattern
+      id="pattern0_617_540"
+      patternContentUnits="objectBoundingBox"
+      width="0.0111111"
+      height="0.275862"
+    >
+      <use xlink:href="#image0_617_540" transform="scale(0.00138889 0.0344828)"
+      ></use>
+    </pattern>
+    <image
+      id="image0_617_540"
+      width="8"
+      height="8"
+      preserveAspectRatio="none"
+      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAACZJREFUGBljYGBg+A/EuAA+OVx6CIiDjEQxlomABipJo9iJZuZ/AC8NBf1LtGs1AAAAAElFTkSuQmCC"
+    />
+  </defs>
+</svg>

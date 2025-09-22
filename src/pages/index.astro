@@ -1,16 +1,18 @@
 ---
-import About from "../components/about/about.astro";
-import FeaturedProjects from "../components/featured-projects/featured-projects.astro";
-import Footer from "../components/footer/footer.astro";
-import Hero from "../components/hero/hero.astro";
-import Quote from "../components/quote/quote.astro";
-import Layout from "../layouts/Layout.astro";
+import Hero from '../components/sections/hero.astro';
+import Pattern from '../components/pattern.astro';
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/sections/section.astro';
+import Icon from '../components/icon.astro';
+import Info from '../components/sections/info.astro';
 ---
 
 <Layout>
+  <Pattern />
   <Hero />
-  <FeaturedProjects persists />
-  <Quote />
-  <About />
-  <Footer />
+  <Pattern />
+  <Section class="md:hidden">
+    <Info />
+  </Section>
+  <Pattern class="md:hidden" />
 </Layout>

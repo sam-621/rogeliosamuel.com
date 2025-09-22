@@ -1,19 +1,12 @@
 body {
-  font-family: "Outfit Variable", sans-serif;
-  @apply text-foreground;
+  font-family: 'Roboto Condensed Variable', sans-serif;
+  @apply text-foreground antialiased;
 }
 
 * {
   @apply border-border;
 }
 
-.fancy-font {
-  font-style: italic;
-  font-family: "IBM Plex Serif", serif;
-
-  background: linear-gradient(180deg, #000000 0%, #666666 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+.jb-font {
+  font-family: 'JetBrains Mono', monospace;
 }

@@ -1,11 +1,14 @@
 ---
-import "@fontsource/ibm-plex-serif/600-italic.css";
-import "@fontsource-variable/outfit";
+import '@fontsource/jetbrains-mono/400.css';
+import '@fontsource/jetbrains-mono/500.css';
+// Supports weights 100-900
+import '@fontsource-variable/roboto-condensed';
 
-import "../css/index.css";
+import '../css/index.css';
 
-import Header from "../components/header.astro";
-import { ClientRouter } from "astro:transitions";
+import Header from '../components/header.astro';
+import { ClientRouter } from 'astro:transitions';
+import Pattern from '../components/pattern.astro';
 
 interface Props {
   class?: string;
@@ -53,8 +56,11 @@ const { class: className } = Astro.props;
     <slot name="head" />
     <ClientRouter />
   </head>
-  <body class:list={["bg-background", className]}>
-    <Header />
-    <slot />
+  <body class:list={['bg-body body-bg', className]}>
+    <div class="w-screen overflow-hidden max-w-[720px] mx-auto border-x">
+      <Pattern />
+      <Header />
+      <slot />
+    </div>
   </body>
 </html>
