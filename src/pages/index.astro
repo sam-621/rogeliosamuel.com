@@ -3,8 +3,11 @@ import Hero from '../components/sections/hero.astro';
 import Pattern from '../components/pattern.astro';
 import Layout from '../layouts/Layout.astro';
 import Section from '../components/sections/section.astro';
-import Icon from '../components/icon.astro';
 import Info from '../components/sections/info.astro';
+import AboutMe from '../components/sections/about-me.astro';
+import Socials from '../components/sections/socials.astro';
+import Experience from '../components/sections/experience.astro';
+import Gallery from '../components/sections/gallery.astro';
 ---
 
 <Layout>
@@ -14,5 +17,17 @@ import Info from '../components/sections/info.astro';
   <Section class="md:hidden">
     <Info />
   </Section>
-  <Pattern class="md:hidden" />
+  <Pattern />
+  <AboutMe />
+  <Pattern />
+  <Socials />
+  <Pattern />
+  <Experience />
+  <Pattern />
+  <Gallery />
+  <Pattern />
+  <footer class="border-y p-4 flex items-center justify-between">
+    <p class="text-xl font-medium">Sam<span class="text-distinct">.</span></p>
+    <p class="jb-font text-sm text-right">Astro & Tailwind</p>
+  </footer>
 </Layout>

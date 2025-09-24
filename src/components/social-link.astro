@@ -1,0 +1,46 @@
+---
+import Icon from './icon.astro';
+
+interface Props {
+  icon: string;
+  social: string;
+  username: string;
+  link: string;
+  hasBg?: boolean;
+  isFeatured?: boolean;
+}
+
+const { icon, social, username, link, isFeatured, hasBg } = Astro.props;
+---
+
+<a
+  target="_blank"
+  href={link}
+  class:list={[
+    'flex items-center p-4 border rounded-2xl justify-between hover:bg-[#18181B]/50 transition-colors',
+    isFeatured && 'col-span-2',
+  ]}
+>
+  <div class="flex items-center gap-2">
+    <div>
+      {
+        hasBg ? (
+          <div class="bg-white rounded-full w-fit">
+            <Icon icon={icon} />
+          </div>
+        ) : (
+          <Icon icon={icon} />
+        )
+      }
+    </div>
+    <div>
+      <h5 class="font-semibold text-base">{social}</h5>
+      <p class="jb-font text-subtitle text-sm">
+        {username}
+      </p>
+    </div>
+  </div>
+  <div>
+    <Icon icon="external" />
+  </div>
+</a>

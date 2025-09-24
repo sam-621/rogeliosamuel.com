@@ -1,0 +1,35 @@
+---
+import Icon from './icon.astro';
+
+interface Props {
+  title: string;
+  date: string;
+  link: string;
+  workName: string;
+  isFeatured?: boolean;
+}
+
+const { title, date, link, workName, isFeatured } = Astro.props;
+---
+
+<article class="flex items-center justify-between jb-font">
+  <div class="flex flex-col gap-3">
+    <p class:list={[isFeatured && 'text-[#F35034]']}>{title}</p>
+    <p class="text-subtitle">{date}</p>
+  </div>
+  <div>
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-[10px] group"
+    >
+      {workName}
+      <div
+        class="md:opacity-0 md:translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all"
+      >
+        <Icon icon="go-to" />
+      </div>
+    </a>
+  </div>
+</article>

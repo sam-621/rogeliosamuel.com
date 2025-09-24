@@ -1,0 +1,23 @@
+---
+import { Image } from 'astro:assets';
+
+import Tlou1Image from '../../assets/images/tlou-1.jpg';
+import Tlou2Image from '../../assets/images/tlou-2.jpg';
+import Tlou3Image from '../../assets/images/tlou-3.jpg';
+---
+
+<div class="grid grid-cols-2 gap-4 h-fit md:gap-8 p-4 border-y">
+  <div class="col-span-2 h-fit">
+    <Image
+      src={Tlou1Image}
+      alt="A guitar with a firefly engraved while in the background can see Ellie walking away"
+      class="rounded-lg"
+    />
+  </div>
+  <div class="col-span-1 h-fit">
+    <Image src={Tlou2Image} alt="A giraffe eating plants" class="rounded-lg" />
+  </div>
+  <div class="col-span-1 h-fit">
+    <Image src={Tlou3Image} alt="House in a farm" class="rounded-lg" />
+  </div>
+</div>

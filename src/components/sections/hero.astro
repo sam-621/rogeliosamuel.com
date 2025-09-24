@@ -1,8 +1,10 @@
 ---
 import MeImage from '../../assets/images/me.png';
+import FirefliesLogo from '../../assets/images/Fireflies_logo.webp';
 import { Image } from 'astro:assets';
 import Section from './section.astro';
 import Info from './info.astro';
+import Icon from '../icon.astro';
 ---
 
 <Section>
@@ -17,9 +19,18 @@ import Info from './info.astro';
     </div>
     <div class="flex flex-col divide-y w-full">
       <div
-        class="flex-1 flex flex-col justify-end pl-4 text-subtitle-secondary jb-font text-xs"
+        class="flex-1 flex items-end justify-start gap-2 pl-4 text-subtitle-secondary jb-font text-xs"
       >
         <p>TLoU & TS</p>
+        <!-- <Image
+          width={24}
+          height={24}
+          quality="max"
+          src={FirefliesLogo}
+          alt="Fireflies logo"
+        /> -->
+        <!-- <Icon icon="fireflies" /> -->
+        🦔
       </div>
       <div class="pl-4">
         <h1 class="text-3xl font-medium">Samuel</h1>

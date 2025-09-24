@@ -1,0 +1,21 @@
+---
+interface Props {
+  title?: string;
+  class?: string;
+}
+
+const { title, class: className } = Astro.props;
+---
+
+<div class:list={['border-y divide-y px-4']}>
+  {
+    title && (
+      <div class="px-4 border-x">
+        <h2 class="font-semibold text-2xl">{title}</h2>
+      </div>
+    )
+  }
+  <div class:list={['p-4 border-x', className]}>
+    <slot />
+  </div>
+</div>

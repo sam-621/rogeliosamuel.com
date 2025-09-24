@@ -1,0 +1,39 @@
+---
+import SocialLink from '../social-link.astro';
+import InfoSection from './info-section.astro';
+---
+
+<InfoSection class="flex flex-col gap-4 md:grid grid-cols-2">
+  <SocialLink
+    icon="github-brand"
+    social="Github"
+    username="sam-621"
+    link="https://github.com/sam-621"
+    isFeatured
+  />
+  <SocialLink
+    icon="linkedin-brand"
+    social="Linkedin"
+    username="Rogelio Samuel Moreno Corrales"
+    link="https://www.linkedin.com/in/rogelio-samuel-moreno-corrales/"
+    hasBg
+  />
+  <SocialLink
+    icon="ig-brand"
+    social="Instagram"
+    username="sam_621_"
+    link="https://www.instagram.com/sam_621_/"
+  />
+  <SocialLink
+    icon="apple-music-brand"
+    social="Music"
+    username="sam_621_"
+    link="https://music.apple.com/profile/sam_621_"
+  />
+  <SocialLink
+    icon="ps-brand"
+    social="Playstation"
+    username="sam_621_"
+    link="https://profile.playstation.com/rogeliosamuel621"
+  />
+</InfoSection>
